@@ -1,0 +1,32 @@
+@import "../node_modules/bootstrap/scss/functions"; // Odpowiednią ścieżkę do pliku _variables.scss dostosuj do swojego projektu
+@import "../node_modules/bootstrap/scss/variables"; // Odpowiednią ścieżkę do pliku _variables.scss dostosuj do swojego projektu
+
+$nav-tabs-border-color: transparent;
+$nav-tabs-link-active-color: $black;
+$nav-link-color: $gray-700;
+$nav-tabs-border-width: 2px;
+$nav-tabs-link-active-border-color: transparent transparent $black transparent;
+$nav-tabs-link-hover-border-color: transparent transparent $gray-700 transparent;
+$nav-link-hover-color: $gray-500;
+
+$form-check-input-checked-bg-color: $black;
+$form-check-input-checked-border-color: $black;
+$form-check-input-focus-border: $gray-500;
+$form-check-input-focus-box-shadow: none;
+
+$tooltip-bg: $black;
+$tooltip-color: $white;
+
+$btn-active-bg-shade-amount: 100%;
+
+@import "bootstrap";
+
+.cursor-pointer {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.filter-background {
+  background-color: $gray-200;
+}
