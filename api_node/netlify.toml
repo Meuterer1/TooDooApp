@@ -1,8 +1,10 @@
 # example netlify.toml
 [build]
   command = "npm install && npm run build"
-  functions = "C:\Users\Kamila\Desktop\Portfolio\TooDooApp\api_node"
   publish = "api_node"
+  base: /opt/build/repo/api_node
+  command: npm install && npm run build
+  publish: /opt/build/repo/api_node
   functionsDirectory = "api_node"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
