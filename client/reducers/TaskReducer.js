@@ -13,7 +13,7 @@ function taskReducer(state = initialState, action) {
     case GET_TASKS_FROM_DATABASE:
       return {
         ...state,
-        toDo: action.payload,
+        toDo: Array.isArray(action.payload) ? action.payload : [],
       };
     case UPDATE_TASK:
       const allTasks = state.toDo;
