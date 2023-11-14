@@ -58,11 +58,11 @@ function taskReducer(state = initialState, action) {
       };
     case ADD_TASK:
       const currentState = state.toDo;
-      currentState.toDo.push(action.payload);
-      return {
+      const updatedState = {
         ...state,
-        toDo: currentState,
+        toDo: [...currentState.toDo, action.payload],
       };
+      return updatedState;
     default:
       return state;
   }
