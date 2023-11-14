@@ -9,6 +9,7 @@ const useGetDataFromDatabase = () => {
     try {
       const response = await axios.get("http://localhost:8080/");
       const toDos = response.data;
+      console.log("toDos w getDataFromDatabase", toDos);
       {
         toDos
           ? dispatch(getAllTasks(toDos))
