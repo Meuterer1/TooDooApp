@@ -1,6 +1,6 @@
 const { merge } = require("webpack-merge");
 
-const commonConfiguration = require("./webpack/common");
+const commonConfiguration = require("./common");
 
 module.exports = (_env, { mode }) => {
   const properlyConfig = require(`./webpack/${mode}`);
