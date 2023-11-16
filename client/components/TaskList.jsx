@@ -284,10 +284,13 @@ const TaskList = ({ filterBy }) => {
         </div>
       )}
       <div className="container px-5 mb-5">
-        {filteredTasks &&
-          filteredTasks.map((task) => (
-            <Task singleTask={task} key={task._id} />
-          ))}
+        {filteredTasks
+          ? filteredTasks.map((task) => (
+              <Task singleTask={task} key={task._id} />
+            ))
+          : appTasks.toDo.map((item) => (
+              <Task singleTask={item} key={item._id} />
+            ))}
       </div>
     </>
   );
