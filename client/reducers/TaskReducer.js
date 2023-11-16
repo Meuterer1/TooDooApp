@@ -7,7 +7,9 @@ import { UPDATE_TASK } from "../actions/updateTasks";
 const initialState = {
   toDo: [
     {
+      _id: "b076235b4c104c5488afd09fbe5d56e3",
       task: "Przykładowe zadanie",
+      finished: false,
     },
   ],
 };
