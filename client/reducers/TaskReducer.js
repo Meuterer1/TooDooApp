@@ -5,7 +5,11 @@ import { GET_TASK_DONE } from "../actions/getTaskDone";
 import { UPDATE_TASK } from "../actions/updateTasks";
 
 const initialState = {
-  toDo: [],
+  toDo: [
+    {
+      task: "Przykładowe zadanie",
+    },
+  ],
 };
 
 function taskReducer(state = initialState, action) {
