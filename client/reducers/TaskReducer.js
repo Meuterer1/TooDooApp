@@ -66,7 +66,7 @@ function taskReducer(state = initialState, action) {
       const currentState = state.toDo;
       return {
         ...state,
-        toDo: [...currentState.toDo, action.payload],
+        toDo: [...currentState, action.payload],
       };
     default:
       return state;
