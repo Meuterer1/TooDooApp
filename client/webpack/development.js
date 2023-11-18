@@ -2,6 +2,7 @@ module.exports = {
   devServer: {
     static: {
       directory: "./client/build",
+      contentBase: __dirname + "/client/build/",
       watch: true,
     },
     port: 3000,
