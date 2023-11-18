@@ -5,13 +5,7 @@ import { GET_TASK_DONE } from "../actions/getTaskDone";
 import { UPDATE_TASK } from "../actions/updateTasks";
 
 const initialState = {
-  toDo: [
-    {
-      _id: "b076235b4c104c5488afd09fbe5d56e3",
-      task: "Przykładowe zadanie",
-      finished: false,
-    },
-  ],
+  toDo: [],
 };
 
 function taskReducer(state = initialState, action) {
@@ -19,7 +13,7 @@ function taskReducer(state = initialState, action) {
     case GET_TASKS_FROM_DATABASE:
       return {
         ...state,
-        toDo: Array.isArray(action.payload) ? action.payload : [],
+        toDo: action.payload,
       };
     case UPDATE_TASK:
       const allTasks = state.toDo;
@@ -64,9 +58,10 @@ function taskReducer(state = initialState, action) {
       };
     case ADD_TASK:
       const currentState = state.toDo;
+      currentState.toDo.push(action.payload);
       return {
         ...state,
-        toDo: [...currentState, action.payload],
+        toDo: currentState,
       };
     default:
       return state;

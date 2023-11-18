@@ -8,6 +8,7 @@ const TaskPanel = () => {
 
   useEffect(() => {
     getData;
+    console.log("dane: ", getData);
   }, []);
 
   return (
