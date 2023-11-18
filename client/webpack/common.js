@@ -8,6 +8,7 @@ module.exports = {
   output: {
     filename: "[name].[contenthash:6].js",
     path: path(__dirname, "..", "build"),
+    publicPath: "/client/build",
   },
   resolve: {
     extensions: [".js", ".jsx", ".ts", ".tsx"],

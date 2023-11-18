@@ -5,30 +5,12 @@ const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
 module.exports = {
   optimization: {
-    //minimizer: [new OptimizeCssAssetsWebpackPlugin({})],
     minimizer: [new CssMinimizerPlugin()],
   },
   module: {
     rules: [
       {
         test: /\.module\.(s(a|c)ss)$/,
-        // use: [
-        //   MiniCssExtractPlugin.loader,
-        //   {
-        //     loader: "css-loader",
-        //     options: {
-        //       modules: {
-        //         localIdentName: "[local",
-        //       },
-        //     },
-        //   },
-        //   {
-        //     loader: "saas-loader",
-        //     options: {
-        //       sourceMap: true,
-        //     },
-        //   },
-        // ],
         use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
       },
       {
@@ -47,12 +29,5 @@ module.exports = {
       },
     ],
   },
-  plugins: [
-    new CleanWebpackPlugin(),
-    // new MiniCssExtractPlugin({
-    //   filename: "style.[contenthash:6].css",
-    //   chunkFilename: "style.[contenthash:6].css",
-    // }),
-    new MiniCssExtractPlugin(),
-  ],
+  plugins: [new CleanWebpackPlugin(), new MiniCssExtractPlugin()],
 };
