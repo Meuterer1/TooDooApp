@@ -47,7 +47,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path(__dirname, "..", "public", "index.html"),
+      template: path(__dirname, "..", "client", "build", "index.html"),
     }),
   ],
 };
