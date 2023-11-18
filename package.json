@@ -7,7 +7,7 @@
     "start": "node /api_node/express.js",
     "server": "node api_node/express.js",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "dev": "concurrently \"npm run server\" \"npm build client\"",
     "build": "npm install",
     "deploy": "master -d build"
   },
