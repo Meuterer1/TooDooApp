@@ -14,7 +14,7 @@ module.exports = {
     extensions: [".js", ".jsx", ".ts", ".tsx"],
     fallback: {
       stream: require.resolve("stream-browserify"),
-      dns: require.resolve("dns.js"),
+      //dns: require.resolve("dns.js"),
       util: require.resolve("util"),
       crypto: require.resolve("crypto-browserify"),
       child_process: false,
