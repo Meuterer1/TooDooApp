@@ -31,6 +31,7 @@
     "express-validator": "^7.0.1",
     "http": "^0.0.1-security",
     "http-browserify": "^1.7.0",
+    "mini-css-extract-plugin": "^2.7.6",
     "mongodb": "^6.2.0",
     "netlify-cli": "^17.2.2",
     "netlify-lambda": "^2.0.16",
