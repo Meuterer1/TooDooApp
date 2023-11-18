@@ -19397,12 +19397,6 @@ var updateTask = function updateTask(_id, objectToUpdate) {
 };
 ;// CONCATENATED MODULE: ./reducers/TaskReducer.js
 function TaskReducer_typeof(o) { "@babel/helpers - typeof"; return TaskReducer_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, TaskReducer_typeof(o); }
-function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
-function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
-function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter); }
-function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
 function TaskReducer_ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
 function _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? TaskReducer_ownKeys(Object(t), !0).forEach(function (r) { TaskReducer_defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : TaskReducer_ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
 function TaskReducer_defineProperty(obj, key, value) { key = TaskReducer_toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -19414,11 +19408,7 @@ function TaskReducer_toPrimitive(input, hint) { if (TaskReducer_typeof(input) !=
 
 
 var initialState = {
-  toDo: [{
-    _id: "b076235b4c104c5488afd09fbe5d56e3",
-    task: "Przykładowe zadanie",
-    finished: false
-  }]
+  toDo: []
 };
 function taskReducer() {
   var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialState;
@@ -19426,7 +19416,7 @@ function taskReducer() {
   switch (action.type) {
     case GET_TASKS_FROM_DATABASE:
       return _objectSpread(_objectSpread({}, state), {}, {
-        toDo: Array.isArray(action.payload) ? action.payload : []
+        toDo: action.payload
       });
     case UPDATE_TASK:
       var allTasks = state.toDo;
@@ -19472,8 +19462,9 @@ function taskReducer() {
       });
     case ADD_TASK:
       var currentState = state.toDo;
+      currentState.toDo.push(action.payload);
       return _objectSpread(_objectSpread({}, state), {}, {
-        toDo: [].concat(_toConsumableArray(currentState.toDo), [action.payload])
+        toDo: currentState
       });
     default:
       return state;
@@ -31803,10 +31794,10 @@ var Task_update = injectStylesIntoStyleTag_default()(Task/* default */.Z, Task_o
        /* harmony default export */ const styles_Task = (Task/* default */.Z && Task/* default */.Z.locals ? Task/* default */.Z.locals : undefined);
 
 ;// CONCATENATED MODULE: ./components/Task.jsx
-function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || Task_unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-function Task_unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return Task_arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return Task_arrayLikeToArray(o, minLen); }
-function Task_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
 function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
@@ -32552,7 +32543,6 @@ function useGetDataFromDatabase_asyncToGenerator(fn) { return function () { var 
 
 
 
-
 var useGetDataFromDatabase = function useGetDataFromDatabase() {
   var getDataFromDatabase = /*#__PURE__*/function () {
     var _ref = useGetDataFromDatabase_asyncToGenerator( /*#__PURE__*/useGetDataFromDatabase_regeneratorRuntime().mark(function _callee() {
@@ -32562,25 +32552,26 @@ var useGetDataFromDatabase = function useGetDataFromDatabase() {
           case 0:
             dispatch = useDispatch();
             _context.prev = 1;
-            _context.next = 4;
+            console.log("try...");
+            _context.next = 5;
             return lib_axios.get("http://localhost:8080/");
-          case 4:
+          case 5:
             response = _context.sent;
             toDos = response.data;
-            toDos ? dispatch(getAllTasks(toDos)) : dispatch(components_AddTask({
-              task: "Przykładowe zadanie"
-            }));
-            _context.next = 12;
+            console.log("dane pobrane: ", toDos);
+            dispatch(getAllTasks(toDos));
+            _context.next = 15;
             break;
-          case 9:
-            _context.prev = 9;
+          case 11:
+            _context.prev = 11;
             _context.t0 = _context["catch"](1);
+            console.log("bład łaczenia z baza??");
             console.error(_context.t0);
-          case 12:
+          case 15:
           case "end":
             return _context.stop();
         }
-      }, _callee, null, [[1, 9]]);
+      }, _callee, null, [[1, 11]]);
     }));
     return function getDataFromDatabase() {
       return _ref.apply(this, arguments);
@@ -32598,6 +32589,7 @@ var TaskPanel = function TaskPanel() {
   var getData = hooks_useGetDataFromDatabase();
   (0,react.useEffect)(function () {
     getData;
+    console.log("dane: ", getData);
   }, []);
   return /*#__PURE__*/react.createElement("section", {
     className: ""

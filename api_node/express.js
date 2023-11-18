@@ -6,7 +6,9 @@ const getTasks = require("./getTasks");
 const deleteTask = require("./deleteTask");
 const updateTask = require("./updateTask");
 const { ObjectId } = require("mongodb");
-const serverless = require("serverless-http");
+const path = require("path");
+
+const port = process.env.PORT || 8080;
 
 const api = express();
 api.use(cors());
@@ -67,9 +69,11 @@ api.all("/all", (req, res) => {
   res.status(200).json({ success: true });
 });
 
-api.listen(8080, () => {
+api.listen(port, () => {
   console.log("Server działa!");
 });
+
+api.use(express.static(path.join(__dirname, "../client/build")));
 
 // api.use("/.netlify/api_node/express", router);
 // module.exports.handler = serverless(api);
