@@ -21,6 +21,7 @@
     "browserify-zlib": "^0.2.0",
     "buffer": "^6.0.3",
     "child_process": "^1.0.2",
+    "clean-webpack-plugin": "^4.0.0",
     "cors": "^2.8.5",
     "crypto": "^1.0.1",
     "crypto-browserify": "^3.12.0",
