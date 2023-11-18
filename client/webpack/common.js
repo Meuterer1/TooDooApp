@@ -7,8 +7,8 @@ module.exports = {
   },
   output: {
     filename: "[name].[contenthash:6].js",
-    path: path(__dirname, "..", "public"),
-    publicPath: "./client/build",
+    path: path(__dirname, "..", "build"),
+    // publicPath: "./client/build",
   },
   resolve: {
     extensions: [".js", ".jsx", ".ts", ".tsx"],
@@ -35,12 +35,7 @@ module.exports = {
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
-        use: {
-          loader: "babel-loader",
-          options: {
-            presets: ["@babel/preset-react"],
-          },
-        },
+        use: ["babel-loader"],
       },
       {
         test: /\.css$/,

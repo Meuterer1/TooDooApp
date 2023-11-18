@@ -1,7 +1,7 @@
 {
   "name": "toodooapp",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node /api_node/express.js",
@@ -62,6 +62,9 @@
     "style-loader": "^3.3.3",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
+  },
+  "engines": {
+    "node": "20.x"
   },
   "browser": {
     "fs": false,

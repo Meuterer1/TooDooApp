@@ -17,6 +17,9 @@ api.use(bodyParser.json());
 api.use(express.static(path.join(__dirname, "../client/build")));
 
 api.all("/addtask", (req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Content-Type", "application/json");
+
   const taskData = req.body;
 
   AddToDataBase(taskData)
@@ -31,6 +34,8 @@ api.all("/addtask", (req, res, next) => {
 });
 
 api.get("/", async (req, res) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Content-Type", "application/json");
   try {
     const tasks = await getTasks();
     res.status(200).json(tasks);
@@ -40,6 +45,8 @@ api.get("/", async (req, res) => {
 });
 
 api.post("/delete", (req, res) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Content-Type", "application/json");
   const deletedItems = req.body;
 
   deleteTask(deletedItems)
@@ -50,6 +57,8 @@ api.post("/delete", (req, res) => {
 });
 
 api.post("/edit", (req, res) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Content-Type", "application/json");
   const taskBody = req.body;
   const validTaskBody = taskBody.filter((item) => {
     return ObjectId.isValid(item._id);
@@ -68,6 +77,8 @@ api.post("/edit", (req, res) => {
 });
 
 api.all("/all", (req, res) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Content-Type", "application/json");
   res.status(200).json({ success: true });
 });
 
