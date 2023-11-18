@@ -2,4 +2,3 @@
   command = "npm install && npm run dev"
   functions = "webpack"
   publish = "/client/build"
-  node_version = "14"
