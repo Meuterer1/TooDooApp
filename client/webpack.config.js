@@ -1,4 +1,4 @@
-const merge = require("webpack-merge");
+const merge = require("lodash.merge");
 
 const commonConfiguration = require("./webpack/common");
 
