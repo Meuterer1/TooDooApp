@@ -14,6 +14,8 @@ const api = express();
 api.use(cors());
 api.use(bodyParser.json());
 
+api.use(express.static(path.join(__dirname, "../client/build")));
+
 api.all("/addtask", (req, res, next) => {
   const taskData = req.body;
 
