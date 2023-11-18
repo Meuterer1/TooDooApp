@@ -1,7 +1,7 @@
 module.exports = {
   devServer: {
     static: {
-      directory: "./public",
+      directory: "./client/build",
       watch: true,
     },
     port: 3000,
