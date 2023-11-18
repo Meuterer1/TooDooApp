@@ -1,6 +1,6 @@
 # example netlify.toml
 [build]
-  command = "npm install && npm run server && npm run client"
+  command = "npm install && npm run dev"
   functions = "webpack"
   publish = "/client/build"
 
