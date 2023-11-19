@@ -22,7 +22,7 @@ const api = express();
 api.use(cors(corsOptions));
 api.use(bodyParser.json());
 
-//api.use(express.static(path.join(__dirname, "/client/build")));
+//api.use(express.static(path.join(__dirname, "../client/build")));
 
 api.all("/addtask", (req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
@@ -94,7 +94,7 @@ api.listen(port, () => {
   console.log(`Server działa na porcie ${port}`);
 });
 
-api.use(express.static(path.join(__dirname, "/client/build")));
+api.use(express.static(path.join(__dirname, "./client/build")));
 
 // api.use("/.netlify/api_node/express", router);
 // module.exports.handler = serverless(api);
