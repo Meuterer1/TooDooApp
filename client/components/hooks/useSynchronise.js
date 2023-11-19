@@ -3,7 +3,9 @@ import axios from "axios";
 const useSynchronise = () => {
   const synchronise = async (stateTasksList) => {
     try {
-      const response = await axios.get(`${process.env.REACT_APP_API_URL}/`);
+      const response = await axios.get(
+        `https://stark-earth-03918-bae1ddc364db.herokuapp.com/`
+      );
       console.log("useSynchronise response: ", response.data);
       const toDos = response.data;
       const set1 = new Set(toDos.map((item) => item._id));
