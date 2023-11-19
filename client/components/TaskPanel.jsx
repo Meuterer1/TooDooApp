@@ -16,7 +16,7 @@ const TaskPanel = () => {
     <div className="">
       <section className="background">
         <Header />
-        <AddTask refreshTasks={refreshTasks} />
+        <AddTask />
       </section>
       <TaskNav />
     </div>
