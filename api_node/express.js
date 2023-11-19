@@ -94,7 +94,7 @@ api.listen(port, () => {
   console.log(`Server działa na porcie ${port}`);
 });
 
-api.use(express.static(path.join(__dirname, "./client/build")));
+api.use(express.static(path.join(__dirname, "../client/build")));
 
 // api.use("/.netlify/api_node/express", router);
 // module.exports.handler = serverless(api);
