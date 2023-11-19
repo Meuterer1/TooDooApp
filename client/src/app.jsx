@@ -22,7 +22,7 @@ const App = () => {
 
   return (
     <Provider store={store}>
-      <section className="container">
+      <section className="container-fluid m-0 p-0">
         <Router>
           <Routes>
             <Route path="/" element={<TaskPanel />}>

@@ -79,7 +79,7 @@ const AddTask = () => {
   };
 
   return (
-    <section className="card d-flex align-items-center m-5 border-0">
+    <section className="card d-flex align-items-center border-0 background shadow container-fluid px-5 pb-5">
       <div className="card-body w-100 d-flex">
         <div className="d-flex flex-row align-items-center w-100">
           <input

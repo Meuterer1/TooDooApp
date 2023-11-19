@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import AddTask from "./AddTask";
+import Header from "./Header";
 import TaskNav from "./TaskNav";
 import useGetDataFromDatabase from "./hooks/useGetDataFromDatabase";
 
@@ -12,10 +13,13 @@ const TaskPanel = () => {
   }, []);
 
   return (
-    <section className="">
-      <AddTask />
+    <div className="">
+      <section className="background">
+        <Header />
+        <AddTask refreshTasks={refreshTasks} />
+      </section>
       <TaskNav />
-    </section>
+    </div>
   );
 };
 
