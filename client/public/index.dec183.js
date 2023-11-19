@@ -29774,7 +29774,7 @@ var useSynchronise = function useSynchronise() {
             }
             _context.prev = 12;
             _context.next = 15;
-            return lib_axios.post("$https://meuterertodoappserver-110f55b64ca3.herokuapp.com/addtask", newRecords);
+            return lib_axios.post("https://meuterertodoappserver-110f55b64ca3.herokuapp.com/addtask", newRecords);
           case 15:
             _context.next = 20;
             break;

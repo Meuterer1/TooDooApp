@@ -25,7 +25,7 @@ const useSynchronise = () => {
       if (newRecords.length > 0) {
         try {
           await axios.post(
-            `$https://meuterertodoappserver-110f55b64ca3.herokuapp.com/addtask`,
+            `https://meuterertodoappserver-110f55b64ca3.herokuapp.com/addtask`,
             newRecords
           );
         } catch (error) {
