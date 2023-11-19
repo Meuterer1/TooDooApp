@@ -39,7 +39,7 @@ const useSynchronise = () => {
           duplicates
         );
         console.log("Odpowiedź od serwera: ", response.data);
-        response.setHeader("Content-Type", "application/json");
+        // response.setHeader("Content-Type", "application/json");
       } catch (error) {
         console.error("Błąd podczas synchronizacji: ", error);
       }
@@ -50,7 +50,7 @@ const useSynchronise = () => {
           deletedRecords
         );
         console.log("Odpowiedź od serwera: ", response.data);
-        response.setHeader("Content-Type", "application/json");
+        // response.setHeader("Content-Type", "application/json");
       } catch (error) {
         console.error("Błąd podczas synchronizacji: ", error);
       }
