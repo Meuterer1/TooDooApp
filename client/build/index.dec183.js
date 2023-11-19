@@ -29789,39 +29789,39 @@ var useSynchronise = function useSynchronise() {
           case 23:
             _response = _context.sent;
             console.log("Odpowiedź od serwera: ", _response.data);
-            // response.setHeader("Content-Type", "application/json");
-            _context.next = 30;
+            _response.setHeader("Content-Type", "application/json");
+            _context.next = 31;
             break;
-          case 27:
-            _context.prev = 27;
+          case 28:
+            _context.prev = 28;
             _context.t1 = _context["catch"](20);
             console.error("Błąd podczas synchronizacji: ", _context.t1);
-          case 30:
-            _context.prev = 30;
-            _context.next = 33;
+          case 31:
+            _context.prev = 31;
+            _context.next = 34;
             return lib_axios.post("https://meuterertodoappserver-110f55b64ca3.herokuapp.com/delete", deletedRecords);
-          case 33:
+          case 34:
             _response2 = _context.sent;
             console.log("Odpowiedź od serwera: ", _response2.data);
-            // response.setHeader("Content-Type", "application/json");
-            _context.next = 40;
+            _response2.setHeader("Content-Type", "application/json");
+            _context.next = 42;
             break;
-          case 37:
-            _context.prev = 37;
-            _context.t2 = _context["catch"](30);
+          case 39:
+            _context.prev = 39;
+            _context.t2 = _context["catch"](31);
             console.error("Błąd podczas synchronizacji: ", _context.t2);
-          case 40:
-            _context.next = 45;
-            break;
           case 42:
-            _context.prev = 42;
+            _context.next = 47;
+            break;
+          case 44:
+            _context.prev = 44;
             _context.t3 = _context["catch"](0);
             console.error(_context.t3);
-          case 45:
+          case 47:
           case "end":
             return _context.stop();
         }
-      }, _callee, null, [[0, 42], [12, 17], [20, 27], [30, 37]]);
+      }, _callee, null, [[0, 44], [12, 17], [20, 28], [31, 39]]);
     }));
     return function synchronise(_x) {
       return _ref.apply(this, arguments);
