@@ -3,7 +3,7 @@ import axios from "axios";
 const useSynchronise = () => {
   const synchronise = async (stateTasksList) => {
     try {
-      const response = await axios.get(`/`);
+      const response = await axios.get(`${process.env.REACT_APP_API_URL}/`);
       console.log("useSynchronise response: ", response.data);
       const toDos = response.data;
       const set1 = new Set(toDos.map((item) => item._id));
@@ -23,7 +23,7 @@ const useSynchronise = () => {
       if (newRecords.length > 0) {
         try {
           await axios.post(
-            `${process.env.REACT_APP_API_URL`addtask`}`,
+            `${process.env.REACT_APP_API_URL}/addtask`,
             newRecords
           );
         } catch (error) {
@@ -33,7 +33,7 @@ const useSynchronise = () => {
 
       try {
         const response = await axios.post(
-          `${process.env.REACT_APP_API_URL`edit`}`,
+          `${process.env.REACT_APP_API_URL}/edit`,
           duplicates
         );
         console.log("Odpowiedź od serwera: ", response.data);
@@ -44,7 +44,7 @@ const useSynchronise = () => {
 
       try {
         const response = await axios.post(
-          `${process.env.REACT_APP_API_URL`delete`}`,
+          `${process.env.REACT_APP_API_URL}/delete`,
           deletedRecords
         );
         console.log("Odpowiedź od serwera: ", response.data);
