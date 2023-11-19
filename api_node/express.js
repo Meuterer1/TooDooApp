@@ -11,7 +11,8 @@ const path = require("path");
 const port = process.env.PORT || 80;
 
 const corsOptions = {
-  origin: "https://bespoke-snickerdoodle-612b54.netlify.app/", // Zmień na adres swojej aplikacji React
+  origin:
+    "https://stark-earth-03918-bae1ddc364db.herokuapp.com/api_node/express", // Zmień na adres swojej aplikacji React
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
 };
