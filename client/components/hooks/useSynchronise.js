@@ -1,13 +1,10 @@
-require("dotenv").config();
-
 import axios from "axios";
 
 const useSynchronise = () => {
-  const port = process.env.PORT || 80;
   const synchronise = async (stateTasksList) => {
     try {
       const response = await axios.get(
-        `https://stark-earth-03918-bae1ddc364db.herokuapp.com:${port}/`
+        `https://stark-earth-03918-bae1ddc364db.herokuapp.com/`
       );
       const toDos = response.data;
       const set1 = new Set(toDos.map((item) => item._id));
