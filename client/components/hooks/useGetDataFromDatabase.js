@@ -7,7 +7,9 @@ const useGetDataFromDatabase = () => {
     const dispatch = useDispatch();
     try {
       console.log("try...");
-      const response = await axios.get("/api_node/express/");
+      const response = await axios.get(
+        "https://meuterertodoappserver-110f55b64ca3.herokuapp.com/"
+      );
       const toDos = response.data;
       console.log("dane pobrane: ", toDos);
       dispatch(getAllTasks(toDos));

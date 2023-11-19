@@ -29774,7 +29774,7 @@ var useSynchronise = function useSynchronise() {
             }
             _context.prev = 12;
             _context.next = 15;
-            return lib_axios.post("".concat(process.env.REACT_APP_API_URL, "/addtask"), newRecords);
+            return lib_axios.post("$https://meuterertodoappserver-110f55b64ca3.herokuapp.com/addtask", newRecords);
           case 15:
             _context.next = 20;
             break;
@@ -29785,7 +29785,7 @@ var useSynchronise = function useSynchronise() {
           case 20:
             _context.prev = 20;
             _context.next = 23;
-            return lib_axios.post("".concat(process.env.REACT_APP_API_URL, "/edit"), duplicates);
+            return lib_axios.post("https://meuterertodoappserver-110f55b64ca3.herokuapp.com/edit", duplicates);
           case 23:
             _response = _context.sent;
             console.log("Odpowiedź od serwera: ", _response.data);
@@ -29799,7 +29799,7 @@ var useSynchronise = function useSynchronise() {
           case 30:
             _context.prev = 30;
             _context.next = 33;
-            return lib_axios.post("".concat(process.env.REACT_APP_API_URL, "/delete"), deletedRecords);
+            return lib_axios.post("https://meuterertodoappserver-110f55b64ca3.herokuapp.com/delete", deletedRecords);
           case 33:
             _response2 = _context.sent;
             console.log("Odpowiedź od serwera: ", _response2.data);
@@ -32555,7 +32555,7 @@ var useGetDataFromDatabase = function useGetDataFromDatabase() {
             _context.prev = 1;
             console.log("try...");
             _context.next = 5;
-            return lib_axios.get("/api_node/express/");
+            return lib_axios.get("https://meuterertodoappserver-110f55b64ca3.herokuapp.com/");
           case 5:
             response = _context.sent;
             toDos = response.data;

@@ -25,7 +25,7 @@ const useSynchronise = () => {
       if (newRecords.length > 0) {
         try {
           await axios.post(
-            `${process.env.REACT_APP_API_URL}/addtask`,
+            `$https://meuterertodoappserver-110f55b64ca3.herokuapp.com/addtask`,
             newRecords
           );
         } catch (error) {
@@ -35,7 +35,7 @@ const useSynchronise = () => {
 
       try {
         const response = await axios.post(
-          `${process.env.REACT_APP_API_URL}/edit`,
+          `https://meuterertodoappserver-110f55b64ca3.herokuapp.com/edit`,
           duplicates
         );
         console.log("Odpowiedź od serwera: ", response.data);
@@ -46,7 +46,7 @@ const useSynchronise = () => {
 
       try {
         const response = await axios.post(
-          `${process.env.REACT_APP_API_URL}/delete`,
+          `https://meuterertodoappserver-110f55b64ca3.herokuapp.com/delete`,
           deletedRecords
         );
         console.log("Odpowiedź od serwera: ", response.data);
