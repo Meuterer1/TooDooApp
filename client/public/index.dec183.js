@@ -32611,9 +32611,7 @@ var TaskPanel = function TaskPanel() {
     className: ""
   }, /*#__PURE__*/react.createElement("section", {
     className: "background"
-  }, /*#__PURE__*/react.createElement(components_Header, null), /*#__PURE__*/react.createElement(components_AddTask, {
-    refreshTasks: refreshTasks
-  })), /*#__PURE__*/react.createElement(components_TaskNav, null));
+  }, /*#__PURE__*/react.createElement(components_Header, null), /*#__PURE__*/react.createElement(components_AddTask, null)), /*#__PURE__*/react.createElement(components_TaskNav, null));
 };
 /* harmony default export */ const components_TaskPanel = (TaskPanel);
 ;// CONCATENATED MODULE: ./src/app.jsx
