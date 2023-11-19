@@ -4,7 +4,7 @@ const useSynchronise = () => {
   const synchronise = async (stateTasksList) => {
     try {
       const response = await axios.get(
-        `https://stark-earth-03918-bae1ddc364db.herokuapp.com/`
+        `https://meuterertodoappserver-110f55b64ca3.herokuapp.com/`
       );
       console.log("useSynchronise response: ", response.data);
       const toDos = response.data;
