@@ -29749,6 +29749,7 @@ var useSynchronise = function useSynchronise() {
             return lib_axios.get("/");
           case 3:
             response = _context.sent;
+            console.log("useSynchronise response: ", response.data);
             toDos = response.data;
             set1 = new Set(toDos.map(function (item) {
               return item._id;
@@ -29770,59 +29771,59 @@ var useSynchronise = function useSynchronise() {
               }
             });
             if (!(newRecords.length > 0)) {
-              _context.next = 19;
+              _context.next = 20;
               break;
             }
-            _context.prev = 11;
-            _context.next = 14;
+            _context.prev = 12;
+            _context.next = 15;
             return lib_axios.post("".concat(process.env.REACT_APP_API_URL(_templateObject || (_templateObject = _taggedTemplateLiteral(["addtask"])))), newRecords);
-          case 14:
-            _context.next = 19;
+          case 15:
+            _context.next = 20;
             break;
-          case 16:
-            _context.prev = 16;
-            _context.t0 = _context["catch"](11);
+          case 17:
+            _context.prev = 17;
+            _context.t0 = _context["catch"](12);
             console.error("Błąd podczas synchronizacji: ", _context.t0);
-          case 19:
-            _context.prev = 19;
-            _context.next = 22;
+          case 20:
+            _context.prev = 20;
+            _context.next = 23;
             return lib_axios.post("".concat(process.env.REACT_APP_API_URL(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["edit"])))), duplicates);
-          case 22:
+          case 23:
             _response = _context.sent;
             console.log("Odpowiedź od serwera: ", _response.data);
             // response.setHeader("Content-Type", "application/json");
-            _context.next = 29;
+            _context.next = 30;
             break;
-          case 26:
-            _context.prev = 26;
-            _context.t1 = _context["catch"](19);
+          case 27:
+            _context.prev = 27;
+            _context.t1 = _context["catch"](20);
             console.error("Błąd podczas synchronizacji: ", _context.t1);
-          case 29:
-            _context.prev = 29;
-            _context.next = 32;
+          case 30:
+            _context.prev = 30;
+            _context.next = 33;
             return lib_axios.post("".concat(process.env.REACT_APP_API_URL(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["delete"])))), deletedRecords);
-          case 32:
+          case 33:
             _response2 = _context.sent;
             console.log("Odpowiedź od serwera: ", _response2.data);
             // response.setHeader("Content-Type", "application/json");
-            _context.next = 39;
+            _context.next = 40;
             break;
-          case 36:
-            _context.prev = 36;
-            _context.t2 = _context["catch"](29);
+          case 37:
+            _context.prev = 37;
+            _context.t2 = _context["catch"](30);
             console.error("Błąd podczas synchronizacji: ", _context.t2);
-          case 39:
-            _context.next = 44;
+          case 40:
+            _context.next = 45;
             break;
-          case 41:
-            _context.prev = 41;
+          case 42:
+            _context.prev = 42;
             _context.t3 = _context["catch"](0);
             console.error(_context.t3);
-          case 44:
+          case 45:
           case "end":
             return _context.stop();
         }
-      }, _callee, null, [[0, 41], [11, 16], [19, 26], [29, 36]]);
+      }, _callee, null, [[0, 42], [12, 17], [20, 27], [30, 37]]);
     }));
     return function synchronise(_x) {
       return _ref.apply(this, arguments);

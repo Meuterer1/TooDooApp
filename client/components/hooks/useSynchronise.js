@@ -4,6 +4,7 @@ const useSynchronise = () => {
   const synchronise = async (stateTasksList) => {
     try {
       const response = await axios.get(`/`);
+      console.log("useSynchronise response: ", response.data);
       const toDos = response.data;
       const set1 = new Set(toDos.map((item) => item._id));
       const set2 = stateTasksList.toDo;
