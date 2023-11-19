@@ -8,10 +8,17 @@ const updateTask = require("./updateTask");
 const { ObjectId } = require("mongodb");
 const path = require("path");
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 80;
+
+const corsOptions = {
+  origin: "https://bespoke-snickerdoodle-612b54.netlify.app/", // Zmień na adres swojej aplikacji React
+  methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+  credentials: true,
+};
 
 const api = express();
-api.use(cors());
+//api.use(cors());
+api.use(cors(corsOptions));
 api.use(bodyParser.json());
 
 api.use(express.static(path.join(__dirname, "../client/build")));
@@ -83,7 +90,7 @@ api.all("/all", (req, res) => {
 });
 
 api.listen(port, () => {
-  console.log("Server działa!");
+  console.log(`Server działa na porcie ${port}`);
 });
 
 api.use(express.static(path.join(__dirname, "../client/build")));

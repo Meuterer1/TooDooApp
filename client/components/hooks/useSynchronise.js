@@ -21,7 +21,10 @@ const useSynchronise = () => {
 
       if (newRecords.length > 0) {
         try {
-          await axios.post("http://localhost:8080/addtask", newRecords);
+          await axios.post(
+            `${process.env.REACT_APP_API_URL`addtask`}`,
+            newRecords
+          );
         } catch (error) {
           console.error("Błąd podczas synchronizacji: ", error);
         }
@@ -29,7 +32,7 @@ const useSynchronise = () => {
 
       try {
         const response = await axios.post(
-          "http://localhost:8080/edit",
+          `${process.env.REACT_APP_API_URL`edit`}`,
           duplicates
         );
         console.log("Odpowiedź od serwera: ", response.data);
@@ -40,7 +43,7 @@ const useSynchronise = () => {
 
       try {
         const response = await axios.post(
-          "http://localhost:8080/delete",
+          `${process.env.REACT_APP_API_URL`delete`}`,
           deletedRecords
         );
         console.log("Odpowiedź od serwera: ", response.data);
