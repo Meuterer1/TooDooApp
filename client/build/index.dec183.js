@@ -31609,8 +31609,9 @@ var TaskNav = function TaskNav() {
 
 
 
+
 var TaskPanel = function TaskPanel() {
-  useEffect(function () {
+  (0,react.useEffect)(function () {
     getData;
   }, []);
   return /*#__PURE__*/react.createElement("div", {
