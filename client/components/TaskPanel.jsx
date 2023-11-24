@@ -11,7 +11,7 @@ const TaskPanel = () => {
   const getData = useGetDataFromDatabase();
 
   useEffect(() => {
-    getData();
+    getData;
   }, []);
 
   return (

@@ -31659,7 +31659,7 @@ var useGetDataFromDatabase = function useGetDataFromDatabase() {
 var TaskPanel = function TaskPanel() {
   var getData = hooks_useGetDataFromDatabase();
   (0,react.useEffect)(function () {
-    getData();
+    getData;
   }, []);
   return /*#__PURE__*/react.createElement("div", {
     className: ""
