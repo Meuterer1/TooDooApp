@@ -1,24 +1,20 @@
-import React, { useEffect } from "react";
+import React from "react";
 import AddTask from "./AddTask";
+import Aside from "./Aside";
 import Header from "./Header";
-import TaskNav from "./TaskNav";
-import useGetDataFromDatabase from "./hooks/useGetDataFromDatabase";
+import TaskNav from "./TabsNav";
 
-const TaskPanel = () => {
-  let getData = useGetDataFromDatabase();
-
-  useEffect(() => {
-    getData;
-    console.log("dane: ", getData);
-  }, []);
-
+const TaskPanel = ({ refreshTasks }) => {
   return (
     <div className="">
-      <section className="background">
-        <Header />
-        <AddTask />
-      </section>
-      <TaskNav />
+      <Header />
+      <main className="col-md-12 d-flex">
+        <Aside />
+        <section className="col-md-9 bg-light">
+          <AddTask refreshTasks={refreshTasks} />
+          <TaskNav />
+        </section>
+      </main>
     </div>
   );
 };
