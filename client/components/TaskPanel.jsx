@@ -2,7 +2,7 @@ import React from "react";
 import AddTask from "./AddTask";
 import Aside from "./Aside";
 import Header from "./Header";
-import TaskNav from "./TabsNav";
+import TaskNav from "./TaskNav";
 
 const TaskPanel = ({ refreshTasks }) => {
   return (
