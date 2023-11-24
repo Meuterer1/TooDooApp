@@ -31550,7 +31550,6 @@ var Header = function Header() {
 
 
 var TaskNav = function TaskNav() {
-  var handleFilterButtonClick = function handleFilterButtonClick() {};
   return /*#__PURE__*/react.createElement("section", null, /*#__PURE__*/react.createElement("ul", {
     className: "nav nav-tabs mb-4 pb-2 ms-5 mb-0 mt-5",
     role: "tablist"
@@ -31558,7 +31557,7 @@ var TaskNav = function TaskNav() {
     className: "nav-item",
     role: "presentation"
   }, /*#__PURE__*/react.createElement(Link, {
-    className: "nav-link active bg-light",
+    className: "nav-link bg-light",
     id: "ex1-tab-1",
     "data-mdb-toggle": "tab",
     to: "/",
@@ -31585,22 +31584,7 @@ var TaskNav = function TaskNav() {
     to: "/completed",
     role: "tab",
     "aria-controls": "ex1-tabs-1"
-  }, "Completed"))), /*#__PURE__*/react.createElement("div", {
-    className: "d-flex w-100 justify-content-end me-5 pe-5 pb-3"
-  }, /*#__PURE__*/react.createElement("button", {
-    className: "px-2 border-0 bg-transparent",
-    onClick: handleFilterButtonClick
-  }, /*#__PURE__*/react.createElement("i", {
-    className: "fa-solid fa-filter"
-  })), /*#__PURE__*/react.createElement("button", {
-    className: "px-2 border-0 bg-transparent"
-  }, /*#__PURE__*/react.createElement("i", {
-    className: "fa-solid fa-arrow-down-wide-short"
-  })), /*#__PURE__*/react.createElement("button", {
-    className: "px-2 border-0 bg-transparent"
-  }, /*#__PURE__*/react.createElement("i", {
-    className: "fa-solid fa-arrow-down-short-wide"
-  }))), /*#__PURE__*/react.createElement(Outlet, null));
+  }, "Completed"))), /*#__PURE__*/react.createElement(Outlet, null));
 };
 /* harmony default export */ const components_TaskNav = (TaskNav);
 ;// CONCATENATED MODULE: ./components/hooks/useGetDataFromDatabase.js
