@@ -30,7 +30,7 @@ const AddTask = ({ refreshTasks }) => {
 
     navigate(`/addtask/${inputValue}`);
 
-    fetch("http://localhost:8080/addtask", {
+    fetch("https://meuterertodoappserver-110f55b64ca3.herokuapp.com/addtask", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
