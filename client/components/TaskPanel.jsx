@@ -4,14 +4,18 @@ import Aside from "./Aside";
 import Header from "./Header";
 import TaskNav from "./TaskNav";
 
-const TaskPanel = ({ refreshTasks }) => {
+const TaskPanel = () => {
+  useEffect(() => {
+    getData;
+  }, []);
+
   return (
     <div className="">
       <Header />
       <main className="col-md-12 d-flex">
         <Aside />
         <section className="col-md-9 bg-light">
-          <AddTask refreshTasks={refreshTasks} />
+          <AddTask />
           <TaskNav />
         </section>
       </main>

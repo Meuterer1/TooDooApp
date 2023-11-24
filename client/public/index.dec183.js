@@ -31319,8 +31319,7 @@ function AddTask_arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
-var AddTask = function AddTask(_ref) {
-  var refreshTasks = _ref.refreshTasks;
+var AddTask = function AddTask() {
   var _useState = (0,react.useState)(""),
     _useState2 = AddTask_slicedToArray(_useState, 2),
     inputValue = _useState2[0],
@@ -31366,7 +31365,6 @@ var AddTask = function AddTask(_ref) {
       console.log("Odpowiedź serwera:", data);
       message("success", "Task added!");
       setInputValue("");
-      refreshTasks();
       navigate("/");
     })["catch"](function (error) {
       console.error("Błąd podczas wysyłania żądania: ", error);
@@ -31386,7 +31384,6 @@ var AddTask = function AddTask(_ref) {
   var handleKeyDown = function handleKeyDown(e) {
     if (e.key === "Enter") {
       createTask();
-      refreshTasks();
       e.target.removeEventListener("keydown", handleKeyDown);
     } else if (e.key === "Escape") {
       e.target.blur();
@@ -31396,7 +31393,7 @@ var AddTask = function AddTask(_ref) {
     setInputValue(e.target.value);
   };
   var handleAddButtonOnClick = /*#__PURE__*/function () {
-    var _ref2 = AddTask_asyncToGenerator( /*#__PURE__*/AddTask_regeneratorRuntime().mark(function _callee() {
+    var _ref = AddTask_asyncToGenerator( /*#__PURE__*/AddTask_regeneratorRuntime().mark(function _callee() {
       return AddTask_regeneratorRuntime().wrap(function _callee$(_context) {
         while (1) switch (_context.prev = _context.next) {
           case 0:
@@ -31408,7 +31405,7 @@ var AddTask = function AddTask(_ref) {
       }, _callee);
     }));
     return function handleAddButtonOnClick() {
-      return _ref2.apply(this, arguments);
+      return _ref.apply(this, arguments);
     };
   }();
   var handleOptionsOnClick = function handleOptionsOnClick() {
@@ -31612,17 +31609,17 @@ var TaskNav = function TaskNav() {
 
 
 
-var TaskPanel = function TaskPanel(_ref) {
-  var refreshTasks = _ref.refreshTasks;
+var TaskPanel = function TaskPanel() {
+  useEffect(function () {
+    getData;
+  }, []);
   return /*#__PURE__*/react.createElement("div", {
     className: ""
   }, /*#__PURE__*/react.createElement(components_Header, null), /*#__PURE__*/react.createElement("main", {
     className: "col-md-12 d-flex"
   }, /*#__PURE__*/react.createElement(components_Aside, null), /*#__PURE__*/react.createElement("section", {
     className: "col-md-9 bg-light"
-  }, /*#__PURE__*/react.createElement(components_AddTask, {
-    refreshTasks: refreshTasks
-  }), /*#__PURE__*/react.createElement(components_TaskNav, null))));
+  }, /*#__PURE__*/react.createElement(components_AddTask, null), /*#__PURE__*/react.createElement(components_TaskNav, null))));
 };
 /* harmony default export */ const components_TaskPanel = (TaskPanel);
 ;// CONCATENATED MODULE: ./src/app.jsx

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import useMessage from "./hooks/useMessage";
 
-const AddTask = ({ refreshTasks }) => {
+const AddTask = () => {
   const [inputValue, setInputValue] = useState("");
   const [showOptions, setShowOptions] = useState(false);
   const [taskOptions, setTaskOptions] = useState({
@@ -42,7 +42,6 @@ const AddTask = ({ refreshTasks }) => {
         console.log("Odpowiedź serwera:", data);
         message("success", "Task added!");
         setInputValue("");
-        refreshTasks();
         navigate(`/`);
       })
       .catch((error) => {
@@ -68,7 +67,6 @@ const AddTask = ({ refreshTasks }) => {
   const handleKeyDown = (e) => {
     if (e.key === "Enter") {
       createTask();
-      refreshTasks();
       e.target.removeEventListener("keydown", handleKeyDown);
     } else if (e.key === "Escape") {
       e.target.blur();
