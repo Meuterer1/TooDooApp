@@ -5,10 +5,13 @@ import Header from "./Header";
 import TaskNav from "./TaskNav";
 
 import { useEffect } from "react";
+import useGetDataFromDatabase from "./hooks/useGetDataFromDatabase";
 
 const TaskPanel = () => {
+  const getData = useGetDataFromDatabase();
+
   useEffect(() => {
-    getData;
+    getData();
   }, []);
 
   return (
