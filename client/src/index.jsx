@@ -21,7 +21,7 @@ if (rootElement) {
         pauseOnFocusLoss
         draggable
         pauseOnHover
-        theme="dark"
+        theme="light"
       />
     </React.StrictMode>,
     rootElement

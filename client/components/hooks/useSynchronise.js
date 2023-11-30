@@ -1,7 +1,11 @@
 import axios from "axios";
+import useMessage from "./useMessage";
 
 const useSynchronise = () => {
   const synchronise = async (stateTasksList) => {
+    const message = useMessage();
+    message("success", "Task added!");
+
     try {
       const response = await axios.get(
         `https://meuterertodoappserver-110f55b64ca3.herokuapp.com/`
@@ -29,7 +33,7 @@ const useSynchronise = () => {
             newRecords
           );
         } catch (error) {
-          console.error("Błąd podczas synchronizacji: ", error);
+          console.error("Synch error: ", error);
         }
       }
 
@@ -39,7 +43,6 @@ const useSynchronise = () => {
           duplicates
         );
         console.log("Odpowiedź od serwera: ", response.data);
-        // response.setHeader("Content-Type", "application/json");
       } catch (error) {
         console.error("Błąd podczas synchronizacji: ", error);
       }
@@ -50,7 +53,6 @@ const useSynchronise = () => {
           deletedRecords
         );
         console.log("Odpowiedź od serwera: ", response.data);
-        // response.setHeader("Content-Type", "application/json");
       } catch (error) {
         console.error("Błąd podczas synchronizacji: ", error);
       }

@@ -1,7 +1,7 @@
 import { toast } from "react-toastify";
 
 const useMessage = () => {
-  const showMessage = (type, message) => {
+  const showMessage = (type, message, ifPromise) => {
     toast(message, {
       position: "bottom-right",
       autoClose: 5000,
@@ -10,7 +10,7 @@ const useMessage = () => {
       pauseOnHover: true,
       draggable: true,
       progress: undefined,
-      theme: "dark",
+      theme: "light",
       type: type,
     });
   };

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { addTask } from "../actions/addTask";
 import useMessage from "./hooks/useMessage";
 
 const AddTask = () => {
@@ -12,12 +13,18 @@ const AddTask = () => {
     type: "",
     energy: "",
   });
-  const navigate = useNavigate();
+
   const message = useMessage();
+  const dispatch = useDispatch();
 
   const createTask = () => {
     const currentDate = new Date();
+    const { v4: uuidv4 } = require("uuid");
+    const uniqueId = uuidv4();
+    const uniqueIdString = uniqueId.replace(/-/g, "").slice(0, 24);
+
     const object = {
+      _id: uniqueIdString,
       task: inputValue,
       createDate: currentDate.toLocaleString(),
       dueDate: taskOptions.dueDate,
@@ -28,25 +35,8 @@ const AddTask = () => {
       finished: false,
     };
 
-    navigate(`/addtask/${inputValue}`);
-
-    fetch("https://meuterertodoappserver-110f55b64ca3.herokuapp.com/addtask", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(object),
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        console.log("Odpowiedź serwera:", data);
-        message("success", "Task added!");
-        setInputValue("");
-        navigate(`/`);
-      })
-      .catch((error) => {
-        console.error("Błąd podczas wysyłania żądania: ", error);
-      });
+    dispatch(addTask(object));
+    message("success", "Task added!");
     setShowOptions(false);
     setTaskOptions({
       dueDate: "",
@@ -67,6 +57,7 @@ const AddTask = () => {
   const handleKeyDown = (e) => {
     if (e.key === "Enter") {
       createTask();
+      setInputValue("");
       e.target.removeEventListener("keydown", handleKeyDown);
     } else if (e.key === "Escape") {
       e.target.blur();
@@ -79,6 +70,7 @@ const AddTask = () => {
 
   const handleAddButtonOnClick = async () => {
     createTask();
+    setInputValue("");
   };
 
   const handleOptionsOnClick = () => {

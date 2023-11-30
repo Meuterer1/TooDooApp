@@ -17,6 +17,7 @@ const TaskList = ({ filterBy }) => {
     type: "all",
     energy: "all",
   });
+
   const [showFilterOptions, setShowFilterOptions] = useState(false);
   const [priorityFilter, setPriorityFilter] = useState(null);
   const [placeFilter, setPlaceFilter] = useState(null);
@@ -75,7 +76,7 @@ const TaskList = ({ filterBy }) => {
 
   return (
     <>
-      <div className="d-flex w-100 justify-content-end me-5 pe-5 pb-3">
+      <div className="d-flex w-100 justify-content-end pe-3 pe-xl-5 pb-3">
         <Link
           className="link-dark px-2"
           data-toggle="tooltip"
@@ -96,7 +97,7 @@ const TaskList = ({ filterBy }) => {
       </div>
       {showFilterOptions && (
         <div className="mx-5 mb-3 d-flex justify-content-end">
-          <ul className="nav nav-items d-flex justify-content-between col-10  p-3 rounded">
+          <ul className="nav nav-items d-flex justify-content-between col-10 p-3 rounded">
             <li className="nav-item d-flex flex-column me-3 text-center">
               <h4>Priority</h4>
               <div className="btn-group">
@@ -283,7 +284,7 @@ const TaskList = ({ filterBy }) => {
           </div>
         </div>
       )}
-      <div className="container px-5 mb-5">
+      <div className="container-fluid w-sm-100 mb-5">
         {filteredTasks
           ? filteredTasks.map((task) => (
               <Task singleTask={task} key={task._id} />
