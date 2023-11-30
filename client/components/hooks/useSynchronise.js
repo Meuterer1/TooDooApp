@@ -4,7 +4,7 @@ import useMessage from "./useMessage";
 const useSynchronise = () => {
   const synchronise = async (stateTasksList) => {
     const message = useMessage();
-    message("success", "Task added!");
+    message("synchronise", "Pending", "pending");
 
     try {
       const response = await axios.get(
@@ -32,8 +32,10 @@ const useSynchronise = () => {
             `https://meuterertodoappserver-110f55b64ca3.herokuapp.com/addtask`,
             newRecords
           );
+          message("success", "Tasks synchronised!");
         } catch (error) {
           console.error("Synch error: ", error);
+          message("error", "Synchronised failed!");
         }
       }
 

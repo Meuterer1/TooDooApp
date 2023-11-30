@@ -1,7 +1,7 @@
 import { toast } from "react-toastify";
 
 const useMessage = () => {
-  const showMessage = (type, message, ifPromise) => {
+  const showMessage = (type, message) => {
     toast(message, {
       position: "bottom-right",
       autoClose: 5000,
