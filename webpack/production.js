@@ -6,10 +6,13 @@ module.exports = {
   devServer: {
     static: {
       directory: "./build",
-      contentBase: __dirname + "/build/",
-      watch: true,
     },
-    port: 3000,
+    compress: true,
+    port: process.env.PORT || 3000,
+    watchFiles: {
+      paths: ["src/**/*"], // Monitoruj zmiany w określonych plikach lub katalogach
+    },
+    open: true,
   },
   optimization: {
     minimizer: [new CssMinimizerPlugin()],
