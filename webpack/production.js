@@ -5,13 +5,10 @@ const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 module.exports = {
   devServer: {
     static: {
-      directory: "./build",
+      directory: path.join(__dirname, "build"),
     },
     compress: true,
     port: process.env.PORT || 3000,
-    watchFiles: {
-      paths: ["src/**/*"],
-    },
     open: true,
     allowedHosts: "all",
   },
