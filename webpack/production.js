@@ -13,7 +13,7 @@ module.exports = {
       paths: ["src/**/*"],
     },
     open: true,
-    disableHostCheck: true,
+    allowedHosts: "all",
   },
   optimization: {
     minimizer: [new CssMinimizerPlugin()],
