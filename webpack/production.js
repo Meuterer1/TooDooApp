@@ -11,6 +11,7 @@ module.exports = {
     compress: true,
     port: process.env.PORT || 3000,
     open: true,
+    allowedHosts: "all",
   },
   optimization: {
     minimizer: [new CssMinimizerPlugin()],
