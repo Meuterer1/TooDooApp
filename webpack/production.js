@@ -10,9 +10,10 @@ module.exports = {
     compress: true,
     port: process.env.PORT || 3000,
     watchFiles: {
-      paths: ["src/**/*"], // Monitoruj zmiany w określonych plikach lub katalogach
+      paths: ["src/**/*"],
     },
     open: true,
+    disableHostCheck: true,
   },
   optimization: {
     minimizer: [new CssMinimizerPlugin()],

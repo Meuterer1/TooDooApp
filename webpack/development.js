@@ -9,6 +9,7 @@ module.exports = {
       paths: ["src/**/*"],
     },
     open: true,
+    disableHostCheck: true,
   },
   devtool: "inline-source-map",
   module: {
