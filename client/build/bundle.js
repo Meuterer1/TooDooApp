@@ -6423,7 +6423,7 @@ var ___CSS_LOADER_URL_REPLACEMENT_6___ = _css_loader_dist_runtime_getUrl_js__WEB
 var ___CSS_LOADER_URL_REPLACEMENT_7___ = _css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_7___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `/*!
- * Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2023 Fonticons, Inc.
  */
@@ -12393,9 +12393,6 @@ readers do not read off random characters that represent icons */
 .fa-share::before {
   content: "\\f064"; }
 
-.fa-arrow-turn-right::before {
-  content: "\\f064"; }
-
 .fa-mail-forward::before {
   content: "\\f064"; }
 
@@ -12845,6 +12842,9 @@ readers do not read off random characters that represent icons */
 .fa-ups:before {
   content: "\\f7e0"; }
 
+.fa-pixiv:before {
+  content: "\\e640"; }
+
 .fa-wpexplorer:before {
   content: "\\f2de"; }
 
@@ -12949,6 +12949,9 @@ readers do not read off random characters that represent icons */
 
 .fa-deskpro:before {
   content: "\\f38f"; }
+
+.fa-brave:before {
+  content: "\\e63c"; }
 
 .fa-sistrix:before {
   content: "\\f3ee"; }
@@ -13118,6 +13121,9 @@ readers do not read off random characters that represent icons */
 .fa-cloudsmith:before {
   content: "\\f384"; }
 
+.fa-opensuse:before {
+  content: "\\e62b"; }
+
 .fa-pied-piper-alt:before {
   content: "\\f1a8"; }
 
@@ -13262,6 +13268,9 @@ readers do not read off random characters that represent icons */
 .fa-bluetooth-b:before {
   content: "\\f294"; }
 
+.fa-square-letterboxd:before {
+  content: "\\e62e"; }
+
 .fa-sticker-mule:before {
   content: "\\f3f7"; }
 
@@ -13294,6 +13303,9 @@ readers do not read off random characters that represent icons */
 
 .fa-confluence:before {
   content: "\\f78d"; }
+
+.fa-shoelace:before {
+  content: "\\e60c"; }
 
 .fa-mdb:before {
   content: "\\f8ca"; }
@@ -13417,6 +13429,9 @@ readers do not read off random characters that represent icons */
 
 .fa-envira:before {
   content: "\\f299"; }
+
+.fa-google-scholar:before {
+  content: "\\e63b"; }
 
 .fa-square-gitlab:before {
   content: "\\e5ae"; }
@@ -13550,6 +13565,9 @@ readers do not read off random characters that represent icons */
 .fa-vine:before {
   content: "\\f1ca"; }
 
+.fa-signal-messenger:before {
+  content: "\\e663"; }
+
 .fa-paypal:before {
   content: "\\f1ed"; }
 
@@ -13583,6 +13601,9 @@ readers do not read off random characters that represent icons */
 .fa-nfc-symbol:before {
   content: "\\e531"; }
 
+.fa-mintbit:before {
+  content: "\\e62f"; }
+
 .fa-ethereum:before {
   content: "\\f42e"; }
 
@@ -13606,6 +13627,9 @@ readers do not read off random characters that represent icons */
 
 .fa-bimobject:before {
   content: "\\f378"; }
+
+.fa-brave-reverse:before {
+  content: "\\e63d"; }
 
 .fa-facebook-f:before {
   content: "\\f39e"; }
@@ -13708,6 +13732,9 @@ readers do not read off random characters that represent icons */
 
 .fa-tencent-weibo:before {
   content: "\\f1d5"; }
+
+.fa-letterboxd:before {
+  content: "\\e62d"; }
 
 .fa-symfony:before {
   content: "\\f83d"; }
@@ -13846,6 +13873,9 @@ readers do not read off random characters that represent icons */
 
 .fa-cmplid:before {
   content: "\\e360"; }
+
+.fa-upwork:before {
+  content: "\\e641"; }
 
 .fa-facebook:before {
   content: "\\f09a"; }
@@ -14020,6 +14050,9 @@ readers do not read off random characters that represent icons */
 
 .fa-supple:before {
   content: "\\f3f9"; }
+
+.fa-webflow:before {
+  content: "\\e65c"; }
 
 .fa-rebel:before {
   content: "\\f1d0"; }
@@ -15375,6 +15408,42 @@ function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
 }
 
 module.exports = hoistNonReactStatics;
+
+
+/***/ }),
+
+/***/ 1693:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+var __webpack_unused_export__;
+/** @license React v17.0.2
+ * react-is.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+var b=60103,c=60106,d=60107,e=60108,f=60114,g=60109,h=60110,k=60112,l=60113,m=60120,n=60115,p=60116,q=60121,r=60122,u=60117,v=60129,w=60131;
+if("function"===typeof Symbol&&Symbol.for){var x=Symbol.for;b=x("react.element");c=x("react.portal");d=x("react.fragment");e=x("react.strict_mode");f=x("react.profiler");g=x("react.provider");h=x("react.context");k=x("react.forward_ref");l=x("react.suspense");m=x("react.suspense_list");n=x("react.memo");p=x("react.lazy");q=x("react.block");r=x("react.server.block");u=x("react.fundamental");v=x("react.debug_trace_mode");w=x("react.legacy_hidden")}
+function y(a){if("object"===typeof a&&null!==a){var t=a.$$typeof;switch(t){case b:switch(a=a.type,a){case d:case f:case e:case l:case m:return a;default:switch(a=a&&a.$$typeof,a){case h:case k:case p:case n:case g:return a;default:return t}}case c:return t}}}var z=g,A=b,B=k,C=d,D=p,E=n,F=c,G=f,H=e,I=l;__webpack_unused_export__=h;__webpack_unused_export__=z;__webpack_unused_export__=A;__webpack_unused_export__=B;__webpack_unused_export__=C;__webpack_unused_export__=D;__webpack_unused_export__=E;__webpack_unused_export__=F;__webpack_unused_export__=G;__webpack_unused_export__=H;
+__webpack_unused_export__=I;__webpack_unused_export__=function(){return!1};__webpack_unused_export__=function(){return!1};exports.isContextConsumer=function(a){return y(a)===h};__webpack_unused_export__=function(a){return y(a)===g};__webpack_unused_export__=function(a){return"object"===typeof a&&null!==a&&a.$$typeof===b};__webpack_unused_export__=function(a){return y(a)===k};__webpack_unused_export__=function(a){return y(a)===d};__webpack_unused_export__=function(a){return y(a)===p};__webpack_unused_export__=function(a){return y(a)===n};
+__webpack_unused_export__=function(a){return y(a)===c};__webpack_unused_export__=function(a){return y(a)===f};__webpack_unused_export__=function(a){return y(a)===e};__webpack_unused_export__=function(a){return y(a)===l};__webpack_unused_export__=function(a){return"string"===typeof a||"function"===typeof a||a===d||a===f||a===v||a===e||a===l||a===m||a===w||"object"===typeof a&&null!==a&&(a.$$typeof===p||a.$$typeof===n||a.$$typeof===g||a.$$typeof===h||a.$$typeof===k||a.$$typeof===u||a.$$typeof===q||a[0]===r)?!0:!1};
+__webpack_unused_export__=y;
+
+
+/***/ }),
+
+/***/ 6001:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+if (true) {
+  module.exports = __webpack_require__(1693);
+} else {}
 
 
 /***/ }),
@@ -17339,7 +17408,7 @@ module.exports = "data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "016b4a6cdced82ab3aa1.ttf";
+module.exports = __webpack_require__.p + "6205fd00fb1b573e9f0f.ttf";
 
 /***/ }),
 
@@ -17347,7 +17416,7 @@ module.exports = __webpack_require__.p + "016b4a6cdced82ab3aa1.ttf";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "878f31251d960bd6266f.woff2";
+module.exports = __webpack_require__.p + "8d3cabfc66809162fb4d.woff2";
 
 /***/ }),
 
@@ -17355,7 +17424,7 @@ module.exports = __webpack_require__.p + "878f31251d960bd6266f.woff2";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "50701fbb8177c2dde530.ttf";
+module.exports = __webpack_require__.p + "adc51aab4d771ab65f81.ttf";
 
 /***/ }),
 
@@ -17363,7 +17432,7 @@ module.exports = __webpack_require__.p + "50701fbb8177c2dde530.ttf";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "b041b1fa4fe241b23445.woff2";
+module.exports = __webpack_require__.p + "e931bc0d14f5bbb1da22.woff2";
 
 /***/ }),
 
@@ -17371,7 +17440,7 @@ module.exports = __webpack_require__.p + "b041b1fa4fe241b23445.woff2";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "d75e3fd1eb12e9bd6655.ttf";
+module.exports = __webpack_require__.p + "45a265d0f07b31cde85f.ttf";
 
 /***/ }),
 
@@ -17379,7 +17448,7 @@ module.exports = __webpack_require__.p + "d75e3fd1eb12e9bd6655.ttf";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "b6879d41b0852f01ed5b.woff2";
+module.exports = __webpack_require__.p + "fb8184add5a3101ad0a3.woff2";
 
 /***/ }),
 
@@ -17387,7 +17456,7 @@ module.exports = __webpack_require__.p + "b6879d41b0852f01ed5b.woff2";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "c6a0c95b0a95c4553700.ttf";
+module.exports = __webpack_require__.p + "2eb7b3ef25042305f3ff.ttf";
 
 /***/ }),
 
@@ -17395,7 +17464,7 @@ module.exports = __webpack_require__.p + "c6a0c95b0a95c4553700.ttf";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "1bac2991f3dbfa237aec.woff2";
+module.exports = __webpack_require__.p + "b3049b13a93f07e026fc.woff2";
 
 /***/ })
 
@@ -17571,16 +17640,26 @@ var __webpack_exports__ = {};
 (() => {
 "use strict";
 
+// NAMESPACE OBJECT: ./node_modules/axios/lib/platform/common/utils.js
+var common_utils_namespaceObject = {};
+__webpack_require__.r(common_utils_namespaceObject);
+__webpack_require__.d(common_utils_namespaceObject, {
+  hasBrowserEnv: () => (hasBrowserEnv),
+  hasStandardBrowserEnv: () => (hasStandardBrowserEnv),
+  hasStandardBrowserWebWorkerEnv: () => (hasStandardBrowserWebWorkerEnv)
+});
+
 // EXTERNAL MODULE: ./node_modules/react/index.js
 var react = __webpack_require__(7294);
 var react_namespaceObject = /*#__PURE__*/__webpack_require__.t(react, 2);
 // EXTERNAL MODULE: ./node_modules/react-dom/index.js
 var react_dom = __webpack_require__(3935);
+var react_dom_namespaceObject = /*#__PURE__*/__webpack_require__.t(react_dom, 2);
 ;// CONCATENATED MODULE: ./node_modules/clsx/dist/clsx.m.js
 function clsx_m_r(e){var t,f,n="";if("string"==typeof e||"number"==typeof e)n+=e;else if("object"==typeof e)if(Array.isArray(e))for(t=0;t<e.length;t++)e[t]&&(f=clsx_m_r(e[t]))&&(n&&(n+=" "),n+=f);else for(t in e)e[t]&&(n&&(n+=" "),n+=t);return n}function clsx(){for(var e,t,f=0,n="";f<arguments.length;)(e=arguments[f++])&&(t=clsx_m_r(e))&&(n&&(n+=" "),n+=t);return n}/* harmony default export */ const clsx_m = (clsx);
 ;// CONCATENATED MODULE: ./node_modules/react-toastify/dist/react-toastify.esm.mjs
 'use client';
-const u=t=>"number"==typeof t&&!isNaN(t),d=t=>"string"==typeof t,p=t=>"function"==typeof t,m=t=>d(t)||p(t)?t:null,react_toastify_esm_f=t=>(0,react.isValidElement)(t)||d(t)||p(t)||u(t);function g(t,e,n){void 0===n&&(n=300);const{scrollHeight:o,style:s}=t;requestAnimationFrame(()=>{s.minHeight="initial",s.height=o+"px",s.transition=`all ${n}ms`,requestAnimationFrame(()=>{s.height="0",s.padding="0",s.margin="0",setTimeout(e,n)})})}function h(e){let{enter:a,exit:r,appendPosition:i=!1,collapse:l=!0,collapseDuration:c=300}=e;return function(e){let{children:u,position:d,preventExitTransition:p,done:m,nodeRef:f,isIn:h}=e;const y=i?`${a}--${d}`:a,v=i?`${r}--${d}`:r,T=(0,react.useRef)(0);return (0,react.useLayoutEffect)(()=>{const t=f.current,e=y.split(" "),n=o=>{o.target===f.current&&(t.dispatchEvent(new Event("d")),t.removeEventListener("animationend",n),t.removeEventListener("animationcancel",n),0===T.current&&"animationcancel"!==o.type&&t.classList.remove(...e))};t.classList.add(...e),t.addEventListener("animationend",n),t.addEventListener("animationcancel",n)},[]),(0,react.useEffect)(()=>{const t=f.current,e=()=>{t.removeEventListener("animationend",e),l?g(t,m,c):m()};h||(p?e():(T.current=1,t.className+=` ${v}`,t.addEventListener("animationend",e)))},[h]),react.createElement(react.Fragment,null,u)}}function y(t,e){return null!=t?{content:t.content,containerId:t.props.containerId,id:t.props.toastId,theme:t.props.theme,type:t.props.type,data:t.props.data||{},isLoading:t.props.isLoading,icon:t.props.icon,status:e}:{}}const v={list:new Map,emitQueue:new Map,on(t,e){return this.list.has(t)||this.list.set(t,[]),this.list.get(t).push(e),this},off(t,e){if(e){const n=this.list.get(t).filter(t=>t!==e);return this.list.set(t,n),this}return this.list.delete(t),this},cancelEmit(t){const e=this.emitQueue.get(t);return e&&(e.forEach(clearTimeout),this.emitQueue.delete(t)),this},emit(t){this.list.has(t)&&this.list.get(t).forEach(e=>{const n=setTimeout(()=>{e(...[].slice.call(arguments,1))},0);this.emitQueue.has(t)||this.emitQueue.set(t,[]),this.emitQueue.get(t).push(n)})}},T=e=>{let{theme:n,type:o,...s}=e;return react.createElement("svg",{viewBox:"0 0 24 24",width:"100%",height:"100%",fill:"colored"===n?"currentColor":`var(--toastify-icon-color-${o})`,...s})},E={info:function(e){return react.createElement(T,{...e},react.createElement("path",{d:"M12 0a12 12 0 1012 12A12.013 12.013 0 0012 0zm.25 5a1.5 1.5 0 11-1.5 1.5 1.5 1.5 0 011.5-1.5zm2.25 13.5h-4a1 1 0 010-2h.75a.25.25 0 00.25-.25v-4.5a.25.25 0 00-.25-.25h-.75a1 1 0 010-2h1a2 2 0 012 2v4.75a.25.25 0 00.25.25h.75a1 1 0 110 2z"}))},warning:function(e){return react.createElement(T,{...e},react.createElement("path",{d:"M23.32 17.191L15.438 2.184C14.728.833 13.416 0 11.996 0c-1.42 0-2.733.833-3.443 2.184L.533 17.448a4.744 4.744 0 000 4.368C1.243 23.167 2.555 24 3.975 24h16.05C22.22 24 24 22.044 24 19.632c0-.904-.251-1.746-.68-2.44zm-9.622 1.46c0 1.033-.724 1.823-1.698 1.823s-1.698-.79-1.698-1.822v-.043c0-1.028.724-1.822 1.698-1.822s1.698.79 1.698 1.822v.043zm.039-12.285l-.84 8.06c-.057.581-.408.943-.897.943-.49 0-.84-.367-.896-.942l-.84-8.065c-.057-.624.25-1.095.779-1.095h1.91c.528.005.84.476.784 1.1z"}))},success:function(e){return react.createElement(T,{...e},react.createElement("path",{d:"M12 0a12 12 0 1012 12A12.014 12.014 0 0012 0zm6.927 8.2l-6.845 9.289a1.011 1.011 0 01-1.43.188l-4.888-3.908a1 1 0 111.25-1.562l4.076 3.261 6.227-8.451a1 1 0 111.61 1.183z"}))},error:function(e){return react.createElement(T,{...e},react.createElement("path",{d:"M11.983 0a12.206 12.206 0 00-8.51 3.653A11.8 11.8 0 000 12.207 11.779 11.779 0 0011.8 24h.214A12.111 12.111 0 0024 11.791 11.766 11.766 0 0011.983 0zM10.5 16.542a1.476 1.476 0 011.449-1.53h.027a1.527 1.527 0 011.523 1.47 1.475 1.475 0 01-1.449 1.53h-.027a1.529 1.529 0 01-1.523-1.47zM11 12.5v-6a1 1 0 012 0v6a1 1 0 11-2 0z"}))},spinner:function(){return react.createElement("div",{className:"Toastify__spinner"})}};function C(t){const[,o]=(0,react.useReducer)(t=>t+1,0),[l,c]=(0,react.useState)([]),g=(0,react.useRef)(null),h=(0,react.useRef)(new Map).current,T=t=>-1!==l.indexOf(t),C=(0,react.useRef)({toastKey:1,displayedToast:0,count:0,queue:[],props:t,containerId:null,isToastActive:T,getToast:t=>h.get(t)}).current;function b(t){let{containerId:e}=t;const{limit:n}=C.props;!n||e&&C.containerId!==e||(C.count-=C.queue.length,C.queue=[])}function I(t){c(e=>null==t?[]:e.filter(e=>e!==t))}function _(){const{toastContent:t,toastProps:e,staleId:n}=C.queue.shift();O(t,e,n)}function L(t,n){let{delay:s,staleId:r,...i}=n;if(!react_toastify_esm_f(t)||function(t){return!g.current||C.props.enableMultiContainer&&t.containerId!==C.props.containerId||h.has(t.toastId)&&null==t.updateId}(i))return;const{toastId:l,updateId:c,data:T}=i,{props:b}=C,L=()=>I(l),N=null==c;N&&C.count++;const M={...b,style:b.toastStyle,key:C.toastKey++,...Object.fromEntries(Object.entries(i).filter(t=>{let[e,n]=t;return null!=n})),toastId:l,updateId:c,data:T,closeToast:L,isIn:!1,className:m(i.className||b.toastClassName),bodyClassName:m(i.bodyClassName||b.bodyClassName),progressClassName:m(i.progressClassName||b.progressClassName),autoClose:!i.isLoading&&(R=i.autoClose,w=b.autoClose,!1===R||u(R)&&R>0?R:w),deleteToast(){const t=y(h.get(l),"removed");h.delete(l),v.emit(4,t);const e=C.queue.length;if(C.count=null==l?C.count-C.displayedToast:C.count-1,C.count<0&&(C.count=0),e>0){const t=null==l?C.props.limit:1;if(1===e||1===t)C.displayedToast++,_();else{const n=t>e?e:t;C.displayedToast=n;for(let t=0;t<n;t++)_()}}else o()}};var R,w;M.iconOut=function(t){let{theme:n,type:o,isLoading:s,icon:r}=t,i=null;const l={theme:n,type:o};return!1===r||(p(r)?i=r(l):(0,react.isValidElement)(r)?i=(0,react.cloneElement)(r,l):d(r)||u(r)?i=r:s?i=E.spinner():(t=>t in E)(o)&&(i=E[o](l))),i}(M),p(i.onOpen)&&(M.onOpen=i.onOpen),p(i.onClose)&&(M.onClose=i.onClose),M.closeButton=b.closeButton,!1===i.closeButton||react_toastify_esm_f(i.closeButton)?M.closeButton=i.closeButton:!0===i.closeButton&&(M.closeButton=!react_toastify_esm_f(b.closeButton)||b.closeButton);let x=t;(0,react.isValidElement)(t)&&!d(t.type)?x=(0,react.cloneElement)(t,{closeToast:L,toastProps:M,data:T}):p(t)&&(x=t({closeToast:L,toastProps:M,data:T})),b.limit&&b.limit>0&&C.count>b.limit&&N?C.queue.push({toastContent:x,toastProps:M,staleId:r}):u(s)?setTimeout(()=>{O(x,M,r)},s):O(x,M,r)}function O(t,e,n){const{toastId:o}=e;n&&h.delete(n);const s={content:t,props:e};h.set(o,s),c(t=>[...t,o].filter(t=>t!==n)),v.emit(4,y(s,null==s.props.updateId?"added":"updated"))}return (0,react.useEffect)(()=>(C.containerId=t.containerId,v.cancelEmit(3).on(0,L).on(1,t=>g.current&&I(t)).on(5,b).emit(2,C),()=>{h.clear(),v.emit(3,C)}),[]),(0,react.useEffect)(()=>{C.props=t,C.isToastActive=T,C.displayedToast=l.length}),{getToastToRender:function(e){const n=new Map,o=Array.from(h.values());return t.newestOnTop&&o.reverse(),o.forEach(t=>{const{position:e}=t.props;n.has(e)||n.set(e,[]),n.get(e).push(t)}),Array.from(n,t=>e(t[0],t[1]))},containerRef:g,isToastActive:T}}function b(t){return t.targetTouches&&t.targetTouches.length>=1?t.targetTouches[0].clientX:t.clientX}function I(t){return t.targetTouches&&t.targetTouches.length>=1?t.targetTouches[0].clientY:t.clientY}function _(t){const[o,a]=(0,react.useState)(!1),[r,l]=(0,react.useState)(!1),c=(0,react.useRef)(null),u=(0,react.useRef)({start:0,x:0,y:0,delta:0,removalDistance:0,canCloseOnClick:!0,canDrag:!1,boundingRect:null,didMove:!1}).current,d=(0,react.useRef)(t),{autoClose:m,pauseOnHover:f,closeToast:g,onClick:h,closeOnClick:y}=t;function v(e){if(t.draggable){"touchstart"===e.nativeEvent.type&&e.nativeEvent.preventDefault(),u.didMove=!1,document.addEventListener("mousemove",_),document.addEventListener("mouseup",L),document.addEventListener("touchmove",_),document.addEventListener("touchend",L);const n=c.current;u.canCloseOnClick=!0,u.canDrag=!0,u.boundingRect=n.getBoundingClientRect(),n.style.transition="",u.x=b(e.nativeEvent),u.y=I(e.nativeEvent),"x"===t.draggableDirection?(u.start=u.x,u.removalDistance=n.offsetWidth*(t.draggablePercent/100)):(u.start=u.y,u.removalDistance=n.offsetHeight*(80===t.draggablePercent?1.5*t.draggablePercent:t.draggablePercent/100))}}function T(e){if(u.boundingRect){const{top:n,bottom:o,left:s,right:a}=u.boundingRect;"touchend"!==e.nativeEvent.type&&t.pauseOnHover&&u.x>=s&&u.x<=a&&u.y>=n&&u.y<=o?C():E()}}function E(){a(!0)}function C(){a(!1)}function _(e){const n=c.current;u.canDrag&&n&&(u.didMove=!0,o&&C(),u.x=b(e),u.y=I(e),u.delta="x"===t.draggableDirection?u.x-u.start:u.y-u.start,u.start!==u.x&&(u.canCloseOnClick=!1),n.style.transform=`translate${t.draggableDirection}(${u.delta}px)`,n.style.opacity=""+(1-Math.abs(u.delta/u.removalDistance)))}function L(){document.removeEventListener("mousemove",_),document.removeEventListener("mouseup",L),document.removeEventListener("touchmove",_),document.removeEventListener("touchend",L);const e=c.current;if(u.canDrag&&u.didMove&&e){if(u.canDrag=!1,Math.abs(u.delta)>u.removalDistance)return l(!0),void t.closeToast();e.style.transition="transform 0.2s, opacity 0.2s",e.style.transform=`translate${t.draggableDirection}(0)`,e.style.opacity="1"}}(0,react.useEffect)(()=>{d.current=t}),(0,react.useEffect)(()=>(c.current&&c.current.addEventListener("d",E,{once:!0}),p(t.onOpen)&&t.onOpen((0,react.isValidElement)(t.children)&&t.children.props),()=>{const t=d.current;p(t.onClose)&&t.onClose((0,react.isValidElement)(t.children)&&t.children.props)}),[]),(0,react.useEffect)(()=>(t.pauseOnFocusLoss&&(document.hasFocus()||C(),window.addEventListener("focus",E),window.addEventListener("blur",C)),()=>{t.pauseOnFocusLoss&&(window.removeEventListener("focus",E),window.removeEventListener("blur",C))}),[t.pauseOnFocusLoss]);const O={onMouseDown:v,onTouchStart:v,onMouseUp:T,onTouchEnd:T};return m&&f&&(O.onMouseEnter=C,O.onMouseLeave=E),y&&(O.onClick=t=>{h&&h(t),u.canCloseOnClick&&g()}),{playToast:E,pauseToast:C,isRunning:o,preventExitTransition:r,toastRef:c,eventHandlers:O}}function L(e){let{closeToast:n,theme:o,ariaLabel:s="close"}=e;return react.createElement("button",{className:`Toastify__close-button Toastify__close-button--${o}`,type:"button",onClick:t=>{t.stopPropagation(),n(t)},"aria-label":s},react.createElement("svg",{"aria-hidden":"true",viewBox:"0 0 14 16"},react.createElement("path",{fillRule:"evenodd",d:"M7.71 8.23l3.75 3.75-1.48 1.48-3.75-3.75-3.75 3.75L1 11.98l3.75-3.75L1 4.48 2.48 3l3.75 3.75L9.98 3l1.48 1.48-3.75 3.75z"})))}function O(e){let{delay:n,isRunning:o,closeToast:s,type:a="default",hide:r,className:i,style:l,controlledProgress:u,progress:d,rtl:m,isIn:f,theme:g}=e;const h=r||u&&0===d,y={...l,animationDuration:`${n}ms`,animationPlayState:o?"running":"paused",opacity:h?0:1};u&&(y.transform=`scaleX(${d})`);const v=clsx_m("Toastify__progress-bar",u?"Toastify__progress-bar--controlled":"Toastify__progress-bar--animated",`Toastify__progress-bar-theme--${g}`,`Toastify__progress-bar--${a}`,{"Toastify__progress-bar--rtl":m}),T=p(i)?i({rtl:m,type:a,defaultClassName:v}):clsx_m(v,i);return react.createElement("div",{role:"progressbar","aria-hidden":h?"true":"false","aria-label":"notification timer",className:T,style:y,[u&&d>=1?"onTransitionEnd":"onAnimationEnd"]:u&&d<1?null:()=>{f&&s()}})}const N=n=>{const{isRunning:o,preventExitTransition:s,toastRef:r,eventHandlers:i}=_(n),{closeButton:l,children:u,autoClose:d,onClick:m,type:f,hideProgressBar:g,closeToast:h,transition:y,position:v,className:T,style:E,bodyClassName:C,bodyStyle:b,progressClassName:I,progressStyle:N,updateId:M,role:R,progress:w,rtl:x,toastId:$,deleteToast:k,isIn:P,isLoading:B,iconOut:D,closeOnClick:A,theme:z}=n,F=clsx_m("Toastify__toast",`Toastify__toast-theme--${z}`,`Toastify__toast--${f}`,{"Toastify__toast--rtl":x},{"Toastify__toast--close-on-click":A}),H=p(T)?T({rtl:x,position:v,type:f,defaultClassName:F}):clsx_m(F,T),S=!!w||!d,q={closeToast:h,type:f,theme:z};let Q=null;return!1===l||(Q=p(l)?l(q):(0,react.isValidElement)(l)?(0,react.cloneElement)(l,q):L(q)),react.createElement(y,{isIn:P,done:k,position:v,preventExitTransition:s,nodeRef:r},react.createElement("div",{id:$,onClick:m,className:H,...i,style:E,ref:r},react.createElement("div",{...P&&{role:R},className:p(C)?C({type:f}):clsx_m("Toastify__toast-body",C),style:b},null!=D&&react.createElement("div",{className:clsx_m("Toastify__toast-icon",{"Toastify--animate-icon Toastify__zoom-enter":!B})},D),react.createElement("div",null,u)),Q,react.createElement(O,{...M&&!S?{key:`pb-${M}`}:{},rtl:x,theme:z,delay:d,isRunning:o,isIn:P,closeToast:h,hide:g,type:f,style:N,className:I,controlledProgress:S,progress:w||0})))},M=function(t,e){return void 0===e&&(e=!1),{enter:`Toastify--animate Toastify__${t}-enter`,exit:`Toastify--animate Toastify__${t}-exit`,appendPosition:e}},R=h(M("bounce",!0)),w=h(M("slide",!0)),x=h(M("zoom")),$=h(M("flip")),k=(0,react.forwardRef)((e,n)=>{const{getToastToRender:o,containerRef:a,isToastActive:r}=C(e),{className:i,style:l,rtl:u,containerId:d}=e;function f(t){const e=clsx_m("Toastify__toast-container",`Toastify__toast-container--${t}`,{"Toastify__toast-container--rtl":u});return p(i)?i({position:t,rtl:u,defaultClassName:e}):clsx_m(e,m(i))}return (0,react.useEffect)(()=>{n&&(n.current=a.current)},[]),react.createElement("div",{ref:a,className:"Toastify",id:d},o((e,n)=>{const o=n.length?{...l}:{...l,pointerEvents:"none"};return react.createElement("div",{className:f(e),style:o,key:`container-${e}`},n.map((e,o)=>{let{content:s,props:a}=e;return react.createElement(N,{...a,isIn:r(a.toastId),style:{...a.style,"--nth":o+1,"--len":n.length},key:`toast-${a.key}`},s)}))}))});k.displayName="ToastContainer",k.defaultProps={position:"top-right",transition:R,autoClose:5e3,closeButton:L,pauseOnHover:!0,pauseOnFocusLoss:!0,closeOnClick:!0,draggable:!0,draggablePercent:80,draggableDirection:"x",role:"alert",theme:"light"};let P,B=new Map,D=[],A=1;function z(){return""+A++}function F(t){return t&&(d(t.toastId)||u(t.toastId))?t.toastId:z()}function H(t,e){return B.size>0?v.emit(0,t,e):D.push({content:t,options:e}),e.toastId}function S(t,e){return{...e,type:e&&e.type||t,toastId:F(e)}}function q(t){return(e,n)=>H(e,S(t,n))}function Q(t,e){return H(t,S("default",e))}Q.loading=(t,e)=>H(t,S("default",{isLoading:!0,autoClose:!1,closeOnClick:!1,closeButton:!1,draggable:!1,...e})),Q.promise=function(t,e,n){let o,{pending:s,error:a,success:r}=e;s&&(o=d(s)?Q.loading(s,n):Q.loading(s.render,{...n,...s}));const i={isLoading:null,autoClose:null,closeOnClick:null,closeButton:null,draggable:null},l=(t,e,s)=>{if(null==e)return void Q.dismiss(o);const a={type:t,...i,...n,data:s},r=d(e)?{render:e}:e;return o?Q.update(o,{...a,...r}):Q(r.render,{...a,...r}),s},c=p(t)?t():t;return c.then(t=>l("success",r,t)).catch(t=>l("error",a,t)),c},Q.success=q("success"),Q.info=q("info"),Q.error=q("error"),Q.warning=q("warning"),Q.warn=Q.warning,Q.dark=(t,e)=>H(t,S("default",{theme:"dark",...e})),Q.dismiss=t=>{B.size>0?v.emit(1,t):D=D.filter(e=>null!=t&&e.options.toastId!==t)},Q.clearWaitingQueue=function(t){return void 0===t&&(t={}),v.emit(5,t)},Q.isActive=t=>{let e=!1;return B.forEach(n=>{n.isToastActive&&n.isToastActive(t)&&(e=!0)}),e},Q.update=function(t,e){void 0===e&&(e={}),setTimeout(()=>{const n=function(t,e){let{containerId:n}=e;const o=B.get(n||P);return o&&o.getToast(t)}(t,e);if(n){const{props:o,content:s}=n,a={delay:100,...o,...e,toastId:e.toastId||t,updateId:z()};a.toastId!==t&&(a.staleId=t);const r=a.render||s;delete a.render,H(r,a)}},0)},Q.done=t=>{Q.update(t,{progress:1})},Q.onChange=t=>(v.on(4,t),()=>{v.off(4,t)}),Q.POSITION={TOP_LEFT:"top-left",TOP_RIGHT:"top-right",TOP_CENTER:"top-center",BOTTOM_LEFT:"bottom-left",BOTTOM_RIGHT:"bottom-right",BOTTOM_CENTER:"bottom-center"},Q.TYPE={INFO:"info",SUCCESS:"success",WARNING:"warning",ERROR:"error",DEFAULT:"default"},v.on(2,t=>{P=t.containerId||t,B.set(P,t),D.forEach(t=>{v.emit(0,t.content,t.options)}),D=[]}).on(3,t=>{B.delete(t.containerId||t),0===B.size&&v.off(0).off(1).off(5)});
+const u=t=>"number"==typeof t&&!isNaN(t),d=t=>"string"==typeof t,p=t=>"function"==typeof t,m=t=>d(t)||p(t)?t:null,f=t=>(0,react.isValidElement)(t)||d(t)||p(t)||u(t);function g(t,e,n){void 0===n&&(n=300);const{scrollHeight:o,style:s}=t;requestAnimationFrame(()=>{s.minHeight="initial",s.height=o+"px",s.transition=`all ${n}ms`,requestAnimationFrame(()=>{s.height="0",s.padding="0",s.margin="0",setTimeout(e,n)})})}function h(e){let{enter:a,exit:r,appendPosition:i=!1,collapse:l=!0,collapseDuration:c=300}=e;return function(e){let{children:u,position:d,preventExitTransition:p,done:m,nodeRef:f,isIn:h}=e;const y=i?`${a}--${d}`:a,v=i?`${r}--${d}`:r,T=(0,react.useRef)(0);return (0,react.useLayoutEffect)(()=>{const t=f.current,e=y.split(" "),n=o=>{o.target===f.current&&(t.dispatchEvent(new Event("d")),t.removeEventListener("animationend",n),t.removeEventListener("animationcancel",n),0===T.current&&"animationcancel"!==o.type&&t.classList.remove(...e))};t.classList.add(...e),t.addEventListener("animationend",n),t.addEventListener("animationcancel",n)},[]),(0,react.useEffect)(()=>{const t=f.current,e=()=>{t.removeEventListener("animationend",e),l?g(t,m,c):m()};h||(p?e():(T.current=1,t.className+=` ${v}`,t.addEventListener("animationend",e)))},[h]),react.createElement(react.Fragment,null,u)}}function react_toastify_esm_y(t,e){return null!=t?{content:t.content,containerId:t.props.containerId,id:t.props.toastId,theme:t.props.theme,type:t.props.type,data:t.props.data||{},isLoading:t.props.isLoading,icon:t.props.icon,status:e}:{}}const v={list:new Map,emitQueue:new Map,on(t,e){return this.list.has(t)||this.list.set(t,[]),this.list.get(t).push(e),this},off(t,e){if(e){const n=this.list.get(t).filter(t=>t!==e);return this.list.set(t,n),this}return this.list.delete(t),this},cancelEmit(t){const e=this.emitQueue.get(t);return e&&(e.forEach(clearTimeout),this.emitQueue.delete(t)),this},emit(t){this.list.has(t)&&this.list.get(t).forEach(e=>{const n=setTimeout(()=>{e(...[].slice.call(arguments,1))},0);this.emitQueue.has(t)||this.emitQueue.set(t,[]),this.emitQueue.get(t).push(n)})}},T=e=>{let{theme:n,type:o,...s}=e;return react.createElement("svg",{viewBox:"0 0 24 24",width:"100%",height:"100%",fill:"colored"===n?"currentColor":`var(--toastify-icon-color-${o})`,...s})},E={info:function(e){return react.createElement(T,{...e},react.createElement("path",{d:"M12 0a12 12 0 1012 12A12.013 12.013 0 0012 0zm.25 5a1.5 1.5 0 11-1.5 1.5 1.5 1.5 0 011.5-1.5zm2.25 13.5h-4a1 1 0 010-2h.75a.25.25 0 00.25-.25v-4.5a.25.25 0 00-.25-.25h-.75a1 1 0 010-2h1a2 2 0 012 2v4.75a.25.25 0 00.25.25h.75a1 1 0 110 2z"}))},warning:function(e){return react.createElement(T,{...e},react.createElement("path",{d:"M23.32 17.191L15.438 2.184C14.728.833 13.416 0 11.996 0c-1.42 0-2.733.833-3.443 2.184L.533 17.448a4.744 4.744 0 000 4.368C1.243 23.167 2.555 24 3.975 24h16.05C22.22 24 24 22.044 24 19.632c0-.904-.251-1.746-.68-2.44zm-9.622 1.46c0 1.033-.724 1.823-1.698 1.823s-1.698-.79-1.698-1.822v-.043c0-1.028.724-1.822 1.698-1.822s1.698.79 1.698 1.822v.043zm.039-12.285l-.84 8.06c-.057.581-.408.943-.897.943-.49 0-.84-.367-.896-.942l-.84-8.065c-.057-.624.25-1.095.779-1.095h1.91c.528.005.84.476.784 1.1z"}))},success:function(e){return react.createElement(T,{...e},react.createElement("path",{d:"M12 0a12 12 0 1012 12A12.014 12.014 0 0012 0zm6.927 8.2l-6.845 9.289a1.011 1.011 0 01-1.43.188l-4.888-3.908a1 1 0 111.25-1.562l4.076 3.261 6.227-8.451a1 1 0 111.61 1.183z"}))},error:function(e){return react.createElement(T,{...e},react.createElement("path",{d:"M11.983 0a12.206 12.206 0 00-8.51 3.653A11.8 11.8 0 000 12.207 11.779 11.779 0 0011.8 24h.214A12.111 12.111 0 0024 11.791 11.766 11.766 0 0011.983 0zM10.5 16.542a1.476 1.476 0 011.449-1.53h.027a1.527 1.527 0 011.523 1.47 1.475 1.475 0 01-1.449 1.53h-.027a1.529 1.529 0 01-1.523-1.47zM11 12.5v-6a1 1 0 012 0v6a1 1 0 11-2 0z"}))},spinner:function(){return react.createElement("div",{className:"Toastify__spinner"})}};function C(t){const[,o]=(0,react.useReducer)(t=>t+1,0),[l,c]=(0,react.useState)([]),g=(0,react.useRef)(null),h=(0,react.useRef)(new Map).current,T=t=>-1!==l.indexOf(t),C=(0,react.useRef)({toastKey:1,displayedToast:0,count:0,queue:[],props:t,containerId:null,isToastActive:T,getToast:t=>h.get(t)}).current;function b(t){let{containerId:e}=t;const{limit:n}=C.props;!n||e&&C.containerId!==e||(C.count-=C.queue.length,C.queue=[])}function I(t){c(e=>null==t?[]:e.filter(e=>e!==t))}function _(){const{toastContent:t,toastProps:e,staleId:n}=C.queue.shift();O(t,e,n)}function L(t,n){let{delay:s,staleId:r,...i}=n;if(!f(t)||function(t){return!g.current||C.props.enableMultiContainer&&t.containerId!==C.props.containerId||h.has(t.toastId)&&null==t.updateId}(i))return;const{toastId:l,updateId:c,data:T}=i,{props:b}=C,L=()=>I(l),N=null==c;N&&C.count++;const M={...b,style:b.toastStyle,key:C.toastKey++,...Object.fromEntries(Object.entries(i).filter(t=>{let[e,n]=t;return null!=n})),toastId:l,updateId:c,data:T,closeToast:L,isIn:!1,className:m(i.className||b.toastClassName),bodyClassName:m(i.bodyClassName||b.bodyClassName),progressClassName:m(i.progressClassName||b.progressClassName),autoClose:!i.isLoading&&(R=i.autoClose,w=b.autoClose,!1===R||u(R)&&R>0?R:w),deleteToast(){const t=react_toastify_esm_y(h.get(l),"removed");h.delete(l),v.emit(4,t);const e=C.queue.length;if(C.count=null==l?C.count-C.displayedToast:C.count-1,C.count<0&&(C.count=0),e>0){const t=null==l?C.props.limit:1;if(1===e||1===t)C.displayedToast++,_();else{const n=t>e?e:t;C.displayedToast=n;for(let t=0;t<n;t++)_()}}else o()}};var R,w;M.iconOut=function(t){let{theme:n,type:o,isLoading:s,icon:r}=t,i=null;const l={theme:n,type:o};return!1===r||(p(r)?i=r(l):(0,react.isValidElement)(r)?i=(0,react.cloneElement)(r,l):d(r)||u(r)?i=r:s?i=E.spinner():(t=>t in E)(o)&&(i=E[o](l))),i}(M),p(i.onOpen)&&(M.onOpen=i.onOpen),p(i.onClose)&&(M.onClose=i.onClose),M.closeButton=b.closeButton,!1===i.closeButton||f(i.closeButton)?M.closeButton=i.closeButton:!0===i.closeButton&&(M.closeButton=!f(b.closeButton)||b.closeButton);let x=t;(0,react.isValidElement)(t)&&!d(t.type)?x=(0,react.cloneElement)(t,{closeToast:L,toastProps:M,data:T}):p(t)&&(x=t({closeToast:L,toastProps:M,data:T})),b.limit&&b.limit>0&&C.count>b.limit&&N?C.queue.push({toastContent:x,toastProps:M,staleId:r}):u(s)?setTimeout(()=>{O(x,M,r)},s):O(x,M,r)}function O(t,e,n){const{toastId:o}=e;n&&h.delete(n);const s={content:t,props:e};h.set(o,s),c(t=>[...t,o].filter(t=>t!==n)),v.emit(4,react_toastify_esm_y(s,null==s.props.updateId?"added":"updated"))}return (0,react.useEffect)(()=>(C.containerId=t.containerId,v.cancelEmit(3).on(0,L).on(1,t=>g.current&&I(t)).on(5,b).emit(2,C),()=>{h.clear(),v.emit(3,C)}),[]),(0,react.useEffect)(()=>{C.props=t,C.isToastActive=T,C.displayedToast=l.length}),{getToastToRender:function(e){const n=new Map,o=Array.from(h.values());return t.newestOnTop&&o.reverse(),o.forEach(t=>{const{position:e}=t.props;n.has(e)||n.set(e,[]),n.get(e).push(t)}),Array.from(n,t=>e(t[0],t[1]))},containerRef:g,isToastActive:T}}function b(t){return t.targetTouches&&t.targetTouches.length>=1?t.targetTouches[0].clientX:t.clientX}function I(t){return t.targetTouches&&t.targetTouches.length>=1?t.targetTouches[0].clientY:t.clientY}function _(t){const[o,a]=(0,react.useState)(!1),[r,l]=(0,react.useState)(!1),c=(0,react.useRef)(null),u=(0,react.useRef)({start:0,x:0,y:0,delta:0,removalDistance:0,canCloseOnClick:!0,canDrag:!1,boundingRect:null,didMove:!1}).current,d=(0,react.useRef)(t),{autoClose:m,pauseOnHover:f,closeToast:g,onClick:h,closeOnClick:y}=t;function v(e){if(t.draggable){"touchstart"===e.nativeEvent.type&&e.nativeEvent.preventDefault(),u.didMove=!1,document.addEventListener("mousemove",_),document.addEventListener("mouseup",L),document.addEventListener("touchmove",_),document.addEventListener("touchend",L);const n=c.current;u.canCloseOnClick=!0,u.canDrag=!0,u.boundingRect=n.getBoundingClientRect(),n.style.transition="",u.x=b(e.nativeEvent),u.y=I(e.nativeEvent),"x"===t.draggableDirection?(u.start=u.x,u.removalDistance=n.offsetWidth*(t.draggablePercent/100)):(u.start=u.y,u.removalDistance=n.offsetHeight*(80===t.draggablePercent?1.5*t.draggablePercent:t.draggablePercent/100))}}function T(e){if(u.boundingRect){const{top:n,bottom:o,left:s,right:a}=u.boundingRect;"touchend"!==e.nativeEvent.type&&t.pauseOnHover&&u.x>=s&&u.x<=a&&u.y>=n&&u.y<=o?C():E()}}function E(){a(!0)}function C(){a(!1)}function _(e){const n=c.current;u.canDrag&&n&&(u.didMove=!0,o&&C(),u.x=b(e),u.y=I(e),u.delta="x"===t.draggableDirection?u.x-u.start:u.y-u.start,u.start!==u.x&&(u.canCloseOnClick=!1),n.style.transform=`translate${t.draggableDirection}(${u.delta}px)`,n.style.opacity=""+(1-Math.abs(u.delta/u.removalDistance)))}function L(){document.removeEventListener("mousemove",_),document.removeEventListener("mouseup",L),document.removeEventListener("touchmove",_),document.removeEventListener("touchend",L);const e=c.current;if(u.canDrag&&u.didMove&&e){if(u.canDrag=!1,Math.abs(u.delta)>u.removalDistance)return l(!0),void t.closeToast();e.style.transition="transform 0.2s, opacity 0.2s",e.style.transform=`translate${t.draggableDirection}(0)`,e.style.opacity="1"}}(0,react.useEffect)(()=>{d.current=t}),(0,react.useEffect)(()=>(c.current&&c.current.addEventListener("d",E,{once:!0}),p(t.onOpen)&&t.onOpen((0,react.isValidElement)(t.children)&&t.children.props),()=>{const t=d.current;p(t.onClose)&&t.onClose((0,react.isValidElement)(t.children)&&t.children.props)}),[]),(0,react.useEffect)(()=>(t.pauseOnFocusLoss&&(document.hasFocus()||C(),window.addEventListener("focus",E),window.addEventListener("blur",C)),()=>{t.pauseOnFocusLoss&&(window.removeEventListener("focus",E),window.removeEventListener("blur",C))}),[t.pauseOnFocusLoss]);const O={onMouseDown:v,onTouchStart:v,onMouseUp:T,onTouchEnd:T};return m&&f&&(O.onMouseEnter=C,O.onMouseLeave=E),y&&(O.onClick=t=>{h&&h(t),u.canCloseOnClick&&g()}),{playToast:E,pauseToast:C,isRunning:o,preventExitTransition:r,toastRef:c,eventHandlers:O}}function L(e){let{closeToast:n,theme:o,ariaLabel:s="close"}=e;return react.createElement("button",{className:`Toastify__close-button Toastify__close-button--${o}`,type:"button",onClick:t=>{t.stopPropagation(),n(t)},"aria-label":s},react.createElement("svg",{"aria-hidden":"true",viewBox:"0 0 14 16"},react.createElement("path",{fillRule:"evenodd",d:"M7.71 8.23l3.75 3.75-1.48 1.48-3.75-3.75-3.75 3.75L1 11.98l3.75-3.75L1 4.48 2.48 3l3.75 3.75L9.98 3l1.48 1.48-3.75 3.75z"})))}function O(e){let{delay:n,isRunning:o,closeToast:s,type:a="default",hide:r,className:i,style:l,controlledProgress:u,progress:d,rtl:m,isIn:f,theme:g}=e;const h=r||u&&0===d,y={...l,animationDuration:`${n}ms`,animationPlayState:o?"running":"paused",opacity:h?0:1};u&&(y.transform=`scaleX(${d})`);const v=clsx_m("Toastify__progress-bar",u?"Toastify__progress-bar--controlled":"Toastify__progress-bar--animated",`Toastify__progress-bar-theme--${g}`,`Toastify__progress-bar--${a}`,{"Toastify__progress-bar--rtl":m}),T=p(i)?i({rtl:m,type:a,defaultClassName:v}):clsx_m(v,i);return react.createElement("div",{role:"progressbar","aria-hidden":h?"true":"false","aria-label":"notification timer",className:T,style:y,[u&&d>=1?"onTransitionEnd":"onAnimationEnd"]:u&&d<1?null:()=>{f&&s()}})}const N=n=>{const{isRunning:o,preventExitTransition:s,toastRef:r,eventHandlers:i}=_(n),{closeButton:l,children:u,autoClose:d,onClick:m,type:f,hideProgressBar:g,closeToast:h,transition:y,position:v,className:T,style:E,bodyClassName:C,bodyStyle:b,progressClassName:I,progressStyle:N,updateId:M,role:R,progress:w,rtl:x,toastId:$,deleteToast:k,isIn:P,isLoading:B,iconOut:D,closeOnClick:A,theme:z}=n,F=clsx_m("Toastify__toast",`Toastify__toast-theme--${z}`,`Toastify__toast--${f}`,{"Toastify__toast--rtl":x},{"Toastify__toast--close-on-click":A}),H=p(T)?T({rtl:x,position:v,type:f,defaultClassName:F}):clsx_m(F,T),S=!!w||!d,q={closeToast:h,type:f,theme:z};let Q=null;return!1===l||(Q=p(l)?l(q):(0,react.isValidElement)(l)?(0,react.cloneElement)(l,q):L(q)),react.createElement(y,{isIn:P,done:k,position:v,preventExitTransition:s,nodeRef:r},react.createElement("div",{id:$,onClick:m,className:H,...i,style:E,ref:r},react.createElement("div",{...P&&{role:R},className:p(C)?C({type:f}):clsx_m("Toastify__toast-body",C),style:b},null!=D&&react.createElement("div",{className:clsx_m("Toastify__toast-icon",{"Toastify--animate-icon Toastify__zoom-enter":!B})},D),react.createElement("div",null,u)),Q,react.createElement(O,{...M&&!S?{key:`pb-${M}`}:{},rtl:x,theme:z,delay:d,isRunning:o,isIn:P,closeToast:h,hide:g,type:f,style:N,className:I,controlledProgress:S,progress:w||0})))},M=function(t,e){return void 0===e&&(e=!1),{enter:`Toastify--animate Toastify__${t}-enter`,exit:`Toastify--animate Toastify__${t}-exit`,appendPosition:e}},R=h(M("bounce",!0)),w=h(M("slide",!0)),x=h(M("zoom")),$=h(M("flip")),k=(0,react.forwardRef)((e,n)=>{const{getToastToRender:o,containerRef:a,isToastActive:r}=C(e),{className:i,style:l,rtl:u,containerId:d}=e;function f(t){const e=clsx_m("Toastify__toast-container",`Toastify__toast-container--${t}`,{"Toastify__toast-container--rtl":u});return p(i)?i({position:t,rtl:u,defaultClassName:e}):clsx_m(e,m(i))}return (0,react.useEffect)(()=>{n&&(n.current=a.current)},[]),react.createElement("div",{ref:a,className:"Toastify",id:d},o((e,n)=>{const o=n.length?{...l}:{...l,pointerEvents:"none"};return react.createElement("div",{className:f(e),style:o,key:`container-${e}`},n.map((e,o)=>{let{content:s,props:a}=e;return react.createElement(N,{...a,isIn:r(a.toastId),style:{...a.style,"--nth":o+1,"--len":n.length},key:`toast-${a.key}`},s)}))}))});k.displayName="ToastContainer",k.defaultProps={position:"top-right",transition:R,autoClose:5e3,closeButton:L,pauseOnHover:!0,pauseOnFocusLoss:!0,closeOnClick:!0,draggable:!0,draggablePercent:80,draggableDirection:"x",role:"alert",theme:"light"};let P,B=new Map,D=[],A=1;function z(){return""+A++}function F(t){return t&&(d(t.toastId)||u(t.toastId))?t.toastId:z()}function H(t,e){return B.size>0?v.emit(0,t,e):D.push({content:t,options:e}),e.toastId}function S(t,e){return{...e,type:e&&e.type||t,toastId:F(e)}}function q(t){return(e,n)=>H(e,S(t,n))}function Q(t,e){return H(t,S("default",e))}Q.loading=(t,e)=>H(t,S("default",{isLoading:!0,autoClose:!1,closeOnClick:!1,closeButton:!1,draggable:!1,...e})),Q.promise=function(t,e,n){let o,{pending:s,error:a,success:r}=e;s&&(o=d(s)?Q.loading(s,n):Q.loading(s.render,{...n,...s}));const i={isLoading:null,autoClose:null,closeOnClick:null,closeButton:null,draggable:null},l=(t,e,s)=>{if(null==e)return void Q.dismiss(o);const a={type:t,...i,...n,data:s},r=d(e)?{render:e}:e;return o?Q.update(o,{...a,...r}):Q(r.render,{...a,...r}),s},c=p(t)?t():t;return c.then(t=>l("success",r,t)).catch(t=>l("error",a,t)),c},Q.success=q("success"),Q.info=q("info"),Q.error=q("error"),Q.warning=q("warning"),Q.warn=Q.warning,Q.dark=(t,e)=>H(t,S("default",{theme:"dark",...e})),Q.dismiss=t=>{B.size>0?v.emit(1,t):D=D.filter(e=>null!=t&&e.options.toastId!==t)},Q.clearWaitingQueue=function(t){return void 0===t&&(t={}),v.emit(5,t)},Q.isActive=t=>{let e=!1;return B.forEach(n=>{n.isToastActive&&n.isToastActive(t)&&(e=!0)}),e},Q.update=function(t,e){void 0===e&&(e={}),setTimeout(()=>{const n=function(t,e){let{containerId:n}=e;const o=B.get(n||P);return o&&o.getToast(t)}(t,e);if(n){const{props:o,content:s}=n,a={delay:100,...o,...e,toastId:e.toastId||t,updateId:z()};a.toastId!==t&&(a.staleId=t);const r=a.render||s;delete a.render,H(r,a)}},0)},Q.done=t=>{Q.update(t,{progress:1})},Q.onChange=t=>(v.on(4,t),()=>{v.off(4,t)}),Q.POSITION={TOP_LEFT:"top-left",TOP_RIGHT:"top-right",TOP_CENTER:"top-center",BOTTOM_LEFT:"bottom-left",BOTTOM_RIGHT:"bottom-right",BOTTOM_CENTER:"bottom-center"},Q.TYPE={INFO:"info",SUCCESS:"success",WARNING:"warning",ERROR:"error",DEFAULT:"default"},v.on(2,t=>{P=t.containerId||t,B.set(P,t),D.forEach(t=>{v.emit(0,t.content,t.options)}),D=[]}).on(3,t=>{B.delete(t.containerId||t),0===B.size&&v.off(0).off(1).off(5)});
 //# sourceMappingURL=react-toastify.esm.mjs.map
 
 // EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js
@@ -17800,6 +17879,7 @@ function createSelectorHook(context = Context_ReactReduxContext) {
 const useSelector = /*#__PURE__*/createSelectorHook();
 // EXTERNAL MODULE: ./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js
 var hoist_non_react_statics_cjs = __webpack_require__(8679);
+var hoist_non_react_statics_cjs_default = /*#__PURE__*/__webpack_require__.n(hoist_non_react_statics_cjs);
 // EXTERNAL MODULE: ./node_modules/react-redux/node_modules/react-is/index.js
 var react_is = __webpack_require__(2973);
 ;// CONCATENATED MODULE: ./node_modules/react-redux/es/utils/Subscription.js
@@ -18435,7 +18515,7 @@ function Provider({
  * @returns {Function} A `useStore` hook bound to the specified context.
  */
 
-function createStoreHook(context = Context_ReactReduxContext) {
+function useStore_createStoreHook(context = Context_ReactReduxContext) {
   const useReduxContext = // @ts-ignore
   context === Context_ReactReduxContext ? useReduxContext_useReduxContext : // @ts-ignore
   createReduxContextHook(context);
@@ -18463,7 +18543,7 @@ function createStoreHook(context = Context_ReactReduxContext) {
  * }
  */
 
-const useStore_useStore = /*#__PURE__*/createStoreHook();
+const useStore_useStore = /*#__PURE__*/useStore_createStoreHook();
 ;// CONCATENATED MODULE: ./node_modules/react-redux/es/hooks/useDispatch.js
 
 
@@ -18476,7 +18556,7 @@ const useStore_useStore = /*#__PURE__*/createStoreHook();
 
 function createDispatchHook(context = Context_ReactReduxContext) {
   const useStore = // @ts-ignore
-  context === Context_ReactReduxContext ? useStore_useStore : createStoreHook(context);
+  context === Context_ReactReduxContext ? useStore_useStore : useStore_createStoreHook(context);
   return function useDispatch() {
     const store = useStore(); // @ts-ignore
 
@@ -19384,6 +19464,17 @@ var getTaskDone = function getTaskDone(id) {
     payload: id
   };
 };
+;// CONCATENATED MODULE: ./actions/updateDroppedTasks.js
+var UPDATE_DROPPED_TASKS = "UPDATE_DROPPED_TASKS";
+var UpdateDroppedTasks = function UpdateDroppedTasks(tasks) {
+  console.log("przekazane do reducera: ", tasks);
+  return {
+    type: UPDATE_DROPPED_TASKS,
+    payload: {
+      toDo: tasks
+    }
+  };
+};
 ;// CONCATENATED MODULE: ./actions/updateTasks.js
 var UPDATE_TASK = "UPDATE_TASK";
 var updateTask = function updateTask(_id, objectToUpdate) {
@@ -19400,8 +19491,9 @@ function TaskReducer_typeof(o) { "@babel/helpers - typeof"; return TaskReducer_t
 function TaskReducer_ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
 function _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? TaskReducer_ownKeys(Object(t), !0).forEach(function (r) { TaskReducer_defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : TaskReducer_ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
 function TaskReducer_defineProperty(obj, key, value) { key = TaskReducer_toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-function TaskReducer_toPropertyKey(arg) { var key = TaskReducer_toPrimitive(arg, "string"); return TaskReducer_typeof(key) === "symbol" ? key : String(key); }
-function TaskReducer_toPrimitive(input, hint) { if (TaskReducer_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (TaskReducer_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
+function TaskReducer_toPropertyKey(t) { var i = TaskReducer_toPrimitive(t, "string"); return "symbol" == TaskReducer_typeof(i) ? i : String(i); }
+function TaskReducer_toPrimitive(t, r) { if ("object" != TaskReducer_typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != TaskReducer_typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
+
 
 
 
@@ -19466,6 +19558,10 @@ function taskReducer() {
       return _objectSpread(_objectSpread({}, state), {}, {
         toDo: currentState
       });
+    case UPDATE_DROPPED_TASKS:
+      return {
+        toDo: action.payload
+      };
     default:
       return state;
   }
@@ -19486,7 +19582,7 @@ var store = createStore(reducers_rootReducer, applyMiddleware(es));
 /* harmony default export */ const store_store = (store);
 ;// CONCATENATED MODULE: ./node_modules/@remix-run/router/dist/router.js
 /**
- * @remix-run/router v1.10.0
+ * @remix-run/router v1.14.0
  *
  * Copyright (c) Remix Software Inc.
  *
@@ -20255,20 +20351,29 @@ function router_matchPath(pattern, pathname) {
       end: true
     };
   }
-  let [matcher, paramNames] = compilePath(pattern.path, pattern.caseSensitive, pattern.end);
+  let [matcher, compiledParams] = compilePath(pattern.path, pattern.caseSensitive, pattern.end);
   let match = pathname.match(matcher);
   if (!match) return null;
   let matchedPathname = match[0];
   let pathnameBase = matchedPathname.replace(/(.)\/+$/, "$1");
   let captureGroups = match.slice(1);
-  let params = paramNames.reduce((memo, paramName, index) => {
+  let params = compiledParams.reduce((memo, _ref, index) => {
+    let {
+      paramName,
+      isOptional
+    } = _ref;
     // We need to compute the pathnameBase here using the raw splat value
     // instead of using params["*"] later because it will be decoded then
     if (paramName === "*") {
       let splatValue = captureGroups[index] || "";
       pathnameBase = matchedPathname.slice(0, matchedPathname.length - splatValue.length).replace(/(.)\/+$/, "$1");
     }
-    memo[paramName] = safelyDecodeURIComponent(captureGroups[index] || "", paramName);
+    const value = captureGroups[index];
+    if (isOptional && !value) {
+      memo[paramName] = undefined;
+    } else {
+      memo[paramName] = safelyDecodeURIComponent(value || "", paramName);
+    }
     return memo;
   }, {});
   return {
@@ -20286,16 +20391,21 @@ function compilePath(path, caseSensitive, end) {
     end = true;
   }
   router_warning(path === "*" || !path.endsWith("*") || path.endsWith("/*"), "Route path \"" + path + "\" will be treated as if it were " + ("\"" + path.replace(/\*$/, "/*") + "\" because the `*` character must ") + "always follow a `/` in the pattern. To get rid of this warning, " + ("please change the route path to \"" + path.replace(/\*$/, "/*") + "\"."));
-  let paramNames = [];
+  let params = [];
   let regexpSource = "^" + path.replace(/\/*\*?$/, "") // Ignore trailing / and /*, we'll handle it below
   .replace(/^\/*/, "/") // Make sure it has a leading /
-  .replace(/[\\.*+^$?{}|()[\]]/g, "\\$&") // Escape special regex chars
-  .replace(/\/:(\w+)/g, (_, paramName) => {
-    paramNames.push(paramName);
-    return "/([^\\/]+)";
+  .replace(/[\\.*+^${}|()[\]]/g, "\\$&") // Escape special regex chars
+  .replace(/\/:(\w+)(\?)?/g, (_, paramName, isOptional) => {
+    params.push({
+      paramName,
+      isOptional: isOptional != null
+    });
+    return isOptional ? "/?([^\\/]+)?" : "/([^\\/]+)";
   });
   if (path.endsWith("*")) {
-    paramNames.push("*");
+    params.push({
+      paramName: "*"
+    });
     regexpSource += path === "*" || path === "/*" ? "(.*)$" // Already matched the initial /, just match the rest
     : "(?:\\/(.+)|\\/*)$"; // Don't include the / in params["*"]
   } else if (end) {
@@ -20312,7 +20422,7 @@ function compilePath(path, caseSensitive, end) {
     regexpSource += "(?:(?=\\/|$))";
   } else ;
   let matcher = new RegExp(regexpSource, caseSensitive ? undefined : "i");
-  return [matcher, paramNames];
+  return [matcher, params];
 }
 function safelyDecodeURI(value) {
   try {
@@ -20411,6 +20521,18 @@ function getInvalidPathError(char, field, dest, path) {
 function getPathContributingMatches(matches) {
   return matches.filter((match, index) => index === 0 || match.route.path && match.route.path.length > 0);
 }
+// Return the array of pathnames for the current route matches - used to
+// generate the routePathnames input for resolveTo()
+function getResolveToMatches(matches, v7_relativeSplatPath) {
+  let pathMatches = getPathContributingMatches(matches);
+  // When v7_relativeSplatPath is enabled, use the full pathname for the leaf
+  // match so we include splat values for "." links.  See:
+  // https://github.com/remix-run/react-router/issues/11052#issuecomment-1836589329
+  if (v7_relativeSplatPath) {
+    return pathMatches.map((match, idx) => idx === matches.length - 1 ? match.pathname : match.pathnameBase);
+  }
+  return pathMatches.map(match => match.pathnameBase);
+}
 /**
  * @private
  */
@@ -20439,15 +20561,28 @@ function router_resolveTo(toArg, routePathnames, locationPathname, isPathRelativ
   // `to` values that do not provide a pathname. `to` can simply be a search or
   // hash string, in which case we should assume that the navigation is relative
   // to the current location's pathname and *not* the route pathname.
-  if (isPathRelative || toPathname == null) {
+  if (toPathname == null) {
     from = locationPathname;
+  } else if (isPathRelative) {
+    let fromSegments = routePathnames.length === 0 ? [] : routePathnames[routePathnames.length - 1].replace(/^\//, "").split("/");
+    if (toPathname.startsWith("..")) {
+      let toSegments = toPathname.split("/");
+      // With relative="path", each leading .. segment means "go up one URL segment"
+      while (toSegments[0] === "..") {
+        toSegments.shift();
+        fromSegments.pop();
+      }
+      to.pathname = toSegments.join("/");
+    }
+    from = "/" + fromSegments.join("/");
   } else {
     let routePathnameIndex = routePathnames.length - 1;
     if (toPathname.startsWith("..")) {
       let toSegments = toPathname.split("/");
-      // Each leading .. segment means "go up one route" instead of "go up one
-      // URL segment".  This is a key difference from how <a href> works and a
-      // major reason we call this a "to" value instead of a "href".
+      // With relative="route" (the default), each leading .. segment means
+      // "go up one route" instead of "go up one URL segment".  This is a key
+      // difference from how <a href> works and a major reason we call this a
+      // "to" value instead of a "href".
       while (toSegments[0] === "..") {
         toSegments.shift();
         routePathnameIndex -= 1;
@@ -20525,8 +20660,8 @@ class DeferredData {
     let onAbort = () => reject(new AbortedDeferredError("Deferred data aborted"));
     this.unlistenAbortSignal = () => this.controller.signal.removeEventListener("abort", onAbort);
     this.controller.signal.addEventListener("abort", onAbort);
-    this.data = Object.entries(data).reduce((acc, _ref) => {
-      let [key, value] = _ref;
+    this.data = Object.entries(data).reduce((acc, _ref2) => {
+      let [key, value] = _ref2;
       return Object.assign(acc, {
         [key]: this.trackPromise(key, value)
       });
@@ -20623,8 +20758,8 @@ class DeferredData {
   }
   get unwrappedData() {
     invariant(this.data !== null && this.done, "Can only unwrap data on initialized and settled deferreds");
-    return Object.entries(this.data).reduce((acc, _ref2) => {
-      let [key, value] = _ref2;
+    return Object.entries(this.data).reduce((acc, _ref3) => {
+      let [key, value] = _ref3;
       return Object.assign(acc, {
         [key]: unwrapTrackedPromise(value)
       });
@@ -20735,7 +20870,7 @@ const IDLE_NAVIGATION = {
   json: undefined,
   text: undefined
 };
-const IDLE_FETCHER = {
+const router_IDLE_FETCHER = {
   state: "idle",
   data: undefined,
   formMethod: undefined,
@@ -20788,8 +20923,11 @@ function router_createRouter(init) {
   let basename = init.basename || "/";
   // Config driven behavior flags
   let future = router_extends({
+    v7_fetcherPersist: false,
     v7_normalizeFormMethod: false,
-    v7_prependBasename: false
+    v7_partialHydration: false,
+    v7_prependBasename: false,
+    v7_relativeSplatPath: false
   }, init.future);
   // Cleanup function for history
   let unlistenHistory = null;
@@ -20825,12 +20963,28 @@ function router_createRouter(init) {
       [route.id]: error
     };
   }
-  let initialized =
-  // All initialMatches need to be loaded before we're ready.  If we have lazy
-  // functions around still then we'll need to run them in initialize()
-  !initialMatches.some(m => m.route.lazy) && (
-  // And we have to either have no loaders or have been provided hydrationData
-  !initialMatches.some(m => m.route.loader) || init.hydrationData != null);
+  let initialized;
+  let hasLazyRoutes = initialMatches.some(m => m.route.lazy);
+  let hasLoaders = initialMatches.some(m => m.route.loader);
+  if (hasLazyRoutes) {
+    // All initialMatches need to be loaded before we're ready.  If we have lazy
+    // functions around still then we'll need to run them in initialize()
+    initialized = false;
+  } else if (!hasLoaders) {
+    // If we've got no loaders to run, then we're good to go
+    initialized = true;
+  } else if (future.v7_partialHydration) {
+    // If partial hydration is enabled, we're initialized so long as we were
+    // provided with hydrationData for every route with a loader, and no loaders
+    // were marked for explicit hydration
+    let loaderData = init.hydrationData ? init.hydrationData.loaderData : null;
+    let errors = init.hydrationData ? init.hydrationData.errors : null;
+    initialized = initialMatches.every(m => m.route.loader && m.route.loader.hydrate !== true && (loaderData && loaderData[m.route.id] !== undefined || errors && errors[m.route.id] !== undefined));
+  } else {
+    // Without partial hydration - we're initialized if we were provided any
+    // hydrationData - which is expected to be complete
+    initialized = init.hydrationData != null;
+  }
   let router;
   let state = {
     historyAction: init.history.action,
@@ -20890,6 +21044,11 @@ function router_createRouter(init) {
   let fetchRedirectIds = new Set();
   // Most recent href/match for fetcher.load calls for fetchers
   let fetchLoadMatches = new Map();
+  // Ref-count mounted fetchers so we know when it's ok to clean them up
+  let activeFetchers = new Map();
+  // Fetchers that have requested a delete when using v7_fetcherPersist,
+  // they'll be officially removed after they return to idle
+  let deletedFetchers = new Set();
   // Store DeferredData instances for active route matches.  When a
   // route loader returns defer() we stick one in here.  Then, when a nested
   // promise resolves we update loaderData.  If a new navigation starts we
@@ -20969,7 +21128,9 @@ function router_createRouter(init) {
     // resolved prior to router creation since we can't go into a fallbackElement
     // UI for SSR'd apps
     if (!state.initialized) {
-      startNavigation(Action.Pop, state.location);
+      startNavigation(Action.Pop, state.location, {
+        initialHydration: true
+      });
     }
     return router;
   }
@@ -20992,19 +21153,53 @@ function router_createRouter(init) {
     return () => subscribers.delete(fn);
   }
   // Update our state and notify the calling context of the change
-  function updateState(newState, viewTransitionOpts) {
+  function updateState(newState, opts) {
+    if (opts === void 0) {
+      opts = {};
+    }
     state = router_extends({}, state, newState);
-    subscribers.forEach(subscriber => subscriber(state, {
-      unstable_viewTransitionOpts: viewTransitionOpts
+    // Prep fetcher cleanup so we can tell the UI which fetcher data entries
+    // can be removed
+    let completedFetchers = [];
+    let deletedFetchersKeys = [];
+    if (future.v7_fetcherPersist) {
+      state.fetchers.forEach((fetcher, key) => {
+        if (fetcher.state === "idle") {
+          if (deletedFetchers.has(key)) {
+            // Unmounted from the UI and can be totally removed
+            deletedFetchersKeys.push(key);
+          } else {
+            // Returned to idle but still mounted in the UI, so semi-remains for
+            // revalidations and such
+            completedFetchers.push(key);
+          }
+        }
+      });
+    }
+    // Iterate over a local copy so that if flushSync is used and we end up
+    // removing and adding a new subscriber due to the useCallback dependencies,
+    // we don't get ourselves into a loop calling the new subscriber immediately
+    [...subscribers].forEach(subscriber => subscriber(state, {
+      deletedFetchers: deletedFetchersKeys,
+      unstable_viewTransitionOpts: opts.viewTransitionOpts,
+      unstable_flushSync: opts.flushSync === true
     }));
+    // Remove idle fetchers from state since we only care about in-flight fetchers.
+    if (future.v7_fetcherPersist) {
+      completedFetchers.forEach(key => state.fetchers.delete(key));
+      deletedFetchersKeys.forEach(key => deleteFetcher(key));
+    }
   }
   // Complete a navigation returning the state.navigation back to the IDLE_NAVIGATION
   // and setting state.[historyAction/location/matches] to the new route.
   // - Location is a required param
   // - Navigation will always be set to IDLE_NAVIGATION
   // - Can pass any other state in newState
-  function completeNavigation(location, newState) {
+  function completeNavigation(location, newState, _temp) {
     var _location$state, _location$state2;
+    let {
+      flushSync
+    } = _temp === void 0 ? {} : _temp;
     // Deduce if we're in a loading/actionReload state:
     // - We have committed actionData in the store
     // - The current navigation was a mutation submission
@@ -21090,7 +21285,10 @@ function router_createRouter(init) {
       restoreScrollPosition: getSavedScrollPosition(location, newState.matches || state.matches),
       preventScrollReset,
       blockers
-    }), viewTransitionOpts);
+    }), {
+      viewTransitionOpts,
+      flushSync: flushSync === true
+    });
     // Reset stateful navigation vars
     pendingAction = Action.Pop;
     pendingPreventScrollReset = false;
@@ -21107,7 +21305,7 @@ function router_createRouter(init) {
       init.history.go(to);
       return;
     }
-    let normalizedPath = normalizeTo(state.location, state.matches, basename, future.v7_prependBasename, to, opts == null ? void 0 : opts.fromRouteId, opts == null ? void 0 : opts.relative);
+    let normalizedPath = normalizeTo(state.location, state.matches, basename, future.v7_prependBasename, to, future.v7_relativeSplatPath, opts == null ? void 0 : opts.fromRouteId, opts == null ? void 0 : opts.relative);
     let {
       path,
       submission,
@@ -21133,6 +21331,7 @@ function router_createRouter(init) {
       historyAction = Action.Replace;
     }
     let preventScrollReset = opts && "preventScrollReset" in opts ? opts.preventScrollReset === true : undefined;
+    let flushSync = (opts && opts.unstable_flushSync) === true;
     let blockerKey = shouldBlockNavigation({
       currentLocation,
       nextLocation,
@@ -21170,7 +21369,8 @@ function router_createRouter(init) {
       pendingError: error,
       preventScrollReset,
       replace: opts && opts.replace,
-      enableViewTransition: opts && opts.unstable_viewTransition
+      enableViewTransition: opts && opts.unstable_viewTransition,
+      flushSync
     });
   }
   // Revalidate all current loaders.  If a navigation is in progress or if this
@@ -21221,6 +21421,7 @@ function router_createRouter(init) {
     let routesToUse = inFlightDataRoutes || dataRoutes;
     let loadingNavigation = opts && opts.overrideNavigation;
     let matches = matchRoutes(routesToUse, location, basename);
+    let flushSync = (opts && opts.flushSync) === true;
     // Short circuit with a 404 on the root error boundary if we match nothing
     if (!matches) {
       let error = getInternalRouterError(404, {
@@ -21238,6 +21439,8 @@ function router_createRouter(init) {
         errors: {
           [route.id]: error
         }
+      }, {
+        flushSync
       });
       return;
     }
@@ -21250,6 +21453,8 @@ function router_createRouter(init) {
     if (state.initialized && !isRevalidationRequired && isHashChangeOnly(state.location, location) && !(opts && opts.submission && isMutationMethod(opts.submission.formMethod))) {
       completeNavigation(location, {
         matches
+      }, {
+        flushSync
       });
       return;
     }
@@ -21269,7 +21474,8 @@ function router_createRouter(init) {
     } else if (opts && opts.submission && isMutationMethod(opts.submission.formMethod)) {
       // Call action if we received an action submission
       let actionOutput = await handleAction(request, location, opts.submission, matches, {
-        replace: opts.replace
+        replace: opts.replace,
+        flushSync
       });
       if (actionOutput.shortCircuited) {
         return;
@@ -21277,6 +21483,7 @@ function router_createRouter(init) {
       pendingActionData = actionOutput.pendingActionData;
       pendingError = actionOutput.pendingActionError;
       loadingNavigation = getLoadingNavigation(location, opts.submission);
+      flushSync = false;
       // Create a GET request for the loaders
       request = new Request(request.url, {
         signal: request.signal
@@ -21287,7 +21494,7 @@ function router_createRouter(init) {
       shortCircuited,
       loaderData,
       errors
-    } = await handleLoaders(request, location, matches, loadingNavigation, opts && opts.submission, opts && opts.fetcherSubmission, opts && opts.replace, pendingActionData, pendingError);
+    } = await handleLoaders(request, location, matches, loadingNavigation, opts && opts.submission, opts && opts.fetcherSubmission, opts && opts.replace, opts && opts.initialHydration === true, flushSync, pendingActionData, pendingError);
     if (shortCircuited) {
       return;
     }
@@ -21315,6 +21522,8 @@ function router_createRouter(init) {
     let navigation = getSubmittingNavigation(location, submission);
     updateState({
       navigation
+    }, {
+      flushSync: opts.flushSync === true
     });
     // Call our action and get the result
     let result;
@@ -21329,7 +21538,7 @@ function router_createRouter(init) {
         })
       };
     } else {
-      result = await callLoaderOrAction("action", request, actionMatch, matches, manifest, mapRouteProperties, basename);
+      result = await callLoaderOrAction("action", request, actionMatch, matches, manifest, mapRouteProperties, basename, future.v7_relativeSplatPath);
       if (request.signal.aborted) {
         return {
           shortCircuited: true
@@ -21386,14 +21595,14 @@ function router_createRouter(init) {
   }
   // Call all applicable loaders for the given matches, handling redirects,
   // errors, etc.
-  async function handleLoaders(request, location, matches, overrideNavigation, submission, fetcherSubmission, replace, pendingActionData, pendingError) {
+  async function handleLoaders(request, location, matches, overrideNavigation, submission, fetcherSubmission, replace, initialHydration, flushSync, pendingActionData, pendingError) {
     // Figure out the right navigation we want to use for data loading
     let loadingNavigation = overrideNavigation || getLoadingNavigation(location, submission);
     // If this was a redirect from an action we don't have a "submission" but
     // we have it on the loading navigation so use that if available
     let activeSubmission = submission || fetcherSubmission || getSubmissionFromNavigation(loadingNavigation);
     let routesToUse = inFlightDataRoutes || dataRoutes;
-    let [matchesToLoad, revalidatingFetchers] = getMatchesToLoad(init.history, state, matches, activeSubmission, location, isRevalidationRequired, cancelledDeferredRoutes, cancelledFetcherLoads, fetchLoadMatches, fetchRedirectIds, routesToUse, basename, pendingActionData, pendingError);
+    let [matchesToLoad, revalidatingFetchers] = getMatchesToLoad(init.history, state, matches, activeSubmission, location, future.v7_partialHydration && initialHydration === true, isRevalidationRequired, cancelledDeferredRoutes, cancelledFetcherLoads, deletedFetchers, fetchLoadMatches, fetchRedirectIds, routesToUse, basename, pendingActionData, pendingError);
     // Cancel pending deferreds for no-longer-matched routes or routes we're
     // about to reload.  Note that if this is an action reload we would have
     // already cancelled all pending deferreds so this would be a no-op
@@ -21411,7 +21620,9 @@ function router_createRouter(init) {
         actionData: pendingActionData
       } : {}, updatedFetchers ? {
         fetchers: new Map(state.fetchers)
-      } : {}));
+      } : {}), {
+        flushSync
+      });
       return {
         shortCircuited: true
       };
@@ -21420,7 +21631,9 @@ function router_createRouter(init) {
     // state.  If not, we need to switch to our loading state and load data,
     // preserving any new action data or existing action data (in the case of
     // a revalidation interrupting an actionReload)
-    if (!isUninterruptedRevalidation) {
+    // If we have partialHydration enabled, then don't update the state for the
+    // initial data load since iot's not a "navigation"
+    if (!isUninterruptedRevalidation && (!future.v7_partialHydration || !initialHydration)) {
       revalidatingFetchers.forEach(rf => {
         let fetcher = state.fetchers.get(rf.key);
         let revalidatingFetcher = getLoadingFetcher(undefined, fetcher ? fetcher.data : undefined);
@@ -21435,7 +21648,9 @@ function router_createRouter(init) {
         actionData
       } : {}, revalidatingFetchers.length > 0 ? {
         fetchers: new Map(state.fetchers)
-      } : {}));
+      } : {}), {
+        flushSync
+      });
     }
     revalidatingFetchers.forEach(rf => {
       if (fetchControllers.has(rf.key)) {
@@ -21513,22 +21728,22 @@ function router_createRouter(init) {
       fetchers: new Map(state.fetchers)
     } : {});
   }
-  function getFetcher(key) {
-    return state.fetchers.get(key) || IDLE_FETCHER;
-  }
   // Trigger a fetcher load/submit for the given fetcher key
   function fetch(key, routeId, href, opts) {
     if (isServer) {
       throw new Error("router.fetch() was called during the server render, but it shouldn't be. " + "You are likely calling a useFetcher() method in the body of your component. " + "Try moving it to a useEffect or a callback.");
     }
     if (fetchControllers.has(key)) abortFetcher(key);
+    let flushSync = (opts && opts.unstable_flushSync) === true;
     let routesToUse = inFlightDataRoutes || dataRoutes;
-    let normalizedPath = normalizeTo(state.location, state.matches, basename, future.v7_prependBasename, href, routeId, opts == null ? void 0 : opts.relative);
+    let normalizedPath = normalizeTo(state.location, state.matches, basename, future.v7_prependBasename, href, future.v7_relativeSplatPath, routeId, opts == null ? void 0 : opts.relative);
     let matches = matchRoutes(routesToUse, normalizedPath, basename);
     if (!matches) {
       setFetcherError(key, routeId, getInternalRouterError(404, {
         pathname: normalizedPath
-      }));
+      }), {
+        flushSync
+      });
       return;
     }
     let {
@@ -21537,13 +21752,15 @@ function router_createRouter(init) {
       error
     } = normalizeNavigateOptions(future.v7_normalizeFormMethod, true, normalizedPath, opts);
     if (error) {
-      setFetcherError(key, routeId, error);
+      setFetcherError(key, routeId, error, {
+        flushSync
+      });
       return;
     }
     let match = getTargetMatch(matches, path);
     pendingPreventScrollReset = (opts && opts.preventScrollReset) === true;
     if (submission && isMutationMethod(submission.formMethod)) {
-      handleFetcherAction(key, routeId, path, match, matches, submission);
+      handleFetcherAction(key, routeId, path, match, matches, flushSync, submission);
       return;
     }
     // Store off the match so we can call it's shouldRevalidate on subsequent
@@ -21552,11 +21769,11 @@ function router_createRouter(init) {
       routeId,
       path
     });
-    handleFetcherLoader(key, routeId, path, match, matches, submission);
+    handleFetcherLoader(key, routeId, path, match, matches, flushSync, submission);
   }
   // Call the action for the matched fetcher.submit(), and then handle redirects,
   // errors, and revalidation
-  async function handleFetcherAction(key, routeId, path, match, requestMatches, submission) {
+  async function handleFetcherAction(key, routeId, path, match, requestMatches, flushSync, submission) {
     interruptActiveLoads();
     fetchLoadMatches.delete(key);
     if (!match.route.action && !match.route.lazy) {
@@ -21565,28 +21782,32 @@ function router_createRouter(init) {
         pathname: path,
         routeId: routeId
       });
-      setFetcherError(key, routeId, error);
+      setFetcherError(key, routeId, error, {
+        flushSync
+      });
       return;
     }
     // Put this fetcher into it's submitting state
     let existingFetcher = state.fetchers.get(key);
-    let fetcher = getSubmittingFetcher(submission, existingFetcher);
-    state.fetchers.set(key, fetcher);
-    updateState({
-      fetchers: new Map(state.fetchers)
+    updateFetcherState(key, getSubmittingFetcher(submission, existingFetcher), {
+      flushSync
     });
     // Call the action for the fetcher
     let abortController = new AbortController();
     let fetchRequest = createClientSideRequest(init.history, path, abortController.signal, submission);
     fetchControllers.set(key, abortController);
     let originatingLoadId = incrementingLoadId;
-    let actionResult = await callLoaderOrAction("action", fetchRequest, match, requestMatches, manifest, mapRouteProperties, basename);
+    let actionResult = await callLoaderOrAction("action", fetchRequest, match, requestMatches, manifest, mapRouteProperties, basename, future.v7_relativeSplatPath);
     if (fetchRequest.signal.aborted) {
-      // We can delete this so long as we weren't aborted by ou our own fetcher
+      // We can delete this so long as we weren't aborted by our own fetcher
       // re-submit which would have put _new_ controller is in fetchControllers
       if (fetchControllers.get(key) === abortController) {
         fetchControllers.delete(key);
       }
+      return;
+    }
+    if (deletedFetchers.has(key)) {
+      updateFetcherState(key, getDoneFetcher(undefined));
       return;
     }
     if (isRedirectResult(actionResult)) {
@@ -21596,19 +21817,11 @@ function router_createRouter(init) {
         // should take precedence over this redirect navigation.  We already
         // set isRevalidationRequired so all loaders for the new route should
         // fire unless opted out via shouldRevalidate
-        let doneFetcher = getDoneFetcher(undefined);
-        state.fetchers.set(key, doneFetcher);
-        updateState({
-          fetchers: new Map(state.fetchers)
-        });
+        updateFetcherState(key, getDoneFetcher(undefined));
         return;
       } else {
         fetchRedirectIds.add(key);
-        let loadingFetcher = getLoadingFetcher(submission);
-        state.fetchers.set(key, loadingFetcher);
-        updateState({
-          fetchers: new Map(state.fetchers)
-        });
+        updateFetcherState(key, getLoadingFetcher(submission));
         return startRedirectNavigation(state, actionResult, {
           fetcherSubmission: submission
         });
@@ -21635,7 +21848,7 @@ function router_createRouter(init) {
     fetchReloadIds.set(key, loadId);
     let loadFetcher = getLoadingFetcher(submission, actionResult.data);
     state.fetchers.set(key, loadFetcher);
-    let [matchesToLoad, revalidatingFetchers] = getMatchesToLoad(init.history, state, matches, submission, nextLocation, isRevalidationRequired, cancelledDeferredRoutes, cancelledFetcherLoads, fetchLoadMatches, fetchRedirectIds, routesToUse, basename, {
+    let [matchesToLoad, revalidatingFetchers] = getMatchesToLoad(init.history, state, matches, submission, nextLocation, false, isRevalidationRequired, cancelledDeferredRoutes, cancelledFetcherLoads, deletedFetchers, fetchLoadMatches, fetchRedirectIds, routesToUse, basename, {
       [match.route.id]: actionResult.data
     }, undefined // No need to send through errors since we short circuit above
     );
@@ -21693,7 +21906,7 @@ function router_createRouter(init) {
       let doneFetcher = getDoneFetcher(actionResult.data);
       state.fetchers.set(key, doneFetcher);
     }
-    let didAbortFetchLoads = abortStaleFetchLoads(loadId);
+    abortStaleFetchLoads(loadId);
     // If we are currently in a navigation loading state and this fetcher is
     // more recent than the navigation, we want the newer data so abort the
     // navigation and complete it with the fetcher data
@@ -21710,30 +21923,26 @@ function router_createRouter(init) {
       // otherwise just update with the fetcher data, preserving any existing
       // loaderData for loaders that did not need to reload.  We have to
       // manually merge here since we aren't going through completeNavigation
-      updateState(router_extends({
+      updateState({
         errors,
-        loaderData: mergeLoaderData(state.loaderData, loaderData, matches, errors)
-      }, didAbortFetchLoads || revalidatingFetchers.length > 0 ? {
+        loaderData: mergeLoaderData(state.loaderData, loaderData, matches, errors),
         fetchers: new Map(state.fetchers)
-      } : {}));
+      });
       isRevalidationRequired = false;
     }
   }
   // Call the matched loader for fetcher.load(), handling redirects, errors, etc.
-  async function handleFetcherLoader(key, routeId, path, match, matches, submission) {
+  async function handleFetcherLoader(key, routeId, path, match, matches, flushSync, submission) {
     let existingFetcher = state.fetchers.get(key);
-    // Put this fetcher into it's loading state
-    let loadingFetcher = getLoadingFetcher(submission, existingFetcher ? existingFetcher.data : undefined);
-    state.fetchers.set(key, loadingFetcher);
-    updateState({
-      fetchers: new Map(state.fetchers)
+    updateFetcherState(key, getLoadingFetcher(submission, existingFetcher ? existingFetcher.data : undefined), {
+      flushSync
     });
     // Call the loader for this fetcher route match
     let abortController = new AbortController();
     let fetchRequest = createClientSideRequest(init.history, path, abortController.signal);
     fetchControllers.set(key, abortController);
     let originatingLoadId = incrementingLoadId;
-    let result = await callLoaderOrAction("loader", fetchRequest, match, matches, manifest, mapRouteProperties, basename);
+    let result = await callLoaderOrAction("loader", fetchRequest, match, matches, manifest, mapRouteProperties, basename, future.v7_relativeSplatPath);
     // Deferred isn't supported for fetcher loads, await everything and treat it
     // as a normal load.  resolveDeferredData will return undefined if this
     // fetcher gets aborted, so we just leave result untouched and short circuit
@@ -21749,16 +21958,16 @@ function router_createRouter(init) {
     if (fetchRequest.signal.aborted) {
       return;
     }
+    if (deletedFetchers.has(key)) {
+      updateFetcherState(key, getDoneFetcher(undefined));
+      return;
+    }
     // If the loader threw a redirect Response, start a new REPLACE navigation
     if (isRedirectResult(result)) {
       if (pendingNavigationLoadId > originatingLoadId) {
         // A new navigation was kicked off after our loader started, so that
         // should take precedence over this redirect navigation
-        let doneFetcher = getDoneFetcher(undefined);
-        state.fetchers.set(key, doneFetcher);
-        updateState({
-          fetchers: new Map(state.fetchers)
-        });
+        updateFetcherState(key, getDoneFetcher(undefined));
         return;
       } else {
         fetchRedirectIds.add(key);
@@ -21768,26 +21977,12 @@ function router_createRouter(init) {
     }
     // Process any non-redirect errors thrown
     if (isErrorResult(result)) {
-      let boundaryMatch = findNearestBoundary(state.matches, routeId);
-      state.fetchers.delete(key);
-      // TODO: In remix, this would reset to IDLE_NAVIGATION if it was a catch -
-      // do we need to behave any differently with our non-redirect errors?
-      // What if it was a non-redirect Response?
-      updateState({
-        fetchers: new Map(state.fetchers),
-        errors: {
-          [boundaryMatch.route.id]: result.error
-        }
-      });
+      setFetcherError(key, routeId, result.error);
       return;
     }
     invariant(!isDeferredResult(result), "Unhandled fetcher deferred data");
     // Put the fetcher back into an idle state
-    let doneFetcher = getDoneFetcher(result.data);
-    state.fetchers.set(key, doneFetcher);
-    updateState({
-      fetchers: new Map(state.fetchers)
-    });
+    updateFetcherState(key, getDoneFetcher(result.data));
   }
   /**
    * Utility function to handle redirects returned from an action or loader.
@@ -21808,12 +22003,12 @@ function router_createRouter(init) {
    * actually touch history until we've processed redirects, so we just use
    * the history action from the original navigation (PUSH or REPLACE).
    */
-  async function startRedirectNavigation(state, redirect, _temp) {
+  async function startRedirectNavigation(state, redirect, _temp2) {
     let {
       submission,
       fetcherSubmission,
       replace
-    } = _temp === void 0 ? {} : _temp;
+    } = _temp2 === void 0 ? {} : _temp2;
     if (redirect.revalidate) {
       isRevalidationRequired = true;
     }
@@ -21886,9 +22081,9 @@ function router_createRouter(init) {
     // Call all navigation loaders and revalidating fetcher loaders in parallel,
     // then slice off the results into separate arrays so we can handle them
     // accordingly
-    let results = await Promise.all([...matchesToLoad.map(match => callLoaderOrAction("loader", request, match, matches, manifest, mapRouteProperties, basename)), ...fetchersToLoad.map(f => {
+    let results = await Promise.all([...matchesToLoad.map(match => callLoaderOrAction("loader", request, match, matches, manifest, mapRouteProperties, basename, future.v7_relativeSplatPath)), ...fetchersToLoad.map(f => {
       if (f.matches && f.match && f.controller) {
-        return callLoaderOrAction("loader", createClientSideRequest(init.history, f.path, f.controller.signal), f.match, f.matches, manifest, mapRouteProperties, basename);
+        return callLoaderOrAction("loader", createClientSideRequest(init.history, f.path, f.controller.signal), f.match, f.matches, manifest, mapRouteProperties, basename, future.v7_relativeSplatPath);
       } else {
         let error = {
           type: ResultType.error,
@@ -21922,7 +22117,21 @@ function router_createRouter(init) {
       }
     });
   }
-  function setFetcherError(key, routeId, error) {
+  function updateFetcherState(key, fetcher, opts) {
+    if (opts === void 0) {
+      opts = {};
+    }
+    state.fetchers.set(key, fetcher);
+    updateState({
+      fetchers: new Map(state.fetchers)
+    }, {
+      flushSync: (opts && opts.flushSync) === true
+    });
+  }
+  function setFetcherError(key, routeId, error, opts) {
+    if (opts === void 0) {
+      opts = {};
+    }
     let boundaryMatch = findNearestBoundary(state.matches, routeId);
     deleteFetcher(key);
     updateState({
@@ -21930,7 +22139,20 @@ function router_createRouter(init) {
         [boundaryMatch.route.id]: error
       },
       fetchers: new Map(state.fetchers)
+    }, {
+      flushSync: (opts && opts.flushSync) === true
     });
+  }
+  function getFetcher(key) {
+    if (future.v7_fetcherPersist) {
+      activeFetchers.set(key, (activeFetchers.get(key) || 0) + 1);
+      // If this fetcher was previously marked for deletion, unmark it since we
+      // have a new instance
+      if (deletedFetchers.has(key)) {
+        deletedFetchers.delete(key);
+      }
+    }
+    return state.fetchers.get(key) || router_IDLE_FETCHER;
   }
   function deleteFetcher(key) {
     let fetcher = state.fetchers.get(key);
@@ -21943,7 +22165,24 @@ function router_createRouter(init) {
     fetchLoadMatches.delete(key);
     fetchReloadIds.delete(key);
     fetchRedirectIds.delete(key);
+    deletedFetchers.delete(key);
     state.fetchers.delete(key);
+  }
+  function deleteFetcherAndUpdateState(key) {
+    if (future.v7_fetcherPersist) {
+      let count = (activeFetchers.get(key) || 0) - 1;
+      if (count <= 0) {
+        activeFetchers.delete(key);
+        deletedFetchers.add(key);
+      } else {
+        activeFetchers.set(key, count);
+      }
+    } else {
+      deleteFetcher(key);
+    }
+    updateState({
+      fetchers: new Map(state.fetchers)
+    });
   }
   function abortFetcher(key) {
     let controller = fetchControllers.get(key);
@@ -22113,6 +22352,9 @@ function router_createRouter(init) {
     get basename() {
       return basename;
     },
+    get future() {
+      return future;
+    },
     get state() {
       return state;
     },
@@ -22133,7 +22375,7 @@ function router_createRouter(init) {
     createHref: to => init.history.createHref(to),
     encodeLocation: to => init.history.encodeLocation(to),
     getFetcher,
-    deleteFetcher,
+    deleteFetcher: deleteFetcherAndUpdateState,
     dispose,
     getBlocker,
     deleteBlocker,
@@ -22166,6 +22408,10 @@ function createStaticHandler(routes, opts) {
   } else {
     mapRouteProperties = defaultMapRouteProperties;
   }
+  // Config driven behavior flags
+  let future = router_extends({
+    v7_relativeSplatPath: false
+  }, opts ? opts.future : null);
   let dataRoutes = convertRoutesToDataRoutes(routes, mapRouteProperties, undefined, manifest);
   /**
    * The query() method is intended for document requests, in which we want to
@@ -22186,10 +22432,10 @@ function createStaticHandler(routes, opts) {
    * propagate that out and return the raw Response so the HTTP server can
    * return it directly.
    */
-  async function query(request, _temp2) {
+  async function query(request, _temp3) {
     let {
       requestContext
-    } = _temp2 === void 0 ? {} : _temp2;
+    } = _temp3 === void 0 ? {} : _temp3;
     let url = new URL(request.url);
     let method = request.method;
     let location = createLocation("", router_createPath(url), null, "default");
@@ -22272,11 +22518,11 @@ function createStaticHandler(routes, opts) {
    * code.  Examples here are 404 and 405 errors that occur prior to reaching
    * any user-defined loaders.
    */
-  async function queryRoute(request, _temp3) {
+  async function queryRoute(request, _temp4) {
     let {
       routeId,
       requestContext
-    } = _temp3 === void 0 ? {} : _temp3;
+    } = _temp4 === void 0 ? {} : _temp4;
     let url = new URL(request.url);
     let method = request.method;
     let location = createLocation("", router_createPath(url), null, "default");
@@ -22375,7 +22621,7 @@ function createStaticHandler(routes, opts) {
         error
       };
     } else {
-      result = await callLoaderOrAction("action", request, actionMatch, matches, manifest, mapRouteProperties, basename, {
+      result = await callLoaderOrAction("action", request, actionMatch, matches, manifest, mapRouteProperties, basename, future.v7_relativeSplatPath, {
         isStaticRequest: true,
         isRouteRequest,
         requestContext
@@ -22490,7 +22736,7 @@ function createStaticHandler(routes, opts) {
         activeDeferreds: null
       };
     }
-    let results = await Promise.all([...matchesToLoad.map(match => callLoaderOrAction("loader", request, match, matches, manifest, mapRouteProperties, basename, {
+    let results = await Promise.all([...matchesToLoad.map(match => callLoaderOrAction("loader", request, match, matches, manifest, mapRouteProperties, basename, future.v7_relativeSplatPath, {
       isStaticRequest: true,
       isRouteRequest,
       requestContext
@@ -22540,14 +22786,12 @@ function getStaticContextFromError(routes, context, error) {
 function isSubmissionNavigation(opts) {
   return opts != null && ("formData" in opts && opts.formData != null || "body" in opts && opts.body !== undefined);
 }
-function normalizeTo(location, matches, basename, prependBasename, to, fromRouteId, relative) {
+function normalizeTo(location, matches, basename, prependBasename, to, v7_relativeSplatPath, fromRouteId, relative) {
   let contextualMatches;
   let activeRouteMatch;
-  if (fromRouteId != null && relative !== "path") {
+  if (fromRouteId) {
     // Grab matches up to the calling route so our route-relative logic is
-    // relative to the correct source route.  When using relative:path,
-    // fromRouteId is ignored since that is always relative to the current
-    // location path
+    // relative to the correct source route
     contextualMatches = [];
     for (let match of matches) {
       contextualMatches.push(match);
@@ -22561,7 +22805,7 @@ function normalizeTo(location, matches, basename, prependBasename, to, fromRoute
     activeRouteMatch = matches[matches.length - 1];
   }
   // Resolve the relative path
-  let path = router_resolveTo(to ? to : ".", getPathContributingMatches(contextualMatches).map(m => m.pathnameBase), router_stripBasename(location.pathname, basename) || location.pathname, relative === "path");
+  let path = router_resolveTo(to ? to : ".", getResolveToMatches(contextualMatches, v7_relativeSplatPath), router_stripBasename(location.pathname, basename) || location.pathname, relative === "path");
   // When `to` is not specified we inherit search/hash from the current
   // location, unlike when to="." and we just inherit the path.
   // See https://github.com/remix-run/remix/issues/927
@@ -22718,7 +22962,7 @@ function getLoaderMatchesUntilBoundary(matches, boundaryId) {
   }
   return boundaryMatches;
 }
-function getMatchesToLoad(history, state, matches, submission, location, isRevalidationRequired, cancelledDeferredRoutes, cancelledFetcherLoads, fetchLoadMatches, fetchRedirectIds, routesToUse, basename, pendingActionData, pendingError) {
+function getMatchesToLoad(history, state, matches, submission, location, isInitialLoad, isRevalidationRequired, cancelledDeferredRoutes, cancelledFetcherLoads, deletedFetchers, fetchLoadMatches, fetchRedirectIds, routesToUse, basename, pendingActionData, pendingError) {
   let actionResult = pendingError ? Object.values(pendingError)[0] : pendingActionData ? Object.values(pendingActionData)[0] : undefined;
   let currentUrl = history.createURL(state.location);
   let nextUrl = history.createURL(location);
@@ -22726,6 +22970,11 @@ function getMatchesToLoad(history, state, matches, submission, location, isReval
   let boundaryId = pendingError ? Object.keys(pendingError)[0] : undefined;
   let boundaryMatches = getLoaderMatchesUntilBoundary(matches, boundaryId);
   let navigationMatches = boundaryMatches.filter((match, index) => {
+    if (isInitialLoad) {
+      // On initial hydration we don't do any shouldRevalidate stuff - we just
+      // call the unhydrated loaders
+      return isUnhydratedRoute(state, match.route);
+    }
     if (match.route.lazy) {
       // We haven't loaded this route yet so we don't know if it's got a loader!
       return true;
@@ -22762,8 +23011,12 @@ function getMatchesToLoad(history, state, matches, submission, location, isReval
   // Pick fetcher.loads that need to be revalidated
   let revalidatingFetchers = [];
   fetchLoadMatches.forEach((f, key) => {
-    // Don't revalidate if fetcher won't be present in the subsequent render
-    if (!matches.some(m => m.route.id === f.routeId)) {
+    // Don't revalidate:
+    //  - on initial load (shouldn't be any fetchers then anyway)
+    //  - if fetcher won't be present in the subsequent render
+    //    - no longer matches the URL (v7_fetcherPersist=false)
+    //    - was unmounted but persisted due to v7_fetcherPersist=true
+    if (isInitialLoad || !matches.some(m => m.route.id === f.routeId) || deletedFetchers.has(key)) {
       return;
     }
     let fetcherMatches = matchRoutes(routesToUse, f.path, basename);
@@ -22824,6 +23077,19 @@ function getMatchesToLoad(history, state, matches, submission, location, isReval
     }
   });
   return [navigationMatches, revalidatingFetchers];
+}
+// Is this route unhydrated (when v7_partialHydration=true) such that we need
+// to call it's loader on the initial router creation
+function isUnhydratedRoute(state, route) {
+  if (!route.loader) {
+    return false;
+  }
+  if (route.loader.hydrate) {
+    return true;
+  }
+  return state.loaderData[route.id] === undefined && (!state.errors ||
+  // Loader ran but errored - don't re-run
+  state.errors[route.id] === undefined);
 }
 function isNewLoader(currentLoaderData, currentMatch, match) {
   let isNew =
@@ -22904,7 +23170,7 @@ async function loadLazyRouteModule(route, mapRouteProperties, manifest) {
     lazy: undefined
   }));
 }
-async function callLoaderOrAction(type, request, match, matches, manifest, mapRouteProperties, basename, opts) {
+async function callLoaderOrAction(type, request, match, matches, manifest, mapRouteProperties, basename, v7_relativeSplatPath, opts) {
   if (opts === void 0) {
     opts = {};
   }
@@ -22992,7 +23258,7 @@ async function callLoaderOrAction(type, request, match, matches, manifest, mapRo
       invariant(location, "Redirects returned/thrown from loaders/actions must have a Location header");
       // Support relative routing in internal redirects
       if (!ABSOLUTE_URL_REGEX.test(location)) {
-        location = normalizeTo(new URL(request.url), matches.slice(0, matches.indexOf(match) + 1), basename, true, location);
+        location = normalizeTo(new URL(request.url), matches.slice(0, matches.indexOf(match) + 1), basename, true, location, v7_relativeSplatPath);
       } else if (!opts.isStaticRequest) {
         // Strip off the protocol+origin for same-origin + same-basename absolute
         // redirects. If this is a static request, we can let it go back to the
@@ -23031,13 +23297,20 @@ async function callLoaderOrAction(type, request, match, matches, manifest, mapRo
       throw queryRouteResponse;
     }
     let data;
-    let contentType = result.headers.get("Content-Type");
-    // Check between word boundaries instead of startsWith() due to the last
-    // paragraph of https://httpwg.org/specs/rfc9110.html#field.content-type
-    if (contentType && /\bapplication\/json\b/.test(contentType)) {
-      data = await result.json();
-    } else {
-      data = await result.text();
+    try {
+      let contentType = result.headers.get("Content-Type");
+      // Check between word boundaries instead of startsWith() due to the last
+      // paragraph of https://httpwg.org/specs/rfc9110.html#field.content-type
+      if (contentType && /\bapplication\/json\b/.test(contentType)) {
+        data = await result.json();
+      } else {
+        data = await result.text();
+      }
+    } catch (e) {
+      return {
+        type: ResultType.error,
+        error: e
+      };
     }
     if (resultType === ResultType.error) {
       return {
@@ -23279,13 +23552,13 @@ function getShortCircuitMatches(routes) {
     route
   };
 }
-function getInternalRouterError(status, _temp4) {
+function getInternalRouterError(status, _temp5) {
   let {
     pathname,
     routeId,
     method,
     type
-  } = _temp4 === void 0 ? {} : _temp4;
+  } = _temp5 === void 0 ? {} : _temp5;
   let statusText = "Unknown Server Error";
   let errorMessage = "Unknown @remix-run/router error";
   if (status === 400) {
@@ -23618,7 +23891,7 @@ function persistAppliedTransitions(_window, transitions) {
 
 ;// CONCATENATED MODULE: ./node_modules/react-router/dist/index.js
 /**
- * React Router v6.17.0
+ * React Router v6.21.0
  *
  * Copyright (c) Remix Software Inc.
  *
@@ -23801,6 +24074,7 @@ function useNavigateUnstable() {
   let dataRouterContext = react.useContext(DataRouterContext);
   let {
     basename,
+    future,
     navigator
   } = react.useContext(NavigationContext);
   let {
@@ -23809,7 +24083,7 @@ function useNavigateUnstable() {
   let {
     pathname: locationPathname
   } = dist_useLocation();
-  let routePathnamesJson = JSON.stringify(getPathContributingMatches(matches).map(match => match.pathnameBase));
+  let routePathnamesJson = JSON.stringify(getResolveToMatches(matches, future.v7_relativeSplatPath));
   let activeRef = react.useRef(false);
   dist_useIsomorphicLayoutEffect(() => {
     activeRef.current = true;
@@ -23893,12 +24167,15 @@ function dist_useResolvedPath(to, _temp2) {
     relative
   } = _temp2 === void 0 ? {} : _temp2;
   let {
+    future
+  } = react.useContext(NavigationContext);
+  let {
     matches
   } = react.useContext(RouteContext);
   let {
     pathname: locationPathname
   } = dist_useLocation();
-  let routePathnamesJson = JSON.stringify(getPathContributingMatches(matches).map(match => match.pathnameBase));
+  let routePathnamesJson = JSON.stringify(getResolveToMatches(matches, future.v7_relativeSplatPath));
   return react.useMemo(() => router_resolveTo(to, JSON.parse(routePathnamesJson), locationPathname, relative === "path"), [to, routePathnamesJson, locationPathname, relative]);
 }
 
@@ -23915,7 +24192,7 @@ function useRoutes(routes, locationArg) {
 }
 
 // Internal implementation with accept optional param for RouterProvider usage
-function useRoutesImpl(routes, locationArg, dataRouterState) {
+function useRoutesImpl(routes, locationArg, dataRouterState, future) {
   !useInRouterContext() ?  false ? 0 : invariant(false) : void 0;
   let {
     navigator
@@ -23953,7 +24230,7 @@ function useRoutesImpl(routes, locationArg, dataRouterState) {
     pathnameBase: match.pathnameBase === "/" ? parentPathnameBase : router_joinPaths([parentPathnameBase,
     // Re-encode pathnames that were decoded inside matchRoutes
     navigator.encodeLocation ? navigator.encodeLocation(match.pathnameBase).pathname : match.pathnameBase])
-  })), parentMatches, dataRouterState);
+  })), parentMatches, dataRouterState, future);
 
   // When a user passes in a `locationArg`, the associated routes need to
   // be wrapped in a new `LocationContext.Provider` in order for `useLocation`
@@ -24034,7 +24311,7 @@ class RenderErrorBoundary extends react.Component {
     // this because the error provided from the app state may be cleared without
     // the location changing.
     return {
-      error: props.error || state.error,
+      error: props.error !== undefined ? props.error : state.error,
       location: state.location,
       revalidation: props.revalidation || state.revalidation
     };
@@ -24043,7 +24320,7 @@ class RenderErrorBoundary extends react.Component {
     console.error("React Router caught the following error during render", error, errorInfo);
   }
   render() {
-    return this.state.error ? /*#__PURE__*/react.createElement(RouteContext.Provider, {
+    return this.state.error !== undefined ? /*#__PURE__*/react.createElement(RouteContext.Provider, {
       value: this.props.routeContext
     }, /*#__PURE__*/react.createElement(RouteErrorContext.Provider, {
       value: this.state.error,
@@ -24068,13 +24345,16 @@ function RenderedRoute(_ref) {
     value: routeContext
   }, children);
 }
-function _renderMatches(matches, parentMatches, dataRouterState) {
+function _renderMatches(matches, parentMatches, dataRouterState, future) {
   var _dataRouterState2;
   if (parentMatches === void 0) {
     parentMatches = [];
   }
   if (dataRouterState === void 0) {
     dataRouterState = null;
+  }
+  if (future === void 0) {
+    future = null;
   }
   if (matches == null) {
     var _dataRouterState;
@@ -24095,18 +24375,59 @@ function _renderMatches(matches, parentMatches, dataRouterState) {
     !(errorIndex >= 0) ?  false ? 0 : invariant(false) : void 0;
     renderedMatches = renderedMatches.slice(0, Math.min(renderedMatches.length, errorIndex + 1));
   }
+
+  // If we're in a partial hydration mode, detect if we need to render down to
+  // a given HydrateFallback while we load the rest of the hydration data
+  let renderFallback = false;
+  let fallbackIndex = -1;
+  if (dataRouterState && future && future.v7_partialHydration) {
+    for (let i = 0; i < renderedMatches.length; i++) {
+      let match = renderedMatches[i];
+      // Track the deepest fallback up until the first route without data
+      if (match.route.HydrateFallback || match.route.hydrateFallbackElement) {
+        fallbackIndex = i;
+      }
+      if (match.route.loader && match.route.id && dataRouterState.loaderData[match.route.id] === undefined && (!dataRouterState.errors || dataRouterState.errors[match.route.id] === undefined)) {
+        // We found the first route without data/errors which means it's loader
+        // still needs to run.  Flag that we need to render a fallback and
+        // render up until the appropriate fallback
+        renderFallback = true;
+        if (fallbackIndex >= 0) {
+          renderedMatches = renderedMatches.slice(0, fallbackIndex + 1);
+        } else {
+          renderedMatches = [renderedMatches[0]];
+        }
+        break;
+      }
+    }
+  }
   return renderedMatches.reduceRight((outlet, match, index) => {
-    let error = match.route.id ? errors == null ? void 0 : errors[match.route.id] : null;
-    // Only data routers handle errors
+    // Only data routers handle errors/fallbacks
+    let error;
+    let shouldRenderHydrateFallback = false;
     let errorElement = null;
+    let hydrateFallbackElement = null;
     if (dataRouterState) {
+      error = errors && match.route.id ? errors[match.route.id] : undefined;
       errorElement = match.route.errorElement || defaultErrorElement;
+      if (renderFallback) {
+        if (fallbackIndex < 0 && index === 0) {
+          warningOnce("route-fallback", false, "No `HydrateFallback` element provided to render during initial hydration");
+          shouldRenderHydrateFallback = true;
+          hydrateFallbackElement = null;
+        } else if (fallbackIndex === index) {
+          shouldRenderHydrateFallback = true;
+          hydrateFallbackElement = match.route.hydrateFallbackElement || null;
+        }
+      }
     }
     let matches = parentMatches.concat(renderedMatches.slice(0, index + 1));
     let getChildren = () => {
       let children;
       if (error) {
         children = errorElement;
+      } else if (shouldRenderHydrateFallback) {
+        children = hydrateFallbackElement;
       } else if (match.route.Component) {
         // Note: This is a de-optimized path since React won't re-use the
         // ReactElement since it's identity changes with each new
@@ -24260,9 +24581,8 @@ function useRouteLoaderData(routeId) {
  */
 function useActionData() {
   let state = useDataRouterState(DataRouterStateHook.UseActionData);
-  let route = React.useContext(RouteContext);
-  !route ?  false ? 0 : UNSAFE_invariant(false) : void 0;
-  return Object.values((state == null ? void 0 : state.actionData) || {})[0];
+  let routeId = useCurrentRouteId(DataRouterStateHook.UseLoaderData);
+  return state.actionData ? state.actionData[routeId] : undefined;
 }
 
 /**
@@ -24278,7 +24598,7 @@ function useRouteError() {
 
   // If this was a render error, we put it in a RouteError context inside
   // of RenderErrorBoundary
-  if (error) {
+  if (error !== undefined) {
     return error;
   }
 
@@ -24309,7 +24629,7 @@ let blockerId = 0;
  * using half-filled form data.  This does not handle hard-reloads or
  * cross-origin navigations.
  */
-function useBlocker(shouldBlock) {
+function dist_useBlocker(shouldBlock) {
   let {
     router,
     basename
@@ -24454,6 +24774,11 @@ function RouterProvider(_ref) {
   // Need to use a layout effect here so we are subscribed early enough to
   // pick up on any render-driven redirects/navigations (useEffect/<Navigate>)
   React.useLayoutEffect(() => router.subscribe(setState), [router, setState]);
+  React.useEffect(() => {
+     false ? 0 : void 0;
+    // Only log this once on initial mount
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   let navigator = React.useMemo(() => {
     return {
       createHref: router.createHref,
@@ -24492,18 +24817,23 @@ function RouterProvider(_ref) {
     basename: basename,
     location: state.location,
     navigationType: state.historyAction,
-    navigator: navigator
-  }, state.initialized ? /*#__PURE__*/React.createElement(DataRoutes, {
+    navigator: navigator,
+    future: {
+      v7_relativeSplatPath: router.future.v7_relativeSplatPath
+    }
+  }, state.initialized || router.future.v7_partialHydration ? /*#__PURE__*/React.createElement(DataRoutes, {
     routes: router.routes,
+    future: router.future,
     state: state
   }) : fallbackElement))), null);
 }
 function DataRoutes(_ref2) {
   let {
     routes,
+    future,
     state
   } = _ref2;
-  return useRoutesImpl(routes, undefined, state);
+  return useRoutesImpl(routes, undefined, state, future);
 }
 /**
  * A `<Router>` that stores all entries in memory.
@@ -24543,7 +24873,8 @@ function MemoryRouter(_ref3) {
     children: children,
     location: state.location,
     navigationType: state.action,
-    navigator: history
+    navigator: history,
+    future: future
   });
 }
 /**
@@ -24563,6 +24894,10 @@ function Navigate(_ref4) {
     relative
   } = _ref4;
   !useInRouterContext() ?  false ? 0 : UNSAFE_invariant(false) : void 0;
+  let {
+    future,
+    static: isStatic
+  } = React.useContext(NavigationContext);
    false ? 0 : void 0;
   let {
     matches
@@ -24574,7 +24909,7 @@ function Navigate(_ref4) {
 
   // Resolve the path outside of the effect so that when effects run twice in
   // StrictMode they navigate to the same place
-  let path = resolveTo(to, UNSAFE_getPathContributingMatches(matches).map(match => match.pathnameBase), locationPathname, relative === "path");
+  let path = resolveTo(to, UNSAFE_getResolveToMatches(matches, future.v7_relativeSplatPath), locationPathname, relative === "path");
   let jsonPath = JSON.stringify(path);
   React.useEffect(() => navigate(JSON.parse(jsonPath), {
     replace,
@@ -24615,7 +24950,8 @@ function dist_Router(_ref5) {
     location: locationProp,
     navigationType = Action.Pop,
     navigator,
-    static: staticProp = false
+    static: staticProp = false,
+    future
   } = _ref5;
   !!useInRouterContext() ?  false ? 0 : invariant(false) : void 0;
 
@@ -24625,8 +24961,11 @@ function dist_Router(_ref5) {
   let navigationContext = react.useMemo(() => ({
     basename,
     navigator,
-    static: staticProp
-  }), [basename, navigator, staticProp]);
+    static: staticProp,
+    future: dist_extends({
+      v7_relativeSplatPath: false
+    }, future)
+  }), [basename, future, navigator, staticProp]);
   if (typeof locationProp === "string") {
     locationProp = parsePath(locationProp);
   }
@@ -24874,6 +25213,13 @@ function mapRouteProperties(route) {
       Component: undefined
     });
   }
+  if (route.HydrateFallback) {
+    if (false) {}
+    Object.assign(updates, {
+      hydrateFallbackElement: /*#__PURE__*/React.createElement(route.HydrateFallback),
+      HydrateFallback: undefined
+    });
+  }
   if (route.ErrorBoundary) {
     if (false) {}
     Object.assign(updates, {
@@ -24904,7 +25250,7 @@ function createMemoryRouter(routes, opts) {
 
 ;// CONCATENATED MODULE: ./node_modules/react-router-dom/dist/index.js
 /**
- * React Router DOM v6.17.0
+ * React Router DOM v6.21.0
  *
  * Copyright (c) Remix Software Inc.
  *
@@ -24913,6 +25259,7 @@ function createMemoryRouter(routes, opts) {
  *
  * @license MIT
  */
+
 
 
 
@@ -25113,7 +25460,7 @@ function getFormSubmissionInfo(target, basename) {
 
 const dist_excluded = ["onClick", "relative", "reloadDocument", "replace", "state", "target", "to", "preventScrollReset", "unstable_viewTransition"],
   _excluded2 = (/* unused pure expression or super */ null && (["aria-current", "caseSensitive", "className", "end", "style", "to", "unstable_viewTransition", "children"])),
-  _excluded3 = (/* unused pure expression or super */ null && (["reloadDocument", "replace", "state", "method", "action", "onSubmit", "submit", "relative", "preventScrollReset", "unstable_viewTransition"]));
+  _excluded3 = (/* unused pure expression or super */ null && (["fetcherKey", "navigate", "reloadDocument", "replace", "state", "method", "action", "onSubmit", "relative", "preventScrollReset", "unstable_viewTransition"]));
 function createBrowserRouter(routes, opts) {
   return createRouter({
     basename: opts == null ? void 0 : opts.basename,
@@ -25197,6 +25544,8 @@ const ViewTransitionContext = /*#__PURE__*/react.createContext({
   isTransitioning: false
 });
 if (false) {}
+const FetchersContext = /*#__PURE__*/react.createContext(new Map());
+if (false) {}
 //#endregion
 ////////////////////////////////////////////////////////////////////////////////
 //#region Components
@@ -25224,9 +25573,18 @@ if (false) {}
 */
 const dist_START_TRANSITION = "startTransition";
 const dist_startTransitionImpl = react_namespaceObject[dist_START_TRANSITION];
+const FLUSH_SYNC = "flushSync";
+const flushSyncImpl = react_dom_namespaceObject[FLUSH_SYNC];
 function startTransitionSafe(cb) {
   if (dist_startTransitionImpl) {
     dist_startTransitionImpl(cb);
+  } else {
+    cb();
+  }
+}
+function flushSyncSafe(cb) {
+  if (flushSyncImpl) {
+    flushSyncImpl(cb);
   } else {
     cb();
   }
@@ -25267,6 +25625,7 @@ function dist_RouterProvider(_ref) {
   let [renderDfd, setRenderDfd] = React.useState();
   let [transition, setTransition] = React.useState();
   let [interruption, setInterruption] = React.useState();
+  let fetcherData = React.useRef(new Map());
   let {
     v7_startTransition
   } = future || {};
@@ -25279,15 +25638,66 @@ function dist_RouterProvider(_ref) {
   }, [v7_startTransition]);
   let setState = React.useCallback((newState, _ref2) => {
     let {
+      deletedFetchers,
+      unstable_flushSync: flushSync,
       unstable_viewTransitionOpts: viewTransitionOpts
     } = _ref2;
-    if (!viewTransitionOpts || router.window == null || typeof router.window.document.startViewTransition !== "function") {
-      // Mid-navigation state update, or startViewTransition isn't available
-      optInStartTransition(() => setStateImpl(newState));
-    } else if (transition && renderDfd) {
+    deletedFetchers.forEach(key => fetcherData.current.delete(key));
+    newState.fetchers.forEach((fetcher, key) => {
+      if (fetcher.data !== undefined) {
+        fetcherData.current.set(key, fetcher.data);
+      }
+    });
+    let isViewTransitionUnavailable = router.window == null || typeof router.window.document.startViewTransition !== "function";
+    // If this isn't a view transition or it's not available in this browser,
+    // just update and be done with it
+    if (!viewTransitionOpts || isViewTransitionUnavailable) {
+      if (flushSync) {
+        flushSyncSafe(() => setStateImpl(newState));
+      } else {
+        optInStartTransition(() => setStateImpl(newState));
+      }
+      return;
+    }
+    // flushSync + startViewTransition
+    if (flushSync) {
+      // Flush through the context to mark DOM elements as transition=ing
+      flushSyncSafe(() => {
+        // Cancel any pending transitions
+        if (transition) {
+          renderDfd && renderDfd.resolve();
+          transition.skipTransition();
+        }
+        setVtContext({
+          isTransitioning: true,
+          flushSync: true,
+          currentLocation: viewTransitionOpts.currentLocation,
+          nextLocation: viewTransitionOpts.nextLocation
+        });
+      });
+      // Update the DOM
+      let t = router.window.document.startViewTransition(() => {
+        flushSyncSafe(() => setStateImpl(newState));
+      });
+      // Clean up after the animation completes
+      t.finished.finally(() => {
+        flushSyncSafe(() => {
+          setRenderDfd(undefined);
+          setTransition(undefined);
+          setPendingState(undefined);
+          setVtContext({
+            isTransitioning: false
+          });
+        });
+      });
+      flushSyncSafe(() => setTransition(t));
+      return;
+    }
+    // startTransition + startViewTransition
+    if (transition) {
       // Interrupting an in-progress transition, cancel and let everything flush
       // out, and then kick off a new transition from the interruption state
-      renderDfd.resolve();
+      renderDfd && renderDfd.resolve();
       transition.skipTransition();
       setInterruption({
         state: newState,
@@ -25299,21 +25709,22 @@ function dist_RouterProvider(_ref) {
       setPendingState(newState);
       setVtContext({
         isTransitioning: true,
+        flushSync: false,
         currentLocation: viewTransitionOpts.currentLocation,
         nextLocation: viewTransitionOpts.nextLocation
       });
     }
-  }, [optInStartTransition, transition, renderDfd, router.window]);
+  }, [router.window, transition, renderDfd, fetcherData, optInStartTransition]);
   // Need to use a layout effect here so we are subscribed early enough to
   // pick up on any render-driven redirects/navigations (useEffect/<Navigate>)
   React.useLayoutEffect(() => router.subscribe(setState), [router, setState]);
   // When we start a view transition, create a Deferred we can use for the
   // eventual "completed" render
   React.useEffect(() => {
-    if (vtContext.isTransitioning) {
+    if (vtContext.isTransitioning && !vtContext.flushSync) {
       setRenderDfd(new Deferred());
     }
-  }, [vtContext.isTransitioning]);
+  }, [vtContext]);
   // Once the deferred is created, kick off startViewTransition() to update the
   // DOM and then wait on the Deferred to resolve (indicating the DOM update has
   // happened)
@@ -25350,12 +25761,18 @@ function dist_RouterProvider(_ref) {
       setPendingState(interruption.state);
       setVtContext({
         isTransitioning: true,
+        flushSync: false,
         currentLocation: interruption.currentLocation,
         nextLocation: interruption.nextLocation
       });
       setInterruption(undefined);
     }
   }, [vtContext.isTransitioning, interruption]);
+  React.useEffect(() => {
+     false ? 0 : void 0;
+    // Only log this once on initial mount
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   let navigator = React.useMemo(() => {
     return {
       createHref: router.createHref,
@@ -25389,24 +25806,31 @@ function dist_RouterProvider(_ref) {
     value: dataRouterContext
   }, /*#__PURE__*/React.createElement(UNSAFE_DataRouterStateContext.Provider, {
     value: state
+  }, /*#__PURE__*/React.createElement(FetchersContext.Provider, {
+    value: fetcherData.current
   }, /*#__PURE__*/React.createElement(ViewTransitionContext.Provider, {
     value: vtContext
   }, /*#__PURE__*/React.createElement(Router, {
     basename: basename,
     location: state.location,
     navigationType: state.historyAction,
-    navigator: navigator
-  }, state.initialized ? /*#__PURE__*/React.createElement(dist_DataRoutes, {
+    navigator: navigator,
+    future: {
+      v7_relativeSplatPath: router.future.v7_relativeSplatPath
+    }
+  }, state.initialized || router.future.v7_partialHydration ? /*#__PURE__*/React.createElement(dist_DataRoutes, {
     routes: router.routes,
+    future: router.future,
     state: state
-  }) : fallbackElement)))), null);
+  }) : fallbackElement))))), null);
 }
 function dist_DataRoutes(_ref3) {
   let {
     routes,
+    future,
     state
   } = _ref3;
-  return UNSAFE_useRoutesImpl(routes, undefined, state);
+  return UNSAFE_useRoutesImpl(routes, undefined, state, future);
 }
 /**
  * A `<Router>` for use in web browsers. Provides the cleanest URLs.
@@ -25442,7 +25866,8 @@ function BrowserRouter(_ref4) {
     children: children,
     location: state.location,
     navigationType: state.action,
-    navigator: history
+    navigator: history,
+    future: future
   });
 }
 /**
@@ -25480,7 +25905,8 @@ function HashRouter(_ref5) {
     children: children,
     location: state.location,
     navigationType: state.action,
-    navigator: history
+    navigator: history,
+    future: future
   });
 }
 /**
@@ -25512,7 +25938,8 @@ function HistoryRouter(_ref6) {
     children: children,
     location: state.location,
     navigationType: state.action,
-    navigator: history
+    navigator: history,
+    future: future
   });
 }
 if (false) {}
@@ -25626,7 +26053,13 @@ const NavLink = /*#__PURE__*/(/* unused pure expression or super */ null && (Rea
     nextLocationPathname = nextLocationPathname ? nextLocationPathname.toLowerCase() : null;
     toPathname = toPathname.toLowerCase();
   }
-  let isActive = locationPathname === toPathname || !end && locationPathname.startsWith(toPathname) && locationPathname.charAt(toPathname.length) === "/";
+  // If the `to` has a trailing slash, look at that exact spot.  Otherwise,
+  // we're looking for a slash _after_ what's in `to`.  For example:
+  //
+  // <NavLink to="/users"> and <NavLink to="/users/">
+  // both want to look for a / at index 6 to match URL `/users/matt`
+  const endSlashPosition = toPathname !== "/" && toPathname.endsWith("/") ? toPathname.length - 1 : toPathname.length;
+  let isActive = locationPathname === toPathname || !end && locationPathname.startsWith(toPathname) && locationPathname.charAt(endSlashPosition) === "/";
   let isPending = nextLocationPathname != null && (nextLocationPathname === toPathname || !end && nextLocationPathname.startsWith(toPathname) && nextLocationPathname.charAt(toPathname.length) === "/");
   let renderProps = {
     isActive,
@@ -25662,32 +26095,26 @@ if (false) {}
  * requests, allowing components to add nicer UX to the page as the form is
  * submitted and returns with data.
  */
-const Form = /*#__PURE__*/(/* unused pure expression or super */ null && (React.forwardRef((props, ref) => {
-  let submit = useSubmit();
-  return /*#__PURE__*/React.createElement(FormImpl, react_router_dom_dist_extends({}, props, {
-    submit: submit,
-    ref: ref
-  }));
-})));
-if (false) {}
-const FormImpl = /*#__PURE__*/(/* unused pure expression or super */ null && (React.forwardRef((_ref9, forwardedRef) => {
+const Form = /*#__PURE__*/(/* unused pure expression or super */ null && (React.forwardRef((_ref9, forwardedRef) => {
   let {
+      fetcherKey,
+      navigate,
       reloadDocument,
       replace,
       state,
       method = defaultMethod,
       action,
       onSubmit,
-      submit,
       relative,
       preventScrollReset,
       unstable_viewTransition
     } = _ref9,
     props = dist_objectWithoutPropertiesLoose(_ref9, _excluded3);
-  let formMethod = method.toLowerCase() === "get" ? "get" : "post";
+  let submit = useSubmit();
   let formAction = useFormAction(action, {
     relative
   });
+  let formMethod = method.toLowerCase() === "get" ? "get" : "post";
   let submitHandler = event => {
     onSubmit && onSubmit(event);
     if (event.defaultPrevented) return;
@@ -25695,7 +26122,9 @@ const FormImpl = /*#__PURE__*/(/* unused pure expression or super */ null && (Re
     let submitter = event.nativeEvent.submitter;
     let submitMethod = (submitter == null ? void 0 : submitter.getAttribute("formmethod")) || method;
     submit(submitter || event.currentTarget, {
+      fetcherKey,
       method: submitMethod,
+      navigate,
       replace,
       state,
       relative,
@@ -25741,9 +26170,11 @@ var dist_DataRouterHook;
 })(dist_DataRouterHook || (dist_DataRouterHook = {}));
 var dist_DataRouterStateHook;
 (function (DataRouterStateHook) {
+  DataRouterStateHook["UseFetcher"] = "useFetcher";
   DataRouterStateHook["UseFetchers"] = "useFetchers";
   DataRouterStateHook["UseScrollRestoration"] = "useScrollRestoration";
 })(dist_DataRouterStateHook || (dist_DataRouterStateHook = {}));
+// Internal hooks
 function dist_getDataRouterConsoleError(hookName) {
   return hookName + " must be used within a data router.  See https://reactrouter.com/routers/picking-a-router.";
 }
@@ -25757,6 +26188,7 @@ function dist_useDataRouterState(hookName) {
   !state ?  false ? 0 : UNSAFE_invariant(false) : void 0;
   return state;
 }
+// External hooks
 /**
  * Handles the click behavior for router `<Link>` components. This is useful if
  * you need to create custom `<Link>` components with the same click behavior we
@@ -25819,6 +26251,8 @@ function validateClientSideSubmission() {
     throw new Error("You are calling submit during the server render. " + "Try calling submit within a `useEffect` or callback instead.");
   }
 }
+let fetcherId = 0;
+let getUniqueFetcherId = () => "__" + String(++fetcherId) + "__";
 /**
  * Returns a function that may be used to programmatically submit a form (or
  * some arbitrary data) to the server.
@@ -25843,50 +26277,31 @@ function useSubmit() {
       formData,
       body
     } = getFormSubmissionInfo(target, basename);
-    router.navigate(options.action || action, {
-      preventScrollReset: options.preventScrollReset,
-      formData,
-      body,
-      formMethod: options.method || method,
-      formEncType: options.encType || encType,
-      replace: options.replace,
-      state: options.state,
-      fromRouteId: currentRouteId,
-      unstable_viewTransition: options.unstable_viewTransition
-    });
-  }, [router, basename, currentRouteId]);
-}
-/**
- * Returns the implementation for fetcher.submit
- */
-function useSubmitFetcher(fetcherKey, fetcherRouteId) {
-  let {
-    router
-  } = dist_useDataRouterContext(dist_DataRouterHook.UseSubmitFetcher);
-  let {
-    basename
-  } = React.useContext(UNSAFE_NavigationContext);
-  return React.useCallback(function (target, options) {
-    if (options === void 0) {
-      options = {};
+    if (options.navigate === false) {
+      let key = options.fetcherKey || getUniqueFetcherId();
+      router.fetch(key, currentRouteId, options.action || action, {
+        preventScrollReset: options.preventScrollReset,
+        formData,
+        body,
+        formMethod: options.method || method,
+        formEncType: options.encType || encType,
+        unstable_flushSync: options.unstable_flushSync
+      });
+    } else {
+      router.navigate(options.action || action, {
+        preventScrollReset: options.preventScrollReset,
+        formData,
+        body,
+        formMethod: options.method || method,
+        formEncType: options.encType || encType,
+        replace: options.replace,
+        state: options.state,
+        fromRouteId: currentRouteId,
+        unstable_flushSync: options.unstable_flushSync,
+        unstable_viewTransition: options.unstable_viewTransition
+      });
     }
-    validateClientSideSubmission();
-    let {
-      action,
-      method,
-      encType,
-      formData,
-      body
-    } = getFormSubmissionInfo(target, basename);
-    !(fetcherRouteId != null) ?  false ? 0 : UNSAFE_invariant(false) : void 0;
-    router.fetch(fetcherKey, fetcherRouteId, options.action || action, {
-      preventScrollReset: options.preventScrollReset,
-      formData,
-      body,
-      formMethod: options.method || method,
-      formEncType: options.encType || encType
-    });
-  }, [router, basename, fetcherKey, fetcherRouteId]);
+  }, [router, basename, currentRouteId]);
 }
 // v7: Eventually we should deprecate this entirely in favor of using the
 // router method directly?
@@ -25905,21 +26320,19 @@ function useFormAction(action, _temp2) {
   let path = react_router_dom_dist_extends({}, useResolvedPath(action ? action : ".", {
     relative
   }));
-  // Previously we set the default action to ".". The problem with this is that
-  // `useResolvedPath(".")` excludes search params of the resolved URL. This is
-  // the intended behavior of when "." is specifically provided as
-  // the form action, but inconsistent w/ browsers when the action is omitted.
+  // If no action was specified, browsers will persist current search params
+  // when determining the path, so match that behavior
   // https://github.com/remix-run/remix/issues/927
   let location = useLocation();
   if (action == null) {
     // Safe to write to this directly here since if action was undefined, we
     // would have called useResolvedPath(".") which will never include a search
     path.search = location.search;
-    // When grabbing search params from the URL, remove the automatically
-    // inserted ?index param so we match the useResolvedPath search behavior
-    // which would not include ?index
-    if (match.route.index) {
-      let params = new URLSearchParams(path.search);
+    // When grabbing search params from the URL, remove any included ?index param
+    // since it might not apply to our contextual route.  We add it back based
+    // on match.route.index below
+    let params = new URLSearchParams(path.search);
+    if (params.has("index") && params.get("index") === "") {
       params.delete("index");
       path.search = params.toString() ? "?" + params.toString() : "";
     }
@@ -25936,61 +26349,76 @@ function useFormAction(action, _temp2) {
   }
   return createPath(path);
 }
-function createFetcherForm(fetcherKey, routeId) {
-  let FetcherForm = /*#__PURE__*/React.forwardRef((props, ref) => {
-    let submit = useSubmitFetcher(fetcherKey, routeId);
-    return /*#__PURE__*/React.createElement(FormImpl, react_router_dom_dist_extends({}, props, {
-      ref: ref,
-      submit: submit
-    }));
-  });
-  if (false) {}
-  return FetcherForm;
-}
-let fetcherId = 0;
 // TODO: (v7) Change the useFetcher generic default from `any` to `unknown`
 /**
  * Interacts with route loaders and actions without causing a navigation. Great
  * for any interaction that stays on the same page.
  */
-function useFetcher() {
+function useFetcher(_temp3) {
   var _route$matches;
+  let {
+    key
+  } = _temp3 === void 0 ? {} : _temp3;
   let {
     router
   } = dist_useDataRouterContext(dist_DataRouterHook.UseFetcher);
+  let state = dist_useDataRouterState(dist_DataRouterStateHook.UseFetcher);
+  let fetcherData = React.useContext(FetchersContext);
   let route = React.useContext(UNSAFE_RouteContext);
-  !route ?  false ? 0 : UNSAFE_invariant(false) : void 0;
   let routeId = (_route$matches = route.matches[route.matches.length - 1]) == null ? void 0 : _route$matches.route.id;
+  !fetcherData ?  false ? 0 : UNSAFE_invariant(false) : void 0;
+  !route ?  false ? 0 : UNSAFE_invariant(false) : void 0;
   !(routeId != null) ?  false ? 0 : UNSAFE_invariant(false) : void 0;
-  let [fetcherKey] = React.useState(() => String(++fetcherId));
-  let [Form] = React.useState(() => {
-    !routeId ?  false ? 0 : UNSAFE_invariant(false) : void 0;
-    return createFetcherForm(fetcherKey, routeId);
-  });
-  let [load] = React.useState(() => href => {
-    !router ?  false ? 0 : UNSAFE_invariant(false) : void 0;
-    !routeId ?  false ? 0 : UNSAFE_invariant(false) : void 0;
-    router.fetch(fetcherKey, routeId, href);
-  });
-  let submit = useSubmitFetcher(fetcherKey, routeId);
-  let fetcher = router.getFetcher(fetcherKey);
-  let fetcherWithComponents = React.useMemo(() => react_router_dom_dist_extends({
-    Form,
-    submit,
-    load
-  }, fetcher), [fetcher, Form, submit, load]);
+  // Fetcher key handling
+  let [fetcherKey, setFetcherKey] = React.useState(key || "");
+  if (key && key !== fetcherKey) {
+    setFetcherKey(key);
+  } else if (!fetcherKey) {
+    setFetcherKey(getUniqueFetcherId());
+  }
+  // Registration/cleanup
   React.useEffect(() => {
-    // Is this busted when the React team gets real weird and calls effects
-    // twice on mount?  We really just need to garbage collect here when this
-    // fetcher is no longer around.
+    router.getFetcher(fetcherKey);
     return () => {
-      if (!router) {
-        console.warn("No router available to clean up from useFetcher()");
-        return;
-      }
+      // Tell the router we've unmounted - if v7_fetcherPersist is enabled this
+      // will not delete immediately but instead queue up a delete after the
+      // fetcher returns to an `idle` state
       router.deleteFetcher(fetcherKey);
     };
   }, [router, fetcherKey]);
+  // Fetcher additions
+  let load = React.useCallback((href, opts) => {
+    !routeId ?  false ? 0 : UNSAFE_invariant(false) : void 0;
+    router.fetch(fetcherKey, routeId, href, opts);
+  }, [fetcherKey, routeId, router]);
+  let submitImpl = useSubmit();
+  let submit = React.useCallback((target, opts) => {
+    submitImpl(target, react_router_dom_dist_extends({}, opts, {
+      navigate: false,
+      fetcherKey
+    }));
+  }, [fetcherKey, submitImpl]);
+  let FetcherForm = React.useMemo(() => {
+    let FetcherForm = /*#__PURE__*/React.forwardRef((props, ref) => {
+      return /*#__PURE__*/React.createElement(Form, react_router_dom_dist_extends({}, props, {
+        navigate: false,
+        fetcherKey: fetcherKey,
+        ref: ref
+      }));
+    });
+    if (false) {}
+    return FetcherForm;
+  }, [fetcherKey]);
+  // Exposed FetcherWithComponents
+  let fetcher = state.fetchers.get(fetcherKey) || IDLE_FETCHER;
+  let data = fetcherData.get(fetcherKey);
+  let fetcherWithComponents = React.useMemo(() => react_router_dom_dist_extends({
+    Form: FetcherForm,
+    submit,
+    load
+  }, fetcher, {
+    data
+  }), [FetcherForm, submit, load, fetcher, data]);
   return fetcherWithComponents;
 }
 /**
@@ -25999,18 +26427,23 @@ function useFetcher() {
  */
 function useFetchers() {
   let state = dist_useDataRouterState(dist_DataRouterStateHook.UseFetchers);
-  return [...state.fetchers.values()];
+  return Array.from(state.fetchers.entries()).map(_ref11 => {
+    let [key, fetcher] = _ref11;
+    return react_router_dom_dist_extends({}, fetcher, {
+      key
+    });
+  });
 }
 const SCROLL_RESTORATION_STORAGE_KEY = "react-router-scroll-positions";
 let savedScrollPositions = {};
 /**
  * When rendered inside a RouterProvider, will restore scroll positions on navigations
  */
-function useScrollRestoration(_temp3) {
+function useScrollRestoration(_temp4) {
   let {
     getKey,
     storageKey
-  } = _temp3 === void 0 ? {} : _temp3;
+  } = _temp4 === void 0 ? {} : _temp4;
   let {
     router
   } = dist_useDataRouterContext(dist_DataRouterHook.UseScrollRestoration);
@@ -26148,12 +26581,12 @@ function usePageHide(callback, options) {
  * very incorrectly in some cases) across browsers if user click addition
  * back/forward navigations while the confirm is open.  Use at your own risk.
  */
-function usePrompt(_ref11) {
+function usePrompt(_ref12) {
   let {
     when,
     message
-  } = _ref11;
-  let blocker = unstable_useBlocker(when);
+  } = _ref12;
+  let blocker = useBlocker(when);
   React.useEffect(() => {
     if (blocker.state === "blocked") {
       let proceed = window.confirm(message);
@@ -26249,3609 +26682,10060 @@ var ReactToastify_update = injectStylesIntoStyleTag_default()(ReactToastify/* de
 
        /* harmony default export */ const dist_ReactToastify = (ReactToastify/* default */.Z && ReactToastify/* default */.Z.locals ? ReactToastify/* default */.Z.locals : undefined);
 
-;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/bind.js
+;// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js
+function _setPrototypeOf(o, p) {
+  _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) {
+    o.__proto__ = p;
+    return o;
+  };
+  return _setPrototypeOf(o, p);
+}
+;// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js
 
+function _inheritsLoose(subClass, superClass) {
+  subClass.prototype = Object.create(superClass.prototype);
+  subClass.prototype.constructor = subClass;
+  _setPrototypeOf(subClass, superClass);
+}
+;// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
+function extends_extends() {
+  extends_extends = Object.assign ? Object.assign.bind() : function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+    return target;
+  };
+  return extends_extends.apply(this, arguments);
+}
+;// CONCATENATED MODULE: ./node_modules/react-beautiful-dnd/node_modules/react-redux/es/components/Context.js
 
-function bind(fn, thisArg) {
-  return function wrap() {
-    return fn.apply(thisArg, arguments);
+var components_Context_ReactReduxContext = /*#__PURE__*/react.createContext(null);
+
+if (false) {}
+
+/* harmony default export */ const components_Context = ((/* unused pure expression or super */ null && (components_Context_ReactReduxContext)));
+;// CONCATENATED MODULE: ./node_modules/react-beautiful-dnd/node_modules/react-redux/es/utils/batch.js
+// Default to a dummy "batch" implementation that just runs the callback
+function batch_defaultNoopBatch(callback) {
+  callback();
+}
+
+var batch_batch = batch_defaultNoopBatch; // Allow injecting another batching function later
+
+var batch_setBatch = function setBatch(newBatch) {
+  return batch_batch = newBatch;
+}; // Supply a getter just to skip dealing with ESM bindings
+
+var batch_getBatch = function getBatch() {
+  return batch_batch;
+};
+;// CONCATENATED MODULE: ./node_modules/react-beautiful-dnd/node_modules/react-redux/es/utils/Subscription.js
+ // encapsulates the subscription logic for connecting a component to the redux store, as
+// well as nesting subscriptions of descendant components, so that we can ensure the
+// ancestor components re-render before descendants
+
+function Subscription_createListenerCollection() {
+  var batch = batch_getBatch();
+  var first = null;
+  var last = null;
+  return {
+    clear: function clear() {
+      first = null;
+      last = null;
+    },
+    notify: function notify() {
+      batch(function () {
+        var listener = first;
+
+        while (listener) {
+          listener.callback();
+          listener = listener.next;
+        }
+      });
+    },
+    get: function get() {
+      var listeners = [];
+      var listener = first;
+
+      while (listener) {
+        listeners.push(listener);
+        listener = listener.next;
+      }
+
+      return listeners;
+    },
+    subscribe: function subscribe(callback) {
+      var isSubscribed = true;
+      var listener = last = {
+        callback: callback,
+        next: null,
+        prev: last
+      };
+
+      if (listener.prev) {
+        listener.prev.next = listener;
+      } else {
+        first = listener;
+      }
+
+      return function unsubscribe() {
+        if (!isSubscribed || first === null) return;
+        isSubscribed = false;
+
+        if (listener.next) {
+          listener.next.prev = listener.prev;
+        } else {
+          last = listener.prev;
+        }
+
+        if (listener.prev) {
+          listener.prev.next = listener.next;
+        } else {
+          first = listener.next;
+        }
+      };
+    }
   };
 }
 
-;// CONCATENATED MODULE: ./node_modules/axios/lib/utils.js
-
-
-
-
-// utils is a library of generic helper functions non-specific to axios
-
-const {toString: utils_toString} = Object.prototype;
-const {getPrototypeOf} = Object;
-
-const utils_kindOf = (cache => thing => {
-    const str = utils_toString.call(thing);
-    return cache[str] || (cache[str] = str.slice(8, -1).toLowerCase());
-})(Object.create(null));
-
-const kindOfTest = (type) => {
-  type = type.toLowerCase();
-  return (thing) => utils_kindOf(thing) === type
-}
-
-const typeOfTest = type => thing => typeof thing === type;
-
-/**
- * Determine if a value is an Array
- *
- * @param {Object} val The value to test
- *
- * @returns {boolean} True if value is an Array, otherwise false
- */
-const {isArray} = Array;
-
-/**
- * Determine if a value is undefined
- *
- * @param {*} val The value to test
- *
- * @returns {boolean} True if the value is undefined, otherwise false
- */
-const isUndefined = typeOfTest('undefined');
-
-/**
- * Determine if a value is a Buffer
- *
- * @param {*} val The value to test
- *
- * @returns {boolean} True if value is a Buffer, otherwise false
- */
-function isBuffer(val) {
-  return val !== null && !isUndefined(val) && val.constructor !== null && !isUndefined(val.constructor)
-    && isFunction(val.constructor.isBuffer) && val.constructor.isBuffer(val);
-}
-
-/**
- * Determine if a value is an ArrayBuffer
- *
- * @param {*} val The value to test
- *
- * @returns {boolean} True if value is an ArrayBuffer, otherwise false
- */
-const isArrayBuffer = kindOfTest('ArrayBuffer');
-
-
-/**
- * Determine if a value is a view on an ArrayBuffer
- *
- * @param {*} val The value to test
- *
- * @returns {boolean} True if value is a view on an ArrayBuffer, otherwise false
- */
-function isArrayBufferView(val) {
-  let result;
-  if ((typeof ArrayBuffer !== 'undefined') && (ArrayBuffer.isView)) {
-    result = ArrayBuffer.isView(val);
-  } else {
-    result = (val) && (val.buffer) && (isArrayBuffer(val.buffer));
+var Subscription_nullListeners = {
+  notify: function notify() {},
+  get: function get() {
+    return [];
   }
-  return result;
+};
+function utils_Subscription_createSubscription(store, parentSub) {
+  var unsubscribe;
+  var listeners = Subscription_nullListeners;
+
+  function addNestedSub(listener) {
+    trySubscribe();
+    return listeners.subscribe(listener);
+  }
+
+  function notifyNestedSubs() {
+    listeners.notify();
+  }
+
+  function handleChangeWrapper() {
+    if (subscription.onStateChange) {
+      subscription.onStateChange();
+    }
+  }
+
+  function isSubscribed() {
+    return Boolean(unsubscribe);
+  }
+
+  function trySubscribe() {
+    if (!unsubscribe) {
+      unsubscribe = parentSub ? parentSub.addNestedSub(handleChangeWrapper) : store.subscribe(handleChangeWrapper);
+      listeners = Subscription_createListenerCollection();
+    }
+  }
+
+  function tryUnsubscribe() {
+    if (unsubscribe) {
+      unsubscribe();
+      unsubscribe = undefined;
+      listeners.clear();
+      listeners = Subscription_nullListeners;
+    }
+  }
+
+  var subscription = {
+    addNestedSub: addNestedSub,
+    notifyNestedSubs: notifyNestedSubs,
+    handleChangeWrapper: handleChangeWrapper,
+    isSubscribed: isSubscribed,
+    trySubscribe: trySubscribe,
+    tryUnsubscribe: tryUnsubscribe,
+    getListeners: function getListeners() {
+      return listeners;
+    }
+  };
+  return subscription;
+}
+;// CONCATENATED MODULE: ./node_modules/react-beautiful-dnd/node_modules/react-redux/es/utils/useIsomorphicLayoutEffect.js
+ // React currently throws a warning when using useLayoutEffect on the server.
+// To get around it, we can conditionally useEffect on the server (no-op) and
+// useLayoutEffect in the browser. We need useLayoutEffect to ensure the store
+// subscription callback always has the selector from the latest render commit
+// available, otherwise a store update may happen between render and the effect,
+// which may cause missed updates; we also must ensure the store subscription
+// is created synchronously, otherwise a store update may occur before the
+// subscription is created and an inconsistent state may be observed
+
+var utils_useIsomorphicLayoutEffect_useIsomorphicLayoutEffect = typeof window !== 'undefined' && typeof window.document !== 'undefined' && typeof window.document.createElement !== 'undefined' ? react.useLayoutEffect : react.useEffect;
+;// CONCATENATED MODULE: ./node_modules/react-beautiful-dnd/node_modules/react-redux/es/components/Provider.js
+
+
+
+
+
+
+function Provider_Provider(_ref) {
+  var store = _ref.store,
+      context = _ref.context,
+      children = _ref.children;
+  var contextValue = (0,react.useMemo)(function () {
+    var subscription = utils_Subscription_createSubscription(store);
+    return {
+      store: store,
+      subscription: subscription
+    };
+  }, [store]);
+  var previousState = (0,react.useMemo)(function () {
+    return store.getState();
+  }, [store]);
+  utils_useIsomorphicLayoutEffect_useIsomorphicLayoutEffect(function () {
+    var subscription = contextValue.subscription;
+    subscription.onStateChange = subscription.notifyNestedSubs;
+    subscription.trySubscribe();
+
+    if (previousState !== store.getState()) {
+      subscription.notifyNestedSubs();
+    }
+
+    return function () {
+      subscription.tryUnsubscribe();
+      subscription.onStateChange = null;
+    };
+  }, [contextValue, previousState]);
+  var Context = context || components_Context_ReactReduxContext;
+  return /*#__PURE__*/react.createElement(Context.Provider, {
+    value: contextValue
+  }, children);
 }
 
-/**
- * Determine if a value is a String
- *
- * @param {*} val The value to test
- *
- * @returns {boolean} True if value is a String, otherwise false
- */
-const isString = typeOfTest('string');
+if (false) {}
 
-/**
- * Determine if a value is a Function
- *
- * @param {*} val The value to test
- * @returns {boolean} True if value is a Function, otherwise false
- */
-const isFunction = typeOfTest('function');
+/* harmony default export */ const es_components_Provider = (Provider_Provider);
+;// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js
+function objectWithoutPropertiesLoose_objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+  return target;
+}
+// EXTERNAL MODULE: ./node_modules/react-beautiful-dnd/node_modules/react-is/index.js
+var node_modules_react_is = __webpack_require__(6001);
+;// CONCATENATED MODULE: ./node_modules/react-beautiful-dnd/node_modules/react-redux/es/components/connectAdvanced.js
 
-/**
- * Determine if a value is a Number
- *
- * @param {*} val The value to test
- *
- * @returns {boolean} True if value is a Number, otherwise false
- */
-const isNumber = typeOfTest('number');
 
-/**
- * Determine if a value is an Object
- *
- * @param {*} thing The value to test
- *
- * @returns {boolean} True if value is an Object, otherwise false
- */
-const isObject = (thing) => thing !== null && typeof thing === 'object';
+var connectAdvanced_excluded = ["getDisplayName", "methodName", "renderCountProp", "shouldHandleStateChanges", "storeKey", "withRef", "forwardRef", "context"],
+    connectAdvanced_excluded2 = ["reactReduxForwardedRef"];
 
-/**
- * Determine if a value is a Boolean
- *
- * @param {*} thing The value to test
- * @returns {boolean} True if value is a Boolean, otherwise false
- */
-const isBoolean = thing => thing === true || thing === false;
 
-/**
- * Determine if a value is a plain Object
- *
- * @param {*} val The value to test
- *
- * @returns {boolean} True if value is a plain Object, otherwise false
- */
-const utils_isPlainObject = (val) => {
-  if (utils_kindOf(val) !== 'object') {
+
+
+
+ // Define some constant arrays just to avoid re-creating these
+
+var connectAdvanced_EMPTY_ARRAY = [];
+var connectAdvanced_NO_SUBSCRIPTION_ARRAY = [null, null];
+
+var connectAdvanced_stringifyComponent = function stringifyComponent(Comp) {
+  try {
+    return JSON.stringify(Comp);
+  } catch (err) {
+    return String(Comp);
+  }
+};
+
+function storeStateUpdatesReducer(state, action) {
+  var updateCount = state[1];
+  return [action.payload, updateCount + 1];
+}
+
+function connectAdvanced_useIsomorphicLayoutEffectWithArgs(effectFunc, effectArgs, dependencies) {
+  utils_useIsomorphicLayoutEffect_useIsomorphicLayoutEffect(function () {
+    return effectFunc.apply(void 0, effectArgs);
+  }, dependencies);
+}
+
+function connectAdvanced_captureWrapperProps(lastWrapperProps, lastChildProps, renderIsScheduled, wrapperProps, actualChildProps, childPropsFromStoreUpdate, notifyNestedSubs) {
+  // We want to capture the wrapper props and child props we used for later comparisons
+  lastWrapperProps.current = wrapperProps;
+  lastChildProps.current = actualChildProps;
+  renderIsScheduled.current = false; // If the render was from a store update, clear out that reference and cascade the subscriber update
+
+  if (childPropsFromStoreUpdate.current) {
+    childPropsFromStoreUpdate.current = null;
+    notifyNestedSubs();
+  }
+}
+
+function connectAdvanced_subscribeUpdates(shouldHandleStateChanges, store, subscription, childPropsSelector, lastWrapperProps, lastChildProps, renderIsScheduled, childPropsFromStoreUpdate, notifyNestedSubs, forceComponentUpdateDispatch) {
+  // If we're not subscribed to the store, nothing to do here
+  if (!shouldHandleStateChanges) return; // Capture values for checking if and when this component unmounts
+
+  var didUnsubscribe = false;
+  var lastThrownError = null; // We'll run this callback every time a store subscription update propagates to this component
+
+  var checkForUpdates = function checkForUpdates() {
+    if (didUnsubscribe) {
+      // Don't run stale listeners.
+      // Redux doesn't guarantee unsubscriptions happen until next dispatch.
+      return;
+    }
+
+    var latestStoreState = store.getState();
+    var newChildProps, error;
+
+    try {
+      // Actually run the selector with the most recent store state and wrapper props
+      // to determine what the child props should be
+      newChildProps = childPropsSelector(latestStoreState, lastWrapperProps.current);
+    } catch (e) {
+      error = e;
+      lastThrownError = e;
+    }
+
+    if (!error) {
+      lastThrownError = null;
+    } // If the child props haven't changed, nothing to do here - cascade the subscription update
+
+
+    if (newChildProps === lastChildProps.current) {
+      if (!renderIsScheduled.current) {
+        notifyNestedSubs();
+      }
+    } else {
+      // Save references to the new child props.  Note that we track the "child props from store update"
+      // as a ref instead of a useState/useReducer because we need a way to determine if that value has
+      // been processed.  If this went into useState/useReducer, we couldn't clear out the value without
+      // forcing another re-render, which we don't want.
+      lastChildProps.current = newChildProps;
+      childPropsFromStoreUpdate.current = newChildProps;
+      renderIsScheduled.current = true; // If the child props _did_ change (or we caught an error), this wrapper component needs to re-render
+
+      forceComponentUpdateDispatch({
+        type: 'STORE_UPDATED',
+        payload: {
+          error: error
+        }
+      });
+    }
+  }; // Actually subscribe to the nearest connected ancestor (or store)
+
+
+  subscription.onStateChange = checkForUpdates;
+  subscription.trySubscribe(); // Pull data from the store after first render in case the store has
+  // changed since we began.
+
+  checkForUpdates();
+
+  var unsubscribeWrapper = function unsubscribeWrapper() {
+    didUnsubscribe = true;
+    subscription.tryUnsubscribe();
+    subscription.onStateChange = null;
+
+    if (lastThrownError) {
+      // It's possible that we caught an error due to a bad mapState function, but the
+      // parent re-rendered without this component and we're about to unmount.
+      // This shouldn't happen as long as we do top-down subscriptions correctly, but
+      // if we ever do those wrong, this throw will surface the error in our tests.
+      // In that case, throw the error from here so it doesn't get lost.
+      throw lastThrownError;
+    }
+  };
+
+  return unsubscribeWrapper;
+}
+
+var connectAdvanced_initStateUpdates = function initStateUpdates() {
+  return [null, 0];
+};
+
+function connectAdvanced(
+/*
+  selectorFactory is a func that is responsible for returning the selector function used to
+  compute new props from state, props, and dispatch. For example:
+      export default connectAdvanced((dispatch, options) => (state, props) => ({
+      thing: state.things[props.thingId],
+      saveThing: fields => dispatch(actionCreators.saveThing(props.thingId, fields)),
+    }))(YourComponent)
+    Access to dispatch is provided to the factory so selectorFactories can bind actionCreators
+  outside of their selector as an optimization. Options passed to connectAdvanced are passed to
+  the selectorFactory, along with displayName and WrappedComponent, as the second argument.
+    Note that selectorFactory is responsible for all caching/memoization of inbound and outbound
+  props. Do not use connectAdvanced directly without memoizing results between calls to your
+  selector, otherwise the Connect component will re-render on every state or props change.
+*/
+selectorFactory, // options object:
+_ref) {
+  if (_ref === void 0) {
+    _ref = {};
+  }
+
+  var _ref2 = _ref,
+      _ref2$getDisplayName = _ref2.getDisplayName,
+      getDisplayName = _ref2$getDisplayName === void 0 ? function (name) {
+    return "ConnectAdvanced(" + name + ")";
+  } : _ref2$getDisplayName,
+      _ref2$methodName = _ref2.methodName,
+      methodName = _ref2$methodName === void 0 ? 'connectAdvanced' : _ref2$methodName,
+      _ref2$renderCountProp = _ref2.renderCountProp,
+      renderCountProp = _ref2$renderCountProp === void 0 ? undefined : _ref2$renderCountProp,
+      _ref2$shouldHandleSta = _ref2.shouldHandleStateChanges,
+      shouldHandleStateChanges = _ref2$shouldHandleSta === void 0 ? true : _ref2$shouldHandleSta,
+      _ref2$storeKey = _ref2.storeKey,
+      storeKey = _ref2$storeKey === void 0 ? 'store' : _ref2$storeKey,
+      _ref2$withRef = _ref2.withRef,
+      withRef = _ref2$withRef === void 0 ? false : _ref2$withRef,
+      _ref2$forwardRef = _ref2.forwardRef,
+      forwardRef = _ref2$forwardRef === void 0 ? false : _ref2$forwardRef,
+      _ref2$context = _ref2.context,
+      context = _ref2$context === void 0 ? components_Context_ReactReduxContext : _ref2$context,
+      connectOptions = objectWithoutPropertiesLoose_objectWithoutPropertiesLoose(_ref2, connectAdvanced_excluded);
+
+  if (false) { var customStoreWarningMessage; }
+
+  var Context = context;
+  return function wrapWithConnect(WrappedComponent) {
+    if (false) {}
+
+    var wrappedComponentName = WrappedComponent.displayName || WrappedComponent.name || 'Component';
+    var displayName = getDisplayName(wrappedComponentName);
+
+    var selectorFactoryOptions = extends_extends({}, connectOptions, {
+      getDisplayName: getDisplayName,
+      methodName: methodName,
+      renderCountProp: renderCountProp,
+      shouldHandleStateChanges: shouldHandleStateChanges,
+      storeKey: storeKey,
+      displayName: displayName,
+      wrappedComponentName: wrappedComponentName,
+      WrappedComponent: WrappedComponent
+    });
+
+    var pure = connectOptions.pure;
+
+    function createChildSelector(store) {
+      return selectorFactory(store.dispatch, selectorFactoryOptions);
+    } // If we aren't running in "pure" mode, we don't want to memoize values.
+    // To avoid conditionally calling hooks, we fall back to a tiny wrapper
+    // that just executes the given callback immediately.
+
+
+    var usePureOnlyMemo = pure ? react.useMemo : function (callback) {
+      return callback();
+    };
+
+    function ConnectFunction(props) {
+      var _useMemo = (0,react.useMemo)(function () {
+        // Distinguish between actual "data" props that were passed to the wrapper component,
+        // and values needed to control behavior (forwarded refs, alternate context instances).
+        // To maintain the wrapperProps object reference, memoize this destructuring.
+        var reactReduxForwardedRef = props.reactReduxForwardedRef,
+            wrapperProps = objectWithoutPropertiesLoose_objectWithoutPropertiesLoose(props, connectAdvanced_excluded2);
+
+        return [props.context, reactReduxForwardedRef, wrapperProps];
+      }, [props]),
+          propsContext = _useMemo[0],
+          reactReduxForwardedRef = _useMemo[1],
+          wrapperProps = _useMemo[2];
+
+      var ContextToUse = (0,react.useMemo)(function () {
+        // Users may optionally pass in a custom context instance to use instead of our ReactReduxContext.
+        // Memoize the check that determines which context instance we should use.
+        return propsContext && propsContext.Consumer && (0,node_modules_react_is.isContextConsumer)( /*#__PURE__*/react.createElement(propsContext.Consumer, null)) ? propsContext : Context;
+      }, [propsContext, Context]); // Retrieve the store and ancestor subscription via context, if available
+
+      var contextValue = (0,react.useContext)(ContextToUse); // The store _must_ exist as either a prop or in context.
+      // We'll check to see if it _looks_ like a Redux store first.
+      // This allows us to pass through a `store` prop that is just a plain value.
+
+      var didStoreComeFromProps = Boolean(props.store) && Boolean(props.store.getState) && Boolean(props.store.dispatch);
+      var didStoreComeFromContext = Boolean(contextValue) && Boolean(contextValue.store);
+
+      if (false) {} // Based on the previous check, one of these must be true
+
+
+      var store = didStoreComeFromProps ? props.store : contextValue.store;
+      var childPropsSelector = (0,react.useMemo)(function () {
+        // The child props selector needs the store reference as an input.
+        // Re-create this selector whenever the store changes.
+        return createChildSelector(store);
+      }, [store]);
+
+      var _useMemo2 = (0,react.useMemo)(function () {
+        if (!shouldHandleStateChanges) return connectAdvanced_NO_SUBSCRIPTION_ARRAY; // This Subscription's source should match where store came from: props vs. context. A component
+        // connected to the store via props shouldn't use subscription from context, or vice versa.
+
+        // This Subscription's source should match where store came from: props vs. context. A component
+        // connected to the store via props shouldn't use subscription from context, or vice versa.
+        var subscription = utils_Subscription_createSubscription(store, didStoreComeFromProps ? null : contextValue.subscription); // `notifyNestedSubs` is duplicated to handle the case where the component is unmounted in
+        // the middle of the notification loop, where `subscription` will then be null. This can
+        // probably be avoided if Subscription's listeners logic is changed to not call listeners
+        // that have been unsubscribed in the  middle of the notification loop.
+
+        // `notifyNestedSubs` is duplicated to handle the case where the component is unmounted in
+        // the middle of the notification loop, where `subscription` will then be null. This can
+        // probably be avoided if Subscription's listeners logic is changed to not call listeners
+        // that have been unsubscribed in the  middle of the notification loop.
+        var notifyNestedSubs = subscription.notifyNestedSubs.bind(subscription);
+        return [subscription, notifyNestedSubs];
+      }, [store, didStoreComeFromProps, contextValue]),
+          subscription = _useMemo2[0],
+          notifyNestedSubs = _useMemo2[1]; // Determine what {store, subscription} value should be put into nested context, if necessary,
+      // and memoize that value to avoid unnecessary context updates.
+
+
+      var overriddenContextValue = (0,react.useMemo)(function () {
+        if (didStoreComeFromProps) {
+          // This component is directly subscribed to a store from props.
+          // We don't want descendants reading from this store - pass down whatever
+          // the existing context value is from the nearest connected ancestor.
+          return contextValue;
+        } // Otherwise, put this component's subscription instance into context, so that
+        // connected descendants won't update until after this component is done
+
+
+        return extends_extends({}, contextValue, {
+          subscription: subscription
+        });
+      }, [didStoreComeFromProps, contextValue, subscription]); // We need to force this wrapper component to re-render whenever a Redux store update
+      // causes a change to the calculated child component props (or we caught an error in mapState)
+
+      var _useReducer = (0,react.useReducer)(storeStateUpdatesReducer, connectAdvanced_EMPTY_ARRAY, connectAdvanced_initStateUpdates),
+          _useReducer$ = _useReducer[0],
+          previousStateUpdateResult = _useReducer$[0],
+          forceComponentUpdateDispatch = _useReducer[1]; // Propagate any mapState/mapDispatch errors upwards
+
+
+      if (previousStateUpdateResult && previousStateUpdateResult.error) {
+        throw previousStateUpdateResult.error;
+      } // Set up refs to coordinate values between the subscription effect and the render logic
+
+
+      var lastChildProps = (0,react.useRef)();
+      var lastWrapperProps = (0,react.useRef)(wrapperProps);
+      var childPropsFromStoreUpdate = (0,react.useRef)();
+      var renderIsScheduled = (0,react.useRef)(false);
+      var actualChildProps = usePureOnlyMemo(function () {
+        // Tricky logic here:
+        // - This render may have been triggered by a Redux store update that produced new child props
+        // - However, we may have gotten new wrapper props after that
+        // If we have new child props, and the same wrapper props, we know we should use the new child props as-is.
+        // But, if we have new wrapper props, those might change the child props, so we have to recalculate things.
+        // So, we'll use the child props from store update only if the wrapper props are the same as last time.
+        if (childPropsFromStoreUpdate.current && wrapperProps === lastWrapperProps.current) {
+          return childPropsFromStoreUpdate.current;
+        } // TODO We're reading the store directly in render() here. Bad idea?
+        // This will likely cause Bad Things (TM) to happen in Concurrent Mode.
+        // Note that we do this because on renders _not_ caused by store updates, we need the latest store state
+        // to determine what the child props should be.
+
+
+        return childPropsSelector(store.getState(), wrapperProps);
+      }, [store, previousStateUpdateResult, wrapperProps]); // We need this to execute synchronously every time we re-render. However, React warns
+      // about useLayoutEffect in SSR, so we try to detect environment and fall back to
+      // just useEffect instead to avoid the warning, since neither will run anyway.
+
+      connectAdvanced_useIsomorphicLayoutEffectWithArgs(connectAdvanced_captureWrapperProps, [lastWrapperProps, lastChildProps, renderIsScheduled, wrapperProps, actualChildProps, childPropsFromStoreUpdate, notifyNestedSubs]); // Our re-subscribe logic only runs when the store/subscription setup changes
+
+      connectAdvanced_useIsomorphicLayoutEffectWithArgs(connectAdvanced_subscribeUpdates, [shouldHandleStateChanges, store, subscription, childPropsSelector, lastWrapperProps, lastChildProps, renderIsScheduled, childPropsFromStoreUpdate, notifyNestedSubs, forceComponentUpdateDispatch], [store, subscription, childPropsSelector]); // Now that all that's done, we can finally try to actually render the child component.
+      // We memoize the elements for the rendered child component as an optimization.
+
+      var renderedWrappedComponent = (0,react.useMemo)(function () {
+        return /*#__PURE__*/react.createElement(WrappedComponent, extends_extends({}, actualChildProps, {
+          ref: reactReduxForwardedRef
+        }));
+      }, [reactReduxForwardedRef, WrappedComponent, actualChildProps]); // If React sees the exact same element reference as last time, it bails out of re-rendering
+      // that child, same as if it was wrapped in React.memo() or returned false from shouldComponentUpdate.
+
+      var renderedChild = (0,react.useMemo)(function () {
+        if (shouldHandleStateChanges) {
+          // If this component is subscribed to store updates, we need to pass its own
+          // subscription instance down to our descendants. That means rendering the same
+          // Context instance, and putting a different value into the context.
+          return /*#__PURE__*/react.createElement(ContextToUse.Provider, {
+            value: overriddenContextValue
+          }, renderedWrappedComponent);
+        }
+
+        return renderedWrappedComponent;
+      }, [ContextToUse, renderedWrappedComponent, overriddenContextValue]);
+      return renderedChild;
+    } // If we're in "pure" mode, ensure our wrapper component only re-renders when incoming props have changed.
+
+
+    var Connect = pure ? react.memo(ConnectFunction) : ConnectFunction;
+    Connect.WrappedComponent = WrappedComponent;
+    Connect.displayName = ConnectFunction.displayName = displayName;
+
+    if (forwardRef) {
+      var forwarded = react.forwardRef(function forwardConnectRef(props, ref) {
+        return /*#__PURE__*/react.createElement(Connect, extends_extends({}, props, {
+          reactReduxForwardedRef: ref
+        }));
+      });
+      forwarded.displayName = displayName;
+      forwarded.WrappedComponent = WrappedComponent;
+      return hoist_non_react_statics_cjs_default()(forwarded, WrappedComponent);
+    }
+
+    return hoist_non_react_statics_cjs_default()(Connect, WrappedComponent);
+  };
+}
+;// CONCATENATED MODULE: ./node_modules/react-beautiful-dnd/node_modules/react-redux/es/utils/shallowEqual.js
+function is(x, y) {
+  if (x === y) {
+    return x !== 0 || y !== 0 || 1 / x === 1 / y;
+  } else {
+    return x !== x && y !== y;
+  }
+}
+
+function shallowEqual_shallowEqual(objA, objB) {
+  if (is(objA, objB)) return true;
+
+  if (typeof objA !== 'object' || objA === null || typeof objB !== 'object' || objB === null) {
     return false;
   }
 
-  const prototype = getPrototypeOf(val);
-  return (prototype === null || prototype === Object.prototype || Object.getPrototypeOf(prototype) === null) && !(Symbol.toStringTag in val) && !(Symbol.iterator in val);
+  var keysA = Object.keys(objA);
+  var keysB = Object.keys(objB);
+  if (keysA.length !== keysB.length) return false;
+
+  for (var i = 0; i < keysA.length; i++) {
+    if (!Object.prototype.hasOwnProperty.call(objB, keysA[i]) || !is(objA[keysA[i]], objB[keysA[i]])) {
+      return false;
+    }
+  }
+
+  return true;
+}
+;// CONCATENATED MODULE: ./node_modules/react-beautiful-dnd/node_modules/react-redux/es/utils/bindActionCreators.js
+function bindActionCreators_bindActionCreators(actionCreators, dispatch) {
+  var boundActionCreators = {};
+
+  var _loop = function _loop(key) {
+    var actionCreator = actionCreators[key];
+
+    if (typeof actionCreator === 'function') {
+      boundActionCreators[key] = function () {
+        return dispatch(actionCreator.apply(void 0, arguments));
+      };
+    }
+  };
+
+  for (var key in actionCreators) {
+    _loop(key);
+  }
+
+  return boundActionCreators;
+}
+;// CONCATENATED MODULE: ./node_modules/react-beautiful-dnd/node_modules/react-redux/es/connect/wrapMapToProps.js
+
+function wrapMapToPropsConstant(getConstant) {
+  return function initConstantSelector(dispatch, options) {
+    var constant = getConstant(dispatch, options);
+
+    function constantSelector() {
+      return constant;
+    }
+
+    constantSelector.dependsOnOwnProps = false;
+    return constantSelector;
+  };
+} // dependsOnOwnProps is used by createMapToPropsProxy to determine whether to pass props as args
+// to the mapToProps function being wrapped. It is also used by makePurePropsSelector to determine
+// whether mapToProps needs to be invoked when props have changed.
+//
+// A length of one signals that mapToProps does not depend on props from the parent component.
+// A length of zero is assumed to mean mapToProps is getting args via arguments or ...args and
+// therefore not reporting its length accurately..
+
+function getDependsOnOwnProps(mapToProps) {
+  return mapToProps.dependsOnOwnProps !== null && mapToProps.dependsOnOwnProps !== undefined ? Boolean(mapToProps.dependsOnOwnProps) : mapToProps.length !== 1;
+} // Used by whenMapStateToPropsIsFunction and whenMapDispatchToPropsIsFunction,
+// this function wraps mapToProps in a proxy function which does several things:
+//
+//  * Detects whether the mapToProps function being called depends on props, which
+//    is used by selectorFactory to decide if it should reinvoke on props changes.
+//
+//  * On first call, handles mapToProps if returns another function, and treats that
+//    new function as the true mapToProps for subsequent calls.
+//
+//  * On first call, verifies the first result is a plain object, in order to warn
+//    the developer that their mapToProps function is not returning a valid result.
+//
+
+function wrapMapToPropsFunc(mapToProps, methodName) {
+  return function initProxySelector(dispatch, _ref) {
+    var displayName = _ref.displayName;
+
+    var proxy = function mapToPropsProxy(stateOrDispatch, ownProps) {
+      return proxy.dependsOnOwnProps ? proxy.mapToProps(stateOrDispatch, ownProps) : proxy.mapToProps(stateOrDispatch);
+    }; // allow detectFactoryAndVerify to get ownProps
+
+
+    proxy.dependsOnOwnProps = true;
+
+    proxy.mapToProps = function detectFactoryAndVerify(stateOrDispatch, ownProps) {
+      proxy.mapToProps = mapToProps;
+      proxy.dependsOnOwnProps = getDependsOnOwnProps(mapToProps);
+      var props = proxy(stateOrDispatch, ownProps);
+
+      if (typeof props === 'function') {
+        proxy.mapToProps = props;
+        proxy.dependsOnOwnProps = getDependsOnOwnProps(props);
+        props = proxy(stateOrDispatch, ownProps);
+      }
+
+      if (false) {}
+      return props;
+    };
+
+    return proxy;
+  };
+}
+;// CONCATENATED MODULE: ./node_modules/react-beautiful-dnd/node_modules/react-redux/es/connect/mapDispatchToProps.js
+
+
+function whenMapDispatchToPropsIsFunction(mapDispatchToProps) {
+  return typeof mapDispatchToProps === 'function' ? wrapMapToPropsFunc(mapDispatchToProps, 'mapDispatchToProps') : undefined;
+}
+function whenMapDispatchToPropsIsMissing(mapDispatchToProps) {
+  return !mapDispatchToProps ? wrapMapToPropsConstant(function (dispatch) {
+    return {
+      dispatch: dispatch
+    };
+  }) : undefined;
+}
+function whenMapDispatchToPropsIsObject(mapDispatchToProps) {
+  return mapDispatchToProps && typeof mapDispatchToProps === 'object' ? wrapMapToPropsConstant(function (dispatch) {
+    return bindActionCreators_bindActionCreators(mapDispatchToProps, dispatch);
+  }) : undefined;
+}
+/* harmony default export */ const mapDispatchToProps = ([whenMapDispatchToPropsIsFunction, whenMapDispatchToPropsIsMissing, whenMapDispatchToPropsIsObject]);
+;// CONCATENATED MODULE: ./node_modules/react-beautiful-dnd/node_modules/react-redux/es/connect/mapStateToProps.js
+
+function whenMapStateToPropsIsFunction(mapStateToProps) {
+  return typeof mapStateToProps === 'function' ? wrapMapToPropsFunc(mapStateToProps, 'mapStateToProps') : undefined;
+}
+function whenMapStateToPropsIsMissing(mapStateToProps) {
+  return !mapStateToProps ? wrapMapToPropsConstant(function () {
+    return {};
+  }) : undefined;
+}
+/* harmony default export */ const mapStateToProps = ([whenMapStateToPropsIsFunction, whenMapStateToPropsIsMissing]);
+;// CONCATENATED MODULE: ./node_modules/react-beautiful-dnd/node_modules/react-redux/es/connect/mergeProps.js
+
+
+function defaultMergeProps(stateProps, dispatchProps, ownProps) {
+  return extends_extends({}, ownProps, stateProps, dispatchProps);
+}
+function wrapMergePropsFunc(mergeProps) {
+  return function initMergePropsProxy(dispatch, _ref) {
+    var displayName = _ref.displayName,
+        pure = _ref.pure,
+        areMergedPropsEqual = _ref.areMergedPropsEqual;
+    var hasRunOnce = false;
+    var mergedProps;
+    return function mergePropsProxy(stateProps, dispatchProps, ownProps) {
+      var nextMergedProps = mergeProps(stateProps, dispatchProps, ownProps);
+
+      if (hasRunOnce) {
+        if (!pure || !areMergedPropsEqual(nextMergedProps, mergedProps)) mergedProps = nextMergedProps;
+      } else {
+        hasRunOnce = true;
+        mergedProps = nextMergedProps;
+        if (false) {}
+      }
+
+      return mergedProps;
+    };
+  };
+}
+function whenMergePropsIsFunction(mergeProps) {
+  return typeof mergeProps === 'function' ? wrapMergePropsFunc(mergeProps) : undefined;
+}
+function whenMergePropsIsOmitted(mergeProps) {
+  return !mergeProps ? function () {
+    return defaultMergeProps;
+  } : undefined;
+}
+/* harmony default export */ const mergeProps = ([whenMergePropsIsFunction, whenMergePropsIsOmitted]);
+;// CONCATENATED MODULE: ./node_modules/react-beautiful-dnd/node_modules/react-redux/es/connect/selectorFactory.js
+
+var selectorFactory_excluded = ["initMapStateToProps", "initMapDispatchToProps", "initMergeProps"];
+
+function impureFinalPropsSelectorFactory(mapStateToProps, mapDispatchToProps, mergeProps, dispatch) {
+  return function impureFinalPropsSelector(state, ownProps) {
+    return mergeProps(mapStateToProps(state, ownProps), mapDispatchToProps(dispatch, ownProps), ownProps);
+  };
+}
+function pureFinalPropsSelectorFactory(mapStateToProps, mapDispatchToProps, mergeProps, dispatch, _ref) {
+  var areStatesEqual = _ref.areStatesEqual,
+      areOwnPropsEqual = _ref.areOwnPropsEqual,
+      areStatePropsEqual = _ref.areStatePropsEqual;
+  var hasRunAtLeastOnce = false;
+  var state;
+  var ownProps;
+  var stateProps;
+  var dispatchProps;
+  var mergedProps;
+
+  function handleFirstCall(firstState, firstOwnProps) {
+    state = firstState;
+    ownProps = firstOwnProps;
+    stateProps = mapStateToProps(state, ownProps);
+    dispatchProps = mapDispatchToProps(dispatch, ownProps);
+    mergedProps = mergeProps(stateProps, dispatchProps, ownProps);
+    hasRunAtLeastOnce = true;
+    return mergedProps;
+  }
+
+  function handleNewPropsAndNewState() {
+    stateProps = mapStateToProps(state, ownProps);
+    if (mapDispatchToProps.dependsOnOwnProps) dispatchProps = mapDispatchToProps(dispatch, ownProps);
+    mergedProps = mergeProps(stateProps, dispatchProps, ownProps);
+    return mergedProps;
+  }
+
+  function handleNewProps() {
+    if (mapStateToProps.dependsOnOwnProps) stateProps = mapStateToProps(state, ownProps);
+    if (mapDispatchToProps.dependsOnOwnProps) dispatchProps = mapDispatchToProps(dispatch, ownProps);
+    mergedProps = mergeProps(stateProps, dispatchProps, ownProps);
+    return mergedProps;
+  }
+
+  function handleNewState() {
+    var nextStateProps = mapStateToProps(state, ownProps);
+    var statePropsChanged = !areStatePropsEqual(nextStateProps, stateProps);
+    stateProps = nextStateProps;
+    if (statePropsChanged) mergedProps = mergeProps(stateProps, dispatchProps, ownProps);
+    return mergedProps;
+  }
+
+  function handleSubsequentCalls(nextState, nextOwnProps) {
+    var propsChanged = !areOwnPropsEqual(nextOwnProps, ownProps);
+    var stateChanged = !areStatesEqual(nextState, state, nextOwnProps, ownProps);
+    state = nextState;
+    ownProps = nextOwnProps;
+    if (propsChanged && stateChanged) return handleNewPropsAndNewState();
+    if (propsChanged) return handleNewProps();
+    if (stateChanged) return handleNewState();
+    return mergedProps;
+  }
+
+  return function pureFinalPropsSelector(nextState, nextOwnProps) {
+    return hasRunAtLeastOnce ? handleSubsequentCalls(nextState, nextOwnProps) : handleFirstCall(nextState, nextOwnProps);
+  };
+} // TODO: Add more comments
+// If pure is true, the selector returned by selectorFactory will memoize its results,
+// allowing connectAdvanced's shouldComponentUpdate to return false if final
+// props have not changed. If false, the selector will always return a new
+// object and shouldComponentUpdate will always return true.
+
+function finalPropsSelectorFactory(dispatch, _ref2) {
+  var initMapStateToProps = _ref2.initMapStateToProps,
+      initMapDispatchToProps = _ref2.initMapDispatchToProps,
+      initMergeProps = _ref2.initMergeProps,
+      options = objectWithoutPropertiesLoose_objectWithoutPropertiesLoose(_ref2, selectorFactory_excluded);
+
+  var mapStateToProps = initMapStateToProps(dispatch, options);
+  var mapDispatchToProps = initMapDispatchToProps(dispatch, options);
+  var mergeProps = initMergeProps(dispatch, options);
+
+  if (false) {}
+
+  var selectorFactory = options.pure ? pureFinalPropsSelectorFactory : impureFinalPropsSelectorFactory;
+  return selectorFactory(mapStateToProps, mapDispatchToProps, mergeProps, dispatch, options);
+}
+;// CONCATENATED MODULE: ./node_modules/react-beautiful-dnd/node_modules/react-redux/es/connect/connect.js
+
+
+var connect_excluded = ["pure", "areStatesEqual", "areOwnPropsEqual", "areStatePropsEqual", "areMergedPropsEqual"];
+
+
+
+
+
+
+/*
+  connect is a facade over connectAdvanced. It turns its args into a compatible
+  selectorFactory, which has the signature:
+
+    (dispatch, options) => (nextState, nextOwnProps) => nextFinalProps
+  
+  connect passes its args to connectAdvanced as options, which will in turn pass them to
+  selectorFactory each time a Connect component instance is instantiated or hot reloaded.
+
+  selectorFactory returns a final props selector from its mapStateToProps,
+  mapStateToPropsFactories, mapDispatchToProps, mapDispatchToPropsFactories, mergeProps,
+  mergePropsFactories, and pure args.
+
+  The resulting final props selector is called by the Connect component instance whenever
+  it receives new props or store state.
+ */
+
+function match(arg, factories, name) {
+  for (var i = factories.length - 1; i >= 0; i--) {
+    var result = factories[i](arg);
+    if (result) return result;
+  }
+
+  return function (dispatch, options) {
+    throw new Error("Invalid value of type " + typeof arg + " for " + name + " argument when connecting component " + options.wrappedComponentName + ".");
+  };
 }
 
-/**
- * Determine if a value is a Date
- *
- * @param {*} val The value to test
- *
- * @returns {boolean} True if value is a Date, otherwise false
- */
-const utils_isDate = kindOfTest('Date');
+function connect_strictEqual(a, b) {
+  return a === b;
+} // createConnect with default args builds the 'official' connect behavior. Calling it with
+// different options opens up some testing and extensibility scenarios
+
+
+function createConnect(_temp) {
+  var _ref = _temp === void 0 ? {} : _temp,
+      _ref$connectHOC = _ref.connectHOC,
+      connectHOC = _ref$connectHOC === void 0 ? connectAdvanced : _ref$connectHOC,
+      _ref$mapStateToPropsF = _ref.mapStateToPropsFactories,
+      mapStateToPropsFactories = _ref$mapStateToPropsF === void 0 ? mapStateToProps : _ref$mapStateToPropsF,
+      _ref$mapDispatchToPro = _ref.mapDispatchToPropsFactories,
+      mapDispatchToPropsFactories = _ref$mapDispatchToPro === void 0 ? mapDispatchToProps : _ref$mapDispatchToPro,
+      _ref$mergePropsFactor = _ref.mergePropsFactories,
+      mergePropsFactories = _ref$mergePropsFactor === void 0 ? mergeProps : _ref$mergePropsFactor,
+      _ref$selectorFactory = _ref.selectorFactory,
+      selectorFactory = _ref$selectorFactory === void 0 ? finalPropsSelectorFactory : _ref$selectorFactory;
+
+  return function connect(mapStateToProps, mapDispatchToProps, mergeProps, _ref2) {
+    if (_ref2 === void 0) {
+      _ref2 = {};
+    }
+
+    var _ref3 = _ref2,
+        _ref3$pure = _ref3.pure,
+        pure = _ref3$pure === void 0 ? true : _ref3$pure,
+        _ref3$areStatesEqual = _ref3.areStatesEqual,
+        areStatesEqual = _ref3$areStatesEqual === void 0 ? connect_strictEqual : _ref3$areStatesEqual,
+        _ref3$areOwnPropsEqua = _ref3.areOwnPropsEqual,
+        areOwnPropsEqual = _ref3$areOwnPropsEqua === void 0 ? shallowEqual_shallowEqual : _ref3$areOwnPropsEqua,
+        _ref3$areStatePropsEq = _ref3.areStatePropsEqual,
+        areStatePropsEqual = _ref3$areStatePropsEq === void 0 ? shallowEqual_shallowEqual : _ref3$areStatePropsEq,
+        _ref3$areMergedPropsE = _ref3.areMergedPropsEqual,
+        areMergedPropsEqual = _ref3$areMergedPropsE === void 0 ? shallowEqual_shallowEqual : _ref3$areMergedPropsE,
+        extraOptions = objectWithoutPropertiesLoose_objectWithoutPropertiesLoose(_ref3, connect_excluded);
+
+    var initMapStateToProps = match(mapStateToProps, mapStateToPropsFactories, 'mapStateToProps');
+    var initMapDispatchToProps = match(mapDispatchToProps, mapDispatchToPropsFactories, 'mapDispatchToProps');
+    var initMergeProps = match(mergeProps, mergePropsFactories, 'mergeProps');
+    return connectHOC(selectorFactory, extends_extends({
+      // used in error messages
+      methodName: 'connect',
+      // used to compute Connect's displayName from the wrapped component's displayName.
+      getDisplayName: function getDisplayName(name) {
+        return "Connect(" + name + ")";
+      },
+      // if mapStateToProps is falsy, the Connect component doesn't subscribe to store state changes
+      shouldHandleStateChanges: Boolean(mapStateToProps),
+      // passed through to selectorFactory
+      initMapStateToProps: initMapStateToProps,
+      initMapDispatchToProps: initMapDispatchToProps,
+      initMergeProps: initMergeProps,
+      pure: pure,
+      areStatesEqual: areStatesEqual,
+      areOwnPropsEqual: areOwnPropsEqual,
+      areStatePropsEqual: areStatePropsEqual,
+      areMergedPropsEqual: areMergedPropsEqual
+    }, extraOptions));
+  };
+}
+/* harmony default export */ const connect_connect = (/*#__PURE__*/createConnect());
+;// CONCATENATED MODULE: ./node_modules/react-beautiful-dnd/node_modules/react-redux/es/hooks/useReduxContext.js
+
 
 /**
- * Determine if a value is a File
+ * A hook to access the value of the `ReactReduxContext`. This is a low-level
+ * hook that you should usually not need to call directly.
  *
- * @param {*} val The value to test
+ * @returns {any} the value of the `ReactReduxContext`
  *
- * @returns {boolean} True if value is a File, otherwise false
+ * @example
+ *
+ * import React from 'react'
+ * import { useReduxContext } from 'react-redux'
+ *
+ * export const CounterComponent = ({ value }) => {
+ *   const { store } = useReduxContext()
+ *   return <div>{store.getState()}</div>
+ * }
  */
-const isFile = kindOfTest('File');
+
+function useReduxContext() {
+  var contextValue = useContext(ReactReduxContext);
+
+  if (false) {}
+
+  return contextValue;
+}
+;// CONCATENATED MODULE: ./node_modules/react-beautiful-dnd/node_modules/react-redux/es/hooks/useStore.js
+
+
 
 /**
- * Determine if a value is a Blob
+ * Hook factory, which creates a `useStore` hook bound to a given context.
  *
- * @param {*} val The value to test
- *
- * @returns {boolean} True if value is a Blob, otherwise false
+ * @param {React.Context} [context=ReactReduxContext] Context passed to your `<Provider>`.
+ * @returns {Function} A `useStore` hook bound to the specified context.
  */
-const isBlob = kindOfTest('Blob');
+
+function hooks_useStore_createStoreHook(context) {
+  if (context === void 0) {
+    context = ReactReduxContext;
+  }
+
+  var useReduxContext = context === ReactReduxContext ? useDefaultReduxContext : function () {
+    return useContext(context);
+  };
+  return function useStore() {
+    var _useReduxContext = useReduxContext(),
+        store = _useReduxContext.store;
+
+    return store;
+  };
+}
+/**
+ * A hook to access the redux store.
+ *
+ * @returns {any} the redux store
+ *
+ * @example
+ *
+ * import React from 'react'
+ * import { useStore } from 'react-redux'
+ *
+ * export const ExampleComponent = () => {
+ *   const store = useStore()
+ *   return <div>{store.getState()}</div>
+ * }
+ */
+
+var useStore = /*#__PURE__*/(/* unused pure expression or super */ null && (hooks_useStore_createStoreHook()));
+;// CONCATENATED MODULE: ./node_modules/react-beautiful-dnd/node_modules/react-redux/es/hooks/useDispatch.js
+
 
 /**
- * Determine if a value is a FileList
+ * Hook factory, which creates a `useDispatch` hook bound to a given context.
  *
- * @param {*} val The value to test
- *
- * @returns {boolean} True if value is a File, otherwise false
+ * @param {React.Context} [context=ReactReduxContext] Context passed to your `<Provider>`.
+ * @returns {Function} A `useDispatch` hook bound to the specified context.
  */
-const isFileList = kindOfTest('FileList');
 
-/**
- * Determine if a value is a Stream
- *
- * @param {*} val The value to test
- *
- * @returns {boolean} True if value is a Stream, otherwise false
- */
-const isStream = (val) => isObject(val) && isFunction(val.pipe);
+function useDispatch_createDispatchHook(context) {
+  if (context === void 0) {
+    context = ReactReduxContext;
+  }
 
+  var useStore = context === ReactReduxContext ? useDefaultStore : createStoreHook(context);
+  return function useDispatch() {
+    var store = useStore();
+    return store.dispatch;
+  };
+}
 /**
- * Determine if a value is a FormData
+ * A hook to access the redux `dispatch` function.
  *
- * @param {*} thing The value to test
+ * @returns {any|function} redux store's `dispatch` function
  *
- * @returns {boolean} True if value is an FormData, otherwise false
+ * @example
+ *
+ * import React, { useCallback } from 'react'
+ * import { useDispatch } from 'react-redux'
+ *
+ * export const CounterComponent = ({ value }) => {
+ *   const dispatch = useDispatch()
+ *   const increaseCounter = useCallback(() => dispatch({ type: 'increase-counter' }), [])
+ *   return (
+ *     <div>
+ *       <span>{value}</span>
+ *       <button onClick={increaseCounter}>Increase counter</button>
+ *     </div>
+ *   )
+ * }
  */
-const isFormData = (thing) => {
-  let kind;
-  return thing && (
-    (typeof FormData === 'function' && thing instanceof FormData) || (
-      isFunction(thing.append) && (
-        (kind = utils_kindOf(thing)) === 'formdata' ||
-        // detect form-data instance
-        (kind === 'object' && isFunction(thing.toString) && thing.toString() === '[object FormData]')
-      )
-    )
-  )
+
+var useDispatch_useDispatch = /*#__PURE__*/(/* unused pure expression or super */ null && (useDispatch_createDispatchHook()));
+;// CONCATENATED MODULE: ./node_modules/react-beautiful-dnd/node_modules/react-redux/es/hooks/useSelector.js
+
+
+
+
+
+
+var useSelector_refEquality = function refEquality(a, b) {
+  return a === b;
+};
+
+function useSelectorWithStoreAndSubscription(selector, equalityFn, store, contextSub) {
+  var _useReducer = useReducer(function (s) {
+    return s + 1;
+  }, 0),
+      forceRender = _useReducer[1];
+
+  var subscription = useMemo(function () {
+    return createSubscription(store, contextSub);
+  }, [store, contextSub]);
+  var latestSubscriptionCallbackError = useRef();
+  var latestSelector = useRef();
+  var latestStoreState = useRef();
+  var latestSelectedState = useRef();
+  var storeState = store.getState();
+  var selectedState;
+
+  try {
+    if (selector !== latestSelector.current || storeState !== latestStoreState.current || latestSubscriptionCallbackError.current) {
+      var newSelectedState = selector(storeState); // ensure latest selected state is reused so that a custom equality function can result in identical references
+
+      if (latestSelectedState.current === undefined || !equalityFn(newSelectedState, latestSelectedState.current)) {
+        selectedState = newSelectedState;
+      } else {
+        selectedState = latestSelectedState.current;
+      }
+    } else {
+      selectedState = latestSelectedState.current;
+    }
+  } catch (err) {
+    if (latestSubscriptionCallbackError.current) {
+      err.message += "\nThe error may be correlated with this previous error:\n" + latestSubscriptionCallbackError.current.stack + "\n\n";
+    }
+
+    throw err;
+  }
+
+  useIsomorphicLayoutEffect(function () {
+    latestSelector.current = selector;
+    latestStoreState.current = storeState;
+    latestSelectedState.current = selectedState;
+    latestSubscriptionCallbackError.current = undefined;
+  });
+  useIsomorphicLayoutEffect(function () {
+    function checkForUpdates() {
+      try {
+        var newStoreState = store.getState(); // Avoid calling selector multiple times if the store's state has not changed
+
+        if (newStoreState === latestStoreState.current) {
+          return;
+        }
+
+        var _newSelectedState = latestSelector.current(newStoreState);
+
+        if (equalityFn(_newSelectedState, latestSelectedState.current)) {
+          return;
+        }
+
+        latestSelectedState.current = _newSelectedState;
+        latestStoreState.current = newStoreState;
+      } catch (err) {
+        // we ignore all errors here, since when the component
+        // is re-rendered, the selectors are called again, and
+        // will throw again, if neither props nor store state
+        // changed
+        latestSubscriptionCallbackError.current = err;
+      }
+
+      forceRender();
+    }
+
+    subscription.onStateChange = checkForUpdates;
+    subscription.trySubscribe();
+    checkForUpdates();
+    return function () {
+      return subscription.tryUnsubscribe();
+    };
+  }, [store, subscription]);
+  return selectedState;
+}
+/**
+ * Hook factory, which creates a `useSelector` hook bound to a given context.
+ *
+ * @param {React.Context} [context=ReactReduxContext] Context passed to your `<Provider>`.
+ * @returns {Function} A `useSelector` hook bound to the specified context.
+ */
+
+
+function useSelector_createSelectorHook(context) {
+  if (context === void 0) {
+    context = ReactReduxContext;
+  }
+
+  var useReduxContext = context === ReactReduxContext ? useDefaultReduxContext : function () {
+    return useContext(context);
+  };
+  return function useSelector(selector, equalityFn) {
+    if (equalityFn === void 0) {
+      equalityFn = useSelector_refEquality;
+    }
+
+    if (false) {}
+
+    var _useReduxContext = useReduxContext(),
+        store = _useReduxContext.store,
+        contextSub = _useReduxContext.subscription;
+
+    var selectedState = useSelectorWithStoreAndSubscription(selector, equalityFn, store, contextSub);
+    useDebugValue(selectedState);
+    return selectedState;
+  };
+}
+/**
+ * A hook to access the redux store's state. This hook takes a selector function
+ * as an argument. The selector is called with the store state.
+ *
+ * This hook takes an optional equality comparison function as the second parameter
+ * that allows you to customize the way the selected state is compared to determine
+ * whether the component needs to be re-rendered.
+ *
+ * @param {Function} selector the selector function
+ * @param {Function=} equalityFn the function that will be used to determine equality
+ *
+ * @returns {any} the selected state
+ *
+ * @example
+ *
+ * import React from 'react'
+ * import { useSelector } from 'react-redux'
+ *
+ * export const CounterComponent = () => {
+ *   const counter = useSelector(state => state.counter)
+ *   return <div>{counter}</div>
+ * }
+ */
+
+var useSelector_useSelector = /*#__PURE__*/(/* unused pure expression or super */ null && (useSelector_createSelectorHook()));
+;// CONCATENATED MODULE: ./node_modules/react-beautiful-dnd/node_modules/react-redux/es/exports.js
+
+
+
+
+
+
+
+
+
+;// CONCATENATED MODULE: ./node_modules/react-beautiful-dnd/node_modules/react-redux/es/utils/reactBatchedUpdates.js
+/* eslint-disable import/no-unresolved */
+
+;// CONCATENATED MODULE: ./node_modules/react-beautiful-dnd/node_modules/react-redux/es/index.js
+
+
+ // Enable batched updates in our subscriptions for use
+// with standard React renderers (ReactDOM, React Native)
+
+batch_setBatch(react_dom.unstable_batchedUpdates);
+
+;// CONCATENATED MODULE: ./node_modules/use-memo-one/dist/use-memo-one.esm.js
+
+
+function areInputsEqual(newInputs, lastInputs) {
+  if (newInputs.length !== lastInputs.length) {
+    return false;
+  }
+
+  for (var i = 0; i < newInputs.length; i++) {
+    if (newInputs[i] !== lastInputs[i]) {
+      return false;
+    }
+  }
+
+  return true;
 }
 
-/**
- * Determine if a value is a URLSearchParams object
- *
- * @param {*} val The value to test
- *
- * @returns {boolean} True if value is a URLSearchParams object, otherwise false
- */
-const isURLSearchParams = kindOfTest('URLSearchParams');
+function useMemoOne(getResult, inputs) {
+  var initial = (0,react.useState)(function () {
+    return {
+      inputs: inputs,
+      result: getResult()
+    };
+  })[0];
+  var isFirstRun = (0,react.useRef)(true);
+  var committed = (0,react.useRef)(initial);
+  var useCache = isFirstRun.current || Boolean(inputs && committed.current.inputs && areInputsEqual(inputs, committed.current.inputs));
+  var cache = useCache ? committed.current : {
+    inputs: inputs,
+    result: getResult()
+  };
+  (0,react.useEffect)(function () {
+    isFirstRun.current = false;
+    committed.current = cache;
+  }, [cache]);
+  return cache.result;
+}
+function useCallbackOne(callback, inputs) {
+  return useMemoOne(function () {
+    return callback;
+  }, inputs);
+}
+var use_memo_one_esm_useMemo = useMemoOne;
+var useCallback = useCallbackOne;
 
-/**
- * Trim excess whitespace off the beginning and end of a string
- *
- * @param {String} str The String to trim
- *
- * @returns {String} The String freed of excess whitespace
- */
-const trim = (str) => str.trim ?
-  str.trim() : str.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g, '');
 
-/**
- * Iterate over an Array or an Object invoking a function for each item.
- *
- * If `obj` is an Array callback will be called passing
- * the value, index, and complete array for each item.
- *
- * If 'obj' is an Object callback will be called passing
- * the value, key, and complete object for each property.
- *
- * @param {Object|Array} obj The object to iterate
- * @param {Function} fn The callback to invoke for each item
- *
- * @param {Boolean} [allOwnKeys = false]
- * @returns {any}
- */
-function forEach(obj, fn, {allOwnKeys = false} = {}) {
-  // Don't bother if no value provided
-  if (obj === null || typeof obj === 'undefined') {
+
+;// CONCATENATED MODULE: ./node_modules/tiny-invariant/dist/esm/tiny-invariant.js
+var isProduction = "production" === 'production';
+var prefix = 'Invariant failed';
+function tiny_invariant_invariant(condition, message) {
+    if (condition) {
+        return;
+    }
+    if (isProduction) {
+        throw new Error(prefix);
+    }
+    var provided = typeof message === 'function' ? message() : message;
+    var value = provided ? "".concat(prefix, ": ").concat(provided) : prefix;
+    throw new Error(value);
+}
+
+
+
+;// CONCATENATED MODULE: ./node_modules/css-box-model/dist/css-box-model.esm.js
+
+
+var getRect = function getRect(_ref) {
+  var top = _ref.top,
+      right = _ref.right,
+      bottom = _ref.bottom,
+      left = _ref.left;
+  var width = right - left;
+  var height = bottom - top;
+  var rect = {
+    top: top,
+    right: right,
+    bottom: bottom,
+    left: left,
+    width: width,
+    height: height,
+    x: left,
+    y: top,
+    center: {
+      x: (right + left) / 2,
+      y: (bottom + top) / 2
+    }
+  };
+  return rect;
+};
+var expand = function expand(target, expandBy) {
+  return {
+    top: target.top - expandBy.top,
+    left: target.left - expandBy.left,
+    bottom: target.bottom + expandBy.bottom,
+    right: target.right + expandBy.right
+  };
+};
+var shrink = function shrink(target, shrinkBy) {
+  return {
+    top: target.top + shrinkBy.top,
+    left: target.left + shrinkBy.left,
+    bottom: target.bottom - shrinkBy.bottom,
+    right: target.right - shrinkBy.right
+  };
+};
+
+var shift = function shift(target, shiftBy) {
+  return {
+    top: target.top + shiftBy.y,
+    left: target.left + shiftBy.x,
+    bottom: target.bottom + shiftBy.y,
+    right: target.right + shiftBy.x
+  };
+};
+
+var noSpacing = {
+  top: 0,
+  right: 0,
+  bottom: 0,
+  left: 0
+};
+var createBox = function createBox(_ref2) {
+  var borderBox = _ref2.borderBox,
+      _ref2$margin = _ref2.margin,
+      margin = _ref2$margin === void 0 ? noSpacing : _ref2$margin,
+      _ref2$border = _ref2.border,
+      border = _ref2$border === void 0 ? noSpacing : _ref2$border,
+      _ref2$padding = _ref2.padding,
+      padding = _ref2$padding === void 0 ? noSpacing : _ref2$padding;
+  var marginBox = getRect(expand(borderBox, margin));
+  var paddingBox = getRect(shrink(borderBox, border));
+  var contentBox = getRect(shrink(paddingBox, padding));
+  return {
+    marginBox: marginBox,
+    borderBox: getRect(borderBox),
+    paddingBox: paddingBox,
+    contentBox: contentBox,
+    margin: margin,
+    border: border,
+    padding: padding
+  };
+};
+
+var parse = function parse(raw) {
+  var value = raw.slice(0, -2);
+  var suffix = raw.slice(-2);
+
+  if (suffix !== 'px') {
+    return 0;
+  }
+
+  var result = Number(value);
+  !!isNaN(result) ?  false ? 0 : tiny_invariant_invariant(false) : void 0;
+  return result;
+};
+
+var getWindowScroll = function getWindowScroll() {
+  return {
+    x: window.pageXOffset,
+    y: window.pageYOffset
+  };
+};
+
+var offset = function offset(original, change) {
+  var borderBox = original.borderBox,
+      border = original.border,
+      margin = original.margin,
+      padding = original.padding;
+  var shifted = shift(borderBox, change);
+  return createBox({
+    borderBox: shifted,
+    border: border,
+    margin: margin,
+    padding: padding
+  });
+};
+var withScroll = function withScroll(original, scroll) {
+  if (scroll === void 0) {
+    scroll = getWindowScroll();
+  }
+
+  return offset(original, scroll);
+};
+var calculateBox = function calculateBox(borderBox, styles) {
+  var margin = {
+    top: parse(styles.marginTop),
+    right: parse(styles.marginRight),
+    bottom: parse(styles.marginBottom),
+    left: parse(styles.marginLeft)
+  };
+  var padding = {
+    top: parse(styles.paddingTop),
+    right: parse(styles.paddingRight),
+    bottom: parse(styles.paddingBottom),
+    left: parse(styles.paddingLeft)
+  };
+  var border = {
+    top: parse(styles.borderTopWidth),
+    right: parse(styles.borderRightWidth),
+    bottom: parse(styles.borderBottomWidth),
+    left: parse(styles.borderLeftWidth)
+  };
+  return createBox({
+    borderBox: borderBox,
+    margin: margin,
+    padding: padding,
+    border: border
+  });
+};
+var getBox = function getBox(el) {
+  var borderBox = el.getBoundingClientRect();
+  var styles = window.getComputedStyle(el);
+  return calculateBox(borderBox, styles);
+};
+
+
+
+;// CONCATENATED MODULE: ./node_modules/memoize-one/dist/memoize-one.esm.js
+var safeIsNaN = Number.isNaN ||
+    function ponyfill(value) {
+        return typeof value === 'number' && value !== value;
+    };
+function isEqual(first, second) {
+    if (first === second) {
+        return true;
+    }
+    if (safeIsNaN(first) && safeIsNaN(second)) {
+        return true;
+    }
+    return false;
+}
+function memoize_one_esm_areInputsEqual(newInputs, lastInputs) {
+    if (newInputs.length !== lastInputs.length) {
+        return false;
+    }
+    for (var i = 0; i < newInputs.length; i++) {
+        if (!isEqual(newInputs[i], lastInputs[i])) {
+            return false;
+        }
+    }
+    return true;
+}
+
+function memoizeOne(resultFn, isEqual) {
+    if (isEqual === void 0) { isEqual = memoize_one_esm_areInputsEqual; }
+    var lastThis;
+    var lastArgs = [];
+    var lastResult;
+    var calledOnce = false;
+    function memoized() {
+        var newArgs = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            newArgs[_i] = arguments[_i];
+        }
+        if (calledOnce && lastThis === this && isEqual(newArgs, lastArgs)) {
+            return lastResult;
+        }
+        lastResult = resultFn.apply(this, newArgs);
+        calledOnce = true;
+        lastThis = this;
+        lastArgs = newArgs;
+        return lastResult;
+    }
+    return memoized;
+}
+
+/* harmony default export */ const memoize_one_esm = (memoizeOne);
+
+;// CONCATENATED MODULE: ./node_modules/raf-schd/dist/raf-schd.esm.js
+var rafSchd = function rafSchd(fn) {
+  var lastArgs = [];
+  var frameId = null;
+
+  var wrapperFn = function wrapperFn() {
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    lastArgs = args;
+
+    if (frameId) {
+      return;
+    }
+
+    frameId = requestAnimationFrame(function () {
+      frameId = null;
+      fn.apply(void 0, lastArgs);
+    });
+  };
+
+  wrapperFn.cancel = function () {
+    if (!frameId) {
+      return;
+    }
+
+    cancelAnimationFrame(frameId);
+    frameId = null;
+  };
+
+  return wrapperFn;
+};
+
+/* harmony default export */ const raf_schd_esm = (rafSchd);
+
+;// CONCATENATED MODULE: ./node_modules/react-beautiful-dnd/dist/react-beautiful-dnd.esm.js
+
+
+
+
+
+
+
+
+
+
+
+var react_beautiful_dnd_esm_isProduction = "production" === 'production';
+var spacesAndTabs = /[ \t]{2,}/g;
+var lineStartWithSpaces = /^[ \t]*/gm;
+
+var clean = function clean(value) {
+  return value.replace(spacesAndTabs, ' ').replace(lineStartWithSpaces, '').trim();
+};
+
+var getDevMessage = function getDevMessage(message) {
+  return clean("\n  %creact-beautiful-dnd\n\n  %c" + clean(message) + "\n\n  %c\uD83D\uDC77\u200D This is a development only message. It will be removed in production builds.\n");
+};
+
+var getFormattedMessage = function getFormattedMessage(message) {
+  return [getDevMessage(message), 'color: #00C584; font-size: 1.2em; font-weight: bold;', 'line-height: 1.5', 'color: #723874;'];
+};
+var isDisabledFlag = '__react-beautiful-dnd-disable-dev-warnings';
+function log(type, message) {
+  var _console;
+
+  if (react_beautiful_dnd_esm_isProduction) {
     return;
   }
 
-  let i;
-  let l;
-
-  // Force an array if not already something iterable
-  if (typeof obj !== 'object') {
-    /*eslint no-param-reassign:0*/
-    obj = [obj];
+  if (typeof window !== 'undefined' && window[isDisabledFlag]) {
+    return;
   }
 
-  if (isArray(obj)) {
-    // Iterate over array values
-    for (i = 0, l = obj.length; i < l; i++) {
-      fn.call(null, obj[i], i, obj);
-    }
-  } else {
-    // Iterate over object keys
-    const keys = allOwnKeys ? Object.getOwnPropertyNames(obj) : Object.keys(obj);
-    const len = keys.length;
-    let key;
+  (_console = console)[type].apply(_console, getFormattedMessage(message));
+}
+var react_beautiful_dnd_esm_warning = log.bind(null, 'warn');
+var error = log.bind(null, 'error');
 
-    for (i = 0; i < len; i++) {
-      key = keys[i];
-      fn.call(null, obj[key], key, obj);
-    }
-  }
+function noop() {}
+
+function getOptions(shared, fromBinding) {
+  return extends_extends({}, shared, {}, fromBinding);
 }
 
-function findKey(obj, key) {
-  key = key.toLowerCase();
-  const keys = Object.keys(obj);
-  let i = keys.length;
-  let _key;
-  while (i-- > 0) {
-    _key = keys[i];
-    if (key === _key.toLowerCase()) {
-      return _key;
-    }
-  }
-  return null;
-}
-
-const _global = (() => {
-  /*eslint no-undef:0*/
-  if (typeof globalThis !== "undefined") return globalThis;
-  return typeof self !== "undefined" ? self : (typeof window !== 'undefined' ? window : global)
-})();
-
-const isContextDefined = (context) => !isUndefined(context) && context !== _global;
-
-/**
- * Accepts varargs expecting each argument to be an object, then
- * immutably merges the properties of each object and returns result.
- *
- * When multiple objects contain the same key the later object in
- * the arguments list will take precedence.
- *
- * Example:
- *
- * ```js
- * var result = merge({foo: 123}, {foo: 456});
- * console.log(result.foo); // outputs 456
- * ```
- *
- * @param {Object} obj1 Object to merge
- *
- * @returns {Object} Result of all merge properties
- */
-function merge(/* obj1, obj2, obj3, ... */) {
-  const {caseless} = isContextDefined(this) && this || {};
-  const result = {};
-  const assignValue = (val, key) => {
-    const targetKey = caseless && findKey(result, key) || key;
-    if (utils_isPlainObject(result[targetKey]) && utils_isPlainObject(val)) {
-      result[targetKey] = merge(result[targetKey], val);
-    } else if (utils_isPlainObject(val)) {
-      result[targetKey] = merge({}, val);
-    } else if (isArray(val)) {
-      result[targetKey] = val.slice();
-    } else {
-      result[targetKey] = val;
-    }
-  }
-
-  for (let i = 0, l = arguments.length; i < l; i++) {
-    arguments[i] && forEach(arguments[i], assignValue);
-  }
-  return result;
-}
-
-/**
- * Extends object a by mutably adding to it the properties of object b.
- *
- * @param {Object} a The object to be extended
- * @param {Object} b The object to copy properties from
- * @param {Object} thisArg The object to bind function to
- *
- * @param {Boolean} [allOwnKeys]
- * @returns {Object} The resulting value of object a
- */
-const extend = (a, b, thisArg, {allOwnKeys}= {}) => {
-  forEach(b, (val, key) => {
-    if (thisArg && isFunction(val)) {
-      a[key] = bind(val, thisArg);
-    } else {
-      a[key] = val;
-    }
-  }, {allOwnKeys});
-  return a;
-}
-
-/**
- * Remove byte order marker. This catches EF BB BF (the UTF-8 BOM)
- *
- * @param {string} content with BOM
- *
- * @returns {string} content value without BOM
- */
-const stripBOM = (content) => {
-  if (content.charCodeAt(0) === 0xFEFF) {
-    content = content.slice(1);
-  }
-  return content;
-}
-
-/**
- * Inherit the prototype methods from one constructor into another
- * @param {function} constructor
- * @param {function} superConstructor
- * @param {object} [props]
- * @param {object} [descriptors]
- *
- * @returns {void}
- */
-const inherits = (constructor, superConstructor, props, descriptors) => {
-  constructor.prototype = Object.create(superConstructor.prototype, descriptors);
-  constructor.prototype.constructor = constructor;
-  Object.defineProperty(constructor, 'super', {
-    value: superConstructor.prototype
+function bindEvents(el, bindings, sharedOptions) {
+  var unbindings = bindings.map(function (binding) {
+    var options = getOptions(sharedOptions, binding.options);
+    el.addEventListener(binding.eventName, binding.fn, options);
+    return function unbind() {
+      el.removeEventListener(binding.eventName, binding.fn, options);
+    };
   });
-  props && Object.assign(constructor.prototype, props);
-}
-
-/**
- * Resolve object with deep prototype chain to a flat object
- * @param {Object} sourceObj source object
- * @param {Object} [destObj]
- * @param {Function|Boolean} [filter]
- * @param {Function} [propFilter]
- *
- * @returns {Object}
- */
-const toFlatObject = (sourceObj, destObj, filter, propFilter) => {
-  let props;
-  let i;
-  let prop;
-  const merged = {};
-
-  destObj = destObj || {};
-  // eslint-disable-next-line no-eq-null,eqeqeq
-  if (sourceObj == null) return destObj;
-
-  do {
-    props = Object.getOwnPropertyNames(sourceObj);
-    i = props.length;
-    while (i-- > 0) {
-      prop = props[i];
-      if ((!propFilter || propFilter(prop, sourceObj, destObj)) && !merged[prop]) {
-        destObj[prop] = sourceObj[prop];
-        merged[prop] = true;
-      }
-    }
-    sourceObj = filter !== false && getPrototypeOf(sourceObj);
-  } while (sourceObj && (!filter || filter(sourceObj, destObj)) && sourceObj !== Object.prototype);
-
-  return destObj;
-}
-
-/**
- * Determines whether a string ends with the characters of a specified string
- *
- * @param {String} str
- * @param {String} searchString
- * @param {Number} [position= 0]
- *
- * @returns {boolean}
- */
-const endsWith = (str, searchString, position) => {
-  str = String(str);
-  if (position === undefined || position > str.length) {
-    position = str.length;
-  }
-  position -= searchString.length;
-  const lastIndex = str.indexOf(searchString, position);
-  return lastIndex !== -1 && lastIndex === position;
-}
-
-
-/**
- * Returns new array from array like object or null if failed
- *
- * @param {*} [thing]
- *
- * @returns {?Array}
- */
-const toArray = (thing) => {
-  if (!thing) return null;
-  if (isArray(thing)) return thing;
-  let i = thing.length;
-  if (!isNumber(i)) return null;
-  const arr = new Array(i);
-  while (i-- > 0) {
-    arr[i] = thing[i];
-  }
-  return arr;
-}
-
-/**
- * Checking if the Uint8Array exists and if it does, it returns a function that checks if the
- * thing passed in is an instance of Uint8Array
- *
- * @param {TypedArray}
- *
- * @returns {Array}
- */
-// eslint-disable-next-line func-names
-const isTypedArray = (TypedArray => {
-  // eslint-disable-next-line func-names
-  return thing => {
-    return TypedArray && thing instanceof TypedArray;
-  };
-})(typeof Uint8Array !== 'undefined' && getPrototypeOf(Uint8Array));
-
-/**
- * For each entry in the object, call the function with the key and value.
- *
- * @param {Object<any, any>} obj - The object to iterate over.
- * @param {Function} fn - The function to call for each entry.
- *
- * @returns {void}
- */
-const forEachEntry = (obj, fn) => {
-  const generator = obj && obj[Symbol.iterator];
-
-  const iterator = generator.call(obj);
-
-  let result;
-
-  while ((result = iterator.next()) && !result.done) {
-    const pair = result.value;
-    fn.call(obj, pair[0], pair[1]);
-  }
-}
-
-/**
- * It takes a regular expression and a string, and returns an array of all the matches
- *
- * @param {string} regExp - The regular expression to match against.
- * @param {string} str - The string to search.
- *
- * @returns {Array<boolean>}
- */
-const matchAll = (regExp, str) => {
-  let matches;
-  const arr = [];
-
-  while ((matches = regExp.exec(str)) !== null) {
-    arr.push(matches);
-  }
-
-  return arr;
-}
-
-/* Checking if the kindOfTest function returns true when passed an HTMLFormElement. */
-const isHTMLForm = kindOfTest('HTMLFormElement');
-
-const toCamelCase = str => {
-  return str.toLowerCase().replace(/[-_\s]([a-z\d])(\w*)/g,
-    function replacer(m, p1, p2) {
-      return p1.toUpperCase() + p2;
-    }
-  );
-};
-
-/* Creating a function that will check if an object has a property. */
-const utils_hasOwnProperty = (({hasOwnProperty}) => (obj, prop) => hasOwnProperty.call(obj, prop))(Object.prototype);
-
-/**
- * Determine if a value is a RegExp object
- *
- * @param {*} val The value to test
- *
- * @returns {boolean} True if value is a RegExp object, otherwise false
- */
-const isRegExp = kindOfTest('RegExp');
-
-const reduceDescriptors = (obj, reducer) => {
-  const descriptors = Object.getOwnPropertyDescriptors(obj);
-  const reducedDescriptors = {};
-
-  forEach(descriptors, (descriptor, name) => {
-    let ret;
-    if ((ret = reducer(descriptor, name, obj)) !== false) {
-      reducedDescriptors[name] = ret || descriptor;
-    }
-  });
-
-  Object.defineProperties(obj, reducedDescriptors);
-}
-
-/**
- * Makes all methods read-only
- * @param {Object} obj
- */
-
-const freezeMethods = (obj) => {
-  reduceDescriptors(obj, (descriptor, name) => {
-    // skip restricted props in strict mode
-    if (isFunction(obj) && ['arguments', 'caller', 'callee'].indexOf(name) !== -1) {
-      return false;
-    }
-
-    const value = obj[name];
-
-    if (!isFunction(value)) return;
-
-    descriptor.enumerable = false;
-
-    if ('writable' in descriptor) {
-      descriptor.writable = false;
-      return;
-    }
-
-    if (!descriptor.set) {
-      descriptor.set = () => {
-        throw Error('Can not rewrite read-only method \'' + name + '\'');
-      };
-    }
-  });
-}
-
-const toObjectSet = (arrayOrString, delimiter) => {
-  const obj = {};
-
-  const define = (arr) => {
-    arr.forEach(value => {
-      obj[value] = true;
+  return function unbindAll() {
+    unbindings.forEach(function (unbind) {
+      unbind();
     });
-  }
-
-  isArray(arrayOrString) ? define(arrayOrString) : define(String(arrayOrString).split(delimiter));
-
-  return obj;
+  };
 }
 
-const noop = () => {}
-
-const toFiniteNumber = (value, defaultValue) => {
-  value = +value;
-  return Number.isFinite(value) ? value : defaultValue;
-}
-
-const ALPHA = 'abcdefghijklmnopqrstuvwxyz'
-
-const DIGIT = '0123456789';
-
-const ALPHABET = {
-  DIGIT,
-  ALPHA,
-  ALPHA_DIGIT: ALPHA + ALPHA.toUpperCase() + DIGIT
-}
-
-const generateString = (size = 16, alphabet = ALPHABET.ALPHA_DIGIT) => {
-  let str = '';
-  const {length} = alphabet;
-  while (size--) {
-    str += alphabet[Math.random() * length|0]
-  }
-
-  return str;
-}
-
-/**
- * If the thing is a FormData object, return true, otherwise return false.
- *
- * @param {unknown} thing - The thing to check.
- *
- * @returns {boolean}
- */
-function isSpecCompliantForm(thing) {
-  return !!(thing && isFunction(thing.append) && thing[Symbol.toStringTag] === 'FormData' && thing[Symbol.iterator]);
-}
-
-const toJSONObject = (obj) => {
-  const stack = new Array(10);
-
-  const visit = (source, i) => {
-
-    if (isObject(source)) {
-      if (stack.indexOf(source) >= 0) {
-        return;
-      }
-
-      if(!('toJSON' in source)) {
-        stack[i] = source;
-        const target = isArray(source) ? [] : {};
-
-        forEach(source, (value, key) => {
-          const reducedValue = visit(value, i + 1);
-          !isUndefined(reducedValue) && (target[key] = reducedValue);
-        });
-
-        stack[i] = undefined;
-
-        return target;
-      }
-    }
-
-    return source;
-  }
-
-  return visit(obj, 0);
-}
-
-const isAsyncFn = kindOfTest('AsyncFunction');
-
-const isThenable = (thing) =>
-  thing && (isObject(thing) || isFunction(thing)) && isFunction(thing.then) && isFunction(thing.catch);
-
-/* harmony default export */ const utils = ({
-  isArray,
-  isArrayBuffer,
-  isBuffer,
-  isFormData,
-  isArrayBufferView,
-  isString,
-  isNumber,
-  isBoolean,
-  isObject,
-  isPlainObject: utils_isPlainObject,
-  isUndefined,
-  isDate: utils_isDate,
-  isFile,
-  isBlob,
-  isRegExp,
-  isFunction,
-  isStream,
-  isURLSearchParams,
-  isTypedArray,
-  isFileList,
-  forEach,
-  merge,
-  extend,
-  trim,
-  stripBOM,
-  inherits,
-  toFlatObject,
-  kindOf: utils_kindOf,
-  kindOfTest,
-  endsWith,
-  toArray,
-  forEachEntry,
-  matchAll,
-  isHTMLForm,
-  hasOwnProperty: utils_hasOwnProperty,
-  hasOwnProp: utils_hasOwnProperty, // an alias to avoid ESLint no-prototype-builtins detection
-  reduceDescriptors,
-  freezeMethods,
-  toObjectSet,
-  toCamelCase,
-  noop,
-  toFiniteNumber,
-  findKey,
-  global: _global,
-  isContextDefined,
-  ALPHABET,
-  generateString,
-  isSpecCompliantForm,
-  toJSONObject,
-  isAsyncFn,
-  isThenable
-});
-
-;// CONCATENATED MODULE: ./node_modules/axios/lib/core/AxiosError.js
-
-
-
-
-/**
- * Create an Error with the specified message, config, error code, request and response.
- *
- * @param {string} message The error message.
- * @param {string} [code] The error code (for example, 'ECONNABORTED').
- * @param {Object} [config] The config.
- * @param {Object} [request] The request.
- * @param {Object} [response] The response.
- *
- * @returns {Error} The created error.
- */
-function AxiosError(message, code, config, request, response) {
-  Error.call(this);
-
-  if (Error.captureStackTrace) {
-    Error.captureStackTrace(this, this.constructor);
-  } else {
-    this.stack = (new Error()).stack;
-  }
-
+var isProduction$1 = "production" === 'production';
+var react_beautiful_dnd_esm_prefix = 'Invariant failed';
+function RbdInvariant(message) {
   this.message = message;
-  this.name = 'AxiosError';
-  code && (this.code = code);
-  config && (this.config = config);
-  request && (this.request = request);
-  response && (this.response = response);
 }
 
-utils.inherits(AxiosError, Error, {
-  toJSON: function toJSON() {
-    return {
-      // Standard
-      message: this.message,
-      name: this.name,
-      // Microsoft
-      description: this.description,
-      number: this.number,
-      // Mozilla
-      fileName: this.fileName,
-      lineNumber: this.lineNumber,
-      columnNumber: this.columnNumber,
-      stack: this.stack,
-      // Axios
-      config: utils.toJSONObject(this.config),
-      code: this.code,
-      status: this.response && this.response.status ? this.response.status : null
-    };
-  }
-});
-
-const AxiosError_prototype = AxiosError.prototype;
-const descriptors = {};
-
-[
-  'ERR_BAD_OPTION_VALUE',
-  'ERR_BAD_OPTION',
-  'ECONNABORTED',
-  'ETIMEDOUT',
-  'ERR_NETWORK',
-  'ERR_FR_TOO_MANY_REDIRECTS',
-  'ERR_DEPRECATED',
-  'ERR_BAD_RESPONSE',
-  'ERR_BAD_REQUEST',
-  'ERR_CANCELED',
-  'ERR_NOT_SUPPORT',
-  'ERR_INVALID_URL'
-// eslint-disable-next-line func-names
-].forEach(code => {
-  descriptors[code] = {value: code};
-});
-
-Object.defineProperties(AxiosError, descriptors);
-Object.defineProperty(AxiosError_prototype, 'isAxiosError', {value: true});
-
-// eslint-disable-next-line func-names
-AxiosError.from = (error, code, config, request, response, customProps) => {
-  const axiosError = Object.create(AxiosError_prototype);
-
-  utils.toFlatObject(error, axiosError, function filter(obj) {
-    return obj !== Error.prototype;
-  }, prop => {
-    return prop !== 'isAxiosError';
-  });
-
-  AxiosError.call(axiosError, error.message, code, config, request, response);
-
-  axiosError.cause = error;
-
-  axiosError.name = error.name;
-
-  customProps && Object.assign(axiosError, customProps);
-
-  return axiosError;
+RbdInvariant.prototype.toString = function toString() {
+  return this.message;
 };
 
-/* harmony default export */ const core_AxiosError = (AxiosError);
-
-;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/null.js
-// eslint-disable-next-line strict
-/* harmony default export */ const helpers_null = (null);
-
-;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/toFormData.js
-
-
-
-
-// temporary hotfix to avoid circular references until AxiosURLSearchParams is refactored
-
-
-/**
- * Determines if the given thing is a array or js object.
- *
- * @param {string} thing - The object or array to be visited.
- *
- * @returns {boolean}
- */
-function isVisitable(thing) {
-  return utils.isPlainObject(thing) || utils.isArray(thing);
-}
-
-/**
- * It removes the brackets from the end of a string
- *
- * @param {string} key - The key of the parameter.
- *
- * @returns {string} the key without the brackets.
- */
-function removeBrackets(key) {
-  return utils.endsWith(key, '[]') ? key.slice(0, -2) : key;
-}
-
-/**
- * It takes a path, a key, and a boolean, and returns a string
- *
- * @param {string} path - The path to the current key.
- * @param {string} key - The key of the current object being iterated over.
- * @param {string} dots - If true, the key will be rendered with dots instead of brackets.
- *
- * @returns {string} The path to the current key.
- */
-function renderKey(path, key, dots) {
-  if (!path) return key;
-  return path.concat(key).map(function each(token, i) {
-    // eslint-disable-next-line no-param-reassign
-    token = removeBrackets(token);
-    return !dots && i ? '[' + token + ']' : token;
-  }).join(dots ? '.' : '');
-}
-
-/**
- * If the array is an array and none of its elements are visitable, then it's a flat array.
- *
- * @param {Array<any>} arr - The array to check
- *
- * @returns {boolean}
- */
-function isFlatArray(arr) {
-  return utils.isArray(arr) && !arr.some(isVisitable);
-}
-
-const predicates = utils.toFlatObject(utils, {}, null, function filter(prop) {
-  return /^is[A-Z]/.test(prop);
-});
-
-/**
- * Convert a data object to FormData
- *
- * @param {Object} obj
- * @param {?Object} [formData]
- * @param {?Object} [options]
- * @param {Function} [options.visitor]
- * @param {Boolean} [options.metaTokens = true]
- * @param {Boolean} [options.dots = false]
- * @param {?Boolean} [options.indexes = false]
- *
- * @returns {Object}
- **/
-
-/**
- * It converts an object into a FormData object
- *
- * @param {Object<any, any>} obj - The object to convert to form data.
- * @param {string} formData - The FormData object to append to.
- * @param {Object<string, any>} options
- *
- * @returns
- */
-function toFormData(obj, formData, options) {
-  if (!utils.isObject(obj)) {
-    throw new TypeError('target must be an object');
+function react_beautiful_dnd_esm_invariant(condition, message) {
+  if (condition) {
+    return;
   }
 
-  // eslint-disable-next-line no-param-reassign
-  formData = formData || new (helpers_null || FormData)();
-
-  // eslint-disable-next-line no-param-reassign
-  options = utils.toFlatObject(options, {
-    metaTokens: true,
-    dots: false,
-    indexes: false
-  }, false, function defined(option, source) {
-    // eslint-disable-next-line no-eq-null,eqeqeq
-    return !utils.isUndefined(source[option]);
-  });
-
-  const metaTokens = options.metaTokens;
-  // eslint-disable-next-line no-use-before-define
-  const visitor = options.visitor || defaultVisitor;
-  const dots = options.dots;
-  const indexes = options.indexes;
-  const _Blob = options.Blob || typeof Blob !== 'undefined' && Blob;
-  const useBlob = _Blob && utils.isSpecCompliantForm(formData);
-
-  if (!utils.isFunction(visitor)) {
-    throw new TypeError('visitor must be a function');
-  }
-
-  function convertValue(value) {
-    if (value === null) return '';
-
-    if (utils.isDate(value)) {
-      return value.toISOString();
-    }
-
-    if (!useBlob && utils.isBlob(value)) {
-      throw new core_AxiosError('Blob is not supported. Use a Buffer instead.');
-    }
-
-    if (utils.isArrayBuffer(value) || utils.isTypedArray(value)) {
-      return useBlob && typeof Blob === 'function' ? new Blob([value]) : Buffer.from(value);
-    }
-
-    return value;
-  }
-
-  /**
-   * Default visitor.
-   *
-   * @param {*} value
-   * @param {String|Number} key
-   * @param {Array<String|Number>} path
-   * @this {FormData}
-   *
-   * @returns {boolean} return true to visit the each prop of the value recursively
-   */
-  function defaultVisitor(value, key, path) {
-    let arr = value;
-
-    if (value && !path && typeof value === 'object') {
-      if (utils.endsWith(key, '{}')) {
-        // eslint-disable-next-line no-param-reassign
-        key = metaTokens ? key : key.slice(0, -2);
-        // eslint-disable-next-line no-param-reassign
-        value = JSON.stringify(value);
-      } else if (
-        (utils.isArray(value) && isFlatArray(value)) ||
-        ((utils.isFileList(value) || utils.endsWith(key, '[]')) && (arr = utils.toArray(value))
-        )) {
-        // eslint-disable-next-line no-param-reassign
-        key = removeBrackets(key);
-
-        arr.forEach(function each(el, index) {
-          !(utils.isUndefined(el) || el === null) && formData.append(
-            // eslint-disable-next-line no-nested-ternary
-            indexes === true ? renderKey([key], index, dots) : (indexes === null ? key : key + '[]'),
-            convertValue(el)
-          );
-        });
-        return false;
-      }
-    }
-
-    if (isVisitable(value)) {
-      return true;
-    }
-
-    formData.append(renderKey(path, key, dots), convertValue(value));
-
-    return false;
-  }
-
-  const stack = [];
-
-  const exposedHelpers = Object.assign(predicates, {
-    defaultVisitor,
-    convertValue,
-    isVisitable
-  });
-
-  function build(value, path) {
-    if (utils.isUndefined(value)) return;
-
-    if (stack.indexOf(value) !== -1) {
-      throw Error('Circular reference detected in ' + path.join('.'));
-    }
-
-    stack.push(value);
-
-    utils.forEach(value, function each(el, key) {
-      const result = !(utils.isUndefined(el) || el === null) && visitor.call(
-        formData, el, utils.isString(key) ? key.trim() : key, path, exposedHelpers
-      );
-
-      if (result === true) {
-        build(el, path ? path.concat(key) : [key]);
-      }
-    });
-
-    stack.pop();
-  }
-
-  if (!utils.isObject(obj)) {
-    throw new TypeError('data must be an object');
-  }
-
-  build(obj);
-
-  return formData;
-}
-
-/* harmony default export */ const helpers_toFormData = (toFormData);
-
-;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/AxiosURLSearchParams.js
-
-
-
-
-/**
- * It encodes a string by replacing all characters that are not in the unreserved set with
- * their percent-encoded equivalents
- *
- * @param {string} str - The string to encode.
- *
- * @returns {string} The encoded string.
- */
-function encode(str) {
-  const charMap = {
-    '!': '%21',
-    "'": '%27',
-    '(': '%28',
-    ')': '%29',
-    '~': '%7E',
-    '%20': '+',
-    '%00': '\x00'
-  };
-  return encodeURIComponent(str).replace(/[!'()~]|%20|%00/g, function replacer(match) {
-    return charMap[match];
-  });
-}
-
-/**
- * It takes a params object and converts it to a FormData object
- *
- * @param {Object<string, any>} params - The parameters to be converted to a FormData object.
- * @param {Object<string, any>} options - The options object passed to the Axios constructor.
- *
- * @returns {void}
- */
-function AxiosURLSearchParams(params, options) {
-  this._pairs = [];
-
-  params && helpers_toFormData(params, this, options);
-}
-
-const AxiosURLSearchParams_prototype = AxiosURLSearchParams.prototype;
-
-AxiosURLSearchParams_prototype.append = function append(name, value) {
-  this._pairs.push([name, value]);
-};
-
-AxiosURLSearchParams_prototype.toString = function toString(encoder) {
-  const _encode = encoder ? function(value) {
-    return encoder.call(this, value, encode);
-  } : encode;
-
-  return this._pairs.map(function each(pair) {
-    return _encode(pair[0]) + '=' + _encode(pair[1]);
-  }, '').join('&');
-};
-
-/* harmony default export */ const helpers_AxiosURLSearchParams = (AxiosURLSearchParams);
-
-;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/buildURL.js
-
-
-
-
-
-/**
- * It replaces all instances of the characters `:`, `$`, `,`, `+`, `[`, and `]` with their
- * URI encoded counterparts
- *
- * @param {string} val The value to be encoded.
- *
- * @returns {string} The encoded value.
- */
-function buildURL_encode(val) {
-  return encodeURIComponent(val).
-    replace(/%3A/gi, ':').
-    replace(/%24/g, '$').
-    replace(/%2C/gi, ',').
-    replace(/%20/g, '+').
-    replace(/%5B/gi, '[').
-    replace(/%5D/gi, ']');
-}
-
-/**
- * Build a URL by appending params to the end
- *
- * @param {string} url The base of the url (e.g., http://www.google.com)
- * @param {object} [params] The params to be appended
- * @param {?object} options
- *
- * @returns {string} The formatted url
- */
-function buildURL(url, params, options) {
-  /*eslint no-param-reassign:0*/
-  if (!params) {
-    return url;
-  }
-  
-  const _encode = options && options.encode || buildURL_encode;
-
-  const serializeFn = options && options.serialize;
-
-  let serializedParams;
-
-  if (serializeFn) {
-    serializedParams = serializeFn(params, options);
+  if (isProduction$1) {
+    throw new RbdInvariant(react_beautiful_dnd_esm_prefix);
   } else {
-    serializedParams = utils.isURLSearchParams(params) ?
-      params.toString() :
-      new helpers_AxiosURLSearchParams(params, options).toString(_encode);
-  }
-
-  if (serializedParams) {
-    const hashmarkIndex = url.indexOf("#");
-
-    if (hashmarkIndex !== -1) {
-      url = url.slice(0, hashmarkIndex);
-    }
-    url += (url.indexOf('?') === -1 ? '?' : '&') + serializedParams;
-  }
-
-  return url;
-}
-
-;// CONCATENATED MODULE: ./node_modules/axios/lib/core/InterceptorManager.js
-
-
-
-
-class InterceptorManager {
-  constructor() {
-    this.handlers = [];
-  }
-
-  /**
-   * Add a new interceptor to the stack
-   *
-   * @param {Function} fulfilled The function to handle `then` for a `Promise`
-   * @param {Function} rejected The function to handle `reject` for a `Promise`
-   *
-   * @return {Number} An ID used to remove interceptor later
-   */
-  use(fulfilled, rejected, options) {
-    this.handlers.push({
-      fulfilled,
-      rejected,
-      synchronous: options ? options.synchronous : false,
-      runWhen: options ? options.runWhen : null
-    });
-    return this.handlers.length - 1;
-  }
-
-  /**
-   * Remove an interceptor from the stack
-   *
-   * @param {Number} id The ID that was returned by `use`
-   *
-   * @returns {Boolean} `true` if the interceptor was removed, `false` otherwise
-   */
-  eject(id) {
-    if (this.handlers[id]) {
-      this.handlers[id] = null;
-    }
-  }
-
-  /**
-   * Clear all interceptors from the stack
-   *
-   * @returns {void}
-   */
-  clear() {
-    if (this.handlers) {
-      this.handlers = [];
-    }
-  }
-
-  /**
-   * Iterate over all the registered interceptors
-   *
-   * This method is particularly useful for skipping over any
-   * interceptors that may have become `null` calling `eject`.
-   *
-   * @param {Function} fn The function to call for each interceptor
-   *
-   * @returns {void}
-   */
-  forEach(fn) {
-    utils.forEach(this.handlers, function forEachHandler(h) {
-      if (h !== null) {
-        fn(h);
-      }
-    });
+    throw new RbdInvariant(react_beautiful_dnd_esm_prefix + ": " + (message || ''));
   }
 }
 
-/* harmony default export */ const core_InterceptorManager = (InterceptorManager);
+var ErrorBoundary = function (_React$Component) {
+  _inheritsLoose(ErrorBoundary, _React$Component);
 
-;// CONCATENATED MODULE: ./node_modules/axios/lib/defaults/transitional.js
+  function ErrorBoundary() {
+    var _this;
 
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
 
-/* harmony default export */ const defaults_transitional = ({
-  silentJSONParsing: true,
-  forcedJSONParsing: true,
-  clarifyTimeoutError: false
-});
+    _this = _React$Component.call.apply(_React$Component, [this].concat(args)) || this;
+    _this.callbacks = null;
+    _this.unbind = noop;
 
-;// CONCATENATED MODULE: ./node_modules/axios/lib/platform/browser/classes/URLSearchParams.js
+    _this.onWindowError = function (event) {
+      var callbacks = _this.getCallbacks();
 
-
-
-/* harmony default export */ const classes_URLSearchParams = (typeof URLSearchParams !== 'undefined' ? URLSearchParams : helpers_AxiosURLSearchParams);
-
-;// CONCATENATED MODULE: ./node_modules/axios/lib/platform/browser/classes/FormData.js
-
-
-/* harmony default export */ const classes_FormData = (typeof FormData !== 'undefined' ? FormData : null);
-
-;// CONCATENATED MODULE: ./node_modules/axios/lib/platform/browser/classes/Blob.js
-
-
-/* harmony default export */ const classes_Blob = (typeof Blob !== 'undefined' ? Blob : null);
-
-;// CONCATENATED MODULE: ./node_modules/axios/lib/platform/browser/index.js
-
-
-
-
-/**
- * Determine if we're running in a standard browser environment
- *
- * This allows axios to run in a web worker, and react-native.
- * Both environments support XMLHttpRequest, but not fully standard globals.
- *
- * web workers:
- *  typeof window -> undefined
- *  typeof document -> undefined
- *
- * react-native:
- *  navigator.product -> 'ReactNative'
- * nativescript
- *  navigator.product -> 'NativeScript' or 'NS'
- *
- * @returns {boolean}
- */
-const isStandardBrowserEnv = (() => {
-  let product;
-  if (typeof navigator !== 'undefined' && (
-    (product = navigator.product) === 'ReactNative' ||
-    product === 'NativeScript' ||
-    product === 'NS')
-  ) {
-    return false;
-  }
-
-  return typeof window !== 'undefined' && typeof document !== 'undefined';
-})();
-
-/**
- * Determine if we're running in a standard browser webWorker environment
- *
- * Although the `isStandardBrowserEnv` method indicates that
- * `allows axios to run in a web worker`, the WebWorker will still be
- * filtered out due to its judgment standard
- * `typeof window !== 'undefined' && typeof document !== 'undefined'`.
- * This leads to a problem when axios post `FormData` in webWorker
- */
- const isStandardBrowserWebWorkerEnv = (() => {
-  return (
-    typeof WorkerGlobalScope !== 'undefined' &&
-    // eslint-disable-next-line no-undef
-    self instanceof WorkerGlobalScope &&
-    typeof self.importScripts === 'function'
-  );
-})();
-
-
-/* harmony default export */ const browser = ({
-  isBrowser: true,
-  classes: {
-    URLSearchParams: classes_URLSearchParams,
-    FormData: classes_FormData,
-    Blob: classes_Blob
-  },
-  isStandardBrowserEnv,
-  isStandardBrowserWebWorkerEnv,
-  protocols: ['http', 'https', 'file', 'blob', 'url', 'data']
-});
-
-;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/toURLEncodedForm.js
-
-
-
-
-
-
-function toURLEncodedForm(data, options) {
-  return helpers_toFormData(data, new browser.classes.URLSearchParams(), Object.assign({
-    visitor: function(value, key, path, helpers) {
-      if (browser.isNode && utils.isBuffer(value)) {
-        this.append(key, value.toString('base64'));
-        return false;
+      if (callbacks.isDragging()) {
+        callbacks.tryAbort();
+         false ? 0 : void 0;
       }
 
-      return helpers.defaultVisitor.apply(this, arguments);
+      var err = event.error;
+
+      if (err instanceof RbdInvariant) {
+        event.preventDefault();
+
+        if (false) {}
+      }
+    };
+
+    _this.getCallbacks = function () {
+      if (!_this.callbacks) {
+        throw new Error('Unable to find AppCallbacks in <ErrorBoundary/>');
+      }
+
+      return _this.callbacks;
+    };
+
+    _this.setCallbacks = function (callbacks) {
+      _this.callbacks = callbacks;
+    };
+
+    return _this;
+  }
+
+  var _proto = ErrorBoundary.prototype;
+
+  _proto.componentDidMount = function componentDidMount() {
+    this.unbind = bindEvents(window, [{
+      eventName: 'error',
+      fn: this.onWindowError
+    }]);
+  };
+
+  _proto.componentDidCatch = function componentDidCatch(err) {
+    if (err instanceof RbdInvariant) {
+      if (false) {}
+
+      this.setState({});
+      return;
     }
-  }, options));
+
+    throw err;
+  };
+
+  _proto.componentWillUnmount = function componentWillUnmount() {
+    this.unbind();
+  };
+
+  _proto.render = function render() {
+    return this.props.children(this.setCallbacks);
+  };
+
+  return ErrorBoundary;
+}(react.Component);
+
+var dragHandleUsageInstructions = "\n  Press space bar to start a drag.\n  When dragging you can use the arrow keys to move the item around and escape to cancel.\n  Some screen readers may require you to be in focus mode or to use your pass through key\n";
+
+var position = function position(index) {
+  return index + 1;
+};
+
+var onDragStart = function onDragStart(start) {
+  return "\n  You have lifted an item in position " + position(start.source.index) + "\n";
+};
+
+var withLocation = function withLocation(source, destination) {
+  var isInHomeList = source.droppableId === destination.droppableId;
+  var startPosition = position(source.index);
+  var endPosition = position(destination.index);
+
+  if (isInHomeList) {
+    return "\n      You have moved the item from position " + startPosition + "\n      to position " + endPosition + "\n    ";
+  }
+
+  return "\n    You have moved the item from position " + startPosition + "\n    in list " + source.droppableId + "\n    to list " + destination.droppableId + "\n    in position " + endPosition + "\n  ";
+};
+
+var withCombine = function withCombine(id, source, combine) {
+  var inHomeList = source.droppableId === combine.droppableId;
+
+  if (inHomeList) {
+    return "\n      The item " + id + "\n      has been combined with " + combine.draggableId;
+  }
+
+  return "\n      The item " + id + "\n      in list " + source.droppableId + "\n      has been combined with " + combine.draggableId + "\n      in list " + combine.droppableId + "\n    ";
+};
+
+var onDragUpdate = function onDragUpdate(update) {
+  var location = update.destination;
+
+  if (location) {
+    return withLocation(update.source, location);
+  }
+
+  var combine = update.combine;
+
+  if (combine) {
+    return withCombine(update.draggableId, update.source, combine);
+  }
+
+  return 'You are over an area that cannot be dropped on';
+};
+
+var returnedToStart = function returnedToStart(source) {
+  return "\n  The item has returned to its starting position\n  of " + position(source.index) + "\n";
+};
+
+var onDragEnd = function onDragEnd(result) {
+  if (result.reason === 'CANCEL') {
+    return "\n      Movement cancelled.\n      " + returnedToStart(result.source) + "\n    ";
+  }
+
+  var location = result.destination;
+  var combine = result.combine;
+
+  if (location) {
+    return "\n      You have dropped the item.\n      " + withLocation(result.source, location) + "\n    ";
+  }
+
+  if (combine) {
+    return "\n      You have dropped the item.\n      " + withCombine(result.draggableId, result.source, combine) + "\n    ";
+  }
+
+  return "\n    The item has been dropped while not over a drop area.\n    " + returnedToStart(result.source) + "\n  ";
+};
+
+var preset = {
+  dragHandleUsageInstructions: dragHandleUsageInstructions,
+  onDragStart: onDragStart,
+  onDragUpdate: onDragUpdate,
+  onDragEnd: onDragEnd
+};
+
+var origin = {
+  x: 0,
+  y: 0
+};
+var add = function add(point1, point2) {
+  return {
+    x: point1.x + point2.x,
+    y: point1.y + point2.y
+  };
+};
+var subtract = function subtract(point1, point2) {
+  return {
+    x: point1.x - point2.x,
+    y: point1.y - point2.y
+  };
+};
+var react_beautiful_dnd_esm_isEqual = function isEqual(point1, point2) {
+  return point1.x === point2.x && point1.y === point2.y;
+};
+var negate = function negate(point) {
+  return {
+    x: point.x !== 0 ? -point.x : 0,
+    y: point.y !== 0 ? -point.y : 0
+  };
+};
+var patch = function patch(line, value, otherValue) {
+  var _ref;
+
+  if (otherValue === void 0) {
+    otherValue = 0;
+  }
+
+  return _ref = {}, _ref[line] = value, _ref[line === 'x' ? 'y' : 'x'] = otherValue, _ref;
+};
+var distance = function distance(point1, point2) {
+  return Math.sqrt(Math.pow(point2.x - point1.x, 2) + Math.pow(point2.y - point1.y, 2));
+};
+var closest = function closest(target, points) {
+  return Math.min.apply(Math, points.map(function (point) {
+    return distance(target, point);
+  }));
+};
+var apply = function apply(fn) {
+  return function (point) {
+    return {
+      x: fn(point.x),
+      y: fn(point.y)
+    };
+  };
+};
+
+var executeClip = (function (frame, subject) {
+  var result = getRect({
+    top: Math.max(subject.top, frame.top),
+    right: Math.min(subject.right, frame.right),
+    bottom: Math.min(subject.bottom, frame.bottom),
+    left: Math.max(subject.left, frame.left)
+  });
+
+  if (result.width <= 0 || result.height <= 0) {
+    return null;
+  }
+
+  return result;
+});
+
+var offsetByPosition = function offsetByPosition(spacing, point) {
+  return {
+    top: spacing.top + point.y,
+    left: spacing.left + point.x,
+    bottom: spacing.bottom + point.y,
+    right: spacing.right + point.x
+  };
+};
+var getCorners = function getCorners(spacing) {
+  return [{
+    x: spacing.left,
+    y: spacing.top
+  }, {
+    x: spacing.right,
+    y: spacing.top
+  }, {
+    x: spacing.left,
+    y: spacing.bottom
+  }, {
+    x: spacing.right,
+    y: spacing.bottom
+  }];
+};
+var react_beautiful_dnd_esm_noSpacing = {
+  top: 0,
+  right: 0,
+  bottom: 0,
+  left: 0
+};
+
+var react_beautiful_dnd_esm_scroll = function scroll(target, frame) {
+  if (!frame) {
+    return target;
+  }
+
+  return offsetByPosition(target, frame.scroll.diff.displacement);
+};
+
+var increase = function increase(target, axis, withPlaceholder) {
+  if (withPlaceholder && withPlaceholder.increasedBy) {
+    var _extends2;
+
+    return extends_extends({}, target, (_extends2 = {}, _extends2[axis.end] = target[axis.end] + withPlaceholder.increasedBy[axis.line], _extends2));
+  }
+
+  return target;
+};
+
+var clip = function clip(target, frame) {
+  if (frame && frame.shouldClipSubject) {
+    return executeClip(frame.pageMarginBox, target);
+  }
+
+  return getRect(target);
+};
+
+var getSubject = (function (_ref) {
+  var page = _ref.page,
+      withPlaceholder = _ref.withPlaceholder,
+      axis = _ref.axis,
+      frame = _ref.frame;
+  var scrolled = react_beautiful_dnd_esm_scroll(page.marginBox, frame);
+  var increased = increase(scrolled, axis, withPlaceholder);
+  var clipped = clip(increased, frame);
+  return {
+    page: page,
+    withPlaceholder: withPlaceholder,
+    active: clipped
+  };
+});
+
+var scrollDroppable = (function (droppable, newScroll) {
+  !droppable.frame ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+  var scrollable = droppable.frame;
+  var scrollDiff = subtract(newScroll, scrollable.scroll.initial);
+  var scrollDisplacement = negate(scrollDiff);
+
+  var frame = extends_extends({}, scrollable, {
+    scroll: {
+      initial: scrollable.scroll.initial,
+      current: newScroll,
+      diff: {
+        value: scrollDiff,
+        displacement: scrollDisplacement
+      },
+      max: scrollable.scroll.max
+    }
+  });
+
+  var subject = getSubject({
+    page: droppable.subject.page,
+    withPlaceholder: droppable.subject.withPlaceholder,
+    axis: droppable.axis,
+    frame: frame
+  });
+
+  var result = extends_extends({}, droppable, {
+    frame: frame,
+    subject: subject
+  });
+
+  return result;
+});
+
+function isInteger(value) {
+  if (Number.isInteger) {
+    return Number.isInteger(value);
+  }
+
+  return typeof value === 'number' && isFinite(value) && Math.floor(value) === value;
 }
+function values(map) {
+  if (Object.values) {
+    return Object.values(map);
+  }
 
-;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/formDataToJSON.js
-
-
-
-
-/**
- * It takes a string like `foo[x][y][z]` and returns an array like `['foo', 'x', 'y', 'z']
- *
- * @param {string} name - The name of the property to get.
- *
- * @returns An array of strings.
- */
-function parsePropPath(name) {
-  // foo[x][y][z]
-  // foo.x.y.z
-  // foo-x-y-z
-  // foo x y z
-  return utils.matchAll(/\w+|\[(\w*)]/g, name).map(match => {
-    return match[0] === '[]' ? '' : match[1] || match[0];
+  return Object.keys(map).map(function (key) {
+    return map[key];
   });
 }
-
-/**
- * Convert an array to an object.
- *
- * @param {Array<any>} arr - The array to convert to an object.
- *
- * @returns An object with the same keys and values as the array.
- */
-function arrayToObject(arr) {
-  const obj = {};
-  const keys = Object.keys(arr);
-  let i;
-  const len = keys.length;
-  let key;
-  for (i = 0; i < len; i++) {
-    key = keys[i];
-    obj[key] = arr[key];
+function findIndex(list, predicate) {
+  if (list.findIndex) {
+    return list.findIndex(predicate);
   }
-  return obj;
+
+  for (var i = 0; i < list.length; i++) {
+    if (predicate(list[i])) {
+      return i;
+    }
+  }
+
+  return -1;
+}
+function find(list, predicate) {
+  if (list.find) {
+    return list.find(predicate);
+  }
+
+  var index = findIndex(list, predicate);
+
+  if (index !== -1) {
+    return list[index];
+  }
+
+  return undefined;
+}
+function toArray(list) {
+  return Array.prototype.slice.call(list);
 }
 
-/**
- * It takes a FormData object and returns a JavaScript object
- *
- * @param {string} formData The FormData object to convert to JSON.
- *
- * @returns {Object<string, any> | null} The converted object.
- */
-function formDataToJSON(formData) {
-  function buildPath(path, value, target, index) {
-    let name = path[index++];
-    const isNumericKey = Number.isFinite(+name);
-    const isLast = index >= path.length;
-    name = !name && utils.isArray(target) ? target.length : name;
+var toDroppableMap = memoize_one_esm(function (droppables) {
+  return droppables.reduce(function (previous, current) {
+    previous[current.descriptor.id] = current;
+    return previous;
+  }, {});
+});
+var toDraggableMap = memoize_one_esm(function (draggables) {
+  return draggables.reduce(function (previous, current) {
+    previous[current.descriptor.id] = current;
+    return previous;
+  }, {});
+});
+var toDroppableList = memoize_one_esm(function (droppables) {
+  return values(droppables);
+});
+var toDraggableList = memoize_one_esm(function (draggables) {
+  return values(draggables);
+});
 
-    if (isLast) {
-      if (utils.hasOwnProp(target, name)) {
-        target[name] = [target[name], value];
-      } else {
-        target[name] = value;
-      }
+var getDraggablesInsideDroppable = memoize_one_esm(function (droppableId, draggables) {
+  var result = toDraggableList(draggables).filter(function (draggable) {
+    return droppableId === draggable.descriptor.droppableId;
+  }).sort(function (a, b) {
+    return a.descriptor.index - b.descriptor.index;
+  });
+  return result;
+});
 
-      return !isNumericKey;
-    }
-
-    if (!target[name] || !utils.isObject(target[name])) {
-      target[name] = [];
-    }
-
-    const result = buildPath(path, value, target[name], index);
-
-    if (result && utils.isArray(target[name])) {
-      target[name] = arrayToObject(target[name]);
-    }
-
-    return !isNumericKey;
+function tryGetDestination(impact) {
+  if (impact.at && impact.at.type === 'REORDER') {
+    return impact.at.destination;
   }
 
-  if (utils.isFormData(formData) && utils.isFunction(formData.entries)) {
-    const obj = {};
-
-    utils.forEachEntry(formData, (name, value) => {
-      buildPath(parsePropPath(name), value, obj, 0);
-    });
-
-    return obj;
+  return null;
+}
+function tryGetCombine(impact) {
+  if (impact.at && impact.at.type === 'COMBINE') {
+    return impact.at.combine;
   }
 
   return null;
 }
 
-/* harmony default export */ const helpers_formDataToJSON = (formDataToJSON);
+var removeDraggableFromList = memoize_one_esm(function (remove, list) {
+  return list.filter(function (item) {
+    return item.descriptor.id !== remove.descriptor.id;
+  });
+});
 
-;// CONCATENATED MODULE: ./node_modules/axios/lib/defaults/index.js
+var moveToNextCombine = (function (_ref) {
+  var isMovingForward = _ref.isMovingForward,
+      draggable = _ref.draggable,
+      destination = _ref.destination,
+      insideDestination = _ref.insideDestination,
+      previousImpact = _ref.previousImpact;
 
-
-
-
-
-
-
-
-
-
-/**
- * It takes a string, tries to parse it, and if it fails, it returns the stringified version
- * of the input
- *
- * @param {any} rawValue - The value to be stringified.
- * @param {Function} parser - A function that parses a string into a JavaScript object.
- * @param {Function} encoder - A function that takes a value and returns a string.
- *
- * @returns {string} A stringified version of the rawValue.
- */
-function stringifySafely(rawValue, parser, encoder) {
-  if (utils.isString(rawValue)) {
-    try {
-      (parser || JSON.parse)(rawValue);
-      return utils.trim(rawValue);
-    } catch (e) {
-      if (e.name !== 'SyntaxError') {
-        throw e;
-      }
-    }
+  if (!destination.isCombineEnabled) {
+    return null;
   }
 
-  return (encoder || JSON.stringify)(rawValue);
-}
+  var location = tryGetDestination(previousImpact);
 
-const defaults = {
-
-  transitional: defaults_transitional,
-
-  adapter: ['xhr', 'http'],
-
-  transformRequest: [function transformRequest(data, headers) {
-    const contentType = headers.getContentType() || '';
-    const hasJSONContentType = contentType.indexOf('application/json') > -1;
-    const isObjectPayload = utils.isObject(data);
-
-    if (isObjectPayload && utils.isHTMLForm(data)) {
-      data = new FormData(data);
-    }
-
-    const isFormData = utils.isFormData(data);
-
-    if (isFormData) {
-      if (!hasJSONContentType) {
-        return data;
-      }
-      return hasJSONContentType ? JSON.stringify(helpers_formDataToJSON(data)) : data;
-    }
-
-    if (utils.isArrayBuffer(data) ||
-      utils.isBuffer(data) ||
-      utils.isStream(data) ||
-      utils.isFile(data) ||
-      utils.isBlob(data)
-    ) {
-      return data;
-    }
-    if (utils.isArrayBufferView(data)) {
-      return data.buffer;
-    }
-    if (utils.isURLSearchParams(data)) {
-      headers.setContentType('application/x-www-form-urlencoded;charset=utf-8', false);
-      return data.toString();
-    }
-
-    let isFileList;
-
-    if (isObjectPayload) {
-      if (contentType.indexOf('application/x-www-form-urlencoded') > -1) {
-        return toURLEncodedForm(data, this.formSerializer).toString();
-      }
-
-      if ((isFileList = utils.isFileList(data)) || contentType.indexOf('multipart/form-data') > -1) {
-        const _FormData = this.env && this.env.FormData;
-
-        return helpers_toFormData(
-          isFileList ? {'files[]': data} : data,
-          _FormData && new _FormData(),
-          this.formSerializer
-        );
-      }
-    }
-
-    if (isObjectPayload || hasJSONContentType ) {
-      headers.setContentType('application/json', false);
-      return stringifySafely(data);
-    }
-
-    return data;
-  }],
-
-  transformResponse: [function transformResponse(data) {
-    const transitional = this.transitional || defaults.transitional;
-    const forcedJSONParsing = transitional && transitional.forcedJSONParsing;
-    const JSONRequested = this.responseType === 'json';
-
-    if (data && utils.isString(data) && ((forcedJSONParsing && !this.responseType) || JSONRequested)) {
-      const silentJSONParsing = transitional && transitional.silentJSONParsing;
-      const strictJSONParsing = !silentJSONParsing && JSONRequested;
-
-      try {
-        return JSON.parse(data);
-      } catch (e) {
-        if (strictJSONParsing) {
-          if (e.name === 'SyntaxError') {
-            throw core_AxiosError.from(e, core_AxiosError.ERR_BAD_RESPONSE, this, null, this.response);
-          }
-          throw e;
-        }
-      }
-    }
-
-    return data;
-  }],
-
-  /**
-   * A timeout in milliseconds to abort a request. If set to 0 (default) a
-   * timeout is not created.
-   */
-  timeout: 0,
-
-  xsrfCookieName: 'XSRF-TOKEN',
-  xsrfHeaderName: 'X-XSRF-TOKEN',
-
-  maxContentLength: -1,
-  maxBodyLength: -1,
-
-  env: {
-    FormData: browser.classes.FormData,
-    Blob: browser.classes.Blob
-  },
-
-  validateStatus: function validateStatus(status) {
-    return status >= 200 && status < 300;
-  },
-
-  headers: {
-    common: {
-      'Accept': 'application/json, text/plain, */*',
-      'Content-Type': undefined
-    }
+  if (!location) {
+    return null;
   }
+
+  function getImpact(target) {
+    var at = {
+      type: 'COMBINE',
+      combine: {
+        draggableId: target,
+        droppableId: destination.descriptor.id
+      }
+    };
+    return extends_extends({}, previousImpact, {
+      at: at
+    });
+  }
+
+  var all = previousImpact.displaced.all;
+  var closestId = all.length ? all[0] : null;
+
+  if (isMovingForward) {
+    return closestId ? getImpact(closestId) : null;
+  }
+
+  var withoutDraggable = removeDraggableFromList(draggable, insideDestination);
+
+  if (!closestId) {
+    if (!withoutDraggable.length) {
+      return null;
+    }
+
+    var last = withoutDraggable[withoutDraggable.length - 1];
+    return getImpact(last.descriptor.id);
+  }
+
+  var indexOfClosest = findIndex(withoutDraggable, function (d) {
+    return d.descriptor.id === closestId;
+  });
+  !(indexOfClosest !== -1) ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+  var proposedIndex = indexOfClosest - 1;
+
+  if (proposedIndex < 0) {
+    return null;
+  }
+
+  var before = withoutDraggable[proposedIndex];
+  return getImpact(before.descriptor.id);
+});
+
+var isHomeOf = (function (draggable, destination) {
+  return draggable.descriptor.droppableId === destination.descriptor.id;
+});
+
+var noDisplacedBy = {
+  point: origin,
+  value: 0
+};
+var emptyGroups = {
+  invisible: {},
+  visible: {},
+  all: []
+};
+var noImpact = {
+  displaced: emptyGroups,
+  displacedBy: noDisplacedBy,
+  at: null
 };
 
-utils.forEach(['delete', 'get', 'head', 'post', 'put', 'patch'], (method) => {
-  defaults.headers[method] = {};
+var isWithin = (function (lowerBound, upperBound) {
+  return function (value) {
+    return lowerBound <= value && value <= upperBound;
+  };
 });
 
-/* harmony default export */ const lib_defaults = (defaults);
+var isPartiallyVisibleThroughFrame = (function (frame) {
+  var isWithinVertical = isWithin(frame.top, frame.bottom);
+  var isWithinHorizontal = isWithin(frame.left, frame.right);
+  return function (subject) {
+    var isContained = isWithinVertical(subject.top) && isWithinVertical(subject.bottom) && isWithinHorizontal(subject.left) && isWithinHorizontal(subject.right);
 
-;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/parseHeaders.js
-
-
-
-
-// RawAxiosHeaders whose duplicates are ignored by node
-// c.f. https://nodejs.org/api/http.html#http_message_headers
-const ignoreDuplicateOf = utils.toObjectSet([
-  'age', 'authorization', 'content-length', 'content-type', 'etag',
-  'expires', 'from', 'host', 'if-modified-since', 'if-unmodified-since',
-  'last-modified', 'location', 'max-forwards', 'proxy-authorization',
-  'referer', 'retry-after', 'user-agent'
-]);
-
-/**
- * Parse headers into an object
- *
- * ```
- * Date: Wed, 27 Aug 2014 08:58:49 GMT
- * Content-Type: application/json
- * Connection: keep-alive
- * Transfer-Encoding: chunked
- * ```
- *
- * @param {String} rawHeaders Headers needing to be parsed
- *
- * @returns {Object} Headers parsed into an object
- */
-/* harmony default export */ const parseHeaders = (rawHeaders => {
-  const parsed = {};
-  let key;
-  let val;
-  let i;
-
-  rawHeaders && rawHeaders.split('\n').forEach(function parser(line) {
-    i = line.indexOf(':');
-    key = line.substring(0, i).trim().toLowerCase();
-    val = line.substring(i + 1).trim();
-
-    if (!key || (parsed[key] && ignoreDuplicateOf[key])) {
-      return;
+    if (isContained) {
+      return true;
     }
 
-    if (key === 'set-cookie') {
-      if (parsed[key]) {
-        parsed[key].push(val);
-      } else {
-        parsed[key] = [val];
-      }
-    } else {
-      parsed[key] = parsed[key] ? parsed[key] + ', ' + val : val;
-    }
-  });
+    var isPartiallyVisibleVertically = isWithinVertical(subject.top) || isWithinVertical(subject.bottom);
+    var isPartiallyVisibleHorizontally = isWithinHorizontal(subject.left) || isWithinHorizontal(subject.right);
+    var isPartiallyContained = isPartiallyVisibleVertically && isPartiallyVisibleHorizontally;
 
-  return parsed;
+    if (isPartiallyContained) {
+      return true;
+    }
+
+    var isBiggerVertically = subject.top < frame.top && subject.bottom > frame.bottom;
+    var isBiggerHorizontally = subject.left < frame.left && subject.right > frame.right;
+    var isTargetBiggerThanFrame = isBiggerVertically && isBiggerHorizontally;
+
+    if (isTargetBiggerThanFrame) {
+      return true;
+    }
+
+    var isTargetBiggerOnOneAxis = isBiggerVertically && isPartiallyVisibleHorizontally || isBiggerHorizontally && isPartiallyVisibleVertically;
+    return isTargetBiggerOnOneAxis;
+  };
 });
 
-;// CONCATENATED MODULE: ./node_modules/axios/lib/core/AxiosHeaders.js
+var isTotallyVisibleThroughFrame = (function (frame) {
+  var isWithinVertical = isWithin(frame.top, frame.bottom);
+  var isWithinHorizontal = isWithin(frame.left, frame.right);
+  return function (subject) {
+    var isContained = isWithinVertical(subject.top) && isWithinVertical(subject.bottom) && isWithinHorizontal(subject.left) && isWithinHorizontal(subject.right);
+    return isContained;
+  };
+});
 
+var vertical = {
+  direction: 'vertical',
+  line: 'y',
+  crossAxisLine: 'x',
+  start: 'top',
+  end: 'bottom',
+  size: 'height',
+  crossAxisStart: 'left',
+  crossAxisEnd: 'right',
+  crossAxisSize: 'width'
+};
+var horizontal = {
+  direction: 'horizontal',
+  line: 'x',
+  crossAxisLine: 'y',
+  start: 'left',
+  end: 'right',
+  size: 'width',
+  crossAxisStart: 'top',
+  crossAxisEnd: 'bottom',
+  crossAxisSize: 'height'
+};
 
-
-
-
-const $internals = Symbol('internals');
-
-function normalizeHeader(header) {
-  return header && String(header).trim().toLowerCase();
-}
-
-function normalizeValue(value) {
-  if (value === false || value == null) {
-    return value;
-  }
-
-  return utils.isArray(value) ? value.map(normalizeValue) : String(value);
-}
-
-function parseTokens(str) {
-  const tokens = Object.create(null);
-  const tokensRE = /([^\s,;=]+)\s*(?:=\s*([^,;]+))?/g;
-  let match;
-
-  while ((match = tokensRE.exec(str))) {
-    tokens[match[1]] = match[2];
-  }
-
-  return tokens;
-}
-
-const isValidHeaderName = (str) => /^[-_a-zA-Z0-9^`|~,!#$%&'*+.]+$/.test(str.trim());
-
-function matchHeaderValue(context, value, header, filter, isHeaderNameFilter) {
-  if (utils.isFunction(filter)) {
-    return filter.call(this, value, header);
-  }
-
-  if (isHeaderNameFilter) {
-    value = header;
-  }
-
-  if (!utils.isString(value)) return;
-
-  if (utils.isString(filter)) {
-    return value.indexOf(filter) !== -1;
-  }
-
-  if (utils.isRegExp(filter)) {
-    return filter.test(value);
-  }
-}
-
-function formatHeader(header) {
-  return header.trim()
-    .toLowerCase().replace(/([a-z\d])(\w*)/g, (w, char, str) => {
-      return char.toUpperCase() + str;
-    });
-}
-
-function buildAccessors(obj, header) {
-  const accessorName = utils.toCamelCase(' ' + header);
-
-  ['get', 'set', 'has'].forEach(methodName => {
-    Object.defineProperty(obj, methodName + accessorName, {
-      value: function(arg1, arg2, arg3) {
-        return this[methodName].call(this, header, arg1, arg2, arg3);
-      },
-      configurable: true
-    });
-  });
-}
-
-class AxiosHeaders {
-  constructor(headers) {
-    headers && this.set(headers);
-  }
-
-  set(header, valueOrRewrite, rewrite) {
-    const self = this;
-
-    function setHeader(_value, _header, _rewrite) {
-      const lHeader = normalizeHeader(_header);
-
-      if (!lHeader) {
-        throw new Error('header name must be a non-empty string');
+var isTotallyVisibleThroughFrameOnAxis = (function (axis) {
+  return function (frame) {
+    var isWithinVertical = isWithin(frame.top, frame.bottom);
+    var isWithinHorizontal = isWithin(frame.left, frame.right);
+    return function (subject) {
+      if (axis === vertical) {
+        return isWithinVertical(subject.top) && isWithinVertical(subject.bottom);
       }
 
-      const key = utils.findKey(self, lHeader);
+      return isWithinHorizontal(subject.left) && isWithinHorizontal(subject.right);
+    };
+  };
+});
 
-      if(!key || self[key] === undefined || _rewrite === true || (_rewrite === undefined && self[key] !== false)) {
-        self[key || _header] = normalizeValue(_value);
-      }
-    }
+var getDroppableDisplaced = function getDroppableDisplaced(target, destination) {
+  var displacement = destination.frame ? destination.frame.scroll.diff.displacement : origin;
+  return offsetByPosition(target, displacement);
+};
 
-    const setHeaders = (headers, _rewrite) =>
-      utils.forEach(headers, (_value, _header) => setHeader(_value, _header, _rewrite));
-
-    if (utils.isPlainObject(header) || header instanceof this.constructor) {
-      setHeaders(header, valueOrRewrite)
-    } else if(utils.isString(header) && (header = header.trim()) && !isValidHeaderName(header)) {
-      setHeaders(parseHeaders(header), valueOrRewrite);
-    } else {
-      header != null && setHeader(valueOrRewrite, header, rewrite);
-    }
-
-    return this;
-  }
-
-  get(header, parser) {
-    header = normalizeHeader(header);
-
-    if (header) {
-      const key = utils.findKey(this, header);
-
-      if (key) {
-        const value = this[key];
-
-        if (!parser) {
-          return value;
-        }
-
-        if (parser === true) {
-          return parseTokens(value);
-        }
-
-        if (utils.isFunction(parser)) {
-          return parser.call(this, value, key);
-        }
-
-        if (utils.isRegExp(parser)) {
-          return parser.exec(value);
-        }
-
-        throw new TypeError('parser must be boolean|regexp|function');
-      }
-    }
-  }
-
-  has(header, matcher) {
-    header = normalizeHeader(header);
-
-    if (header) {
-      const key = utils.findKey(this, header);
-
-      return !!(key && this[key] !== undefined && (!matcher || matchHeaderValue(this, this[key], key, matcher)));
-    }
-
+var isVisibleInDroppable = function isVisibleInDroppable(target, destination, isVisibleThroughFrameFn) {
+  if (!destination.subject.active) {
     return false;
   }
 
-  delete(header, matcher) {
-    const self = this;
-    let deleted = false;
+  return isVisibleThroughFrameFn(destination.subject.active)(target);
+};
 
-    function deleteHeader(_header) {
-      _header = normalizeHeader(_header);
+var isVisibleInViewport = function isVisibleInViewport(target, viewport, isVisibleThroughFrameFn) {
+  return isVisibleThroughFrameFn(viewport)(target);
+};
 
-      if (_header) {
-        const key = utils.findKey(self, _header);
+var isVisible = function isVisible(_ref) {
+  var toBeDisplaced = _ref.target,
+      destination = _ref.destination,
+      viewport = _ref.viewport,
+      withDroppableDisplacement = _ref.withDroppableDisplacement,
+      isVisibleThroughFrameFn = _ref.isVisibleThroughFrameFn;
+  var displacedTarget = withDroppableDisplacement ? getDroppableDisplaced(toBeDisplaced, destination) : toBeDisplaced;
+  return isVisibleInDroppable(displacedTarget, destination, isVisibleThroughFrameFn) && isVisibleInViewport(displacedTarget, viewport, isVisibleThroughFrameFn);
+};
 
-        if (key && (!matcher || matchHeaderValue(self, self[key], key, matcher))) {
-          delete self[key];
+var isPartiallyVisible = function isPartiallyVisible(args) {
+  return isVisible(extends_extends({}, args, {
+    isVisibleThroughFrameFn: isPartiallyVisibleThroughFrame
+  }));
+};
+var isTotallyVisible = function isTotallyVisible(args) {
+  return isVisible(extends_extends({}, args, {
+    isVisibleThroughFrameFn: isTotallyVisibleThroughFrame
+  }));
+};
+var isTotallyVisibleOnAxis = function isTotallyVisibleOnAxis(args) {
+  return isVisible(extends_extends({}, args, {
+    isVisibleThroughFrameFn: isTotallyVisibleThroughFrameOnAxis(args.destination.axis)
+  }));
+};
 
-          deleted = true;
-        }
-      }
-    }
-
-    if (utils.isArray(header)) {
-      header.forEach(deleteHeader);
-    } else {
-      deleteHeader(header);
-    }
-
-    return deleted;
+var getShouldAnimate = function getShouldAnimate(id, last, forceShouldAnimate) {
+  if (typeof forceShouldAnimate === 'boolean') {
+    return forceShouldAnimate;
   }
 
-  clear(matcher) {
-    const keys = Object.keys(this);
-    let i = keys.length;
-    let deleted = false;
-
-    while (i--) {
-      const key = keys[i];
-      if(!matcher || matchHeaderValue(this, this[key], key, matcher, true)) {
-        delete this[key];
-        deleted = true;
-      }
-    }
-
-    return deleted;
+  if (!last) {
+    return true;
   }
 
-  normalize(format) {
-    const self = this;
-    const headers = {};
+  var invisible = last.invisible,
+      visible = last.visible;
 
-    utils.forEach(this, (value, header) => {
-      const key = utils.findKey(headers, header);
-
-      if (key) {
-        self[key] = normalizeValue(value);
-        delete self[header];
-        return;
-      }
-
-      const normalized = format ? formatHeader(header) : String(header).trim();
-
-      if (normalized !== header) {
-        delete self[header];
-      }
-
-      self[normalized] = normalizeValue(value);
-
-      headers[normalized] = true;
-    });
-
-    return this;
+  if (invisible[id]) {
+    return false;
   }
 
-  concat(...targets) {
-    return this.constructor.concat(this, ...targets);
-  }
+  var previous = visible[id];
+  return previous ? previous.shouldAnimate : true;
+};
 
-  toJSON(asStrings) {
-    const obj = Object.create(null);
-
-    utils.forEach(this, (value, header) => {
-      value != null && value !== false && (obj[header] = asStrings && utils.isArray(value) ? value.join(', ') : value);
-    });
-
-    return obj;
-  }
-
-  [Symbol.iterator]() {
-    return Object.entries(this.toJSON())[Symbol.iterator]();
-  }
-
-  toString() {
-    return Object.entries(this.toJSON()).map(([header, value]) => header + ': ' + value).join('\n');
-  }
-
-  get [Symbol.toStringTag]() {
-    return 'AxiosHeaders';
-  }
-
-  static from(thing) {
-    return thing instanceof this ? thing : new this(thing);
-  }
-
-  static concat(first, ...targets) {
-    const computed = new this(first);
-
-    targets.forEach((target) => computed.set(target));
-
-    return computed;
-  }
-
-  static accessor(header) {
-    const internals = this[$internals] = (this[$internals] = {
-      accessors: {}
-    });
-
-    const accessors = internals.accessors;
-    const prototype = this.prototype;
-
-    function defineAccessor(_header) {
-      const lHeader = normalizeHeader(_header);
-
-      if (!accessors[lHeader]) {
-        buildAccessors(prototype, _header);
-        accessors[lHeader] = true;
-      }
-    }
-
-    utils.isArray(header) ? header.forEach(defineAccessor) : defineAccessor(header);
-
-    return this;
-  }
+function getTarget(draggable, displacedBy) {
+  var marginBox = draggable.page.marginBox;
+  var expandBy = {
+    top: displacedBy.point.y,
+    right: 0,
+    bottom: 0,
+    left: displacedBy.point.x
+  };
+  return getRect(expand(marginBox, expandBy));
 }
 
-AxiosHeaders.accessor(['Content-Type', 'Content-Length', 'Accept', 'Accept-Encoding', 'User-Agent', 'Authorization']);
+function getDisplacementGroups(_ref) {
+  var afterDragging = _ref.afterDragging,
+      destination = _ref.destination,
+      displacedBy = _ref.displacedBy,
+      viewport = _ref.viewport,
+      forceShouldAnimate = _ref.forceShouldAnimate,
+      last = _ref.last;
+  return afterDragging.reduce(function process(groups, draggable) {
+    var target = getTarget(draggable, displacedBy);
+    var id = draggable.descriptor.id;
+    groups.all.push(id);
+    var isVisible = isPartiallyVisible({
+      target: target,
+      destination: destination,
+      viewport: viewport,
+      withDroppableDisplacement: true
+    });
 
-// reserved names hotfix
-utils.reduceDescriptors(AxiosHeaders.prototype, ({value}, key) => {
-  let mapped = key[0].toUpperCase() + key.slice(1); // map `set` => `Set`
-  return {
-    get: () => value,
-    set(headerValue) {
-      this[mapped] = headerValue;
+    if (!isVisible) {
+      groups.invisible[draggable.descriptor.id] = true;
+      return groups;
     }
+
+    var shouldAnimate = getShouldAnimate(id, last, forceShouldAnimate);
+    var displacement = {
+      draggableId: id,
+      shouldAnimate: shouldAnimate
+    };
+    groups.visible[id] = displacement;
+    return groups;
+  }, {
+    all: [],
+    visible: {},
+    invisible: {}
+  });
+}
+
+function getIndexOfLastItem(draggables, options) {
+  if (!draggables.length) {
+    return 0;
   }
-});
 
-utils.freezeMethods(AxiosHeaders);
+  var indexOfLastItem = draggables[draggables.length - 1].descriptor.index;
+  return options.inHomeList ? indexOfLastItem : indexOfLastItem + 1;
+}
 
-/* harmony default export */ const core_AxiosHeaders = (AxiosHeaders);
+function goAtEnd(_ref) {
+  var insideDestination = _ref.insideDestination,
+      inHomeList = _ref.inHomeList,
+      displacedBy = _ref.displacedBy,
+      destination = _ref.destination;
+  var newIndex = getIndexOfLastItem(insideDestination, {
+    inHomeList: inHomeList
+  });
+  return {
+    displaced: emptyGroups,
+    displacedBy: displacedBy,
+    at: {
+      type: 'REORDER',
+      destination: {
+        droppableId: destination.descriptor.id,
+        index: newIndex
+      }
+    }
+  };
+}
 
-;// CONCATENATED MODULE: ./node_modules/axios/lib/core/transformData.js
+function calculateReorderImpact(_ref2) {
+  var draggable = _ref2.draggable,
+      insideDestination = _ref2.insideDestination,
+      destination = _ref2.destination,
+      viewport = _ref2.viewport,
+      displacedBy = _ref2.displacedBy,
+      last = _ref2.last,
+      index = _ref2.index,
+      forceShouldAnimate = _ref2.forceShouldAnimate;
+  var inHomeList = isHomeOf(draggable, destination);
 
+  if (index == null) {
+    return goAtEnd({
+      insideDestination: insideDestination,
+      inHomeList: inHomeList,
+      displacedBy: displacedBy,
+      destination: destination
+    });
+  }
 
-
-
-
-
-/**
- * Transform the data for a request or a response
- *
- * @param {Array|Function} fns A single function or Array of functions
- * @param {?Object} response The response object
- *
- * @returns {*} The resulting transformed data
- */
-function transformData(fns, response) {
-  const config = this || lib_defaults;
-  const context = response || config;
-  const headers = core_AxiosHeaders.from(context.headers);
-  let data = context.data;
-
-  utils.forEach(fns, function transform(fn) {
-    data = fn.call(config, data, headers.normalize(), response ? response.status : undefined);
+  var match = find(insideDestination, function (item) {
+    return item.descriptor.index === index;
   });
 
-  headers.normalize();
+  if (!match) {
+    return goAtEnd({
+      insideDestination: insideDestination,
+      inHomeList: inHomeList,
+      displacedBy: displacedBy,
+      destination: destination
+    });
+  }
 
-  return data;
+  var withoutDragging = removeDraggableFromList(draggable, insideDestination);
+  var sliceFrom = insideDestination.indexOf(match);
+  var impacted = withoutDragging.slice(sliceFrom);
+  var displaced = getDisplacementGroups({
+    afterDragging: impacted,
+    destination: destination,
+    displacedBy: displacedBy,
+    last: last,
+    viewport: viewport.frame,
+    forceShouldAnimate: forceShouldAnimate
+  });
+  return {
+    displaced: displaced,
+    displacedBy: displacedBy,
+    at: {
+      type: 'REORDER',
+      destination: {
+        droppableId: destination.descriptor.id,
+        index: index
+      }
+    }
+  };
 }
 
-;// CONCATENATED MODULE: ./node_modules/axios/lib/cancel/isCancel.js
-
-
-function isCancel(value) {
-  return !!(value && value.__CANCEL__);
+function didStartAfterCritical(draggableId, afterCritical) {
+  return Boolean(afterCritical.effected[draggableId]);
 }
 
-;// CONCATENATED MODULE: ./node_modules/axios/lib/cancel/CanceledError.js
+var fromCombine = (function (_ref) {
+  var isMovingForward = _ref.isMovingForward,
+      destination = _ref.destination,
+      draggables = _ref.draggables,
+      combine = _ref.combine,
+      afterCritical = _ref.afterCritical;
 
+  if (!destination.isCombineEnabled) {
+    return null;
+  }
 
+  var combineId = combine.draggableId;
+  var combineWith = draggables[combineId];
+  var combineWithIndex = combineWith.descriptor.index;
+  var didCombineWithStartAfterCritical = didStartAfterCritical(combineId, afterCritical);
 
+  if (didCombineWithStartAfterCritical) {
+    if (isMovingForward) {
+      return combineWithIndex;
+    }
 
+    return combineWithIndex - 1;
+  }
 
-/**
- * A `CanceledError` is an object that is thrown when an operation is canceled.
- *
- * @param {string=} message The message.
- * @param {Object=} config The config.
- * @param {Object=} request The request.
- *
- * @returns {CanceledError} The created error.
- */
-function CanceledError(message, config, request) {
-  // eslint-disable-next-line no-eq-null,eqeqeq
-  core_AxiosError.call(this, message == null ? 'canceled' : message, core_AxiosError.ERR_CANCELED, config, request);
-  this.name = 'CanceledError';
-}
+  if (isMovingForward) {
+    return combineWithIndex + 1;
+  }
 
-utils.inherits(CanceledError, core_AxiosError, {
-  __CANCEL__: true
+  return combineWithIndex;
 });
 
-/* harmony default export */ const cancel_CanceledError = (CanceledError);
+var fromReorder = (function (_ref) {
+  var isMovingForward = _ref.isMovingForward,
+      isInHomeList = _ref.isInHomeList,
+      insideDestination = _ref.insideDestination,
+      location = _ref.location;
 
-;// CONCATENATED MODULE: ./node_modules/axios/lib/core/settle.js
-
-
-
-
-/**
- * Resolve or reject a Promise based on response status.
- *
- * @param {Function} resolve A function that resolves the promise.
- * @param {Function} reject A function that rejects the promise.
- * @param {object} response The response.
- *
- * @returns {object} The response.
- */
-function settle(resolve, reject, response) {
-  const validateStatus = response.config.validateStatus;
-  if (!response.status || !validateStatus || validateStatus(response.status)) {
-    resolve(response);
-  } else {
-    reject(new core_AxiosError(
-      'Request failed with status code ' + response.status,
-      [core_AxiosError.ERR_BAD_REQUEST, core_AxiosError.ERR_BAD_RESPONSE][Math.floor(response.status / 100) - 4],
-      response.config,
-      response.request,
-      response
-    ));
+  if (!insideDestination.length) {
+    return null;
   }
-}
 
-;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/cookies.js
+  var currentIndex = location.index;
+  var proposedIndex = isMovingForward ? currentIndex + 1 : currentIndex - 1;
+  var firstIndex = insideDestination[0].descriptor.index;
+  var lastIndex = insideDestination[insideDestination.length - 1].descriptor.index;
+  var upperBound = isInHomeList ? lastIndex : lastIndex + 1;
 
-
-
-
-
-/* harmony default export */ const cookies = (browser.isStandardBrowserEnv ?
-
-// Standard browser envs support document.cookie
-  (function standardBrowserEnv() {
-    return {
-      write: function write(name, value, expires, path, domain, secure) {
-        const cookie = [];
-        cookie.push(name + '=' + encodeURIComponent(value));
-
-        if (utils.isNumber(expires)) {
-          cookie.push('expires=' + new Date(expires).toGMTString());
-        }
-
-        if (utils.isString(path)) {
-          cookie.push('path=' + path);
-        }
-
-        if (utils.isString(domain)) {
-          cookie.push('domain=' + domain);
-        }
-
-        if (secure === true) {
-          cookie.push('secure');
-        }
-
-        document.cookie = cookie.join('; ');
-      },
-
-      read: function read(name) {
-        const match = document.cookie.match(new RegExp('(^|;\\s*)(' + name + ')=([^;]*)'));
-        return (match ? decodeURIComponent(match[3]) : null);
-      },
-
-      remove: function remove(name) {
-        this.write(name, '', Date.now() - 86400000);
-      }
-    };
-  })() :
-
-// Non standard browser env (web workers, react-native) lack needed support.
-  (function nonStandardBrowserEnv() {
-    return {
-      write: function write() {},
-      read: function read() { return null; },
-      remove: function remove() {}
-    };
-  })());
-
-;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/isAbsoluteURL.js
-
-
-/**
- * Determines whether the specified URL is absolute
- *
- * @param {string} url The URL to test
- *
- * @returns {boolean} True if the specified URL is absolute, otherwise false
- */
-function isAbsoluteURL(url) {
-  // A URL is considered absolute if it begins with "<scheme>://" or "//" (protocol-relative URL).
-  // RFC 3986 defines scheme name as a sequence of characters beginning with a letter and followed
-  // by any combination of letters, digits, plus, period, or hyphen.
-  return /^([a-z][a-z\d+\-.]*:)?\/\//i.test(url);
-}
-
-;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/combineURLs.js
-
-
-/**
- * Creates a new URL by combining the specified URLs
- *
- * @param {string} baseURL The base URL
- * @param {string} relativeURL The relative URL
- *
- * @returns {string} The combined URL
- */
-function combineURLs(baseURL, relativeURL) {
-  return relativeURL
-    ? baseURL.replace(/\/+$/, '') + '/' + relativeURL.replace(/^\/+/, '')
-    : baseURL;
-}
-
-;// CONCATENATED MODULE: ./node_modules/axios/lib/core/buildFullPath.js
-
-
-
-
-
-/**
- * Creates a new URL by combining the baseURL with the requestedURL,
- * only when the requestedURL is not already an absolute URL.
- * If the requestURL is absolute, this function returns the requestedURL untouched.
- *
- * @param {string} baseURL The base URL
- * @param {string} requestedURL Absolute or relative URL to combine
- *
- * @returns {string} The combined full path
- */
-function buildFullPath(baseURL, requestedURL) {
-  if (baseURL && !isAbsoluteURL(requestedURL)) {
-    return combineURLs(baseURL, requestedURL);
+  if (proposedIndex < firstIndex) {
+    return null;
   }
-  return requestedURL;
-}
 
-;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/isURLSameOrigin.js
+  if (proposedIndex > upperBound) {
+    return null;
+  }
 
+  return proposedIndex;
+});
 
+var moveToNextIndex = (function (_ref) {
+  var isMovingForward = _ref.isMovingForward,
+      isInHomeList = _ref.isInHomeList,
+      draggable = _ref.draggable,
+      draggables = _ref.draggables,
+      destination = _ref.destination,
+      insideDestination = _ref.insideDestination,
+      previousImpact = _ref.previousImpact,
+      viewport = _ref.viewport,
+      afterCritical = _ref.afterCritical;
+  var wasAt = previousImpact.at;
+  !wasAt ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
 
+  if (wasAt.type === 'REORDER') {
+    var _newIndex = fromReorder({
+      isMovingForward: isMovingForward,
+      isInHomeList: isInHomeList,
+      location: wasAt.destination,
+      insideDestination: insideDestination
+    });
 
-
-/* harmony default export */ const isURLSameOrigin = (browser.isStandardBrowserEnv ?
-
-// Standard browser envs have full support of the APIs needed to test
-// whether the request URL is of the same origin as current location.
-  (function standardBrowserEnv() {
-    const msie = /(msie|trident)/i.test(navigator.userAgent);
-    const urlParsingNode = document.createElement('a');
-    let originURL;
-
-    /**
-    * Parse a URL to discover it's components
-    *
-    * @param {String} url The URL to be parsed
-    * @returns {Object}
-    */
-    function resolveURL(url) {
-      let href = url;
-
-      if (msie) {
-        // IE needs attribute set twice to normalize properties
-        urlParsingNode.setAttribute('href', href);
-        href = urlParsingNode.href;
-      }
-
-      urlParsingNode.setAttribute('href', href);
-
-      // urlParsingNode provides the UrlUtils interface - http://url.spec.whatwg.org/#urlutils
-      return {
-        href: urlParsingNode.href,
-        protocol: urlParsingNode.protocol ? urlParsingNode.protocol.replace(/:$/, '') : '',
-        host: urlParsingNode.host,
-        search: urlParsingNode.search ? urlParsingNode.search.replace(/^\?/, '') : '',
-        hash: urlParsingNode.hash ? urlParsingNode.hash.replace(/^#/, '') : '',
-        hostname: urlParsingNode.hostname,
-        port: urlParsingNode.port,
-        pathname: (urlParsingNode.pathname.charAt(0) === '/') ?
-          urlParsingNode.pathname :
-          '/' + urlParsingNode.pathname
-      };
+    if (_newIndex == null) {
+      return null;
     }
 
-    originURL = resolveURL(window.location.href);
-
-    /**
-    * Determine if a URL shares the same origin as the current location
-    *
-    * @param {String} requestURL The URL to test
-    * @returns {boolean} True if URL shares the same origin, otherwise false
-    */
-    return function isURLSameOrigin(requestURL) {
-      const parsed = (utils.isString(requestURL)) ? resolveURL(requestURL) : requestURL;
-      return (parsed.protocol === originURL.protocol &&
-          parsed.host === originURL.host);
-    };
-  })() :
-
-  // Non standard browser envs (web workers, react-native) lack needed support.
-  (function nonStandardBrowserEnv() {
-    return function isURLSameOrigin() {
-      return true;
-    };
-  })());
-
-;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/parseProtocol.js
-
-
-function parseProtocol(url) {
-  const match = /^([-+\w]{1,25})(:?\/\/|:)/.exec(url);
-  return match && match[1] || '';
-}
-
-;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/speedometer.js
-
-
-/**
- * Calculate data maxRate
- * @param {Number} [samplesCount= 10]
- * @param {Number} [min= 1000]
- * @returns {Function}
- */
-function speedometer(samplesCount, min) {
-  samplesCount = samplesCount || 10;
-  const bytes = new Array(samplesCount);
-  const timestamps = new Array(samplesCount);
-  let head = 0;
-  let tail = 0;
-  let firstSampleTS;
-
-  min = min !== undefined ? min : 1000;
-
-  return function push(chunkLength) {
-    const now = Date.now();
-
-    const startedAt = timestamps[tail];
-
-    if (!firstSampleTS) {
-      firstSampleTS = now;
-    }
-
-    bytes[head] = chunkLength;
-    timestamps[head] = now;
-
-    let i = tail;
-    let bytesCount = 0;
-
-    while (i !== head) {
-      bytesCount += bytes[i++];
-      i = i % samplesCount;
-    }
-
-    head = (head + 1) % samplesCount;
-
-    if (head === tail) {
-      tail = (tail + 1) % samplesCount;
-    }
-
-    if (now - firstSampleTS < min) {
-      return;
-    }
-
-    const passed = startedAt && now - startedAt;
-
-    return passed ? Math.round(bytesCount * 1000 / passed) : undefined;
-  };
-}
-
-/* harmony default export */ const helpers_speedometer = (speedometer);
-
-;// CONCATENATED MODULE: ./node_modules/axios/lib/adapters/xhr.js
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function progressEventReducer(listener, isDownloadStream) {
-  let bytesNotified = 0;
-  const _speedometer = helpers_speedometer(50, 250);
-
-  return e => {
-    const loaded = e.loaded;
-    const total = e.lengthComputable ? e.total : undefined;
-    const progressBytes = loaded - bytesNotified;
-    const rate = _speedometer(progressBytes);
-    const inRange = loaded <= total;
-
-    bytesNotified = loaded;
-
-    const data = {
-      loaded,
-      total,
-      progress: total ? (loaded / total) : undefined,
-      bytes: progressBytes,
-      rate: rate ? rate : undefined,
-      estimated: rate && total && inRange ? (total - loaded) / rate : undefined,
-      event: e
-    };
-
-    data[isDownloadStream ? 'download' : 'upload'] = true;
-
-    listener(data);
-  };
-}
-
-const isXHRAdapterSupported = typeof XMLHttpRequest !== 'undefined';
-
-/* harmony default export */ const xhr = (isXHRAdapterSupported && function (config) {
-  return new Promise(function dispatchXhrRequest(resolve, reject) {
-    let requestData = config.data;
-    const requestHeaders = core_AxiosHeaders.from(config.headers).normalize();
-    const responseType = config.responseType;
-    let onCanceled;
-    function done() {
-      if (config.cancelToken) {
-        config.cancelToken.unsubscribe(onCanceled);
-      }
-
-      if (config.signal) {
-        config.signal.removeEventListener('abort', onCanceled);
-      }
-    }
-
-    let contentType;
-
-    if (utils.isFormData(requestData)) {
-      if (browser.isStandardBrowserEnv || browser.isStandardBrowserWebWorkerEnv) {
-        requestHeaders.setContentType(false); // Let the browser set it
-      } else if(!requestHeaders.getContentType(/^\s*multipart\/form-data/)){
-        requestHeaders.setContentType('multipart/form-data'); // mobile/desktop app frameworks
-      } else if(utils.isString(contentType = requestHeaders.getContentType())){
-        // fix semicolon duplication issue for ReactNative FormData implementation
-        requestHeaders.setContentType(contentType.replace(/^\s*(multipart\/form-data);+/, '$1'))
-      }
-    }
-
-    let request = new XMLHttpRequest();
-
-    // HTTP basic authentication
-    if (config.auth) {
-      const username = config.auth.username || '';
-      const password = config.auth.password ? unescape(encodeURIComponent(config.auth.password)) : '';
-      requestHeaders.set('Authorization', 'Basic ' + btoa(username + ':' + password));
-    }
-
-    const fullPath = buildFullPath(config.baseURL, config.url);
-
-    request.open(config.method.toUpperCase(), buildURL(fullPath, config.params, config.paramsSerializer), true);
-
-    // Set the request timeout in MS
-    request.timeout = config.timeout;
-
-    function onloadend() {
-      if (!request) {
-        return;
-      }
-      // Prepare the response
-      const responseHeaders = core_AxiosHeaders.from(
-        'getAllResponseHeaders' in request && request.getAllResponseHeaders()
-      );
-      const responseData = !responseType || responseType === 'text' || responseType === 'json' ?
-        request.responseText : request.response;
-      const response = {
-        data: responseData,
-        status: request.status,
-        statusText: request.statusText,
-        headers: responseHeaders,
-        config,
-        request
-      };
-
-      settle(function _resolve(value) {
-        resolve(value);
-        done();
-      }, function _reject(err) {
-        reject(err);
-        done();
-      }, response);
-
-      // Clean up request
-      request = null;
-    }
-
-    if ('onloadend' in request) {
-      // Use onloadend if available
-      request.onloadend = onloadend;
-    } else {
-      // Listen for ready state to emulate onloadend
-      request.onreadystatechange = function handleLoad() {
-        if (!request || request.readyState !== 4) {
-          return;
-        }
-
-        // The request errored out and we didn't get a response, this will be
-        // handled by onerror instead
-        // With one exception: request that using file: protocol, most browsers
-        // will return status as 0 even though it's a successful request
-        if (request.status === 0 && !(request.responseURL && request.responseURL.indexOf('file:') === 0)) {
-          return;
-        }
-        // readystate handler is calling before onerror or ontimeout handlers,
-        // so we should call onloadend on the next 'tick'
-        setTimeout(onloadend);
-      };
-    }
-
-    // Handle browser request cancellation (as opposed to a manual cancellation)
-    request.onabort = function handleAbort() {
-      if (!request) {
-        return;
-      }
-
-      reject(new core_AxiosError('Request aborted', core_AxiosError.ECONNABORTED, config, request));
-
-      // Clean up request
-      request = null;
-    };
-
-    // Handle low level network errors
-    request.onerror = function handleError() {
-      // Real errors are hidden from us by the browser
-      // onerror should only fire if it's a network error
-      reject(new core_AxiosError('Network Error', core_AxiosError.ERR_NETWORK, config, request));
-
-      // Clean up request
-      request = null;
-    };
-
-    // Handle timeout
-    request.ontimeout = function handleTimeout() {
-      let timeoutErrorMessage = config.timeout ? 'timeout of ' + config.timeout + 'ms exceeded' : 'timeout exceeded';
-      const transitional = config.transitional || defaults_transitional;
-      if (config.timeoutErrorMessage) {
-        timeoutErrorMessage = config.timeoutErrorMessage;
-      }
-      reject(new core_AxiosError(
-        timeoutErrorMessage,
-        transitional.clarifyTimeoutError ? core_AxiosError.ETIMEDOUT : core_AxiosError.ECONNABORTED,
-        config,
-        request));
-
-      // Clean up request
-      request = null;
-    };
-
-    // Add xsrf header
-    // This is only done if running in a standard browser environment.
-    // Specifically not if we're in a web worker, or react-native.
-    if (browser.isStandardBrowserEnv) {
-      // Add xsrf header
-      // regarding CVE-2023-45857 config.withCredentials condition was removed temporarily
-      const xsrfValue = isURLSameOrigin(fullPath) && config.xsrfCookieName && cookies.read(config.xsrfCookieName);
-
-      if (xsrfValue) {
-        requestHeaders.set(config.xsrfHeaderName, xsrfValue);
-      }
-    }
-
-    // Remove Content-Type if data is undefined
-    requestData === undefined && requestHeaders.setContentType(null);
-
-    // Add headers to the request
-    if ('setRequestHeader' in request) {
-      utils.forEach(requestHeaders.toJSON(), function setRequestHeader(val, key) {
-        request.setRequestHeader(key, val);
+    return calculateReorderImpact({
+      draggable: draggable,
+      insideDestination: insideDestination,
+      destination: destination,
+      viewport: viewport,
+      last: previousImpact.displaced,
+      displacedBy: previousImpact.displacedBy,
+      index: _newIndex
+    });
+  }
+
+  var newIndex = fromCombine({
+    isMovingForward: isMovingForward,
+    destination: destination,
+    displaced: previousImpact.displaced,
+    draggables: draggables,
+    combine: wasAt.combine,
+    afterCritical: afterCritical
+  });
+
+  if (newIndex == null) {
+    return null;
+  }
+
+  return calculateReorderImpact({
+    draggable: draggable,
+    insideDestination: insideDestination,
+    destination: destination,
+    viewport: viewport,
+    last: previousImpact.displaced,
+    displacedBy: previousImpact.displacedBy,
+    index: newIndex
+  });
+});
+
+var getCombinedItemDisplacement = (function (_ref) {
+  var displaced = _ref.displaced,
+      afterCritical = _ref.afterCritical,
+      combineWith = _ref.combineWith,
+      displacedBy = _ref.displacedBy;
+  var isDisplaced = Boolean(displaced.visible[combineWith] || displaced.invisible[combineWith]);
+
+  if (didStartAfterCritical(combineWith, afterCritical)) {
+    return isDisplaced ? origin : negate(displacedBy.point);
+  }
+
+  return isDisplaced ? displacedBy.point : origin;
+});
+
+var whenCombining = (function (_ref) {
+  var afterCritical = _ref.afterCritical,
+      impact = _ref.impact,
+      draggables = _ref.draggables;
+  var combine = tryGetCombine(impact);
+  !combine ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+  var combineWith = combine.draggableId;
+  var center = draggables[combineWith].page.borderBox.center;
+  var displaceBy = getCombinedItemDisplacement({
+    displaced: impact.displaced,
+    afterCritical: afterCritical,
+    combineWith: combineWith,
+    displacedBy: impact.displacedBy
+  });
+  return add(center, displaceBy);
+});
+
+var distanceFromStartToBorderBoxCenter = function distanceFromStartToBorderBoxCenter(axis, box) {
+  return box.margin[axis.start] + box.borderBox[axis.size] / 2;
+};
+
+var distanceFromEndToBorderBoxCenter = function distanceFromEndToBorderBoxCenter(axis, box) {
+  return box.margin[axis.end] + box.borderBox[axis.size] / 2;
+};
+
+var getCrossAxisBorderBoxCenter = function getCrossAxisBorderBoxCenter(axis, target, isMoving) {
+  return target[axis.crossAxisStart] + isMoving.margin[axis.crossAxisStart] + isMoving.borderBox[axis.crossAxisSize] / 2;
+};
+
+var goAfter = function goAfter(_ref) {
+  var axis = _ref.axis,
+      moveRelativeTo = _ref.moveRelativeTo,
+      isMoving = _ref.isMoving;
+  return patch(axis.line, moveRelativeTo.marginBox[axis.end] + distanceFromStartToBorderBoxCenter(axis, isMoving), getCrossAxisBorderBoxCenter(axis, moveRelativeTo.marginBox, isMoving));
+};
+var goBefore = function goBefore(_ref2) {
+  var axis = _ref2.axis,
+      moveRelativeTo = _ref2.moveRelativeTo,
+      isMoving = _ref2.isMoving;
+  return patch(axis.line, moveRelativeTo.marginBox[axis.start] - distanceFromEndToBorderBoxCenter(axis, isMoving), getCrossAxisBorderBoxCenter(axis, moveRelativeTo.marginBox, isMoving));
+};
+var goIntoStart = function goIntoStart(_ref3) {
+  var axis = _ref3.axis,
+      moveInto = _ref3.moveInto,
+      isMoving = _ref3.isMoving;
+  return patch(axis.line, moveInto.contentBox[axis.start] + distanceFromStartToBorderBoxCenter(axis, isMoving), getCrossAxisBorderBoxCenter(axis, moveInto.contentBox, isMoving));
+};
+
+var whenReordering = (function (_ref) {
+  var impact = _ref.impact,
+      draggable = _ref.draggable,
+      draggables = _ref.draggables,
+      droppable = _ref.droppable,
+      afterCritical = _ref.afterCritical;
+  var insideDestination = getDraggablesInsideDroppable(droppable.descriptor.id, draggables);
+  var draggablePage = draggable.page;
+  var axis = droppable.axis;
+
+  if (!insideDestination.length) {
+    return goIntoStart({
+      axis: axis,
+      moveInto: droppable.page,
+      isMoving: draggablePage
+    });
+  }
+
+  var displaced = impact.displaced,
+      displacedBy = impact.displacedBy;
+  var closestAfter = displaced.all[0];
+
+  if (closestAfter) {
+    var closest = draggables[closestAfter];
+
+    if (didStartAfterCritical(closestAfter, afterCritical)) {
+      return goBefore({
+        axis: axis,
+        moveRelativeTo: closest.page,
+        isMoving: draggablePage
       });
     }
 
-    // Add withCredentials to request if needed
-    if (!utils.isUndefined(config.withCredentials)) {
-      request.withCredentials = !!config.withCredentials;
-    }
+    var withDisplacement = offset(closest.page, displacedBy.point);
+    return goBefore({
+      axis: axis,
+      moveRelativeTo: withDisplacement,
+      isMoving: draggablePage
+    });
+  }
 
-    // Add responseType to request if needed
-    if (responseType && responseType !== 'json') {
-      request.responseType = config.responseType;
-    }
+  var last = insideDestination[insideDestination.length - 1];
 
-    // Handle progress if needed
-    if (typeof config.onDownloadProgress === 'function') {
-      request.addEventListener('progress', progressEventReducer(config.onDownloadProgress, true));
-    }
+  if (last.descriptor.id === draggable.descriptor.id) {
+    return draggablePage.borderBox.center;
+  }
 
-    // Not all browsers support upload events
-    if (typeof config.onUploadProgress === 'function' && request.upload) {
-      request.upload.addEventListener('progress', progressEventReducer(config.onUploadProgress));
-    }
+  if (didStartAfterCritical(last.descriptor.id, afterCritical)) {
+    var page = offset(last.page, negate(afterCritical.displacedBy.point));
+    return goAfter({
+      axis: axis,
+      moveRelativeTo: page,
+      isMoving: draggablePage
+    });
+  }
 
-    if (config.cancelToken || config.signal) {
-      // Handle cancellation
-      // eslint-disable-next-line func-names
-      onCanceled = cancel => {
-        if (!request) {
-          return;
-        }
-        reject(!cancel || cancel.type ? new cancel_CanceledError(null, config, request) : cancel);
-        request.abort();
-        request = null;
-      };
-
-      config.cancelToken && config.cancelToken.subscribe(onCanceled);
-      if (config.signal) {
-        config.signal.aborted ? onCanceled() : config.signal.addEventListener('abort', onCanceled);
-      }
-    }
-
-    const protocol = parseProtocol(fullPath);
-
-    if (protocol && browser.protocols.indexOf(protocol) === -1) {
-      reject(new core_AxiosError('Unsupported protocol ' + protocol + ':', core_AxiosError.ERR_BAD_REQUEST, config));
-      return;
-    }
-
-
-    // Send the request
-    request.send(requestData || null);
+  return goAfter({
+    axis: axis,
+    moveRelativeTo: last.page,
+    isMoving: draggablePage
   });
 });
 
-;// CONCATENATED MODULE: ./node_modules/axios/lib/adapters/adapters.js
+var withDroppableDisplacement = (function (droppable, point) {
+  var frame = droppable.frame;
 
-
-
-
-
-const knownAdapters = {
-  http: helpers_null,
-  xhr: xhr
-}
-
-utils.forEach(knownAdapters, (fn, value) => {
-  if (fn) {
-    try {
-      Object.defineProperty(fn, 'name', {value});
-    } catch (e) {
-      // eslint-disable-next-line no-empty
-    }
-    Object.defineProperty(fn, 'adapterName', {value});
+  if (!frame) {
+    return point;
   }
+
+  return add(point, frame.scroll.diff.displacement);
 });
 
-const renderReason = (reason) => `- ${reason}`;
+var getResultWithoutDroppableDisplacement = function getResultWithoutDroppableDisplacement(_ref) {
+  var impact = _ref.impact,
+      draggable = _ref.draggable,
+      droppable = _ref.droppable,
+      draggables = _ref.draggables,
+      afterCritical = _ref.afterCritical;
+  var original = draggable.page.borderBox.center;
+  var at = impact.at;
 
-const isResolvedHandle = (adapter) => utils.isFunction(adapter) || adapter === null || adapter === false;
-
-/* harmony default export */ const adapters = ({
-  getAdapter: (adapters) => {
-    adapters = utils.isArray(adapters) ? adapters : [adapters];
-
-    const {length} = adapters;
-    let nameOrAdapter;
-    let adapter;
-
-    const rejectedReasons = {};
-
-    for (let i = 0; i < length; i++) {
-      nameOrAdapter = adapters[i];
-      let id;
-
-      adapter = nameOrAdapter;
-
-      if (!isResolvedHandle(nameOrAdapter)) {
-        adapter = knownAdapters[(id = String(nameOrAdapter)).toLowerCase()];
-
-        if (adapter === undefined) {
-          throw new core_AxiosError(`Unknown adapter '${id}'`);
-        }
-      }
-
-      if (adapter) {
-        break;
-      }
-
-      rejectedReasons[id || '#' + i] = adapter;
-    }
-
-    if (!adapter) {
-
-      const reasons = Object.entries(rejectedReasons)
-        .map(([id, state]) => `adapter ${id} ` +
-          (state === false ? 'is not supported by the environment' : 'is not available in the build')
-        );
-
-      let s = length ?
-        (reasons.length > 1 ? 'since :\n' + reasons.map(renderReason).join('\n') : ' ' + renderReason(reasons[0])) :
-        'as no adapter specified';
-
-      throw new core_AxiosError(
-        `There is no suitable adapter to dispatch the request ` + s,
-        'ERR_NOT_SUPPORT'
-      );
-    }
-
-    return adapter;
-  },
-  adapters: knownAdapters
-});
-
-;// CONCATENATED MODULE: ./node_modules/axios/lib/core/dispatchRequest.js
-
-
-
-
-
-
-
-
-
-/**
- * Throws a `CanceledError` if cancellation has been requested.
- *
- * @param {Object} config The config that is to be used for the request
- *
- * @returns {void}
- */
-function throwIfCancellationRequested(config) {
-  if (config.cancelToken) {
-    config.cancelToken.throwIfRequested();
+  if (!droppable) {
+    return original;
   }
 
-  if (config.signal && config.signal.aborted) {
-    throw new cancel_CanceledError(null, config);
-  }
-}
-
-/**
- * Dispatch a request to the server using the configured adapter.
- *
- * @param {object} config The config that is to be used for the request
- *
- * @returns {Promise} The Promise to be fulfilled
- */
-function dispatchRequest(config) {
-  throwIfCancellationRequested(config);
-
-  config.headers = core_AxiosHeaders.from(config.headers);
-
-  // Transform request data
-  config.data = transformData.call(
-    config,
-    config.transformRequest
-  );
-
-  if (['post', 'put', 'patch'].indexOf(config.method) !== -1) {
-    config.headers.setContentType('application/x-www-form-urlencoded', false);
+  if (!at) {
+    return original;
   }
 
-  const adapter = adapters.getAdapter(config.adapter || lib_defaults.adapter);
+  if (at.type === 'REORDER') {
+    return whenReordering({
+      impact: impact,
+      draggable: draggable,
+      draggables: draggables,
+      droppable: droppable,
+      afterCritical: afterCritical
+    });
+  }
 
-  return adapter(config).then(function onAdapterResolution(response) {
-    throwIfCancellationRequested(config);
-
-    // Transform response data
-    response.data = transformData.call(
-      config,
-      config.transformResponse,
-      response
-    );
-
-    response.headers = core_AxiosHeaders.from(response.headers);
-
-    return response;
-  }, function onAdapterRejection(reason) {
-    if (!isCancel(reason)) {
-      throwIfCancellationRequested(config);
-
-      // Transform response data
-      if (reason && reason.response) {
-        reason.response.data = transformData.call(
-          config,
-          config.transformResponse,
-          reason.response
-        );
-        reason.response.headers = core_AxiosHeaders.from(reason.response.headers);
-      }
-    }
-
-    return Promise.reject(reason);
+  return whenCombining({
+    impact: impact,
+    draggables: draggables,
+    afterCritical: afterCritical
   });
-}
-
-;// CONCATENATED MODULE: ./node_modules/axios/lib/core/mergeConfig.js
-
-
-
-
-
-const headersToObject = (thing) => thing instanceof core_AxiosHeaders ? thing.toJSON() : thing;
-
-/**
- * Config-specific merge-function which creates a new config-object
- * by merging two configuration objects together.
- *
- * @param {Object} config1
- * @param {Object} config2
- *
- * @returns {Object} New object resulting from merging config2 to config1
- */
-function mergeConfig(config1, config2) {
-  // eslint-disable-next-line no-param-reassign
-  config2 = config2 || {};
-  const config = {};
-
-  function getMergedValue(target, source, caseless) {
-    if (utils.isPlainObject(target) && utils.isPlainObject(source)) {
-      return utils.merge.call({caseless}, target, source);
-    } else if (utils.isPlainObject(source)) {
-      return utils.merge({}, source);
-    } else if (utils.isArray(source)) {
-      return source.slice();
-    }
-    return source;
-  }
-
-  // eslint-disable-next-line consistent-return
-  function mergeDeepProperties(a, b, caseless) {
-    if (!utils.isUndefined(b)) {
-      return getMergedValue(a, b, caseless);
-    } else if (!utils.isUndefined(a)) {
-      return getMergedValue(undefined, a, caseless);
-    }
-  }
-
-  // eslint-disable-next-line consistent-return
-  function valueFromConfig2(a, b) {
-    if (!utils.isUndefined(b)) {
-      return getMergedValue(undefined, b);
-    }
-  }
-
-  // eslint-disable-next-line consistent-return
-  function defaultToConfig2(a, b) {
-    if (!utils.isUndefined(b)) {
-      return getMergedValue(undefined, b);
-    } else if (!utils.isUndefined(a)) {
-      return getMergedValue(undefined, a);
-    }
-  }
-
-  // eslint-disable-next-line consistent-return
-  function mergeDirectKeys(a, b, prop) {
-    if (prop in config2) {
-      return getMergedValue(a, b);
-    } else if (prop in config1) {
-      return getMergedValue(undefined, a);
-    }
-  }
-
-  const mergeMap = {
-    url: valueFromConfig2,
-    method: valueFromConfig2,
-    data: valueFromConfig2,
-    baseURL: defaultToConfig2,
-    transformRequest: defaultToConfig2,
-    transformResponse: defaultToConfig2,
-    paramsSerializer: defaultToConfig2,
-    timeout: defaultToConfig2,
-    timeoutMessage: defaultToConfig2,
-    withCredentials: defaultToConfig2,
-    adapter: defaultToConfig2,
-    responseType: defaultToConfig2,
-    xsrfCookieName: defaultToConfig2,
-    xsrfHeaderName: defaultToConfig2,
-    onUploadProgress: defaultToConfig2,
-    onDownloadProgress: defaultToConfig2,
-    decompress: defaultToConfig2,
-    maxContentLength: defaultToConfig2,
-    maxBodyLength: defaultToConfig2,
-    beforeRedirect: defaultToConfig2,
-    transport: defaultToConfig2,
-    httpAgent: defaultToConfig2,
-    httpsAgent: defaultToConfig2,
-    cancelToken: defaultToConfig2,
-    socketPath: defaultToConfig2,
-    responseEncoding: defaultToConfig2,
-    validateStatus: mergeDirectKeys,
-    headers: (a, b) => mergeDeepProperties(headersToObject(a), headersToObject(b), true)
-  };
-
-  utils.forEach(Object.keys(Object.assign({}, config1, config2)), function computeConfigValue(prop) {
-    const merge = mergeMap[prop] || mergeDeepProperties;
-    const configValue = merge(config1[prop], config2[prop], prop);
-    (utils.isUndefined(configValue) && merge !== mergeDirectKeys) || (config[prop] = configValue);
-  });
-
-  return config;
-}
-
-;// CONCATENATED MODULE: ./node_modules/axios/lib/env/data.js
-const VERSION = "1.6.0";
-;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/validator.js
-
-
-
-
-
-const validators = {};
-
-// eslint-disable-next-line func-names
-['object', 'boolean', 'number', 'function', 'string', 'symbol'].forEach((type, i) => {
-  validators[type] = function validator(thing) {
-    return typeof thing === type || 'a' + (i < 1 ? 'n ' : ' ') + type;
-  };
-});
-
-const deprecatedWarnings = {};
-
-/**
- * Transitional option validator
- *
- * @param {function|boolean?} validator - set to false if the transitional option has been removed
- * @param {string?} version - deprecated version / removed since version
- * @param {string?} message - some message with additional info
- *
- * @returns {function}
- */
-validators.transitional = function transitional(validator, version, message) {
-  function formatMessage(opt, desc) {
-    return '[Axios v' + VERSION + '] Transitional option \'' + opt + '\'' + desc + (message ? '. ' + message : '');
-  }
-
-  // eslint-disable-next-line func-names
-  return (value, opt, opts) => {
-    if (validator === false) {
-      throw new core_AxiosError(
-        formatMessage(opt, ' has been removed' + (version ? ' in ' + version : '')),
-        core_AxiosError.ERR_DEPRECATED
-      );
-    }
-
-    if (version && !deprecatedWarnings[opt]) {
-      deprecatedWarnings[opt] = true;
-      // eslint-disable-next-line no-console
-      console.warn(
-        formatMessage(
-          opt,
-          ' has been deprecated since v' + version + ' and will be removed in the near future'
-        )
-      );
-    }
-
-    return validator ? validator(value, opt, opts) : true;
-  };
 };
 
-/**
- * Assert object's properties type
- *
- * @param {object} options
- * @param {object} schema
- * @param {boolean?} allowUnknown
- *
- * @returns {object}
- */
-
-function assertOptions(options, schema, allowUnknown) {
-  if (typeof options !== 'object') {
-    throw new core_AxiosError('options must be an object', core_AxiosError.ERR_BAD_OPTION_VALUE);
-  }
-  const keys = Object.keys(options);
-  let i = keys.length;
-  while (i-- > 0) {
-    const opt = keys[i];
-    const validator = schema[opt];
-    if (validator) {
-      const value = options[opt];
-      const result = value === undefined || validator(value, opt, options);
-      if (result !== true) {
-        throw new core_AxiosError('option ' + opt + ' must be ' + result, core_AxiosError.ERR_BAD_OPTION_VALUE);
-      }
-      continue;
-    }
-    if (allowUnknown !== true) {
-      throw new core_AxiosError('Unknown option ' + opt, core_AxiosError.ERR_BAD_OPTION);
-    }
-  }
-}
-
-/* harmony default export */ const validator = ({
-  assertOptions,
-  validators
+var getPageBorderBoxCenterFromImpact = (function (args) {
+  var withoutDisplacement = getResultWithoutDroppableDisplacement(args);
+  var droppable = args.droppable;
+  var withDisplacement = droppable ? withDroppableDisplacement(droppable, withoutDisplacement) : withoutDisplacement;
+  return withDisplacement;
 });
 
-;// CONCATENATED MODULE: ./node_modules/axios/lib/core/Axios.js
-
-
-
-
-
-
-
-
-
-
-
-const Axios_validators = validator.validators;
-
-/**
- * Create a new instance of Axios
- *
- * @param {Object} instanceConfig The default config for the instance
- *
- * @return {Axios} A new instance of Axios
- */
-class Axios {
-  constructor(instanceConfig) {
-    this.defaults = instanceConfig;
-    this.interceptors = {
-      request: new core_InterceptorManager(),
-      response: new core_InterceptorManager()
-    };
-  }
-
-  /**
-   * Dispatch a request
-   *
-   * @param {String|Object} configOrUrl The config specific for this request (merged with this.defaults)
-   * @param {?Object} config
-   *
-   * @returns {Promise} The Promise to be fulfilled
-   */
-  request(configOrUrl, config) {
-    /*eslint no-param-reassign:0*/
-    // Allow for axios('example/url'[, config]) a la fetch API
-    if (typeof configOrUrl === 'string') {
-      config = config || {};
-      config.url = configOrUrl;
-    } else {
-      config = configOrUrl || {};
-    }
-
-    config = mergeConfig(this.defaults, config);
-
-    const {transitional, paramsSerializer, headers} = config;
-
-    if (transitional !== undefined) {
-      validator.assertOptions(transitional, {
-        silentJSONParsing: Axios_validators.transitional(Axios_validators.boolean),
-        forcedJSONParsing: Axios_validators.transitional(Axios_validators.boolean),
-        clarifyTimeoutError: Axios_validators.transitional(Axios_validators.boolean)
-      }, false);
-    }
-
-    if (paramsSerializer != null) {
-      if (utils.isFunction(paramsSerializer)) {
-        config.paramsSerializer = {
-          serialize: paramsSerializer
-        }
-      } else {
-        validator.assertOptions(paramsSerializer, {
-          encode: Axios_validators.function,
-          serialize: Axios_validators.function
-        }, true);
+var scrollViewport = (function (viewport, newScroll) {
+  var diff = subtract(newScroll, viewport.scroll.initial);
+  var displacement = negate(diff);
+  var frame = getRect({
+    top: newScroll.y,
+    bottom: newScroll.y + viewport.frame.height,
+    left: newScroll.x,
+    right: newScroll.x + viewport.frame.width
+  });
+  var updated = {
+    frame: frame,
+    scroll: {
+      initial: viewport.scroll.initial,
+      max: viewport.scroll.max,
+      current: newScroll,
+      diff: {
+        value: diff,
+        displacement: displacement
       }
     }
-
-    // Set config.method
-    config.method = (config.method || this.defaults.method || 'get').toLowerCase();
-
-    // Flatten headers
-    let contextHeaders = headers && utils.merge(
-      headers.common,
-      headers[config.method]
-    );
-
-    headers && utils.forEach(
-      ['delete', 'get', 'head', 'post', 'put', 'patch', 'common'],
-      (method) => {
-        delete headers[method];
-      }
-    );
-
-    config.headers = core_AxiosHeaders.concat(contextHeaders, headers);
-
-    // filter out skipped interceptors
-    const requestInterceptorChain = [];
-    let synchronousRequestInterceptors = true;
-    this.interceptors.request.forEach(function unshiftRequestInterceptors(interceptor) {
-      if (typeof interceptor.runWhen === 'function' && interceptor.runWhen(config) === false) {
-        return;
-      }
-
-      synchronousRequestInterceptors = synchronousRequestInterceptors && interceptor.synchronous;
-
-      requestInterceptorChain.unshift(interceptor.fulfilled, interceptor.rejected);
-    });
-
-    const responseInterceptorChain = [];
-    this.interceptors.response.forEach(function pushResponseInterceptors(interceptor) {
-      responseInterceptorChain.push(interceptor.fulfilled, interceptor.rejected);
-    });
-
-    let promise;
-    let i = 0;
-    let len;
-
-    if (!synchronousRequestInterceptors) {
-      const chain = [dispatchRequest.bind(this), undefined];
-      chain.unshift.apply(chain, requestInterceptorChain);
-      chain.push.apply(chain, responseInterceptorChain);
-      len = chain.length;
-
-      promise = Promise.resolve(config);
-
-      while (i < len) {
-        promise = promise.then(chain[i++], chain[i++]);
-      }
-
-      return promise;
-    }
-
-    len = requestInterceptorChain.length;
-
-    let newConfig = config;
-
-    i = 0;
-
-    while (i < len) {
-      const onFulfilled = requestInterceptorChain[i++];
-      const onRejected = requestInterceptorChain[i++];
-      try {
-        newConfig = onFulfilled(newConfig);
-      } catch (error) {
-        onRejected.call(this, error);
-        break;
-      }
-    }
-
-    try {
-      promise = dispatchRequest.call(this, newConfig);
-    } catch (error) {
-      return Promise.reject(error);
-    }
-
-    i = 0;
-    len = responseInterceptorChain.length;
-
-    while (i < len) {
-      promise = promise.then(responseInterceptorChain[i++], responseInterceptorChain[i++]);
-    }
-
-    return promise;
-  }
-
-  getUri(config) {
-    config = mergeConfig(this.defaults, config);
-    const fullPath = buildFullPath(config.baseURL, config.url);
-    return buildURL(fullPath, config.params, config.paramsSerializer);
-  }
-}
-
-// Provide aliases for supported request methods
-utils.forEach(['delete', 'get', 'head', 'options'], function forEachMethodNoData(method) {
-  /*eslint func-names:0*/
-  Axios.prototype[method] = function(url, config) {
-    return this.request(mergeConfig(config || {}, {
-      method,
-      url,
-      data: (config || {}).data
-    }));
   };
+  return updated;
 });
 
-utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
-  /*eslint func-names:0*/
+function getDraggables(ids, draggables) {
+  return ids.map(function (id) {
+    return draggables[id];
+  });
+}
 
-  function generateHTTPMethod(isForm) {
-    return function httpMethod(url, data, config) {
-      return this.request(mergeConfig(config || {}, {
-        method,
-        headers: isForm ? {
-          'Content-Type': 'multipart/form-data'
-        } : {},
-        url,
-        data
-      }));
-    };
-  }
+function tryGetVisible(id, groups) {
+  for (var i = 0; i < groups.length; i++) {
+    var displacement = groups[i].visible[id];
 
-  Axios.prototype[method] = generateHTTPMethod();
-
-  Axios.prototype[method + 'Form'] = generateHTTPMethod(true);
-});
-
-/* harmony default export */ const core_Axios = (Axios);
-
-;// CONCATENATED MODULE: ./node_modules/axios/lib/cancel/CancelToken.js
-
-
-
-
-/**
- * A `CancelToken` is an object that can be used to request cancellation of an operation.
- *
- * @param {Function} executor The executor function.
- *
- * @returns {CancelToken}
- */
-class CancelToken {
-  constructor(executor) {
-    if (typeof executor !== 'function') {
-      throw new TypeError('executor must be a function.');
-    }
-
-    let resolvePromise;
-
-    this.promise = new Promise(function promiseExecutor(resolve) {
-      resolvePromise = resolve;
-    });
-
-    const token = this;
-
-    // eslint-disable-next-line func-names
-    this.promise.then(cancel => {
-      if (!token._listeners) return;
-
-      let i = token._listeners.length;
-
-      while (i-- > 0) {
-        token._listeners[i](cancel);
-      }
-      token._listeners = null;
-    });
-
-    // eslint-disable-next-line func-names
-    this.promise.then = onfulfilled => {
-      let _resolve;
-      // eslint-disable-next-line func-names
-      const promise = new Promise(resolve => {
-        token.subscribe(resolve);
-        _resolve = resolve;
-      }).then(onfulfilled);
-
-      promise.cancel = function reject() {
-        token.unsubscribe(_resolve);
-      };
-
-      return promise;
-    };
-
-    executor(function cancel(message, config, request) {
-      if (token.reason) {
-        // Cancellation has already been requested
-        return;
-      }
-
-      token.reason = new cancel_CanceledError(message, config, request);
-      resolvePromise(token.reason);
-    });
-  }
-
-  /**
-   * Throws a `CanceledError` if cancellation has been requested.
-   */
-  throwIfRequested() {
-    if (this.reason) {
-      throw this.reason;
+    if (displacement) {
+      return displacement;
     }
   }
 
-  /**
-   * Subscribe to the cancel signal
-   */
+  return null;
+}
 
-  subscribe(listener) {
-    if (this.reason) {
-      listener(this.reason);
+var speculativelyIncrease = (function (_ref) {
+  var impact = _ref.impact,
+      viewport = _ref.viewport,
+      destination = _ref.destination,
+      draggables = _ref.draggables,
+      maxScrollChange = _ref.maxScrollChange;
+  var scrolledViewport = scrollViewport(viewport, add(viewport.scroll.current, maxScrollChange));
+  var scrolledDroppable = destination.frame ? scrollDroppable(destination, add(destination.frame.scroll.current, maxScrollChange)) : destination;
+  var last = impact.displaced;
+  var withViewportScroll = getDisplacementGroups({
+    afterDragging: getDraggables(last.all, draggables),
+    destination: destination,
+    displacedBy: impact.displacedBy,
+    viewport: scrolledViewport.frame,
+    last: last,
+    forceShouldAnimate: false
+  });
+  var withDroppableScroll = getDisplacementGroups({
+    afterDragging: getDraggables(last.all, draggables),
+    destination: scrolledDroppable,
+    displacedBy: impact.displacedBy,
+    viewport: viewport.frame,
+    last: last,
+    forceShouldAnimate: false
+  });
+  var invisible = {};
+  var visible = {};
+  var groups = [last, withViewportScroll, withDroppableScroll];
+  last.all.forEach(function (id) {
+    var displacement = tryGetVisible(id, groups);
+
+    if (displacement) {
+      visible[id] = displacement;
       return;
     }
 
-    if (this._listeners) {
-      this._listeners.push(listener);
-    } else {
-      this._listeners = [listener];
+    invisible[id] = true;
+  });
+
+  var newImpact = extends_extends({}, impact, {
+    displaced: {
+      all: last.all,
+      invisible: invisible,
+      visible: visible
     }
+  });
+
+  return newImpact;
+});
+
+var withViewportDisplacement = (function (viewport, point) {
+  return add(viewport.scroll.diff.displacement, point);
+});
+
+var getClientFromPageBorderBoxCenter = (function (_ref) {
+  var pageBorderBoxCenter = _ref.pageBorderBoxCenter,
+      draggable = _ref.draggable,
+      viewport = _ref.viewport;
+  var withoutPageScrollChange = withViewportDisplacement(viewport, pageBorderBoxCenter);
+  var offset = subtract(withoutPageScrollChange, draggable.page.borderBox.center);
+  return add(draggable.client.borderBox.center, offset);
+});
+
+var isTotallyVisibleInNewLocation = (function (_ref) {
+  var draggable = _ref.draggable,
+      destination = _ref.destination,
+      newPageBorderBoxCenter = _ref.newPageBorderBoxCenter,
+      viewport = _ref.viewport,
+      withDroppableDisplacement = _ref.withDroppableDisplacement,
+      _ref$onlyOnMainAxis = _ref.onlyOnMainAxis,
+      onlyOnMainAxis = _ref$onlyOnMainAxis === void 0 ? false : _ref$onlyOnMainAxis;
+  var changeNeeded = subtract(newPageBorderBoxCenter, draggable.page.borderBox.center);
+  var shifted = offsetByPosition(draggable.page.borderBox, changeNeeded);
+  var args = {
+    target: shifted,
+    destination: destination,
+    withDroppableDisplacement: withDroppableDisplacement,
+    viewport: viewport
+  };
+  return onlyOnMainAxis ? isTotallyVisibleOnAxis(args) : isTotallyVisible(args);
+});
+
+var moveToNextPlace = (function (_ref) {
+  var isMovingForward = _ref.isMovingForward,
+      draggable = _ref.draggable,
+      destination = _ref.destination,
+      draggables = _ref.draggables,
+      previousImpact = _ref.previousImpact,
+      viewport = _ref.viewport,
+      previousPageBorderBoxCenter = _ref.previousPageBorderBoxCenter,
+      previousClientSelection = _ref.previousClientSelection,
+      afterCritical = _ref.afterCritical;
+
+  if (!destination.isEnabled) {
+    return null;
   }
 
-  /**
-   * Unsubscribe from the cancel signal
-   */
+  var insideDestination = getDraggablesInsideDroppable(destination.descriptor.id, draggables);
+  var isInHomeList = isHomeOf(draggable, destination);
+  var impact = moveToNextCombine({
+    isMovingForward: isMovingForward,
+    draggable: draggable,
+    destination: destination,
+    insideDestination: insideDestination,
+    previousImpact: previousImpact
+  }) || moveToNextIndex({
+    isMovingForward: isMovingForward,
+    isInHomeList: isInHomeList,
+    draggable: draggable,
+    draggables: draggables,
+    destination: destination,
+    insideDestination: insideDestination,
+    previousImpact: previousImpact,
+    viewport: viewport,
+    afterCritical: afterCritical
+  });
 
-  unsubscribe(listener) {
-    if (!this._listeners) {
-      return;
-    }
-    const index = this._listeners.indexOf(listener);
-    if (index !== -1) {
-      this._listeners.splice(index, 1);
-    }
+  if (!impact) {
+    return null;
   }
 
-  /**
-   * Returns an object that contains a new `CancelToken` and a function that, when called,
-   * cancels the `CancelToken`.
-   */
-  static source() {
-    let cancel;
-    const token = new CancelToken(function executor(c) {
-      cancel = c;
+  var pageBorderBoxCenter = getPageBorderBoxCenterFromImpact({
+    impact: impact,
+    draggable: draggable,
+    droppable: destination,
+    draggables: draggables,
+    afterCritical: afterCritical
+  });
+  var isVisibleInNewLocation = isTotallyVisibleInNewLocation({
+    draggable: draggable,
+    destination: destination,
+    newPageBorderBoxCenter: pageBorderBoxCenter,
+    viewport: viewport.frame,
+    withDroppableDisplacement: false,
+    onlyOnMainAxis: true
+  });
+
+  if (isVisibleInNewLocation) {
+    var clientSelection = getClientFromPageBorderBoxCenter({
+      pageBorderBoxCenter: pageBorderBoxCenter,
+      draggable: draggable,
+      viewport: viewport
     });
     return {
-      token,
-      cancel
+      clientSelection: clientSelection,
+      impact: impact,
+      scrollJumpRequest: null
     };
+  }
+
+  var distance = subtract(pageBorderBoxCenter, previousPageBorderBoxCenter);
+  var cautious = speculativelyIncrease({
+    impact: impact,
+    viewport: viewport,
+    destination: destination,
+    draggables: draggables,
+    maxScrollChange: distance
+  });
+  return {
+    clientSelection: previousClientSelection,
+    impact: cautious,
+    scrollJumpRequest: distance
+  };
+});
+
+var getKnownActive = function getKnownActive(droppable) {
+  var rect = droppable.subject.active;
+  !rect ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+  return rect;
+};
+
+var getBestCrossAxisDroppable = (function (_ref) {
+  var isMovingForward = _ref.isMovingForward,
+      pageBorderBoxCenter = _ref.pageBorderBoxCenter,
+      source = _ref.source,
+      droppables = _ref.droppables,
+      viewport = _ref.viewport;
+  var active = source.subject.active;
+
+  if (!active) {
+    return null;
+  }
+
+  var axis = source.axis;
+  var isBetweenSourceClipped = isWithin(active[axis.start], active[axis.end]);
+  var candidates = toDroppableList(droppables).filter(function (droppable) {
+    return droppable !== source;
+  }).filter(function (droppable) {
+    return droppable.isEnabled;
+  }).filter(function (droppable) {
+    return Boolean(droppable.subject.active);
+  }).filter(function (droppable) {
+    return isPartiallyVisibleThroughFrame(viewport.frame)(getKnownActive(droppable));
+  }).filter(function (droppable) {
+    var activeOfTarget = getKnownActive(droppable);
+
+    if (isMovingForward) {
+      return active[axis.crossAxisEnd] < activeOfTarget[axis.crossAxisEnd];
+    }
+
+    return activeOfTarget[axis.crossAxisStart] < active[axis.crossAxisStart];
+  }).filter(function (droppable) {
+    var activeOfTarget = getKnownActive(droppable);
+    var isBetweenDestinationClipped = isWithin(activeOfTarget[axis.start], activeOfTarget[axis.end]);
+    return isBetweenSourceClipped(activeOfTarget[axis.start]) || isBetweenSourceClipped(activeOfTarget[axis.end]) || isBetweenDestinationClipped(active[axis.start]) || isBetweenDestinationClipped(active[axis.end]);
+  }).sort(function (a, b) {
+    var first = getKnownActive(a)[axis.crossAxisStart];
+    var second = getKnownActive(b)[axis.crossAxisStart];
+
+    if (isMovingForward) {
+      return first - second;
+    }
+
+    return second - first;
+  }).filter(function (droppable, index, array) {
+    return getKnownActive(droppable)[axis.crossAxisStart] === getKnownActive(array[0])[axis.crossAxisStart];
+  });
+
+  if (!candidates.length) {
+    return null;
+  }
+
+  if (candidates.length === 1) {
+    return candidates[0];
+  }
+
+  var contains = candidates.filter(function (droppable) {
+    var isWithinDroppable = isWithin(getKnownActive(droppable)[axis.start], getKnownActive(droppable)[axis.end]);
+    return isWithinDroppable(pageBorderBoxCenter[axis.line]);
+  });
+
+  if (contains.length === 1) {
+    return contains[0];
+  }
+
+  if (contains.length > 1) {
+    return contains.sort(function (a, b) {
+      return getKnownActive(a)[axis.start] - getKnownActive(b)[axis.start];
+    })[0];
+  }
+
+  return candidates.sort(function (a, b) {
+    var first = closest(pageBorderBoxCenter, getCorners(getKnownActive(a)));
+    var second = closest(pageBorderBoxCenter, getCorners(getKnownActive(b)));
+
+    if (first !== second) {
+      return first - second;
+    }
+
+    return getKnownActive(a)[axis.start] - getKnownActive(b)[axis.start];
+  })[0];
+});
+
+var getCurrentPageBorderBoxCenter = function getCurrentPageBorderBoxCenter(draggable, afterCritical) {
+  var original = draggable.page.borderBox.center;
+  return didStartAfterCritical(draggable.descriptor.id, afterCritical) ? subtract(original, afterCritical.displacedBy.point) : original;
+};
+var getCurrentPageBorderBox = function getCurrentPageBorderBox(draggable, afterCritical) {
+  var original = draggable.page.borderBox;
+  return didStartAfterCritical(draggable.descriptor.id, afterCritical) ? offsetByPosition(original, negate(afterCritical.displacedBy.point)) : original;
+};
+
+var getClosestDraggable = (function (_ref) {
+  var pageBorderBoxCenter = _ref.pageBorderBoxCenter,
+      viewport = _ref.viewport,
+      destination = _ref.destination,
+      insideDestination = _ref.insideDestination,
+      afterCritical = _ref.afterCritical;
+  var sorted = insideDestination.filter(function (draggable) {
+    return isTotallyVisible({
+      target: getCurrentPageBorderBox(draggable, afterCritical),
+      destination: destination,
+      viewport: viewport.frame,
+      withDroppableDisplacement: true
+    });
+  }).sort(function (a, b) {
+    var distanceToA = distance(pageBorderBoxCenter, withDroppableDisplacement(destination, getCurrentPageBorderBoxCenter(a, afterCritical)));
+    var distanceToB = distance(pageBorderBoxCenter, withDroppableDisplacement(destination, getCurrentPageBorderBoxCenter(b, afterCritical)));
+
+    if (distanceToA < distanceToB) {
+      return -1;
+    }
+
+    if (distanceToB < distanceToA) {
+      return 1;
+    }
+
+    return a.descriptor.index - b.descriptor.index;
+  });
+  return sorted[0] || null;
+});
+
+var getDisplacedBy = memoize_one_esm(function getDisplacedBy(axis, displaceBy) {
+  var displacement = displaceBy[axis.line];
+  return {
+    value: displacement,
+    point: patch(axis.line, displacement)
+  };
+});
+
+var getRequiredGrowthForPlaceholder = function getRequiredGrowthForPlaceholder(droppable, placeholderSize, draggables) {
+  var axis = droppable.axis;
+
+  if (droppable.descriptor.mode === 'virtual') {
+    return patch(axis.line, placeholderSize[axis.line]);
+  }
+
+  var availableSpace = droppable.subject.page.contentBox[axis.size];
+  var insideDroppable = getDraggablesInsideDroppable(droppable.descriptor.id, draggables);
+  var spaceUsed = insideDroppable.reduce(function (sum, dimension) {
+    return sum + dimension.client.marginBox[axis.size];
+  }, 0);
+  var requiredSpace = spaceUsed + placeholderSize[axis.line];
+  var needsToGrowBy = requiredSpace - availableSpace;
+
+  if (needsToGrowBy <= 0) {
+    return null;
+  }
+
+  return patch(axis.line, needsToGrowBy);
+};
+
+var withMaxScroll = function withMaxScroll(frame, max) {
+  return extends_extends({}, frame, {
+    scroll: extends_extends({}, frame.scroll, {
+      max: max
+    })
+  });
+};
+
+var addPlaceholder = function addPlaceholder(droppable, draggable, draggables) {
+  var frame = droppable.frame;
+  !!isHomeOf(draggable, droppable) ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+  !!droppable.subject.withPlaceholder ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+  var placeholderSize = getDisplacedBy(droppable.axis, draggable.displaceBy).point;
+  var requiredGrowth = getRequiredGrowthForPlaceholder(droppable, placeholderSize, draggables);
+  var added = {
+    placeholderSize: placeholderSize,
+    increasedBy: requiredGrowth,
+    oldFrameMaxScroll: droppable.frame ? droppable.frame.scroll.max : null
+  };
+
+  if (!frame) {
+    var _subject = getSubject({
+      page: droppable.subject.page,
+      withPlaceholder: added,
+      axis: droppable.axis,
+      frame: droppable.frame
+    });
+
+    return extends_extends({}, droppable, {
+      subject: _subject
+    });
+  }
+
+  var maxScroll = requiredGrowth ? add(frame.scroll.max, requiredGrowth) : frame.scroll.max;
+  var newFrame = withMaxScroll(frame, maxScroll);
+  var subject = getSubject({
+    page: droppable.subject.page,
+    withPlaceholder: added,
+    axis: droppable.axis,
+    frame: newFrame
+  });
+  return extends_extends({}, droppable, {
+    subject: subject,
+    frame: newFrame
+  });
+};
+var removePlaceholder = function removePlaceholder(droppable) {
+  var added = droppable.subject.withPlaceholder;
+  !added ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+  var frame = droppable.frame;
+
+  if (!frame) {
+    var _subject2 = getSubject({
+      page: droppable.subject.page,
+      axis: droppable.axis,
+      frame: null,
+      withPlaceholder: null
+    });
+
+    return extends_extends({}, droppable, {
+      subject: _subject2
+    });
+  }
+
+  var oldMaxScroll = added.oldFrameMaxScroll;
+  !oldMaxScroll ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+  var newFrame = withMaxScroll(frame, oldMaxScroll);
+  var subject = getSubject({
+    page: droppable.subject.page,
+    axis: droppable.axis,
+    frame: newFrame,
+    withPlaceholder: null
+  });
+  return extends_extends({}, droppable, {
+    subject: subject,
+    frame: newFrame
+  });
+};
+
+var moveToNewDroppable = (function (_ref) {
+  var previousPageBorderBoxCenter = _ref.previousPageBorderBoxCenter,
+      moveRelativeTo = _ref.moveRelativeTo,
+      insideDestination = _ref.insideDestination,
+      draggable = _ref.draggable,
+      draggables = _ref.draggables,
+      destination = _ref.destination,
+      viewport = _ref.viewport,
+      afterCritical = _ref.afterCritical;
+
+  if (!moveRelativeTo) {
+    if (insideDestination.length) {
+      return null;
+    }
+
+    var proposed = {
+      displaced: emptyGroups,
+      displacedBy: noDisplacedBy,
+      at: {
+        type: 'REORDER',
+        destination: {
+          droppableId: destination.descriptor.id,
+          index: 0
+        }
+      }
+    };
+    var proposedPageBorderBoxCenter = getPageBorderBoxCenterFromImpact({
+      impact: proposed,
+      draggable: draggable,
+      droppable: destination,
+      draggables: draggables,
+      afterCritical: afterCritical
+    });
+    var withPlaceholder = isHomeOf(draggable, destination) ? destination : addPlaceholder(destination, draggable, draggables);
+    var isVisibleInNewLocation = isTotallyVisibleInNewLocation({
+      draggable: draggable,
+      destination: withPlaceholder,
+      newPageBorderBoxCenter: proposedPageBorderBoxCenter,
+      viewport: viewport.frame,
+      withDroppableDisplacement: false,
+      onlyOnMainAxis: true
+    });
+    return isVisibleInNewLocation ? proposed : null;
+  }
+
+  var isGoingBeforeTarget = Boolean(previousPageBorderBoxCenter[destination.axis.line] <= moveRelativeTo.page.borderBox.center[destination.axis.line]);
+
+  var proposedIndex = function () {
+    var relativeTo = moveRelativeTo.descriptor.index;
+
+    if (moveRelativeTo.descriptor.id === draggable.descriptor.id) {
+      return relativeTo;
+    }
+
+    if (isGoingBeforeTarget) {
+      return relativeTo;
+    }
+
+    return relativeTo + 1;
+  }();
+
+  var displacedBy = getDisplacedBy(destination.axis, draggable.displaceBy);
+  return calculateReorderImpact({
+    draggable: draggable,
+    insideDestination: insideDestination,
+    destination: destination,
+    viewport: viewport,
+    displacedBy: displacedBy,
+    last: emptyGroups,
+    index: proposedIndex
+  });
+});
+
+var moveCrossAxis = (function (_ref) {
+  var isMovingForward = _ref.isMovingForward,
+      previousPageBorderBoxCenter = _ref.previousPageBorderBoxCenter,
+      draggable = _ref.draggable,
+      isOver = _ref.isOver,
+      draggables = _ref.draggables,
+      droppables = _ref.droppables,
+      viewport = _ref.viewport,
+      afterCritical = _ref.afterCritical;
+  var destination = getBestCrossAxisDroppable({
+    isMovingForward: isMovingForward,
+    pageBorderBoxCenter: previousPageBorderBoxCenter,
+    source: isOver,
+    droppables: droppables,
+    viewport: viewport
+  });
+
+  if (!destination) {
+    return null;
+  }
+
+  var insideDestination = getDraggablesInsideDroppable(destination.descriptor.id, draggables);
+  var moveRelativeTo = getClosestDraggable({
+    pageBorderBoxCenter: previousPageBorderBoxCenter,
+    viewport: viewport,
+    destination: destination,
+    insideDestination: insideDestination,
+    afterCritical: afterCritical
+  });
+  var impact = moveToNewDroppable({
+    previousPageBorderBoxCenter: previousPageBorderBoxCenter,
+    destination: destination,
+    draggable: draggable,
+    draggables: draggables,
+    moveRelativeTo: moveRelativeTo,
+    insideDestination: insideDestination,
+    viewport: viewport,
+    afterCritical: afterCritical
+  });
+
+  if (!impact) {
+    return null;
+  }
+
+  var pageBorderBoxCenter = getPageBorderBoxCenterFromImpact({
+    impact: impact,
+    draggable: draggable,
+    droppable: destination,
+    draggables: draggables,
+    afterCritical: afterCritical
+  });
+  var clientSelection = getClientFromPageBorderBoxCenter({
+    pageBorderBoxCenter: pageBorderBoxCenter,
+    draggable: draggable,
+    viewport: viewport
+  });
+  return {
+    clientSelection: clientSelection,
+    impact: impact,
+    scrollJumpRequest: null
+  };
+});
+
+var whatIsDraggedOver = (function (impact) {
+  var at = impact.at;
+
+  if (!at) {
+    return null;
+  }
+
+  if (at.type === 'REORDER') {
+    return at.destination.droppableId;
+  }
+
+  return at.combine.droppableId;
+});
+
+var getDroppableOver = function getDroppableOver(impact, droppables) {
+  var id = whatIsDraggedOver(impact);
+  return id ? droppables[id] : null;
+};
+
+var moveInDirection = (function (_ref) {
+  var state = _ref.state,
+      type = _ref.type;
+  var isActuallyOver = getDroppableOver(state.impact, state.dimensions.droppables);
+  var isMainAxisMovementAllowed = Boolean(isActuallyOver);
+  var home = state.dimensions.droppables[state.critical.droppable.id];
+  var isOver = isActuallyOver || home;
+  var direction = isOver.axis.direction;
+  var isMovingOnMainAxis = direction === 'vertical' && (type === 'MOVE_UP' || type === 'MOVE_DOWN') || direction === 'horizontal' && (type === 'MOVE_LEFT' || type === 'MOVE_RIGHT');
+
+  if (isMovingOnMainAxis && !isMainAxisMovementAllowed) {
+    return null;
+  }
+
+  var isMovingForward = type === 'MOVE_DOWN' || type === 'MOVE_RIGHT';
+  var draggable = state.dimensions.draggables[state.critical.draggable.id];
+  var previousPageBorderBoxCenter = state.current.page.borderBoxCenter;
+  var _state$dimensions = state.dimensions,
+      draggables = _state$dimensions.draggables,
+      droppables = _state$dimensions.droppables;
+  return isMovingOnMainAxis ? moveToNextPlace({
+    isMovingForward: isMovingForward,
+    previousPageBorderBoxCenter: previousPageBorderBoxCenter,
+    draggable: draggable,
+    destination: isOver,
+    draggables: draggables,
+    viewport: state.viewport,
+    previousClientSelection: state.current.client.selection,
+    previousImpact: state.impact,
+    afterCritical: state.afterCritical
+  }) : moveCrossAxis({
+    isMovingForward: isMovingForward,
+    previousPageBorderBoxCenter: previousPageBorderBoxCenter,
+    draggable: draggable,
+    isOver: isOver,
+    draggables: draggables,
+    droppables: droppables,
+    viewport: state.viewport,
+    afterCritical: state.afterCritical
+  });
+});
+
+function isMovementAllowed(state) {
+  return state.phase === 'DRAGGING' || state.phase === 'COLLECTING';
+}
+
+function isPositionInFrame(frame) {
+  var isWithinVertical = isWithin(frame.top, frame.bottom);
+  var isWithinHorizontal = isWithin(frame.left, frame.right);
+  return function run(point) {
+    return isWithinVertical(point.y) && isWithinHorizontal(point.x);
+  };
+}
+
+function getHasOverlap(first, second) {
+  return first.left < second.right && first.right > second.left && first.top < second.bottom && first.bottom > second.top;
+}
+
+function getFurthestAway(_ref) {
+  var pageBorderBox = _ref.pageBorderBox,
+      draggable = _ref.draggable,
+      candidates = _ref.candidates;
+  var startCenter = draggable.page.borderBox.center;
+  var sorted = candidates.map(function (candidate) {
+    var axis = candidate.axis;
+    var target = patch(candidate.axis.line, pageBorderBox.center[axis.line], candidate.page.borderBox.center[axis.crossAxisLine]);
+    return {
+      id: candidate.descriptor.id,
+      distance: distance(startCenter, target)
+    };
+  }).sort(function (a, b) {
+    return b.distance - a.distance;
+  });
+  return sorted[0] ? sorted[0].id : null;
+}
+
+function getDroppableOver$1(_ref2) {
+  var pageBorderBox = _ref2.pageBorderBox,
+      draggable = _ref2.draggable,
+      droppables = _ref2.droppables;
+  var candidates = toDroppableList(droppables).filter(function (item) {
+    if (!item.isEnabled) {
+      return false;
+    }
+
+    var active = item.subject.active;
+
+    if (!active) {
+      return false;
+    }
+
+    if (!getHasOverlap(pageBorderBox, active)) {
+      return false;
+    }
+
+    if (isPositionInFrame(active)(pageBorderBox.center)) {
+      return true;
+    }
+
+    var axis = item.axis;
+    var childCenter = active.center[axis.crossAxisLine];
+    var crossAxisStart = pageBorderBox[axis.crossAxisStart];
+    var crossAxisEnd = pageBorderBox[axis.crossAxisEnd];
+    var isContained = isWithin(active[axis.crossAxisStart], active[axis.crossAxisEnd]);
+    var isStartContained = isContained(crossAxisStart);
+    var isEndContained = isContained(crossAxisEnd);
+
+    if (!isStartContained && !isEndContained) {
+      return true;
+    }
+
+    if (isStartContained) {
+      return crossAxisStart < childCenter;
+    }
+
+    return crossAxisEnd > childCenter;
+  });
+
+  if (!candidates.length) {
+    return null;
+  }
+
+  if (candidates.length === 1) {
+    return candidates[0].descriptor.id;
+  }
+
+  return getFurthestAway({
+    pageBorderBox: pageBorderBox,
+    draggable: draggable,
+    candidates: candidates
+  });
+}
+
+var offsetRectByPosition = function offsetRectByPosition(rect, point) {
+  return getRect(offsetByPosition(rect, point));
+};
+
+var withDroppableScroll = (function (droppable, area) {
+  var frame = droppable.frame;
+
+  if (!frame) {
+    return area;
+  }
+
+  return offsetRectByPosition(area, frame.scroll.diff.value);
+});
+
+function getIsDisplaced(_ref) {
+  var displaced = _ref.displaced,
+      id = _ref.id;
+  return Boolean(displaced.visible[id] || displaced.invisible[id]);
+}
+
+function atIndex(_ref) {
+  var draggable = _ref.draggable,
+      closest = _ref.closest,
+      inHomeList = _ref.inHomeList;
+
+  if (!closest) {
+    return null;
+  }
+
+  if (!inHomeList) {
+    return closest.descriptor.index;
+  }
+
+  if (closest.descriptor.index > draggable.descriptor.index) {
+    return closest.descriptor.index - 1;
+  }
+
+  return closest.descriptor.index;
+}
+
+var getReorderImpact = (function (_ref2) {
+  var targetRect = _ref2.pageBorderBoxWithDroppableScroll,
+      draggable = _ref2.draggable,
+      destination = _ref2.destination,
+      insideDestination = _ref2.insideDestination,
+      last = _ref2.last,
+      viewport = _ref2.viewport,
+      afterCritical = _ref2.afterCritical;
+  var axis = destination.axis;
+  var displacedBy = getDisplacedBy(destination.axis, draggable.displaceBy);
+  var displacement = displacedBy.value;
+  var targetStart = targetRect[axis.start];
+  var targetEnd = targetRect[axis.end];
+  var withoutDragging = removeDraggableFromList(draggable, insideDestination);
+  var closest = find(withoutDragging, function (child) {
+    var id = child.descriptor.id;
+    var childCenter = child.page.borderBox.center[axis.line];
+    var didStartAfterCritical$1 = didStartAfterCritical(id, afterCritical);
+    var isDisplaced = getIsDisplaced({
+      displaced: last,
+      id: id
+    });
+
+    if (didStartAfterCritical$1) {
+      if (isDisplaced) {
+        return targetEnd <= childCenter;
+      }
+
+      return targetStart < childCenter - displacement;
+    }
+
+    if (isDisplaced) {
+      return targetEnd <= childCenter + displacement;
+    }
+
+    return targetStart < childCenter;
+  });
+  var newIndex = atIndex({
+    draggable: draggable,
+    closest: closest,
+    inHomeList: isHomeOf(draggable, destination)
+  });
+  return calculateReorderImpact({
+    draggable: draggable,
+    insideDestination: insideDestination,
+    destination: destination,
+    viewport: viewport,
+    last: last,
+    displacedBy: displacedBy,
+    index: newIndex
+  });
+});
+
+var combineThresholdDivisor = 4;
+var getCombineImpact = (function (_ref) {
+  var draggable = _ref.draggable,
+      targetRect = _ref.pageBorderBoxWithDroppableScroll,
+      previousImpact = _ref.previousImpact,
+      destination = _ref.destination,
+      insideDestination = _ref.insideDestination,
+      afterCritical = _ref.afterCritical;
+
+  if (!destination.isCombineEnabled) {
+    return null;
+  }
+
+  var axis = destination.axis;
+  var displacedBy = getDisplacedBy(destination.axis, draggable.displaceBy);
+  var displacement = displacedBy.value;
+  var targetStart = targetRect[axis.start];
+  var targetEnd = targetRect[axis.end];
+  var withoutDragging = removeDraggableFromList(draggable, insideDestination);
+  var combineWith = find(withoutDragging, function (child) {
+    var id = child.descriptor.id;
+    var childRect = child.page.borderBox;
+    var childSize = childRect[axis.size];
+    var threshold = childSize / combineThresholdDivisor;
+    var didStartAfterCritical$1 = didStartAfterCritical(id, afterCritical);
+    var isDisplaced = getIsDisplaced({
+      displaced: previousImpact.displaced,
+      id: id
+    });
+
+    if (didStartAfterCritical$1) {
+      if (isDisplaced) {
+        return targetEnd > childRect[axis.start] + threshold && targetEnd < childRect[axis.end] - threshold;
+      }
+
+      return targetStart > childRect[axis.start] - displacement + threshold && targetStart < childRect[axis.end] - displacement - threshold;
+    }
+
+    if (isDisplaced) {
+      return targetEnd > childRect[axis.start] + displacement + threshold && targetEnd < childRect[axis.end] + displacement - threshold;
+    }
+
+    return targetStart > childRect[axis.start] + threshold && targetStart < childRect[axis.end] - threshold;
+  });
+
+  if (!combineWith) {
+    return null;
+  }
+
+  var impact = {
+    displacedBy: displacedBy,
+    displaced: previousImpact.displaced,
+    at: {
+      type: 'COMBINE',
+      combine: {
+        draggableId: combineWith.descriptor.id,
+        droppableId: destination.descriptor.id
+      }
+    }
+  };
+  return impact;
+});
+
+var getDragImpact = (function (_ref) {
+  var pageOffset = _ref.pageOffset,
+      draggable = _ref.draggable,
+      draggables = _ref.draggables,
+      droppables = _ref.droppables,
+      previousImpact = _ref.previousImpact,
+      viewport = _ref.viewport,
+      afterCritical = _ref.afterCritical;
+  var pageBorderBox = offsetRectByPosition(draggable.page.borderBox, pageOffset);
+  var destinationId = getDroppableOver$1({
+    pageBorderBox: pageBorderBox,
+    draggable: draggable,
+    droppables: droppables
+  });
+
+  if (!destinationId) {
+    return noImpact;
+  }
+
+  var destination = droppables[destinationId];
+  var insideDestination = getDraggablesInsideDroppable(destination.descriptor.id, draggables);
+  var pageBorderBoxWithDroppableScroll = withDroppableScroll(destination, pageBorderBox);
+  return getCombineImpact({
+    pageBorderBoxWithDroppableScroll: pageBorderBoxWithDroppableScroll,
+    draggable: draggable,
+    previousImpact: previousImpact,
+    destination: destination,
+    insideDestination: insideDestination,
+    afterCritical: afterCritical
+  }) || getReorderImpact({
+    pageBorderBoxWithDroppableScroll: pageBorderBoxWithDroppableScroll,
+    draggable: draggable,
+    destination: destination,
+    insideDestination: insideDestination,
+    last: previousImpact.displaced,
+    viewport: viewport,
+    afterCritical: afterCritical
+  });
+});
+
+var patchDroppableMap = (function (droppables, updated) {
+  var _extends2;
+
+  return extends_extends({}, droppables, (_extends2 = {}, _extends2[updated.descriptor.id] = updated, _extends2));
+});
+
+var clearUnusedPlaceholder = function clearUnusedPlaceholder(_ref) {
+  var previousImpact = _ref.previousImpact,
+      impact = _ref.impact,
+      droppables = _ref.droppables;
+  var last = whatIsDraggedOver(previousImpact);
+  var now = whatIsDraggedOver(impact);
+
+  if (!last) {
+    return droppables;
+  }
+
+  if (last === now) {
+    return droppables;
+  }
+
+  var lastDroppable = droppables[last];
+
+  if (!lastDroppable.subject.withPlaceholder) {
+    return droppables;
+  }
+
+  var updated = removePlaceholder(lastDroppable);
+  return patchDroppableMap(droppables, updated);
+};
+
+var recomputePlaceholders = (function (_ref2) {
+  var draggable = _ref2.draggable,
+      draggables = _ref2.draggables,
+      droppables = _ref2.droppables,
+      previousImpact = _ref2.previousImpact,
+      impact = _ref2.impact;
+  var cleaned = clearUnusedPlaceholder({
+    previousImpact: previousImpact,
+    impact: impact,
+    droppables: droppables
+  });
+  var isOver = whatIsDraggedOver(impact);
+
+  if (!isOver) {
+    return cleaned;
+  }
+
+  var droppable = droppables[isOver];
+
+  if (isHomeOf(draggable, droppable)) {
+    return cleaned;
+  }
+
+  if (droppable.subject.withPlaceholder) {
+    return cleaned;
+  }
+
+  var patched = addPlaceholder(droppable, draggable, draggables);
+  return patchDroppableMap(cleaned, patched);
+});
+
+var react_beautiful_dnd_esm_update = (function (_ref) {
+  var state = _ref.state,
+      forcedClientSelection = _ref.clientSelection,
+      forcedDimensions = _ref.dimensions,
+      forcedViewport = _ref.viewport,
+      forcedImpact = _ref.impact,
+      scrollJumpRequest = _ref.scrollJumpRequest;
+  var viewport = forcedViewport || state.viewport;
+  var dimensions = forcedDimensions || state.dimensions;
+  var clientSelection = forcedClientSelection || state.current.client.selection;
+  var offset = subtract(clientSelection, state.initial.client.selection);
+  var client = {
+    offset: offset,
+    selection: clientSelection,
+    borderBoxCenter: add(state.initial.client.borderBoxCenter, offset)
+  };
+  var page = {
+    selection: add(client.selection, viewport.scroll.current),
+    borderBoxCenter: add(client.borderBoxCenter, viewport.scroll.current),
+    offset: add(client.offset, viewport.scroll.diff.value)
+  };
+  var current = {
+    client: client,
+    page: page
+  };
+
+  if (state.phase === 'COLLECTING') {
+    return extends_extends({
+      phase: 'COLLECTING'
+    }, state, {
+      dimensions: dimensions,
+      viewport: viewport,
+      current: current
+    });
+  }
+
+  var draggable = dimensions.draggables[state.critical.draggable.id];
+  var newImpact = forcedImpact || getDragImpact({
+    pageOffset: page.offset,
+    draggable: draggable,
+    draggables: dimensions.draggables,
+    droppables: dimensions.droppables,
+    previousImpact: state.impact,
+    viewport: viewport,
+    afterCritical: state.afterCritical
+  });
+  var withUpdatedPlaceholders = recomputePlaceholders({
+    draggable: draggable,
+    impact: newImpact,
+    previousImpact: state.impact,
+    draggables: dimensions.draggables,
+    droppables: dimensions.droppables
+  });
+
+  var result = extends_extends({}, state, {
+    current: current,
+    dimensions: {
+      draggables: dimensions.draggables,
+      droppables: withUpdatedPlaceholders
+    },
+    impact: newImpact,
+    viewport: viewport,
+    scrollJumpRequest: scrollJumpRequest || null,
+    forceShouldAnimate: scrollJumpRequest ? false : null
+  });
+
+  return result;
+});
+
+function getDraggables$1(ids, draggables) {
+  return ids.map(function (id) {
+    return draggables[id];
+  });
+}
+
+var recompute = (function (_ref) {
+  var impact = _ref.impact,
+      viewport = _ref.viewport,
+      draggables = _ref.draggables,
+      destination = _ref.destination,
+      forceShouldAnimate = _ref.forceShouldAnimate;
+  var last = impact.displaced;
+  var afterDragging = getDraggables$1(last.all, draggables);
+  var displaced = getDisplacementGroups({
+    afterDragging: afterDragging,
+    destination: destination,
+    displacedBy: impact.displacedBy,
+    viewport: viewport.frame,
+    forceShouldAnimate: forceShouldAnimate,
+    last: last
+  });
+  return extends_extends({}, impact, {
+    displaced: displaced
+  });
+});
+
+var getClientBorderBoxCenter = (function (_ref) {
+  var impact = _ref.impact,
+      draggable = _ref.draggable,
+      droppable = _ref.droppable,
+      draggables = _ref.draggables,
+      viewport = _ref.viewport,
+      afterCritical = _ref.afterCritical;
+  var pageBorderBoxCenter = getPageBorderBoxCenterFromImpact({
+    impact: impact,
+    draggable: draggable,
+    draggables: draggables,
+    droppable: droppable,
+    afterCritical: afterCritical
+  });
+  return getClientFromPageBorderBoxCenter({
+    pageBorderBoxCenter: pageBorderBoxCenter,
+    draggable: draggable,
+    viewport: viewport
+  });
+});
+
+var refreshSnap = (function (_ref) {
+  var state = _ref.state,
+      forcedDimensions = _ref.dimensions,
+      forcedViewport = _ref.viewport;
+  !(state.movementMode === 'SNAP') ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+  var needsVisibilityCheck = state.impact;
+  var viewport = forcedViewport || state.viewport;
+  var dimensions = forcedDimensions || state.dimensions;
+  var draggables = dimensions.draggables,
+      droppables = dimensions.droppables;
+  var draggable = draggables[state.critical.draggable.id];
+  var isOver = whatIsDraggedOver(needsVisibilityCheck);
+  !isOver ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+  var destination = droppables[isOver];
+  var impact = recompute({
+    impact: needsVisibilityCheck,
+    viewport: viewport,
+    destination: destination,
+    draggables: draggables
+  });
+  var clientSelection = getClientBorderBoxCenter({
+    impact: impact,
+    draggable: draggable,
+    droppable: destination,
+    draggables: draggables,
+    viewport: viewport,
+    afterCritical: state.afterCritical
+  });
+  return react_beautiful_dnd_esm_update({
+    impact: impact,
+    clientSelection: clientSelection,
+    state: state,
+    dimensions: dimensions,
+    viewport: viewport
+  });
+});
+
+var getHomeLocation = (function (descriptor) {
+  return {
+    index: descriptor.index,
+    droppableId: descriptor.droppableId
+  };
+});
+
+var getLiftEffect = (function (_ref) {
+  var draggable = _ref.draggable,
+      home = _ref.home,
+      draggables = _ref.draggables,
+      viewport = _ref.viewport;
+  var displacedBy = getDisplacedBy(home.axis, draggable.displaceBy);
+  var insideHome = getDraggablesInsideDroppable(home.descriptor.id, draggables);
+  var rawIndex = insideHome.indexOf(draggable);
+  !(rawIndex !== -1) ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+  var afterDragging = insideHome.slice(rawIndex + 1);
+  var effected = afterDragging.reduce(function (previous, item) {
+    previous[item.descriptor.id] = true;
+    return previous;
+  }, {});
+  var afterCritical = {
+    inVirtualList: home.descriptor.mode === 'virtual',
+    displacedBy: displacedBy,
+    effected: effected
+  };
+  var displaced = getDisplacementGroups({
+    afterDragging: afterDragging,
+    destination: home,
+    displacedBy: displacedBy,
+    last: null,
+    viewport: viewport.frame,
+    forceShouldAnimate: false
+  });
+  var impact = {
+    displaced: displaced,
+    displacedBy: displacedBy,
+    at: {
+      type: 'REORDER',
+      destination: getHomeLocation(draggable.descriptor)
+    }
+  };
+  return {
+    impact: impact,
+    afterCritical: afterCritical
+  };
+});
+
+var patchDimensionMap = (function (dimensions, updated) {
+  return {
+    draggables: dimensions.draggables,
+    droppables: patchDroppableMap(dimensions.droppables, updated)
+  };
+});
+
+var start = function start(key) {
+  if (false) {}
+};
+var finish = function finish(key) {
+  if (false) {}
+};
+
+var offsetDraggable = (function (_ref) {
+  var draggable = _ref.draggable,
+      offset$1 = _ref.offset,
+      initialWindowScroll = _ref.initialWindowScroll;
+  var client = offset(draggable.client, offset$1);
+  var page = withScroll(client, initialWindowScroll);
+
+  var moved = extends_extends({}, draggable, {
+    placeholder: extends_extends({}, draggable.placeholder, {
+      client: client
+    }),
+    client: client,
+    page: page
+  });
+
+  return moved;
+});
+
+var getFrame = (function (droppable) {
+  var frame = droppable.frame;
+  !frame ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+  return frame;
+});
+
+var adjustAdditionsForScrollChanges = (function (_ref) {
+  var additions = _ref.additions,
+      updatedDroppables = _ref.updatedDroppables,
+      viewport = _ref.viewport;
+  var windowScrollChange = viewport.scroll.diff.value;
+  return additions.map(function (draggable) {
+    var droppableId = draggable.descriptor.droppableId;
+    var modified = updatedDroppables[droppableId];
+    var frame = getFrame(modified);
+    var droppableScrollChange = frame.scroll.diff.value;
+    var totalChange = add(windowScrollChange, droppableScrollChange);
+    var moved = offsetDraggable({
+      draggable: draggable,
+      offset: totalChange,
+      initialWindowScroll: viewport.scroll.initial
+    });
+    return moved;
+  });
+});
+
+var publishWhileDraggingInVirtual = (function (_ref) {
+  var state = _ref.state,
+      published = _ref.published;
+  start();
+  var withScrollChange = published.modified.map(function (update) {
+    var existing = state.dimensions.droppables[update.droppableId];
+    var scrolled = scrollDroppable(existing, update.scroll);
+    return scrolled;
+  });
+
+  var droppables = extends_extends({}, state.dimensions.droppables, {}, toDroppableMap(withScrollChange));
+
+  var updatedAdditions = toDraggableMap(adjustAdditionsForScrollChanges({
+    additions: published.additions,
+    updatedDroppables: droppables,
+    viewport: state.viewport
+  }));
+
+  var draggables = extends_extends({}, state.dimensions.draggables, {}, updatedAdditions);
+
+  published.removals.forEach(function (id) {
+    delete draggables[id];
+  });
+  var dimensions = {
+    droppables: droppables,
+    draggables: draggables
+  };
+  var wasOverId = whatIsDraggedOver(state.impact);
+  var wasOver = wasOverId ? dimensions.droppables[wasOverId] : null;
+  var draggable = dimensions.draggables[state.critical.draggable.id];
+  var home = dimensions.droppables[state.critical.droppable.id];
+
+  var _getLiftEffect = getLiftEffect({
+    draggable: draggable,
+    home: home,
+    draggables: draggables,
+    viewport: state.viewport
+  }),
+      onLiftImpact = _getLiftEffect.impact,
+      afterCritical = _getLiftEffect.afterCritical;
+
+  var previousImpact = wasOver && wasOver.isCombineEnabled ? state.impact : onLiftImpact;
+  var impact = getDragImpact({
+    pageOffset: state.current.page.offset,
+    draggable: dimensions.draggables[state.critical.draggable.id],
+    draggables: dimensions.draggables,
+    droppables: dimensions.droppables,
+    previousImpact: previousImpact,
+    viewport: state.viewport,
+    afterCritical: afterCritical
+  });
+  finish();
+
+  var draggingState = extends_extends({
+    phase: 'DRAGGING'
+  }, state, {
+    phase: 'DRAGGING',
+    impact: impact,
+    onLiftImpact: onLiftImpact,
+    dimensions: dimensions,
+    afterCritical: afterCritical,
+    forceShouldAnimate: false
+  });
+
+  if (state.phase === 'COLLECTING') {
+    return draggingState;
+  }
+
+  var dropPending = extends_extends({
+    phase: 'DROP_PENDING'
+  }, draggingState, {
+    phase: 'DROP_PENDING',
+    reason: state.reason,
+    isWaiting: false
+  });
+
+  return dropPending;
+});
+
+var isSnapping = function isSnapping(state) {
+  return state.movementMode === 'SNAP';
+};
+
+var postDroppableChange = function postDroppableChange(state, updated, isEnabledChanging) {
+  var dimensions = patchDimensionMap(state.dimensions, updated);
+
+  if (!isSnapping(state) || isEnabledChanging) {
+    return react_beautiful_dnd_esm_update({
+      state: state,
+      dimensions: dimensions
+    });
+  }
+
+  return refreshSnap({
+    state: state,
+    dimensions: dimensions
+  });
+};
+
+function removeScrollJumpRequest(state) {
+  if (state.isDragging && state.movementMode === 'SNAP') {
+    return extends_extends({
+      phase: 'DRAGGING'
+    }, state, {
+      scrollJumpRequest: null
+    });
+  }
+
+  return state;
+}
+
+var idle = {
+  phase: 'IDLE',
+  completed: null,
+  shouldFlush: false
+};
+var reducer = (function (state, action) {
+  if (state === void 0) {
+    state = idle;
+  }
+
+  if (action.type === 'FLUSH') {
+    return extends_extends({}, idle, {
+      shouldFlush: true
+    });
+  }
+
+  if (action.type === 'INITIAL_PUBLISH') {
+    !(state.phase === 'IDLE') ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    var _action$payload = action.payload,
+        critical = _action$payload.critical,
+        clientSelection = _action$payload.clientSelection,
+        viewport = _action$payload.viewport,
+        dimensions = _action$payload.dimensions,
+        movementMode = _action$payload.movementMode;
+    var draggable = dimensions.draggables[critical.draggable.id];
+    var home = dimensions.droppables[critical.droppable.id];
+    var client = {
+      selection: clientSelection,
+      borderBoxCenter: draggable.client.borderBox.center,
+      offset: origin
+    };
+    var initial = {
+      client: client,
+      page: {
+        selection: add(client.selection, viewport.scroll.initial),
+        borderBoxCenter: add(client.selection, viewport.scroll.initial),
+        offset: add(client.selection, viewport.scroll.diff.value)
+      }
+    };
+    var isWindowScrollAllowed = toDroppableList(dimensions.droppables).every(function (item) {
+      return !item.isFixedOnPage;
+    });
+
+    var _getLiftEffect = getLiftEffect({
+      draggable: draggable,
+      home: home,
+      draggables: dimensions.draggables,
+      viewport: viewport
+    }),
+        impact = _getLiftEffect.impact,
+        afterCritical = _getLiftEffect.afterCritical;
+
+    var result = {
+      phase: 'DRAGGING',
+      isDragging: true,
+      critical: critical,
+      movementMode: movementMode,
+      dimensions: dimensions,
+      initial: initial,
+      current: initial,
+      isWindowScrollAllowed: isWindowScrollAllowed,
+      impact: impact,
+      afterCritical: afterCritical,
+      onLiftImpact: impact,
+      viewport: viewport,
+      scrollJumpRequest: null,
+      forceShouldAnimate: null
+    };
+    return result;
+  }
+
+  if (action.type === 'COLLECTION_STARTING') {
+    if (state.phase === 'COLLECTING' || state.phase === 'DROP_PENDING') {
+      return state;
+    }
+
+    !(state.phase === 'DRAGGING') ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+
+    var _result = extends_extends({
+      phase: 'COLLECTING'
+    }, state, {
+      phase: 'COLLECTING'
+    });
+
+    return _result;
+  }
+
+  if (action.type === 'PUBLISH_WHILE_DRAGGING') {
+    !(state.phase === 'COLLECTING' || state.phase === 'DROP_PENDING') ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    return publishWhileDraggingInVirtual({
+      state: state,
+      published: action.payload
+    });
+  }
+
+  if (action.type === 'MOVE') {
+    if (state.phase === 'DROP_PENDING') {
+      return state;
+    }
+
+    !isMovementAllowed(state) ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    var _clientSelection = action.payload.client;
+
+    if (react_beautiful_dnd_esm_isEqual(_clientSelection, state.current.client.selection)) {
+      return state;
+    }
+
+    return react_beautiful_dnd_esm_update({
+      state: state,
+      clientSelection: _clientSelection,
+      impact: isSnapping(state) ? state.impact : null
+    });
+  }
+
+  if (action.type === 'UPDATE_DROPPABLE_SCROLL') {
+    if (state.phase === 'DROP_PENDING') {
+      return removeScrollJumpRequest(state);
+    }
+
+    if (state.phase === 'COLLECTING') {
+      return removeScrollJumpRequest(state);
+    }
+
+    !isMovementAllowed(state) ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    var _action$payload2 = action.payload,
+        id = _action$payload2.id,
+        newScroll = _action$payload2.newScroll;
+    var target = state.dimensions.droppables[id];
+
+    if (!target) {
+      return state;
+    }
+
+    var scrolled = scrollDroppable(target, newScroll);
+    return postDroppableChange(state, scrolled, false);
+  }
+
+  if (action.type === 'UPDATE_DROPPABLE_IS_ENABLED') {
+    if (state.phase === 'DROP_PENDING') {
+      return state;
+    }
+
+    !isMovementAllowed(state) ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    var _action$payload3 = action.payload,
+        _id = _action$payload3.id,
+        isEnabled = _action$payload3.isEnabled;
+    var _target = state.dimensions.droppables[_id];
+    !_target ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    !(_target.isEnabled !== isEnabled) ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+
+    var updated = extends_extends({}, _target, {
+      isEnabled: isEnabled
+    });
+
+    return postDroppableChange(state, updated, true);
+  }
+
+  if (action.type === 'UPDATE_DROPPABLE_IS_COMBINE_ENABLED') {
+    if (state.phase === 'DROP_PENDING') {
+      return state;
+    }
+
+    !isMovementAllowed(state) ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    var _action$payload4 = action.payload,
+        _id2 = _action$payload4.id,
+        isCombineEnabled = _action$payload4.isCombineEnabled;
+    var _target2 = state.dimensions.droppables[_id2];
+    !_target2 ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    !(_target2.isCombineEnabled !== isCombineEnabled) ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+
+    var _updated = extends_extends({}, _target2, {
+      isCombineEnabled: isCombineEnabled
+    });
+
+    return postDroppableChange(state, _updated, true);
+  }
+
+  if (action.type === 'MOVE_BY_WINDOW_SCROLL') {
+    if (state.phase === 'DROP_PENDING' || state.phase === 'DROP_ANIMATING') {
+      return state;
+    }
+
+    !isMovementAllowed(state) ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    !state.isWindowScrollAllowed ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    var _newScroll = action.payload.newScroll;
+
+    if (react_beautiful_dnd_esm_isEqual(state.viewport.scroll.current, _newScroll)) {
+      return removeScrollJumpRequest(state);
+    }
+
+    var _viewport = scrollViewport(state.viewport, _newScroll);
+
+    if (isSnapping(state)) {
+      return refreshSnap({
+        state: state,
+        viewport: _viewport
+      });
+    }
+
+    return react_beautiful_dnd_esm_update({
+      state: state,
+      viewport: _viewport
+    });
+  }
+
+  if (action.type === 'UPDATE_VIEWPORT_MAX_SCROLL') {
+    if (!isMovementAllowed(state)) {
+      return state;
+    }
+
+    var maxScroll = action.payload.maxScroll;
+
+    if (react_beautiful_dnd_esm_isEqual(maxScroll, state.viewport.scroll.max)) {
+      return state;
+    }
+
+    var withMaxScroll = extends_extends({}, state.viewport, {
+      scroll: extends_extends({}, state.viewport.scroll, {
+        max: maxScroll
+      })
+    });
+
+    return extends_extends({
+      phase: 'DRAGGING'
+    }, state, {
+      viewport: withMaxScroll
+    });
+  }
+
+  if (action.type === 'MOVE_UP' || action.type === 'MOVE_DOWN' || action.type === 'MOVE_LEFT' || action.type === 'MOVE_RIGHT') {
+    if (state.phase === 'COLLECTING' || state.phase === 'DROP_PENDING') {
+      return state;
+    }
+
+    !(state.phase === 'DRAGGING') ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+
+    var _result2 = moveInDirection({
+      state: state,
+      type: action.type
+    });
+
+    if (!_result2) {
+      return state;
+    }
+
+    return react_beautiful_dnd_esm_update({
+      state: state,
+      impact: _result2.impact,
+      clientSelection: _result2.clientSelection,
+      scrollJumpRequest: _result2.scrollJumpRequest
+    });
+  }
+
+  if (action.type === 'DROP_PENDING') {
+    var reason = action.payload.reason;
+    !(state.phase === 'COLLECTING') ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+
+    var newState = extends_extends({
+      phase: 'DROP_PENDING'
+    }, state, {
+      phase: 'DROP_PENDING',
+      isWaiting: true,
+      reason: reason
+    });
+
+    return newState;
+  }
+
+  if (action.type === 'DROP_ANIMATE') {
+    var _action$payload5 = action.payload,
+        completed = _action$payload5.completed,
+        dropDuration = _action$payload5.dropDuration,
+        newHomeClientOffset = _action$payload5.newHomeClientOffset;
+    !(state.phase === 'DRAGGING' || state.phase === 'DROP_PENDING') ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    var _result3 = {
+      phase: 'DROP_ANIMATING',
+      completed: completed,
+      dropDuration: dropDuration,
+      newHomeClientOffset: newHomeClientOffset,
+      dimensions: state.dimensions
+    };
+    return _result3;
+  }
+
+  if (action.type === 'DROP_COMPLETE') {
+    var _completed = action.payload.completed;
+    return {
+      phase: 'IDLE',
+      completed: _completed,
+      shouldFlush: false
+    };
+  }
+
+  return state;
+});
+
+var beforeInitialCapture = function beforeInitialCapture(args) {
+  return {
+    type: 'BEFORE_INITIAL_CAPTURE',
+    payload: args
+  };
+};
+var lift = function lift(args) {
+  return {
+    type: 'LIFT',
+    payload: args
+  };
+};
+var initialPublish = function initialPublish(args) {
+  return {
+    type: 'INITIAL_PUBLISH',
+    payload: args
+  };
+};
+var publishWhileDragging = function publishWhileDragging(args) {
+  return {
+    type: 'PUBLISH_WHILE_DRAGGING',
+    payload: args
+  };
+};
+var collectionStarting = function collectionStarting() {
+  return {
+    type: 'COLLECTION_STARTING',
+    payload: null
+  };
+};
+var updateDroppableScroll = function updateDroppableScroll(args) {
+  return {
+    type: 'UPDATE_DROPPABLE_SCROLL',
+    payload: args
+  };
+};
+var updateDroppableIsEnabled = function updateDroppableIsEnabled(args) {
+  return {
+    type: 'UPDATE_DROPPABLE_IS_ENABLED',
+    payload: args
+  };
+};
+var updateDroppableIsCombineEnabled = function updateDroppableIsCombineEnabled(args) {
+  return {
+    type: 'UPDATE_DROPPABLE_IS_COMBINE_ENABLED',
+    payload: args
+  };
+};
+var move = function move(args) {
+  return {
+    type: 'MOVE',
+    payload: args
+  };
+};
+var moveByWindowScroll = function moveByWindowScroll(args) {
+  return {
+    type: 'MOVE_BY_WINDOW_SCROLL',
+    payload: args
+  };
+};
+var updateViewportMaxScroll = function updateViewportMaxScroll(args) {
+  return {
+    type: 'UPDATE_VIEWPORT_MAX_SCROLL',
+    payload: args
+  };
+};
+var moveUp = function moveUp() {
+  return {
+    type: 'MOVE_UP',
+    payload: null
+  };
+};
+var moveDown = function moveDown() {
+  return {
+    type: 'MOVE_DOWN',
+    payload: null
+  };
+};
+var moveRight = function moveRight() {
+  return {
+    type: 'MOVE_RIGHT',
+    payload: null
+  };
+};
+var moveLeft = function moveLeft() {
+  return {
+    type: 'MOVE_LEFT',
+    payload: null
+  };
+};
+var flush = function flush() {
+  return {
+    type: 'FLUSH',
+    payload: null
+  };
+};
+var animateDrop = function animateDrop(args) {
+  return {
+    type: 'DROP_ANIMATE',
+    payload: args
+  };
+};
+var completeDrop = function completeDrop(args) {
+  return {
+    type: 'DROP_COMPLETE',
+    payload: args
+  };
+};
+var drop = function drop(args) {
+  return {
+    type: 'DROP',
+    payload: args
+  };
+};
+var dropPending = function dropPending(args) {
+  return {
+    type: 'DROP_PENDING',
+    payload: args
+  };
+};
+var dropAnimationFinished = function dropAnimationFinished() {
+  return {
+    type: 'DROP_ANIMATION_FINISHED',
+    payload: null
+  };
+};
+
+function checkIndexes(insideDestination) {
+  if (insideDestination.length <= 1) {
+    return;
+  }
+
+  var indexes = insideDestination.map(function (d) {
+    return d.descriptor.index;
+  });
+  var errors = {};
+
+  for (var i = 1; i < indexes.length; i++) {
+    var current = indexes[i];
+    var previous = indexes[i - 1];
+
+    if (current !== previous + 1) {
+      errors[current] = true;
+    }
+  }
+
+  if (!Object.keys(errors).length) {
+    return;
+  }
+
+  var formatted = indexes.map(function (index) {
+    var hasError = Boolean(errors[index]);
+    return hasError ? "[\uD83D\uDD25" + index + "]" : "" + index;
+  }).join(', ');
+   false ? 0 : void 0;
+}
+
+function validateDimensions(critical, dimensions) {
+  if (false) { var insideDestination; }
+}
+
+var lift$1 = (function (marshal) {
+  return function (_ref) {
+    var getState = _ref.getState,
+        dispatch = _ref.dispatch;
+    return function (next) {
+      return function (action) {
+        if (action.type !== 'LIFT') {
+          next(action);
+          return;
+        }
+
+        var _action$payload = action.payload,
+            id = _action$payload.id,
+            clientSelection = _action$payload.clientSelection,
+            movementMode = _action$payload.movementMode;
+        var initial = getState();
+
+        if (initial.phase === 'DROP_ANIMATING') {
+          dispatch(completeDrop({
+            completed: initial.completed
+          }));
+        }
+
+        !(getState().phase === 'IDLE') ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+        dispatch(flush());
+        dispatch(beforeInitialCapture({
+          draggableId: id,
+          movementMode: movementMode
+        }));
+        var scrollOptions = {
+          shouldPublishImmediately: movementMode === 'SNAP'
+        };
+        var request = {
+          draggableId: id,
+          scrollOptions: scrollOptions
+        };
+
+        var _marshal$startPublish = marshal.startPublishing(request),
+            critical = _marshal$startPublish.critical,
+            dimensions = _marshal$startPublish.dimensions,
+            viewport = _marshal$startPublish.viewport;
+
+        validateDimensions(critical, dimensions);
+        dispatch(initialPublish({
+          critical: critical,
+          dimensions: dimensions,
+          clientSelection: clientSelection,
+          movementMode: movementMode,
+          viewport: viewport
+        }));
+      };
+    };
+  };
+});
+
+var style = (function (marshal) {
+  return function () {
+    return function (next) {
+      return function (action) {
+        if (action.type === 'INITIAL_PUBLISH') {
+          marshal.dragging();
+        }
+
+        if (action.type === 'DROP_ANIMATE') {
+          marshal.dropping(action.payload.completed.result.reason);
+        }
+
+        if (action.type === 'FLUSH' || action.type === 'DROP_COMPLETE') {
+          marshal.resting();
+        }
+
+        next(action);
+      };
+    };
+  };
+});
+
+var curves = {
+  outOfTheWay: 'cubic-bezier(0.2, 0, 0, 1)',
+  drop: 'cubic-bezier(.2,1,.1,1)'
+};
+var combine = {
+  opacity: {
+    drop: 0,
+    combining: 0.7
+  },
+  scale: {
+    drop: 0.75
+  }
+};
+var timings = {
+  outOfTheWay: 0.2,
+  minDropTime: 0.33,
+  maxDropTime: 0.55
+};
+var outOfTheWayTiming = timings.outOfTheWay + "s " + curves.outOfTheWay;
+var transitions = {
+  fluid: "opacity " + outOfTheWayTiming,
+  snap: "transform " + outOfTheWayTiming + ", opacity " + outOfTheWayTiming,
+  drop: function drop(duration) {
+    var timing = duration + "s " + curves.drop;
+    return "transform " + timing + ", opacity " + timing;
+  },
+  outOfTheWay: "transform " + outOfTheWayTiming,
+  placeholder: "height " + outOfTheWayTiming + ", width " + outOfTheWayTiming + ", margin " + outOfTheWayTiming
+};
+
+var moveTo = function moveTo(offset) {
+  return react_beautiful_dnd_esm_isEqual(offset, origin) ? null : "translate(" + offset.x + "px, " + offset.y + "px)";
+};
+
+var transforms = {
+  moveTo: moveTo,
+  drop: function drop(offset, isCombining) {
+    var translate = moveTo(offset);
+
+    if (!translate) {
+      return null;
+    }
+
+    if (!isCombining) {
+      return translate;
+    }
+
+    return translate + " scale(" + combine.scale.drop + ")";
+  }
+};
+
+var minDropTime = timings.minDropTime,
+    maxDropTime = timings.maxDropTime;
+var dropTimeRange = maxDropTime - minDropTime;
+var maxDropTimeAtDistance = 1500;
+var cancelDropModifier = 0.6;
+var getDropDuration = (function (_ref) {
+  var current = _ref.current,
+      destination = _ref.destination,
+      reason = _ref.reason;
+  var distance$1 = distance(current, destination);
+
+  if (distance$1 <= 0) {
+    return minDropTime;
+  }
+
+  if (distance$1 >= maxDropTimeAtDistance) {
+    return maxDropTime;
+  }
+
+  var percentage = distance$1 / maxDropTimeAtDistance;
+  var duration = minDropTime + dropTimeRange * percentage;
+  var withDuration = reason === 'CANCEL' ? duration * cancelDropModifier : duration;
+  return Number(withDuration.toFixed(2));
+});
+
+var getNewHomeClientOffset = (function (_ref) {
+  var impact = _ref.impact,
+      draggable = _ref.draggable,
+      dimensions = _ref.dimensions,
+      viewport = _ref.viewport,
+      afterCritical = _ref.afterCritical;
+  var draggables = dimensions.draggables,
+      droppables = dimensions.droppables;
+  var droppableId = whatIsDraggedOver(impact);
+  var destination = droppableId ? droppables[droppableId] : null;
+  var home = droppables[draggable.descriptor.droppableId];
+  var newClientCenter = getClientBorderBoxCenter({
+    impact: impact,
+    draggable: draggable,
+    draggables: draggables,
+    afterCritical: afterCritical,
+    droppable: destination || home,
+    viewport: viewport
+  });
+  var offset = subtract(newClientCenter, draggable.client.borderBox.center);
+  return offset;
+});
+
+var getDropImpact = (function (_ref) {
+  var draggables = _ref.draggables,
+      reason = _ref.reason,
+      lastImpact = _ref.lastImpact,
+      home = _ref.home,
+      viewport = _ref.viewport,
+      onLiftImpact = _ref.onLiftImpact;
+
+  if (!lastImpact.at || reason !== 'DROP') {
+    var recomputedHomeImpact = recompute({
+      draggables: draggables,
+      impact: onLiftImpact,
+      destination: home,
+      viewport: viewport,
+      forceShouldAnimate: true
+    });
+    return {
+      impact: recomputedHomeImpact,
+      didDropInsideDroppable: false
+    };
+  }
+
+  if (lastImpact.at.type === 'REORDER') {
+    return {
+      impact: lastImpact,
+      didDropInsideDroppable: true
+    };
+  }
+
+  var withoutMovement = extends_extends({}, lastImpact, {
+    displaced: emptyGroups
+  });
+
+  return {
+    impact: withoutMovement,
+    didDropInsideDroppable: true
+  };
+});
+
+var drop$1 = (function (_ref) {
+  var getState = _ref.getState,
+      dispatch = _ref.dispatch;
+  return function (next) {
+    return function (action) {
+      if (action.type !== 'DROP') {
+        next(action);
+        return;
+      }
+
+      var state = getState();
+      var reason = action.payload.reason;
+
+      if (state.phase === 'COLLECTING') {
+        dispatch(dropPending({
+          reason: reason
+        }));
+        return;
+      }
+
+      if (state.phase === 'IDLE') {
+        return;
+      }
+
+      var isWaitingForDrop = state.phase === 'DROP_PENDING' && state.isWaiting;
+      !!isWaitingForDrop ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+      !(state.phase === 'DRAGGING' || state.phase === 'DROP_PENDING') ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+      var critical = state.critical;
+      var dimensions = state.dimensions;
+      var draggable = dimensions.draggables[state.critical.draggable.id];
+
+      var _getDropImpact = getDropImpact({
+        reason: reason,
+        lastImpact: state.impact,
+        afterCritical: state.afterCritical,
+        onLiftImpact: state.onLiftImpact,
+        home: state.dimensions.droppables[state.critical.droppable.id],
+        viewport: state.viewport,
+        draggables: state.dimensions.draggables
+      }),
+          impact = _getDropImpact.impact,
+          didDropInsideDroppable = _getDropImpact.didDropInsideDroppable;
+
+      var destination = didDropInsideDroppable ? tryGetDestination(impact) : null;
+      var combine = didDropInsideDroppable ? tryGetCombine(impact) : null;
+      var source = {
+        index: critical.draggable.index,
+        droppableId: critical.droppable.id
+      };
+      var result = {
+        draggableId: draggable.descriptor.id,
+        type: draggable.descriptor.type,
+        source: source,
+        reason: reason,
+        mode: state.movementMode,
+        destination: destination,
+        combine: combine
+      };
+      var newHomeClientOffset = getNewHomeClientOffset({
+        impact: impact,
+        draggable: draggable,
+        dimensions: dimensions,
+        viewport: state.viewport,
+        afterCritical: state.afterCritical
+      });
+      var completed = {
+        critical: state.critical,
+        afterCritical: state.afterCritical,
+        result: result,
+        impact: impact
+      };
+      var isAnimationRequired = !react_beautiful_dnd_esm_isEqual(state.current.client.offset, newHomeClientOffset) || Boolean(result.combine);
+
+      if (!isAnimationRequired) {
+        dispatch(completeDrop({
+          completed: completed
+        }));
+        return;
+      }
+
+      var dropDuration = getDropDuration({
+        current: state.current.client.offset,
+        destination: newHomeClientOffset,
+        reason: reason
+      });
+      var args = {
+        newHomeClientOffset: newHomeClientOffset,
+        dropDuration: dropDuration,
+        completed: completed
+      };
+      dispatch(animateDrop(args));
+    };
+  };
+});
+
+var react_beautiful_dnd_esm_getWindowScroll = (function () {
+  return {
+    x: window.pageXOffset,
+    y: window.pageYOffset
+  };
+});
+
+function getWindowScrollBinding(update) {
+  return {
+    eventName: 'scroll',
+    options: {
+      passive: true,
+      capture: false
+    },
+    fn: function fn(event) {
+      if (event.target !== window && event.target !== window.document) {
+        return;
+      }
+
+      update();
+    }
+  };
+}
+
+function getScrollListener(_ref) {
+  var onWindowScroll = _ref.onWindowScroll;
+
+  function updateScroll() {
+    onWindowScroll(react_beautiful_dnd_esm_getWindowScroll());
+  }
+
+  var scheduled = raf_schd_esm(updateScroll);
+  var binding = getWindowScrollBinding(scheduled);
+  var unbind = noop;
+
+  function isActive() {
+    return unbind !== noop;
+  }
+
+  function start() {
+    !!isActive() ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    unbind = bindEvents(window, [binding]);
+  }
+
+  function stop() {
+    !isActive() ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    scheduled.cancel();
+    unbind();
+    unbind = noop;
+  }
+
+  return {
+    start: start,
+    stop: stop,
+    isActive: isActive
+  };
+}
+
+var shouldEnd = function shouldEnd(action) {
+  return action.type === 'DROP_COMPLETE' || action.type === 'DROP_ANIMATE' || action.type === 'FLUSH';
+};
+
+var scrollListener = (function (store) {
+  var listener = getScrollListener({
+    onWindowScroll: function onWindowScroll(newScroll) {
+      store.dispatch(moveByWindowScroll({
+        newScroll: newScroll
+      }));
+    }
+  });
+  return function (next) {
+    return function (action) {
+      if (!listener.isActive() && action.type === 'INITIAL_PUBLISH') {
+        listener.start();
+      }
+
+      if (listener.isActive() && shouldEnd(action)) {
+        listener.stop();
+      }
+
+      next(action);
+    };
+  };
+});
+
+var getExpiringAnnounce = (function (announce) {
+  var wasCalled = false;
+  var isExpired = false;
+  var timeoutId = setTimeout(function () {
+    isExpired = true;
+  });
+
+  var result = function result(message) {
+    if (wasCalled) {
+       false ? 0 : void 0;
+      return;
+    }
+
+    if (isExpired) {
+       false ? 0 : void 0;
+      return;
+    }
+
+    wasCalled = true;
+    announce(message);
+    clearTimeout(timeoutId);
+  };
+
+  result.wasCalled = function () {
+    return wasCalled;
+  };
+
+  return result;
+});
+
+var getAsyncMarshal = (function () {
+  var entries = [];
+
+  var execute = function execute(timerId) {
+    var index = findIndex(entries, function (item) {
+      return item.timerId === timerId;
+    });
+    !(index !== -1) ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+
+    var _entries$splice = entries.splice(index, 1),
+        entry = _entries$splice[0];
+
+    entry.callback();
+  };
+
+  var add = function add(fn) {
+    var timerId = setTimeout(function () {
+      return execute(timerId);
+    });
+    var entry = {
+      timerId: timerId,
+      callback: fn
+    };
+    entries.push(entry);
+  };
+
+  var flush = function flush() {
+    if (!entries.length) {
+      return;
+    }
+
+    var shallow = [].concat(entries);
+    entries.length = 0;
+    shallow.forEach(function (entry) {
+      clearTimeout(entry.timerId);
+      entry.callback();
+    });
+  };
+
+  return {
+    add: add,
+    flush: flush
+  };
+});
+
+var areLocationsEqual = function areLocationsEqual(first, second) {
+  if (first == null && second == null) {
+    return true;
+  }
+
+  if (first == null || second == null) {
+    return false;
+  }
+
+  return first.droppableId === second.droppableId && first.index === second.index;
+};
+var isCombineEqual = function isCombineEqual(first, second) {
+  if (first == null && second == null) {
+    return true;
+  }
+
+  if (first == null || second == null) {
+    return false;
+  }
+
+  return first.draggableId === second.draggableId && first.droppableId === second.droppableId;
+};
+var isCriticalEqual = function isCriticalEqual(first, second) {
+  if (first === second) {
+    return true;
+  }
+
+  var isDraggableEqual = first.draggable.id === second.draggable.id && first.draggable.droppableId === second.draggable.droppableId && first.draggable.type === second.draggable.type && first.draggable.index === second.draggable.index;
+  var isDroppableEqual = first.droppable.id === second.droppable.id && first.droppable.type === second.droppable.type;
+  return isDraggableEqual && isDroppableEqual;
+};
+
+var withTimings = function withTimings(key, fn) {
+  start();
+  fn();
+  finish();
+};
+
+var getDragStart = function getDragStart(critical, mode) {
+  return {
+    draggableId: critical.draggable.id,
+    type: critical.droppable.type,
+    source: {
+      droppableId: critical.droppable.id,
+      index: critical.draggable.index
+    },
+    mode: mode
+  };
+};
+
+var execute = function execute(responder, data, announce, getDefaultMessage) {
+  if (!responder) {
+    announce(getDefaultMessage(data));
+    return;
+  }
+
+  var willExpire = getExpiringAnnounce(announce);
+  var provided = {
+    announce: willExpire
+  };
+  responder(data, provided);
+
+  if (!willExpire.wasCalled()) {
+    announce(getDefaultMessage(data));
+  }
+};
+
+var getPublisher = (function (getResponders, announce) {
+  var asyncMarshal = getAsyncMarshal();
+  var dragging = null;
+
+  var beforeCapture = function beforeCapture(draggableId, mode) {
+    !!dragging ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    withTimings('onBeforeCapture', function () {
+      var fn = getResponders().onBeforeCapture;
+
+      if (fn) {
+        var before = {
+          draggableId: draggableId,
+          mode: mode
+        };
+        fn(before);
+      }
+    });
+  };
+
+  var beforeStart = function beforeStart(critical, mode) {
+    !!dragging ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    withTimings('onBeforeDragStart', function () {
+      var fn = getResponders().onBeforeDragStart;
+
+      if (fn) {
+        fn(getDragStart(critical, mode));
+      }
+    });
+  };
+
+  var start = function start(critical, mode) {
+    !!dragging ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    var data = getDragStart(critical, mode);
+    dragging = {
+      mode: mode,
+      lastCritical: critical,
+      lastLocation: data.source,
+      lastCombine: null
+    };
+    asyncMarshal.add(function () {
+      withTimings('onDragStart', function () {
+        return execute(getResponders().onDragStart, data, announce, preset.onDragStart);
+      });
+    });
+  };
+
+  var update = function update(critical, impact) {
+    var location = tryGetDestination(impact);
+    var combine = tryGetCombine(impact);
+    !dragging ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    var hasCriticalChanged = !isCriticalEqual(critical, dragging.lastCritical);
+
+    if (hasCriticalChanged) {
+      dragging.lastCritical = critical;
+    }
+
+    var hasLocationChanged = !areLocationsEqual(dragging.lastLocation, location);
+
+    if (hasLocationChanged) {
+      dragging.lastLocation = location;
+    }
+
+    var hasGroupingChanged = !isCombineEqual(dragging.lastCombine, combine);
+
+    if (hasGroupingChanged) {
+      dragging.lastCombine = combine;
+    }
+
+    if (!hasCriticalChanged && !hasLocationChanged && !hasGroupingChanged) {
+      return;
+    }
+
+    var data = extends_extends({}, getDragStart(critical, dragging.mode), {
+      combine: combine,
+      destination: location
+    });
+
+    asyncMarshal.add(function () {
+      withTimings('onDragUpdate', function () {
+        return execute(getResponders().onDragUpdate, data, announce, preset.onDragUpdate);
+      });
+    });
+  };
+
+  var flush = function flush() {
+    !dragging ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    asyncMarshal.flush();
+  };
+
+  var drop = function drop(result) {
+    !dragging ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    dragging = null;
+    withTimings('onDragEnd', function () {
+      return execute(getResponders().onDragEnd, result, announce, preset.onDragEnd);
+    });
+  };
+
+  var abort = function abort() {
+    if (!dragging) {
+      return;
+    }
+
+    var result = extends_extends({}, getDragStart(dragging.lastCritical, dragging.mode), {
+      combine: null,
+      destination: null,
+      reason: 'CANCEL'
+    });
+
+    drop(result);
+  };
+
+  return {
+    beforeCapture: beforeCapture,
+    beforeStart: beforeStart,
+    start: start,
+    update: update,
+    flush: flush,
+    drop: drop,
+    abort: abort
+  };
+});
+
+var responders = (function (getResponders, announce) {
+  var publisher = getPublisher(getResponders, announce);
+  return function (store) {
+    return function (next) {
+      return function (action) {
+        if (action.type === 'BEFORE_INITIAL_CAPTURE') {
+          publisher.beforeCapture(action.payload.draggableId, action.payload.movementMode);
+          return;
+        }
+
+        if (action.type === 'INITIAL_PUBLISH') {
+          var critical = action.payload.critical;
+          publisher.beforeStart(critical, action.payload.movementMode);
+          next(action);
+          publisher.start(critical, action.payload.movementMode);
+          return;
+        }
+
+        if (action.type === 'DROP_COMPLETE') {
+          var result = action.payload.completed.result;
+          publisher.flush();
+          next(action);
+          publisher.drop(result);
+          return;
+        }
+
+        next(action);
+
+        if (action.type === 'FLUSH') {
+          publisher.abort();
+          return;
+        }
+
+        var state = store.getState();
+
+        if (state.phase === 'DRAGGING') {
+          publisher.update(state.critical, state.impact);
+        }
+      };
+    };
+  };
+});
+
+var dropAnimationFinish = (function (store) {
+  return function (next) {
+    return function (action) {
+      if (action.type !== 'DROP_ANIMATION_FINISHED') {
+        next(action);
+        return;
+      }
+
+      var state = store.getState();
+      !(state.phase === 'DROP_ANIMATING') ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+      store.dispatch(completeDrop({
+        completed: state.completed
+      }));
+    };
+  };
+});
+
+var dropAnimationFlushOnScroll = (function (store) {
+  var unbind = null;
+  var frameId = null;
+
+  function clear() {
+    if (frameId) {
+      cancelAnimationFrame(frameId);
+      frameId = null;
+    }
+
+    if (unbind) {
+      unbind();
+      unbind = null;
+    }
+  }
+
+  return function (next) {
+    return function (action) {
+      if (action.type === 'FLUSH' || action.type === 'DROP_COMPLETE' || action.type === 'DROP_ANIMATION_FINISHED') {
+        clear();
+      }
+
+      next(action);
+
+      if (action.type !== 'DROP_ANIMATE') {
+        return;
+      }
+
+      var binding = {
+        eventName: 'scroll',
+        options: {
+          capture: true,
+          passive: false,
+          once: true
+        },
+        fn: function flushDropAnimation() {
+          var state = store.getState();
+
+          if (state.phase === 'DROP_ANIMATING') {
+            store.dispatch(dropAnimationFinished());
+          }
+        }
+      };
+      frameId = requestAnimationFrame(function () {
+        frameId = null;
+        unbind = bindEvents(window, [binding]);
+      });
+    };
+  };
+});
+
+var dimensionMarshalStopper = (function (marshal) {
+  return function () {
+    return function (next) {
+      return function (action) {
+        if (action.type === 'DROP_COMPLETE' || action.type === 'FLUSH' || action.type === 'DROP_ANIMATE') {
+          marshal.stopPublishing();
+        }
+
+        next(action);
+      };
+    };
+  };
+});
+
+var react_beautiful_dnd_esm_focus = (function (marshal) {
+  var isWatching = false;
+  return function () {
+    return function (next) {
+      return function (action) {
+        if (action.type === 'INITIAL_PUBLISH') {
+          isWatching = true;
+          marshal.tryRecordFocus(action.payload.critical.draggable.id);
+          next(action);
+          marshal.tryRestoreFocusRecorded();
+          return;
+        }
+
+        next(action);
+
+        if (!isWatching) {
+          return;
+        }
+
+        if (action.type === 'FLUSH') {
+          isWatching = false;
+          marshal.tryRestoreFocusRecorded();
+          return;
+        }
+
+        if (action.type === 'DROP_COMPLETE') {
+          isWatching = false;
+          var result = action.payload.completed.result;
+
+          if (result.combine) {
+            marshal.tryShiftRecord(result.draggableId, result.combine.draggableId);
+          }
+
+          marshal.tryRestoreFocusRecorded();
+        }
+      };
+    };
+  };
+});
+
+var shouldStop = function shouldStop(action) {
+  return action.type === 'DROP_COMPLETE' || action.type === 'DROP_ANIMATE' || action.type === 'FLUSH';
+};
+
+var autoScroll = (function (autoScroller) {
+  return function (store) {
+    return function (next) {
+      return function (action) {
+        if (shouldStop(action)) {
+          autoScroller.stop();
+          next(action);
+          return;
+        }
+
+        if (action.type === 'INITIAL_PUBLISH') {
+          next(action);
+          var state = store.getState();
+          !(state.phase === 'DRAGGING') ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+          autoScroller.start(state);
+          return;
+        }
+
+        next(action);
+        autoScroller.scroll(store.getState());
+      };
+    };
+  };
+});
+
+var pendingDrop = (function (store) {
+  return function (next) {
+    return function (action) {
+      next(action);
+
+      if (action.type !== 'PUBLISH_WHILE_DRAGGING') {
+        return;
+      }
+
+      var postActionState = store.getState();
+
+      if (postActionState.phase !== 'DROP_PENDING') {
+        return;
+      }
+
+      if (postActionState.isWaiting) {
+        return;
+      }
+
+      store.dispatch(drop({
+        reason: postActionState.reason
+      }));
+    };
+  };
+});
+
+var composeEnhancers =  false ? 0 : compose;
+var react_beautiful_dnd_esm_createStore = (function (_ref) {
+  var dimensionMarshal = _ref.dimensionMarshal,
+      focusMarshal = _ref.focusMarshal,
+      styleMarshal = _ref.styleMarshal,
+      getResponders = _ref.getResponders,
+      announce = _ref.announce,
+      autoScroller = _ref.autoScroller;
+  return createStore(reducer, composeEnhancers(applyMiddleware(style(styleMarshal), dimensionMarshalStopper(dimensionMarshal), lift$1(dimensionMarshal), drop$1, dropAnimationFinish, dropAnimationFlushOnScroll, pendingDrop, autoScroll(autoScroller), scrollListener, react_beautiful_dnd_esm_focus(focusMarshal), responders(getResponders, announce))));
+});
+
+var clean$1 = function clean() {
+  return {
+    additions: {},
+    removals: {},
+    modified: {}
+  };
+};
+function createPublisher(_ref) {
+  var registry = _ref.registry,
+      callbacks = _ref.callbacks;
+  var staging = clean$1();
+  var frameId = null;
+
+  var collect = function collect() {
+    if (frameId) {
+      return;
+    }
+
+    callbacks.collectionStarting();
+    frameId = requestAnimationFrame(function () {
+      frameId = null;
+      start();
+      var _staging = staging,
+          additions = _staging.additions,
+          removals = _staging.removals,
+          modified = _staging.modified;
+      var added = Object.keys(additions).map(function (id) {
+        return registry.draggable.getById(id).getDimension(origin);
+      }).sort(function (a, b) {
+        return a.descriptor.index - b.descriptor.index;
+      });
+      var updated = Object.keys(modified).map(function (id) {
+        var entry = registry.droppable.getById(id);
+        var scroll = entry.callbacks.getScrollWhileDragging();
+        return {
+          droppableId: id,
+          scroll: scroll
+        };
+      });
+      var result = {
+        additions: added,
+        removals: Object.keys(removals),
+        modified: updated
+      };
+      staging = clean$1();
+      finish();
+      callbacks.publish(result);
+    });
+  };
+
+  var add = function add(entry) {
+    var id = entry.descriptor.id;
+    staging.additions[id] = entry;
+    staging.modified[entry.descriptor.droppableId] = true;
+
+    if (staging.removals[id]) {
+      delete staging.removals[id];
+    }
+
+    collect();
+  };
+
+  var remove = function remove(entry) {
+    var descriptor = entry.descriptor;
+    staging.removals[descriptor.id] = true;
+    staging.modified[descriptor.droppableId] = true;
+
+    if (staging.additions[descriptor.id]) {
+      delete staging.additions[descriptor.id];
+    }
+
+    collect();
+  };
+
+  var stop = function stop() {
+    if (!frameId) {
+      return;
+    }
+
+    cancelAnimationFrame(frameId);
+    frameId = null;
+    staging = clean$1();
+  };
+
+  return {
+    add: add,
+    remove: remove,
+    stop: stop
+  };
+}
+
+var getMaxScroll = (function (_ref) {
+  var scrollHeight = _ref.scrollHeight,
+      scrollWidth = _ref.scrollWidth,
+      height = _ref.height,
+      width = _ref.width;
+  var maxScroll = subtract({
+    x: scrollWidth,
+    y: scrollHeight
+  }, {
+    x: width,
+    y: height
+  });
+  var adjustedMaxScroll = {
+    x: Math.max(0, maxScroll.x),
+    y: Math.max(0, maxScroll.y)
+  };
+  return adjustedMaxScroll;
+});
+
+var getDocumentElement = (function () {
+  var doc = document.documentElement;
+  !doc ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+  return doc;
+});
+
+var getMaxWindowScroll = (function () {
+  var doc = getDocumentElement();
+  var maxScroll = getMaxScroll({
+    scrollHeight: doc.scrollHeight,
+    scrollWidth: doc.scrollWidth,
+    width: doc.clientWidth,
+    height: doc.clientHeight
+  });
+  return maxScroll;
+});
+
+var getViewport = (function () {
+  var scroll = react_beautiful_dnd_esm_getWindowScroll();
+  var maxScroll = getMaxWindowScroll();
+  var top = scroll.y;
+  var left = scroll.x;
+  var doc = getDocumentElement();
+  var width = doc.clientWidth;
+  var height = doc.clientHeight;
+  var right = left + width;
+  var bottom = top + height;
+  var frame = getRect({
+    top: top,
+    left: left,
+    right: right,
+    bottom: bottom
+  });
+  var viewport = {
+    frame: frame,
+    scroll: {
+      initial: scroll,
+      current: scroll,
+      max: maxScroll,
+      diff: {
+        value: origin,
+        displacement: origin
+      }
+    }
+  };
+  return viewport;
+});
+
+var getInitialPublish = (function (_ref) {
+  var critical = _ref.critical,
+      scrollOptions = _ref.scrollOptions,
+      registry = _ref.registry;
+  start();
+  var viewport = getViewport();
+  var windowScroll = viewport.scroll.current;
+  var home = critical.droppable;
+  var droppables = registry.droppable.getAllByType(home.type).map(function (entry) {
+    return entry.callbacks.getDimensionAndWatchScroll(windowScroll, scrollOptions);
+  });
+  var draggables = registry.draggable.getAllByType(critical.draggable.type).map(function (entry) {
+    return entry.getDimension(windowScroll);
+  });
+  var dimensions = {
+    draggables: toDraggableMap(draggables),
+    droppables: toDroppableMap(droppables)
+  };
+  finish();
+  var result = {
+    dimensions: dimensions,
+    critical: critical,
+    viewport: viewport
+  };
+  return result;
+});
+
+function shouldPublishUpdate(registry, dragging, entry) {
+  if (entry.descriptor.id === dragging.id) {
+    return false;
+  }
+
+  if (entry.descriptor.type !== dragging.type) {
+    return false;
+  }
+
+  var home = registry.droppable.getById(entry.descriptor.droppableId);
+
+  if (home.descriptor.mode !== 'virtual') {
+     false ? 0 : void 0;
+    return false;
+  }
+
+  return true;
+}
+
+var createDimensionMarshal = (function (registry, callbacks) {
+  var collection = null;
+  var publisher = createPublisher({
+    callbacks: {
+      publish: callbacks.publishWhileDragging,
+      collectionStarting: callbacks.collectionStarting
+    },
+    registry: registry
+  });
+
+  var updateDroppableIsEnabled = function updateDroppableIsEnabled(id, isEnabled) {
+    !registry.droppable.exists(id) ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+
+    if (!collection) {
+      return;
+    }
+
+    callbacks.updateDroppableIsEnabled({
+      id: id,
+      isEnabled: isEnabled
+    });
+  };
+
+  var updateDroppableIsCombineEnabled = function updateDroppableIsCombineEnabled(id, isCombineEnabled) {
+    if (!collection) {
+      return;
+    }
+
+    !registry.droppable.exists(id) ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    callbacks.updateDroppableIsCombineEnabled({
+      id: id,
+      isCombineEnabled: isCombineEnabled
+    });
+  };
+
+  var updateDroppableScroll = function updateDroppableScroll(id, newScroll) {
+    if (!collection) {
+      return;
+    }
+
+    !registry.droppable.exists(id) ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    callbacks.updateDroppableScroll({
+      id: id,
+      newScroll: newScroll
+    });
+  };
+
+  var scrollDroppable = function scrollDroppable(id, change) {
+    if (!collection) {
+      return;
+    }
+
+    registry.droppable.getById(id).callbacks.scroll(change);
+  };
+
+  var stopPublishing = function stopPublishing() {
+    if (!collection) {
+      return;
+    }
+
+    publisher.stop();
+    var home = collection.critical.droppable;
+    registry.droppable.getAllByType(home.type).forEach(function (entry) {
+      return entry.callbacks.dragStopped();
+    });
+    collection.unsubscribe();
+    collection = null;
+  };
+
+  var subscriber = function subscriber(event) {
+    !collection ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    var dragging = collection.critical.draggable;
+
+    if (event.type === 'ADDITION') {
+      if (shouldPublishUpdate(registry, dragging, event.value)) {
+        publisher.add(event.value);
+      }
+    }
+
+    if (event.type === 'REMOVAL') {
+      if (shouldPublishUpdate(registry, dragging, event.value)) {
+        publisher.remove(event.value);
+      }
+    }
+  };
+
+  var startPublishing = function startPublishing(request) {
+    !!collection ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    var entry = registry.draggable.getById(request.draggableId);
+    var home = registry.droppable.getById(entry.descriptor.droppableId);
+    var critical = {
+      draggable: entry.descriptor,
+      droppable: home.descriptor
+    };
+    var unsubscribe = registry.subscribe(subscriber);
+    collection = {
+      critical: critical,
+      unsubscribe: unsubscribe
+    };
+    return getInitialPublish({
+      critical: critical,
+      registry: registry,
+      scrollOptions: request.scrollOptions
+    });
+  };
+
+  var marshal = {
+    updateDroppableIsEnabled: updateDroppableIsEnabled,
+    updateDroppableIsCombineEnabled: updateDroppableIsCombineEnabled,
+    scrollDroppable: scrollDroppable,
+    updateDroppableScroll: updateDroppableScroll,
+    startPublishing: startPublishing,
+    stopPublishing: stopPublishing
+  };
+  return marshal;
+});
+
+var canStartDrag = (function (state, id) {
+  if (state.phase === 'IDLE') {
+    return true;
+  }
+
+  if (state.phase !== 'DROP_ANIMATING') {
+    return false;
+  }
+
+  if (state.completed.result.draggableId === id) {
+    return false;
+  }
+
+  return state.completed.result.reason === 'DROP';
+});
+
+var scrollWindow = (function (change) {
+  window.scrollBy(change.x, change.y);
+});
+
+var getScrollableDroppables = memoize_one_esm(function (droppables) {
+  return toDroppableList(droppables).filter(function (droppable) {
+    if (!droppable.isEnabled) {
+      return false;
+    }
+
+    if (!droppable.frame) {
+      return false;
+    }
+
+    return true;
+  });
+});
+
+var getScrollableDroppableOver = function getScrollableDroppableOver(target, droppables) {
+  var maybe = find(getScrollableDroppables(droppables), function (droppable) {
+    !droppable.frame ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    return isPositionInFrame(droppable.frame.pageMarginBox)(target);
+  });
+  return maybe;
+};
+
+var getBestScrollableDroppable = (function (_ref) {
+  var center = _ref.center,
+      destination = _ref.destination,
+      droppables = _ref.droppables;
+
+  if (destination) {
+    var _dimension = droppables[destination];
+
+    if (!_dimension.frame) {
+      return null;
+    }
+
+    return _dimension;
+  }
+
+  var dimension = getScrollableDroppableOver(center, droppables);
+  return dimension;
+});
+
+var config = {
+  startFromPercentage: 0.25,
+  maxScrollAtPercentage: 0.05,
+  maxPixelScroll: 28,
+  ease: function ease(percentage) {
+    return Math.pow(percentage, 2);
+  },
+  durationDampening: {
+    stopDampeningAt: 1200,
+    accelerateAt: 360
+  }
+};
+
+var getDistanceThresholds = (function (container, axis) {
+  var startScrollingFrom = container[axis.size] * config.startFromPercentage;
+  var maxScrollValueAt = container[axis.size] * config.maxScrollAtPercentage;
+  var thresholds = {
+    startScrollingFrom: startScrollingFrom,
+    maxScrollValueAt: maxScrollValueAt
+  };
+  return thresholds;
+});
+
+var getPercentage = (function (_ref) {
+  var startOfRange = _ref.startOfRange,
+      endOfRange = _ref.endOfRange,
+      current = _ref.current;
+  var range = endOfRange - startOfRange;
+
+  if (range === 0) {
+     false ? 0 : void 0;
+    return 0;
+  }
+
+  var currentInRange = current - startOfRange;
+  var percentage = currentInRange / range;
+  return percentage;
+});
+
+var minScroll = 1;
+
+var getValueFromDistance = (function (distanceToEdge, thresholds) {
+  if (distanceToEdge > thresholds.startScrollingFrom) {
+    return 0;
+  }
+
+  if (distanceToEdge <= thresholds.maxScrollValueAt) {
+    return config.maxPixelScroll;
+  }
+
+  if (distanceToEdge === thresholds.startScrollingFrom) {
+    return minScroll;
+  }
+
+  var percentageFromMaxScrollValueAt = getPercentage({
+    startOfRange: thresholds.maxScrollValueAt,
+    endOfRange: thresholds.startScrollingFrom,
+    current: distanceToEdge
+  });
+  var percentageFromStartScrollingFrom = 1 - percentageFromMaxScrollValueAt;
+  var scroll = config.maxPixelScroll * config.ease(percentageFromStartScrollingFrom);
+  return Math.ceil(scroll);
+});
+
+var accelerateAt = config.durationDampening.accelerateAt;
+var stopAt = config.durationDampening.stopDampeningAt;
+var dampenValueByTime = (function (proposedScroll, dragStartTime) {
+  var startOfRange = dragStartTime;
+  var endOfRange = stopAt;
+  var now = Date.now();
+  var runTime = now - startOfRange;
+
+  if (runTime >= stopAt) {
+    return proposedScroll;
+  }
+
+  if (runTime < accelerateAt) {
+    return minScroll;
+  }
+
+  var betweenAccelerateAtAndStopAtPercentage = getPercentage({
+    startOfRange: accelerateAt,
+    endOfRange: endOfRange,
+    current: runTime
+  });
+  var scroll = proposedScroll * config.ease(betweenAccelerateAtAndStopAtPercentage);
+  return Math.ceil(scroll);
+});
+
+var getValue = (function (_ref) {
+  var distanceToEdge = _ref.distanceToEdge,
+      thresholds = _ref.thresholds,
+      dragStartTime = _ref.dragStartTime,
+      shouldUseTimeDampening = _ref.shouldUseTimeDampening;
+  var scroll = getValueFromDistance(distanceToEdge, thresholds);
+
+  if (scroll === 0) {
+    return 0;
+  }
+
+  if (!shouldUseTimeDampening) {
+    return scroll;
+  }
+
+  return Math.max(dampenValueByTime(scroll, dragStartTime), minScroll);
+});
+
+var getScrollOnAxis = (function (_ref) {
+  var container = _ref.container,
+      distanceToEdges = _ref.distanceToEdges,
+      dragStartTime = _ref.dragStartTime,
+      axis = _ref.axis,
+      shouldUseTimeDampening = _ref.shouldUseTimeDampening;
+  var thresholds = getDistanceThresholds(container, axis);
+  var isCloserToEnd = distanceToEdges[axis.end] < distanceToEdges[axis.start];
+
+  if (isCloserToEnd) {
+    return getValue({
+      distanceToEdge: distanceToEdges[axis.end],
+      thresholds: thresholds,
+      dragStartTime: dragStartTime,
+      shouldUseTimeDampening: shouldUseTimeDampening
+    });
+  }
+
+  return -1 * getValue({
+    distanceToEdge: distanceToEdges[axis.start],
+    thresholds: thresholds,
+    dragStartTime: dragStartTime,
+    shouldUseTimeDampening: shouldUseTimeDampening
+  });
+});
+
+var adjustForSizeLimits = (function (_ref) {
+  var container = _ref.container,
+      subject = _ref.subject,
+      proposedScroll = _ref.proposedScroll;
+  var isTooBigVertically = subject.height > container.height;
+  var isTooBigHorizontally = subject.width > container.width;
+
+  if (!isTooBigHorizontally && !isTooBigVertically) {
+    return proposedScroll;
+  }
+
+  if (isTooBigHorizontally && isTooBigVertically) {
+    return null;
+  }
+
+  return {
+    x: isTooBigHorizontally ? 0 : proposedScroll.x,
+    y: isTooBigVertically ? 0 : proposedScroll.y
+  };
+});
+
+var clean$2 = apply(function (value) {
+  return value === 0 ? 0 : value;
+});
+var getScroll = (function (_ref) {
+  var dragStartTime = _ref.dragStartTime,
+      container = _ref.container,
+      subject = _ref.subject,
+      center = _ref.center,
+      shouldUseTimeDampening = _ref.shouldUseTimeDampening;
+  var distanceToEdges = {
+    top: center.y - container.top,
+    right: container.right - center.x,
+    bottom: container.bottom - center.y,
+    left: center.x - container.left
+  };
+  var y = getScrollOnAxis({
+    container: container,
+    distanceToEdges: distanceToEdges,
+    dragStartTime: dragStartTime,
+    axis: vertical,
+    shouldUseTimeDampening: shouldUseTimeDampening
+  });
+  var x = getScrollOnAxis({
+    container: container,
+    distanceToEdges: distanceToEdges,
+    dragStartTime: dragStartTime,
+    axis: horizontal,
+    shouldUseTimeDampening: shouldUseTimeDampening
+  });
+  var required = clean$2({
+    x: x,
+    y: y
+  });
+
+  if (react_beautiful_dnd_esm_isEqual(required, origin)) {
+    return null;
+  }
+
+  var limited = adjustForSizeLimits({
+    container: container,
+    subject: subject,
+    proposedScroll: required
+  });
+
+  if (!limited) {
+    return null;
+  }
+
+  return react_beautiful_dnd_esm_isEqual(limited, origin) ? null : limited;
+});
+
+var smallestSigned = apply(function (value) {
+  if (value === 0) {
+    return 0;
+  }
+
+  return value > 0 ? 1 : -1;
+});
+var getOverlap = function () {
+  var getRemainder = function getRemainder(target, max) {
+    if (target < 0) {
+      return target;
+    }
+
+    if (target > max) {
+      return target - max;
+    }
+
+    return 0;
+  };
+
+  return function (_ref) {
+    var current = _ref.current,
+        max = _ref.max,
+        change = _ref.change;
+    var targetScroll = add(current, change);
+    var overlap = {
+      x: getRemainder(targetScroll.x, max.x),
+      y: getRemainder(targetScroll.y, max.y)
+    };
+
+    if (react_beautiful_dnd_esm_isEqual(overlap, origin)) {
+      return null;
+    }
+
+    return overlap;
+  };
+}();
+var canPartiallyScroll = function canPartiallyScroll(_ref2) {
+  var rawMax = _ref2.max,
+      current = _ref2.current,
+      change = _ref2.change;
+  var max = {
+    x: Math.max(current.x, rawMax.x),
+    y: Math.max(current.y, rawMax.y)
+  };
+  var smallestChange = smallestSigned(change);
+  var overlap = getOverlap({
+    max: max,
+    current: current,
+    change: smallestChange
+  });
+
+  if (!overlap) {
+    return true;
+  }
+
+  if (smallestChange.x !== 0 && overlap.x === 0) {
+    return true;
+  }
+
+  if (smallestChange.y !== 0 && overlap.y === 0) {
+    return true;
+  }
+
+  return false;
+};
+var canScrollWindow = function canScrollWindow(viewport, change) {
+  return canPartiallyScroll({
+    current: viewport.scroll.current,
+    max: viewport.scroll.max,
+    change: change
+  });
+};
+var getWindowOverlap = function getWindowOverlap(viewport, change) {
+  if (!canScrollWindow(viewport, change)) {
+    return null;
+  }
+
+  var max = viewport.scroll.max;
+  var current = viewport.scroll.current;
+  return getOverlap({
+    current: current,
+    max: max,
+    change: change
+  });
+};
+var canScrollDroppable = function canScrollDroppable(droppable, change) {
+  var frame = droppable.frame;
+
+  if (!frame) {
+    return false;
+  }
+
+  return canPartiallyScroll({
+    current: frame.scroll.current,
+    max: frame.scroll.max,
+    change: change
+  });
+};
+var getDroppableOverlap = function getDroppableOverlap(droppable, change) {
+  var frame = droppable.frame;
+
+  if (!frame) {
+    return null;
+  }
+
+  if (!canScrollDroppable(droppable, change)) {
+    return null;
+  }
+
+  return getOverlap({
+    current: frame.scroll.current,
+    max: frame.scroll.max,
+    change: change
+  });
+};
+
+var getWindowScrollChange = (function (_ref) {
+  var viewport = _ref.viewport,
+      subject = _ref.subject,
+      center = _ref.center,
+      dragStartTime = _ref.dragStartTime,
+      shouldUseTimeDampening = _ref.shouldUseTimeDampening;
+  var scroll = getScroll({
+    dragStartTime: dragStartTime,
+    container: viewport.frame,
+    subject: subject,
+    center: center,
+    shouldUseTimeDampening: shouldUseTimeDampening
+  });
+  return scroll && canScrollWindow(viewport, scroll) ? scroll : null;
+});
+
+var getDroppableScrollChange = (function (_ref) {
+  var droppable = _ref.droppable,
+      subject = _ref.subject,
+      center = _ref.center,
+      dragStartTime = _ref.dragStartTime,
+      shouldUseTimeDampening = _ref.shouldUseTimeDampening;
+  var frame = droppable.frame;
+
+  if (!frame) {
+    return null;
+  }
+
+  var scroll = getScroll({
+    dragStartTime: dragStartTime,
+    container: frame.pageMarginBox,
+    subject: subject,
+    center: center,
+    shouldUseTimeDampening: shouldUseTimeDampening
+  });
+  return scroll && canScrollDroppable(droppable, scroll) ? scroll : null;
+});
+
+var scroll$1 = (function (_ref) {
+  var state = _ref.state,
+      dragStartTime = _ref.dragStartTime,
+      shouldUseTimeDampening = _ref.shouldUseTimeDampening,
+      scrollWindow = _ref.scrollWindow,
+      scrollDroppable = _ref.scrollDroppable;
+  var center = state.current.page.borderBoxCenter;
+  var draggable = state.dimensions.draggables[state.critical.draggable.id];
+  var subject = draggable.page.marginBox;
+
+  if (state.isWindowScrollAllowed) {
+    var viewport = state.viewport;
+
+    var _change = getWindowScrollChange({
+      dragStartTime: dragStartTime,
+      viewport: viewport,
+      subject: subject,
+      center: center,
+      shouldUseTimeDampening: shouldUseTimeDampening
+    });
+
+    if (_change) {
+      scrollWindow(_change);
+      return;
+    }
+  }
+
+  var droppable = getBestScrollableDroppable({
+    center: center,
+    destination: whatIsDraggedOver(state.impact),
+    droppables: state.dimensions.droppables
+  });
+
+  if (!droppable) {
+    return;
+  }
+
+  var change = getDroppableScrollChange({
+    dragStartTime: dragStartTime,
+    droppable: droppable,
+    subject: subject,
+    center: center,
+    shouldUseTimeDampening: shouldUseTimeDampening
+  });
+
+  if (change) {
+    scrollDroppable(droppable.descriptor.id, change);
+  }
+});
+
+var createFluidScroller = (function (_ref) {
+  var scrollWindow = _ref.scrollWindow,
+      scrollDroppable = _ref.scrollDroppable;
+  var scheduleWindowScroll = raf_schd_esm(scrollWindow);
+  var scheduleDroppableScroll = raf_schd_esm(scrollDroppable);
+  var dragging = null;
+
+  var tryScroll = function tryScroll(state) {
+    !dragging ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    var _dragging = dragging,
+        shouldUseTimeDampening = _dragging.shouldUseTimeDampening,
+        dragStartTime = _dragging.dragStartTime;
+    scroll$1({
+      state: state,
+      scrollWindow: scheduleWindowScroll,
+      scrollDroppable: scheduleDroppableScroll,
+      dragStartTime: dragStartTime,
+      shouldUseTimeDampening: shouldUseTimeDampening
+    });
+  };
+
+  var start$1 = function start$1(state) {
+    start();
+    !!dragging ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    var dragStartTime = Date.now();
+    var wasScrollNeeded = false;
+
+    var fakeScrollCallback = function fakeScrollCallback() {
+      wasScrollNeeded = true;
+    };
+
+    scroll$1({
+      state: state,
+      dragStartTime: 0,
+      shouldUseTimeDampening: false,
+      scrollWindow: fakeScrollCallback,
+      scrollDroppable: fakeScrollCallback
+    });
+    dragging = {
+      dragStartTime: dragStartTime,
+      shouldUseTimeDampening: wasScrollNeeded
+    };
+    finish();
+
+    if (wasScrollNeeded) {
+      tryScroll(state);
+    }
+  };
+
+  var stop = function stop() {
+    if (!dragging) {
+      return;
+    }
+
+    scheduleWindowScroll.cancel();
+    scheduleDroppableScroll.cancel();
+    dragging = null;
+  };
+
+  return {
+    start: start$1,
+    stop: stop,
+    scroll: tryScroll
+  };
+});
+
+var createJumpScroller = (function (_ref) {
+  var move = _ref.move,
+      scrollDroppable = _ref.scrollDroppable,
+      scrollWindow = _ref.scrollWindow;
+
+  var moveByOffset = function moveByOffset(state, offset) {
+    var client = add(state.current.client.selection, offset);
+    move({
+      client: client
+    });
+  };
+
+  var scrollDroppableAsMuchAsItCan = function scrollDroppableAsMuchAsItCan(droppable, change) {
+    if (!canScrollDroppable(droppable, change)) {
+      return change;
+    }
+
+    var overlap = getDroppableOverlap(droppable, change);
+
+    if (!overlap) {
+      scrollDroppable(droppable.descriptor.id, change);
+      return null;
+    }
+
+    var whatTheDroppableCanScroll = subtract(change, overlap);
+    scrollDroppable(droppable.descriptor.id, whatTheDroppableCanScroll);
+    var remainder = subtract(change, whatTheDroppableCanScroll);
+    return remainder;
+  };
+
+  var scrollWindowAsMuchAsItCan = function scrollWindowAsMuchAsItCan(isWindowScrollAllowed, viewport, change) {
+    if (!isWindowScrollAllowed) {
+      return change;
+    }
+
+    if (!canScrollWindow(viewport, change)) {
+      return change;
+    }
+
+    var overlap = getWindowOverlap(viewport, change);
+
+    if (!overlap) {
+      scrollWindow(change);
+      return null;
+    }
+
+    var whatTheWindowCanScroll = subtract(change, overlap);
+    scrollWindow(whatTheWindowCanScroll);
+    var remainder = subtract(change, whatTheWindowCanScroll);
+    return remainder;
+  };
+
+  var jumpScroller = function jumpScroller(state) {
+    var request = state.scrollJumpRequest;
+
+    if (!request) {
+      return;
+    }
+
+    var destination = whatIsDraggedOver(state.impact);
+    !destination ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    var droppableRemainder = scrollDroppableAsMuchAsItCan(state.dimensions.droppables[destination], request);
+
+    if (!droppableRemainder) {
+      return;
+    }
+
+    var viewport = state.viewport;
+    var windowRemainder = scrollWindowAsMuchAsItCan(state.isWindowScrollAllowed, viewport, droppableRemainder);
+
+    if (!windowRemainder) {
+      return;
+    }
+
+    moveByOffset(state, windowRemainder);
+  };
+
+  return jumpScroller;
+});
+
+var createAutoScroller = (function (_ref) {
+  var scrollDroppable = _ref.scrollDroppable,
+      scrollWindow = _ref.scrollWindow,
+      move = _ref.move;
+  var fluidScroller = createFluidScroller({
+    scrollWindow: scrollWindow,
+    scrollDroppable: scrollDroppable
+  });
+  var jumpScroll = createJumpScroller({
+    move: move,
+    scrollWindow: scrollWindow,
+    scrollDroppable: scrollDroppable
+  });
+
+  var scroll = function scroll(state) {
+    if (state.phase !== 'DRAGGING') {
+      return;
+    }
+
+    if (state.movementMode === 'FLUID') {
+      fluidScroller.scroll(state);
+      return;
+    }
+
+    if (!state.scrollJumpRequest) {
+      return;
+    }
+
+    jumpScroll(state);
+  };
+
+  var scroller = {
+    scroll: scroll,
+    start: fluidScroller.start,
+    stop: fluidScroller.stop
+  };
+  return scroller;
+});
+
+var prefix$1 = 'data-rbd';
+var dragHandle = function () {
+  var base = prefix$1 + "-drag-handle";
+  return {
+    base: base,
+    draggableId: base + "-draggable-id",
+    contextId: base + "-context-id"
+  };
+}();
+var draggable = function () {
+  var base = prefix$1 + "-draggable";
+  return {
+    base: base,
+    contextId: base + "-context-id",
+    id: base + "-id"
+  };
+}();
+var droppable = function () {
+  var base = prefix$1 + "-droppable";
+  return {
+    base: base,
+    contextId: base + "-context-id",
+    id: base + "-id"
+  };
+}();
+var scrollContainer = {
+  contextId: prefix$1 + "-scroll-container-context-id"
+};
+
+var makeGetSelector = function makeGetSelector(context) {
+  return function (attribute) {
+    return "[" + attribute + "=\"" + context + "\"]";
+  };
+};
+
+var getStyles = function getStyles(rules, property) {
+  return rules.map(function (rule) {
+    var value = rule.styles[property];
+
+    if (!value) {
+      return '';
+    }
+
+    return rule.selector + " { " + value + " }";
+  }).join(' ');
+};
+
+var noPointerEvents = 'pointer-events: none;';
+var getStyles$1 = (function (contextId) {
+  var getSelector = makeGetSelector(contextId);
+
+  var dragHandle$1 = function () {
+    var grabCursor = "\n      cursor: -webkit-grab;\n      cursor: grab;\n    ";
+    return {
+      selector: getSelector(dragHandle.contextId),
+      styles: {
+        always: "\n          -webkit-touch-callout: none;\n          -webkit-tap-highlight-color: rgba(0,0,0,0);\n          touch-action: manipulation;\n        ",
+        resting: grabCursor,
+        dragging: noPointerEvents,
+        dropAnimating: grabCursor
+      }
+    };
+  }();
+
+  var draggable$1 = function () {
+    var transition = "\n      transition: " + transitions.outOfTheWay + ";\n    ";
+    return {
+      selector: getSelector(draggable.contextId),
+      styles: {
+        dragging: transition,
+        dropAnimating: transition,
+        userCancel: transition
+      }
+    };
+  }();
+
+  var droppable$1 = {
+    selector: getSelector(droppable.contextId),
+    styles: {
+      always: "overflow-anchor: none;"
+    }
+  };
+  var body = {
+    selector: 'body',
+    styles: {
+      dragging: "\n        cursor: grabbing;\n        cursor: -webkit-grabbing;\n        user-select: none;\n        -webkit-user-select: none;\n        -moz-user-select: none;\n        -ms-user-select: none;\n        overflow-anchor: none;\n      "
+    }
+  };
+  var rules = [draggable$1, dragHandle$1, droppable$1, body];
+  return {
+    always: getStyles(rules, 'always'),
+    resting: getStyles(rules, 'resting'),
+    dragging: getStyles(rules, 'dragging'),
+    dropAnimating: getStyles(rules, 'dropAnimating'),
+    userCancel: getStyles(rules, 'userCancel')
+  };
+});
+
+var react_beautiful_dnd_esm_useIsomorphicLayoutEffect = typeof window !== 'undefined' && typeof window.document !== 'undefined' && typeof window.document.createElement !== 'undefined' ? react.useLayoutEffect : react.useEffect;
+
+var getHead = function getHead() {
+  var head = document.querySelector('head');
+  !head ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+  return head;
+};
+
+var createStyleEl = function createStyleEl(nonce) {
+  var el = document.createElement('style');
+
+  if (nonce) {
+    el.setAttribute('nonce', nonce);
+  }
+
+  el.type = 'text/css';
+  return el;
+};
+
+function useStyleMarshal(contextId, nonce) {
+  var styles = use_memo_one_esm_useMemo(function () {
+    return getStyles$1(contextId);
+  }, [contextId]);
+  var alwaysRef = (0,react.useRef)(null);
+  var dynamicRef = (0,react.useRef)(null);
+  var setDynamicStyle = useCallback(memoize_one_esm(function (proposed) {
+    var el = dynamicRef.current;
+    !el ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    el.textContent = proposed;
+  }), []);
+  var setAlwaysStyle = useCallback(function (proposed) {
+    var el = alwaysRef.current;
+    !el ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    el.textContent = proposed;
+  }, []);
+  react_beautiful_dnd_esm_useIsomorphicLayoutEffect(function () {
+    !(!alwaysRef.current && !dynamicRef.current) ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    var always = createStyleEl(nonce);
+    var dynamic = createStyleEl(nonce);
+    alwaysRef.current = always;
+    dynamicRef.current = dynamic;
+    always.setAttribute(prefix$1 + "-always", contextId);
+    dynamic.setAttribute(prefix$1 + "-dynamic", contextId);
+    getHead().appendChild(always);
+    getHead().appendChild(dynamic);
+    setAlwaysStyle(styles.always);
+    setDynamicStyle(styles.resting);
+    return function () {
+      var remove = function remove(ref) {
+        var current = ref.current;
+        !current ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+        getHead().removeChild(current);
+        ref.current = null;
+      };
+
+      remove(alwaysRef);
+      remove(dynamicRef);
+    };
+  }, [nonce, setAlwaysStyle, setDynamicStyle, styles.always, styles.resting, contextId]);
+  var dragging = useCallback(function () {
+    return setDynamicStyle(styles.dragging);
+  }, [setDynamicStyle, styles.dragging]);
+  var dropping = useCallback(function (reason) {
+    if (reason === 'DROP') {
+      setDynamicStyle(styles.dropAnimating);
+      return;
+    }
+
+    setDynamicStyle(styles.userCancel);
+  }, [setDynamicStyle, styles.dropAnimating, styles.userCancel]);
+  var resting = useCallback(function () {
+    if (!dynamicRef.current) {
+      return;
+    }
+
+    setDynamicStyle(styles.resting);
+  }, [setDynamicStyle, styles.resting]);
+  var marshal = use_memo_one_esm_useMemo(function () {
+    return {
+      dragging: dragging,
+      dropping: dropping,
+      resting: resting
+    };
+  }, [dragging, dropping, resting]);
+  return marshal;
+}
+
+var getWindowFromEl = (function (el) {
+  return el && el.ownerDocument ? el.ownerDocument.defaultView : window;
+});
+
+function react_beautiful_dnd_esm_isHtmlElement(el) {
+  return el instanceof getWindowFromEl(el).HTMLElement;
+}
+
+function findDragHandle(contextId, draggableId) {
+  var selector = "[" + dragHandle.contextId + "=\"" + contextId + "\"]";
+  var possible = toArray(document.querySelectorAll(selector));
+
+  if (!possible.length) {
+     false ? 0 : void 0;
+    return null;
+  }
+
+  var handle = find(possible, function (el) {
+    return el.getAttribute(dragHandle.draggableId) === draggableId;
+  });
+
+  if (!handle) {
+     false ? 0 : void 0;
+    return null;
+  }
+
+  if (!react_beautiful_dnd_esm_isHtmlElement(handle)) {
+     false ? 0 : void 0;
+    return null;
+  }
+
+  return handle;
+}
+
+function useFocusMarshal(contextId) {
+  var entriesRef = (0,react.useRef)({});
+  var recordRef = (0,react.useRef)(null);
+  var restoreFocusFrameRef = (0,react.useRef)(null);
+  var isMountedRef = (0,react.useRef)(false);
+  var register = useCallback(function register(id, focus) {
+    var entry = {
+      id: id,
+      focus: focus
+    };
+    entriesRef.current[id] = entry;
+    return function unregister() {
+      var entries = entriesRef.current;
+      var current = entries[id];
+
+      if (current !== entry) {
+        delete entries[id];
+      }
+    };
+  }, []);
+  var tryGiveFocus = useCallback(function tryGiveFocus(tryGiveFocusTo) {
+    var handle = findDragHandle(contextId, tryGiveFocusTo);
+
+    if (handle && handle !== document.activeElement) {
+      handle.focus();
+    }
+  }, [contextId]);
+  var tryShiftRecord = useCallback(function tryShiftRecord(previous, redirectTo) {
+    if (recordRef.current === previous) {
+      recordRef.current = redirectTo;
+    }
+  }, []);
+  var tryRestoreFocusRecorded = useCallback(function tryRestoreFocusRecorded() {
+    if (restoreFocusFrameRef.current) {
+      return;
+    }
+
+    if (!isMountedRef.current) {
+      return;
+    }
+
+    restoreFocusFrameRef.current = requestAnimationFrame(function () {
+      restoreFocusFrameRef.current = null;
+      var record = recordRef.current;
+
+      if (record) {
+        tryGiveFocus(record);
+      }
+    });
+  }, [tryGiveFocus]);
+  var tryRecordFocus = useCallback(function tryRecordFocus(id) {
+    recordRef.current = null;
+    var focused = document.activeElement;
+
+    if (!focused) {
+      return;
+    }
+
+    if (focused.getAttribute(dragHandle.draggableId) !== id) {
+      return;
+    }
+
+    recordRef.current = id;
+  }, []);
+  react_beautiful_dnd_esm_useIsomorphicLayoutEffect(function () {
+    isMountedRef.current = true;
+    return function clearFrameOnUnmount() {
+      isMountedRef.current = false;
+      var frameId = restoreFocusFrameRef.current;
+
+      if (frameId) {
+        cancelAnimationFrame(frameId);
+      }
+    };
+  }, []);
+  var marshal = use_memo_one_esm_useMemo(function () {
+    return {
+      register: register,
+      tryRecordFocus: tryRecordFocus,
+      tryRestoreFocusRecorded: tryRestoreFocusRecorded,
+      tryShiftRecord: tryShiftRecord
+    };
+  }, [register, tryRecordFocus, tryRestoreFocusRecorded, tryShiftRecord]);
+  return marshal;
+}
+
+function createRegistry() {
+  var entries = {
+    draggables: {},
+    droppables: {}
+  };
+  var subscribers = [];
+
+  function subscribe(cb) {
+    subscribers.push(cb);
+    return function unsubscribe() {
+      var index = subscribers.indexOf(cb);
+
+      if (index === -1) {
+        return;
+      }
+
+      subscribers.splice(index, 1);
+    };
+  }
+
+  function notify(event) {
+    if (subscribers.length) {
+      subscribers.forEach(function (cb) {
+        return cb(event);
+      });
+    }
+  }
+
+  function findDraggableById(id) {
+    return entries.draggables[id] || null;
+  }
+
+  function getDraggableById(id) {
+    var entry = findDraggableById(id);
+    !entry ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    return entry;
+  }
+
+  var draggableAPI = {
+    register: function register(entry) {
+      entries.draggables[entry.descriptor.id] = entry;
+      notify({
+        type: 'ADDITION',
+        value: entry
+      });
+    },
+    update: function update(entry, last) {
+      var current = entries.draggables[last.descriptor.id];
+
+      if (!current) {
+        return;
+      }
+
+      if (current.uniqueId !== entry.uniqueId) {
+        return;
+      }
+
+      delete entries.draggables[last.descriptor.id];
+      entries.draggables[entry.descriptor.id] = entry;
+    },
+    unregister: function unregister(entry) {
+      var draggableId = entry.descriptor.id;
+      var current = findDraggableById(draggableId);
+
+      if (!current) {
+        return;
+      }
+
+      if (entry.uniqueId !== current.uniqueId) {
+        return;
+      }
+
+      delete entries.draggables[draggableId];
+      notify({
+        type: 'REMOVAL',
+        value: entry
+      });
+    },
+    getById: getDraggableById,
+    findById: findDraggableById,
+    exists: function exists(id) {
+      return Boolean(findDraggableById(id));
+    },
+    getAllByType: function getAllByType(type) {
+      return values(entries.draggables).filter(function (entry) {
+        return entry.descriptor.type === type;
+      });
+    }
+  };
+
+  function findDroppableById(id) {
+    return entries.droppables[id] || null;
+  }
+
+  function getDroppableById(id) {
+    var entry = findDroppableById(id);
+    !entry ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    return entry;
+  }
+
+  var droppableAPI = {
+    register: function register(entry) {
+      entries.droppables[entry.descriptor.id] = entry;
+    },
+    unregister: function unregister(entry) {
+      var current = findDroppableById(entry.descriptor.id);
+
+      if (!current) {
+        return;
+      }
+
+      if (entry.uniqueId !== current.uniqueId) {
+        return;
+      }
+
+      delete entries.droppables[entry.descriptor.id];
+    },
+    getById: getDroppableById,
+    findById: findDroppableById,
+    exists: function exists(id) {
+      return Boolean(findDroppableById(id));
+    },
+    getAllByType: function getAllByType(type) {
+      return values(entries.droppables).filter(function (entry) {
+        return entry.descriptor.type === type;
+      });
+    }
+  };
+
+  function clean() {
+    entries.draggables = {};
+    entries.droppables = {};
+    subscribers.length = 0;
+  }
+
+  return {
+    draggable: draggableAPI,
+    droppable: droppableAPI,
+    subscribe: subscribe,
+    clean: clean
+  };
+}
+
+function useRegistry() {
+  var registry = use_memo_one_esm_useMemo(createRegistry, []);
+  (0,react.useEffect)(function () {
+    return function unmount() {
+      requestAnimationFrame(registry.clean);
+    };
+  }, [registry]);
+  return registry;
+}
+
+var StoreContext = react.createContext(null);
+
+var getBodyElement = (function () {
+  var body = document.body;
+  !body ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+  return body;
+});
+
+var visuallyHidden = {
+  position: 'absolute',
+  width: '1px',
+  height: '1px',
+  margin: '-1px',
+  border: '0',
+  padding: '0',
+  overflow: 'hidden',
+  clip: 'rect(0 0 0 0)',
+  'clip-path': 'inset(100%)'
+};
+
+var getId = function getId(contextId) {
+  return "rbd-announcement-" + contextId;
+};
+function useAnnouncer(contextId) {
+  var id = use_memo_one_esm_useMemo(function () {
+    return getId(contextId);
+  }, [contextId]);
+  var ref = (0,react.useRef)(null);
+  (0,react.useEffect)(function setup() {
+    var el = document.createElement('div');
+    ref.current = el;
+    el.id = id;
+    el.setAttribute('aria-live', 'assertive');
+    el.setAttribute('aria-atomic', 'true');
+
+    extends_extends(el.style, visuallyHidden);
+
+    getBodyElement().appendChild(el);
+    return function cleanup() {
+      setTimeout(function remove() {
+        var body = getBodyElement();
+
+        if (body.contains(el)) {
+          body.removeChild(el);
+        }
+
+        if (el === ref.current) {
+          ref.current = null;
+        }
+      });
+    };
+  }, [id]);
+  var announce = useCallback(function (message) {
+    var el = ref.current;
+
+    if (el) {
+      el.textContent = message;
+      return;
+    }
+
+     false ? 0 : void 0;
+  }, []);
+  return announce;
+}
+
+var count = 0;
+var defaults = {
+  separator: '::'
+};
+function react_beautiful_dnd_esm_reset() {
+  count = 0;
+}
+function useUniqueId(prefix, options) {
+  if (options === void 0) {
+    options = defaults;
+  }
+
+  return use_memo_one_esm_useMemo(function () {
+    return "" + prefix + options.separator + count++;
+  }, [options.separator, prefix]);
+}
+
+function getElementId(_ref) {
+  var contextId = _ref.contextId,
+      uniqueId = _ref.uniqueId;
+  return "rbd-hidden-text-" + contextId + "-" + uniqueId;
+}
+function useHiddenTextElement(_ref2) {
+  var contextId = _ref2.contextId,
+      text = _ref2.text;
+  var uniqueId = useUniqueId('hidden-text', {
+    separator: '-'
+  });
+  var id = use_memo_one_esm_useMemo(function () {
+    return getElementId({
+      contextId: contextId,
+      uniqueId: uniqueId
+    });
+  }, [uniqueId, contextId]);
+  (0,react.useEffect)(function mount() {
+    var el = document.createElement('div');
+    el.id = id;
+    el.textContent = text;
+    el.style.display = 'none';
+    getBodyElement().appendChild(el);
+    return function unmount() {
+      var body = getBodyElement();
+
+      if (body.contains(el)) {
+        body.removeChild(el);
+      }
+    };
+  }, [id, text]);
+  return id;
+}
+
+var AppContext = react.createContext(null);
+
+var peerDependencies = {
+	react: "^16.8.5 || ^17.0.0 || ^18.0.0",
+	"react-dom": "^16.8.5 || ^17.0.0 || ^18.0.0"
+};
+
+var semver = /(\d+)\.(\d+)\.(\d+)/;
+
+var getVersion = function getVersion(value) {
+  var result = semver.exec(value);
+  !(result != null) ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+  var major = Number(result[1]);
+  var minor = Number(result[2]);
+  var patch = Number(result[3]);
+  return {
+    major: major,
+    minor: minor,
+    patch: patch,
+    raw: value
+  };
+};
+
+var isSatisfied = function isSatisfied(expected, actual) {
+  if (actual.major > expected.major) {
+    return true;
+  }
+
+  if (actual.major < expected.major) {
+    return false;
+  }
+
+  if (actual.minor > expected.minor) {
+    return true;
+  }
+
+  if (actual.minor < expected.minor) {
+    return false;
+  }
+
+  return actual.patch >= expected.patch;
+};
+
+var checkReactVersion = (function (peerDepValue, actualValue) {
+  var peerDep = getVersion(peerDepValue);
+  var actual = getVersion(actualValue);
+
+  if (isSatisfied(peerDep, actual)) {
+    return;
+  }
+
+   false ? 0 : void 0;
+});
+
+var suffix = "\n  We expect a html5 doctype: <!doctype html>\n  This is to ensure consistent browser layout and measurement\n\n  More information: https://github.com/atlassian/react-beautiful-dnd/blob/master/docs/guides/doctype.md\n";
+var checkDoctype = (function (doc) {
+  var doctype = doc.doctype;
+
+  if (!doctype) {
+     false ? 0 : void 0;
+    return;
+  }
+
+  if (doctype.name.toLowerCase() !== 'html') {
+     false ? 0 : void 0;
+  }
+
+  if (doctype.publicId !== '') {
+     false ? 0 : void 0;
+  }
+});
+
+function useDev(useHook) {
+  if (false) {}
+}
+
+function useDevSetupWarning(fn, inputs) {
+  useDev(function () {
+    (0,react.useEffect)(function () {
+      try {
+        fn();
+      } catch (e) {
+        error("\n          A setup problem was encountered.\n\n          > " + e.message + "\n        ");
+      }
+    }, inputs);
+  });
+}
+
+function useStartupValidation() {
+  useDevSetupWarning(function () {
+    checkReactVersion(peerDependencies.react, react.version);
+    checkDoctype(document);
+  }, []);
+}
+
+function usePrevious(current) {
+  var ref = (0,react.useRef)(current);
+  (0,react.useEffect)(function () {
+    ref.current = current;
+  });
+  return ref;
+}
+
+function create() {
+  var lock = null;
+
+  function isClaimed() {
+    return Boolean(lock);
+  }
+
+  function isActive(value) {
+    return value === lock;
+  }
+
+  function claim(abandon) {
+    !!lock ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    var newLock = {
+      abandon: abandon
+    };
+    lock = newLock;
+    return newLock;
+  }
+
+  function release() {
+    !lock ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    lock = null;
+  }
+
+  function tryAbandon() {
+    if (lock) {
+      lock.abandon();
+      release();
+    }
+  }
+
+  return {
+    isClaimed: isClaimed,
+    isActive: isActive,
+    claim: claim,
+    release: release,
+    tryAbandon: tryAbandon
+  };
+}
+
+var tab = 9;
+var enter = 13;
+var react_beautiful_dnd_esm_escape = 27;
+var space = 32;
+var pageUp = 33;
+var pageDown = 34;
+var end = 35;
+var home = 36;
+var arrowLeft = 37;
+var arrowUp = 38;
+var arrowRight = 39;
+var arrowDown = 40;
+
+var _preventedKeys;
+var preventedKeys = (_preventedKeys = {}, _preventedKeys[enter] = true, _preventedKeys[tab] = true, _preventedKeys);
+var preventStandardKeyEvents = (function (event) {
+  if (preventedKeys[event.keyCode]) {
+    event.preventDefault();
+  }
+});
+
+var supportedEventName = function () {
+  var base = 'visibilitychange';
+
+  if (typeof document === 'undefined') {
+    return base;
+  }
+
+  var candidates = [base, "ms" + base, "webkit" + base, "moz" + base, "o" + base];
+  var supported = find(candidates, function (eventName) {
+    return "on" + eventName in document;
+  });
+  return supported || base;
+}();
+
+var primaryButton = 0;
+var sloppyClickThreshold = 5;
+
+function isSloppyClickThresholdExceeded(original, current) {
+  return Math.abs(current.x - original.x) >= sloppyClickThreshold || Math.abs(current.y - original.y) >= sloppyClickThreshold;
+}
+
+var idle$1 = {
+  type: 'IDLE'
+};
+
+function getCaptureBindings(_ref) {
+  var cancel = _ref.cancel,
+      completed = _ref.completed,
+      getPhase = _ref.getPhase,
+      setPhase = _ref.setPhase;
+  return [{
+    eventName: 'mousemove',
+    fn: function fn(event) {
+      var button = event.button,
+          clientX = event.clientX,
+          clientY = event.clientY;
+
+      if (button !== primaryButton) {
+        return;
+      }
+
+      var point = {
+        x: clientX,
+        y: clientY
+      };
+      var phase = getPhase();
+
+      if (phase.type === 'DRAGGING') {
+        event.preventDefault();
+        phase.actions.move(point);
+        return;
+      }
+
+      !(phase.type === 'PENDING') ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+      var pending = phase.point;
+
+      if (!isSloppyClickThresholdExceeded(pending, point)) {
+        return;
+      }
+
+      event.preventDefault();
+      var actions = phase.actions.fluidLift(point);
+      setPhase({
+        type: 'DRAGGING',
+        actions: actions
+      });
+    }
+  }, {
+    eventName: 'mouseup',
+    fn: function fn(event) {
+      var phase = getPhase();
+
+      if (phase.type !== 'DRAGGING') {
+        cancel();
+        return;
+      }
+
+      event.preventDefault();
+      phase.actions.drop({
+        shouldBlockNextClick: true
+      });
+      completed();
+    }
+  }, {
+    eventName: 'mousedown',
+    fn: function fn(event) {
+      if (getPhase().type === 'DRAGGING') {
+        event.preventDefault();
+      }
+
+      cancel();
+    }
+  }, {
+    eventName: 'keydown',
+    fn: function fn(event) {
+      var phase = getPhase();
+
+      if (phase.type === 'PENDING') {
+        cancel();
+        return;
+      }
+
+      if (event.keyCode === react_beautiful_dnd_esm_escape) {
+        event.preventDefault();
+        cancel();
+        return;
+      }
+
+      preventStandardKeyEvents(event);
+    }
+  }, {
+    eventName: 'resize',
+    fn: cancel
+  }, {
+    eventName: 'scroll',
+    options: {
+      passive: true,
+      capture: false
+    },
+    fn: function fn() {
+      if (getPhase().type === 'PENDING') {
+        cancel();
+      }
+    }
+  }, {
+    eventName: 'webkitmouseforcedown',
+    fn: function fn(event) {
+      var phase = getPhase();
+      !(phase.type !== 'IDLE') ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+
+      if (phase.actions.shouldRespectForcePress()) {
+        cancel();
+        return;
+      }
+
+      event.preventDefault();
+    }
+  }, {
+    eventName: supportedEventName,
+    fn: cancel
+  }];
+}
+
+function useMouseSensor(api) {
+  var phaseRef = (0,react.useRef)(idle$1);
+  var unbindEventsRef = (0,react.useRef)(noop);
+  var startCaptureBinding = use_memo_one_esm_useMemo(function () {
+    return {
+      eventName: 'mousedown',
+      fn: function onMouseDown(event) {
+        if (event.defaultPrevented) {
+          return;
+        }
+
+        if (event.button !== primaryButton) {
+          return;
+        }
+
+        if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) {
+          return;
+        }
+
+        var draggableId = api.findClosestDraggableId(event);
+
+        if (!draggableId) {
+          return;
+        }
+
+        var actions = api.tryGetLock(draggableId, stop, {
+          sourceEvent: event
+        });
+
+        if (!actions) {
+          return;
+        }
+
+        event.preventDefault();
+        var point = {
+          x: event.clientX,
+          y: event.clientY
+        };
+        unbindEventsRef.current();
+        startPendingDrag(actions, point);
+      }
+    };
+  }, [api]);
+  var preventForcePressBinding = use_memo_one_esm_useMemo(function () {
+    return {
+      eventName: 'webkitmouseforcewillbegin',
+      fn: function fn(event) {
+        if (event.defaultPrevented) {
+          return;
+        }
+
+        var id = api.findClosestDraggableId(event);
+
+        if (!id) {
+          return;
+        }
+
+        var options = api.findOptionsForDraggable(id);
+
+        if (!options) {
+          return;
+        }
+
+        if (options.shouldRespectForcePress) {
+          return;
+        }
+
+        if (!api.canGetLock(id)) {
+          return;
+        }
+
+        event.preventDefault();
+      }
+    };
+  }, [api]);
+  var listenForCapture = useCallback(function listenForCapture() {
+    var options = {
+      passive: false,
+      capture: true
+    };
+    unbindEventsRef.current = bindEvents(window, [preventForcePressBinding, startCaptureBinding], options);
+  }, [preventForcePressBinding, startCaptureBinding]);
+  var stop = useCallback(function () {
+    var current = phaseRef.current;
+
+    if (current.type === 'IDLE') {
+      return;
+    }
+
+    phaseRef.current = idle$1;
+    unbindEventsRef.current();
+    listenForCapture();
+  }, [listenForCapture]);
+  var cancel = useCallback(function () {
+    var phase = phaseRef.current;
+    stop();
+
+    if (phase.type === 'DRAGGING') {
+      phase.actions.cancel({
+        shouldBlockNextClick: true
+      });
+    }
+
+    if (phase.type === 'PENDING') {
+      phase.actions.abort();
+    }
+  }, [stop]);
+  var bindCapturingEvents = useCallback(function bindCapturingEvents() {
+    var options = {
+      capture: true,
+      passive: false
+    };
+    var bindings = getCaptureBindings({
+      cancel: cancel,
+      completed: stop,
+      getPhase: function getPhase() {
+        return phaseRef.current;
+      },
+      setPhase: function setPhase(phase) {
+        phaseRef.current = phase;
+      }
+    });
+    unbindEventsRef.current = bindEvents(window, bindings, options);
+  }, [cancel, stop]);
+  var startPendingDrag = useCallback(function startPendingDrag(actions, point) {
+    !(phaseRef.current.type === 'IDLE') ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    phaseRef.current = {
+      type: 'PENDING',
+      point: point,
+      actions: actions
+    };
+    bindCapturingEvents();
+  }, [bindCapturingEvents]);
+  react_beautiful_dnd_esm_useIsomorphicLayoutEffect(function mount() {
+    listenForCapture();
+    return function unmount() {
+      unbindEventsRef.current();
+    };
+  }, [listenForCapture]);
+}
+
+var _scrollJumpKeys;
+
+function noop$1() {}
+
+var scrollJumpKeys = (_scrollJumpKeys = {}, _scrollJumpKeys[pageDown] = true, _scrollJumpKeys[pageUp] = true, _scrollJumpKeys[home] = true, _scrollJumpKeys[end] = true, _scrollJumpKeys);
+
+function getDraggingBindings(actions, stop) {
+  function cancel() {
+    stop();
+    actions.cancel();
+  }
+
+  function drop() {
+    stop();
+    actions.drop();
+  }
+
+  return [{
+    eventName: 'keydown',
+    fn: function fn(event) {
+      if (event.keyCode === react_beautiful_dnd_esm_escape) {
+        event.preventDefault();
+        cancel();
+        return;
+      }
+
+      if (event.keyCode === space) {
+        event.preventDefault();
+        drop();
+        return;
+      }
+
+      if (event.keyCode === arrowDown) {
+        event.preventDefault();
+        actions.moveDown();
+        return;
+      }
+
+      if (event.keyCode === arrowUp) {
+        event.preventDefault();
+        actions.moveUp();
+        return;
+      }
+
+      if (event.keyCode === arrowRight) {
+        event.preventDefault();
+        actions.moveRight();
+        return;
+      }
+
+      if (event.keyCode === arrowLeft) {
+        event.preventDefault();
+        actions.moveLeft();
+        return;
+      }
+
+      if (scrollJumpKeys[event.keyCode]) {
+        event.preventDefault();
+        return;
+      }
+
+      preventStandardKeyEvents(event);
+    }
+  }, {
+    eventName: 'mousedown',
+    fn: cancel
+  }, {
+    eventName: 'mouseup',
+    fn: cancel
+  }, {
+    eventName: 'click',
+    fn: cancel
+  }, {
+    eventName: 'touchstart',
+    fn: cancel
+  }, {
+    eventName: 'resize',
+    fn: cancel
+  }, {
+    eventName: 'wheel',
+    fn: cancel,
+    options: {
+      passive: true
+    }
+  }, {
+    eventName: supportedEventName,
+    fn: cancel
+  }];
+}
+
+function useKeyboardSensor(api) {
+  var unbindEventsRef = (0,react.useRef)(noop$1);
+  var startCaptureBinding = use_memo_one_esm_useMemo(function () {
+    return {
+      eventName: 'keydown',
+      fn: function onKeyDown(event) {
+        if (event.defaultPrevented) {
+          return;
+        }
+
+        if (event.keyCode !== space) {
+          return;
+        }
+
+        var draggableId = api.findClosestDraggableId(event);
+
+        if (!draggableId) {
+          return;
+        }
+
+        var preDrag = api.tryGetLock(draggableId, stop, {
+          sourceEvent: event
+        });
+
+        if (!preDrag) {
+          return;
+        }
+
+        event.preventDefault();
+        var isCapturing = true;
+        var actions = preDrag.snapLift();
+        unbindEventsRef.current();
+
+        function stop() {
+          !isCapturing ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+          isCapturing = false;
+          unbindEventsRef.current();
+          listenForCapture();
+        }
+
+        unbindEventsRef.current = bindEvents(window, getDraggingBindings(actions, stop), {
+          capture: true,
+          passive: false
+        });
+      }
+    };
+  }, [api]);
+  var listenForCapture = useCallback(function tryStartCapture() {
+    var options = {
+      passive: false,
+      capture: true
+    };
+    unbindEventsRef.current = bindEvents(window, [startCaptureBinding], options);
+  }, [startCaptureBinding]);
+  react_beautiful_dnd_esm_useIsomorphicLayoutEffect(function mount() {
+    listenForCapture();
+    return function unmount() {
+      unbindEventsRef.current();
+    };
+  }, [listenForCapture]);
+}
+
+var idle$2 = {
+  type: 'IDLE'
+};
+var timeForLongPress = 120;
+var forcePressThreshold = 0.15;
+
+function getWindowBindings(_ref) {
+  var cancel = _ref.cancel,
+      getPhase = _ref.getPhase;
+  return [{
+    eventName: 'orientationchange',
+    fn: cancel
+  }, {
+    eventName: 'resize',
+    fn: cancel
+  }, {
+    eventName: 'contextmenu',
+    fn: function fn(event) {
+      event.preventDefault();
+    }
+  }, {
+    eventName: 'keydown',
+    fn: function fn(event) {
+      if (getPhase().type !== 'DRAGGING') {
+        cancel();
+        return;
+      }
+
+      if (event.keyCode === react_beautiful_dnd_esm_escape) {
+        event.preventDefault();
+      }
+
+      cancel();
+    }
+  }, {
+    eventName: supportedEventName,
+    fn: cancel
+  }];
+}
+
+function getHandleBindings(_ref2) {
+  var cancel = _ref2.cancel,
+      completed = _ref2.completed,
+      getPhase = _ref2.getPhase;
+  return [{
+    eventName: 'touchmove',
+    options: {
+      capture: false
+    },
+    fn: function fn(event) {
+      var phase = getPhase();
+
+      if (phase.type !== 'DRAGGING') {
+        cancel();
+        return;
+      }
+
+      phase.hasMoved = true;
+      var _event$touches$ = event.touches[0],
+          clientX = _event$touches$.clientX,
+          clientY = _event$touches$.clientY;
+      var point = {
+        x: clientX,
+        y: clientY
+      };
+      event.preventDefault();
+      phase.actions.move(point);
+    }
+  }, {
+    eventName: 'touchend',
+    fn: function fn(event) {
+      var phase = getPhase();
+
+      if (phase.type !== 'DRAGGING') {
+        cancel();
+        return;
+      }
+
+      event.preventDefault();
+      phase.actions.drop({
+        shouldBlockNextClick: true
+      });
+      completed();
+    }
+  }, {
+    eventName: 'touchcancel',
+    fn: function fn(event) {
+      if (getPhase().type !== 'DRAGGING') {
+        cancel();
+        return;
+      }
+
+      event.preventDefault();
+      cancel();
+    }
+  }, {
+    eventName: 'touchforcechange',
+    fn: function fn(event) {
+      var phase = getPhase();
+      !(phase.type !== 'IDLE') ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+      var touch = event.touches[0];
+
+      if (!touch) {
+        return;
+      }
+
+      var isForcePress = touch.force >= forcePressThreshold;
+
+      if (!isForcePress) {
+        return;
+      }
+
+      var shouldRespect = phase.actions.shouldRespectForcePress();
+
+      if (phase.type === 'PENDING') {
+        if (shouldRespect) {
+          cancel();
+        }
+
+        return;
+      }
+
+      if (shouldRespect) {
+        if (phase.hasMoved) {
+          event.preventDefault();
+          return;
+        }
+
+        cancel();
+        return;
+      }
+
+      event.preventDefault();
+    }
+  }, {
+    eventName: supportedEventName,
+    fn: cancel
+  }];
+}
+
+function useTouchSensor(api) {
+  var phaseRef = (0,react.useRef)(idle$2);
+  var unbindEventsRef = (0,react.useRef)(noop);
+  var getPhase = useCallback(function getPhase() {
+    return phaseRef.current;
+  }, []);
+  var setPhase = useCallback(function setPhase(phase) {
+    phaseRef.current = phase;
+  }, []);
+  var startCaptureBinding = use_memo_one_esm_useMemo(function () {
+    return {
+      eventName: 'touchstart',
+      fn: function onTouchStart(event) {
+        if (event.defaultPrevented) {
+          return;
+        }
+
+        var draggableId = api.findClosestDraggableId(event);
+
+        if (!draggableId) {
+          return;
+        }
+
+        var actions = api.tryGetLock(draggableId, stop, {
+          sourceEvent: event
+        });
+
+        if (!actions) {
+          return;
+        }
+
+        var touch = event.touches[0];
+        var clientX = touch.clientX,
+            clientY = touch.clientY;
+        var point = {
+          x: clientX,
+          y: clientY
+        };
+        unbindEventsRef.current();
+        startPendingDrag(actions, point);
+      }
+    };
+  }, [api]);
+  var listenForCapture = useCallback(function listenForCapture() {
+    var options = {
+      capture: true,
+      passive: false
+    };
+    unbindEventsRef.current = bindEvents(window, [startCaptureBinding], options);
+  }, [startCaptureBinding]);
+  var stop = useCallback(function () {
+    var current = phaseRef.current;
+
+    if (current.type === 'IDLE') {
+      return;
+    }
+
+    if (current.type === 'PENDING') {
+      clearTimeout(current.longPressTimerId);
+    }
+
+    setPhase(idle$2);
+    unbindEventsRef.current();
+    listenForCapture();
+  }, [listenForCapture, setPhase]);
+  var cancel = useCallback(function () {
+    var phase = phaseRef.current;
+    stop();
+
+    if (phase.type === 'DRAGGING') {
+      phase.actions.cancel({
+        shouldBlockNextClick: true
+      });
+    }
+
+    if (phase.type === 'PENDING') {
+      phase.actions.abort();
+    }
+  }, [stop]);
+  var bindCapturingEvents = useCallback(function bindCapturingEvents() {
+    var options = {
+      capture: true,
+      passive: false
+    };
+    var args = {
+      cancel: cancel,
+      completed: stop,
+      getPhase: getPhase
+    };
+    var unbindTarget = bindEvents(window, getHandleBindings(args), options);
+    var unbindWindow = bindEvents(window, getWindowBindings(args), options);
+
+    unbindEventsRef.current = function unbindAll() {
+      unbindTarget();
+      unbindWindow();
+    };
+  }, [cancel, getPhase, stop]);
+  var startDragging = useCallback(function startDragging() {
+    var phase = getPhase();
+    !(phase.type === 'PENDING') ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    var actions = phase.actions.fluidLift(phase.point);
+    setPhase({
+      type: 'DRAGGING',
+      actions: actions,
+      hasMoved: false
+    });
+  }, [getPhase, setPhase]);
+  var startPendingDrag = useCallback(function startPendingDrag(actions, point) {
+    !(getPhase().type === 'IDLE') ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    var longPressTimerId = setTimeout(startDragging, timeForLongPress);
+    setPhase({
+      type: 'PENDING',
+      point: point,
+      actions: actions,
+      longPressTimerId: longPressTimerId
+    });
+    bindCapturingEvents();
+  }, [bindCapturingEvents, getPhase, setPhase, startDragging]);
+  react_beautiful_dnd_esm_useIsomorphicLayoutEffect(function mount() {
+    listenForCapture();
+    return function unmount() {
+      unbindEventsRef.current();
+      var phase = getPhase();
+
+      if (phase.type === 'PENDING') {
+        clearTimeout(phase.longPressTimerId);
+        setPhase(idle$2);
+      }
+    };
+  }, [getPhase, listenForCapture, setPhase]);
+  react_beautiful_dnd_esm_useIsomorphicLayoutEffect(function webkitHack() {
+    var unbind = bindEvents(window, [{
+      eventName: 'touchmove',
+      fn: function fn() {},
+      options: {
+        capture: false,
+        passive: false
+      }
+    }]);
+    return unbind;
+  }, []);
+}
+
+function useValidateSensorHooks(sensorHooks) {
+  useDev(function () {
+    var previousRef = usePrevious(sensorHooks);
+    useDevSetupWarning(function () {
+      !(previousRef.current.length === sensorHooks.length) ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    });
+  });
+}
+
+var interactiveTagNames = {
+  input: true,
+  button: true,
+  textarea: true,
+  select: true,
+  option: true,
+  optgroup: true,
+  video: true,
+  audio: true
+};
+
+function isAnInteractiveElement(parent, current) {
+  if (current == null) {
+    return false;
+  }
+
+  var hasAnInteractiveTag = Boolean(interactiveTagNames[current.tagName.toLowerCase()]);
+
+  if (hasAnInteractiveTag) {
+    return true;
+  }
+
+  var attribute = current.getAttribute('contenteditable');
+
+  if (attribute === 'true' || attribute === '') {
+    return true;
+  }
+
+  if (current === parent) {
+    return false;
+  }
+
+  return isAnInteractiveElement(parent, current.parentElement);
+}
+
+function isEventInInteractiveElement(draggable, event) {
+  var target = event.target;
+
+  if (!react_beautiful_dnd_esm_isHtmlElement(target)) {
+    return false;
+  }
+
+  return isAnInteractiveElement(draggable, target);
+}
+
+var getBorderBoxCenterPosition = (function (el) {
+  return getRect(el.getBoundingClientRect()).center;
+});
+
+function isElement(el) {
+  return el instanceof getWindowFromEl(el).Element;
+}
+
+var supportedMatchesName = function () {
+  var base = 'matches';
+
+  if (typeof document === 'undefined') {
+    return base;
+  }
+
+  var candidates = [base, 'msMatchesSelector', 'webkitMatchesSelector'];
+  var value = find(candidates, function (name) {
+    return name in Element.prototype;
+  });
+  return value || base;
+}();
+
+function closestPonyfill(el, selector) {
+  if (el == null) {
+    return null;
+  }
+
+  if (el[supportedMatchesName](selector)) {
+    return el;
+  }
+
+  return closestPonyfill(el.parentElement, selector);
+}
+
+function closest$1(el, selector) {
+  if (el.closest) {
+    return el.closest(selector);
+  }
+
+  return closestPonyfill(el, selector);
+}
+
+function getSelector(contextId) {
+  return "[" + dragHandle.contextId + "=\"" + contextId + "\"]";
+}
+
+function findClosestDragHandleFromEvent(contextId, event) {
+  var target = event.target;
+
+  if (!isElement(target)) {
+     false ? 0 : void 0;
+    return null;
+  }
+
+  var selector = getSelector(contextId);
+  var handle = closest$1(target, selector);
+
+  if (!handle) {
+    return null;
+  }
+
+  if (!react_beautiful_dnd_esm_isHtmlElement(handle)) {
+     false ? 0 : void 0;
+    return null;
+  }
+
+  return handle;
+}
+
+function tryGetClosestDraggableIdFromEvent(contextId, event) {
+  var handle = findClosestDragHandleFromEvent(contextId, event);
+
+  if (!handle) {
+    return null;
+  }
+
+  return handle.getAttribute(dragHandle.draggableId);
+}
+
+function findDraggable(contextId, draggableId) {
+  var selector = "[" + draggable.contextId + "=\"" + contextId + "\"]";
+  var possible = toArray(document.querySelectorAll(selector));
+  var draggable$1 = find(possible, function (el) {
+    return el.getAttribute(draggable.id) === draggableId;
+  });
+
+  if (!draggable$1) {
+    return null;
+  }
+
+  if (!react_beautiful_dnd_esm_isHtmlElement(draggable$1)) {
+     false ? 0 : void 0;
+    return null;
+  }
+
+  return draggable$1;
+}
+
+function preventDefault(event) {
+  event.preventDefault();
+}
+
+function _isActive(_ref) {
+  var expected = _ref.expected,
+      phase = _ref.phase,
+      isLockActive = _ref.isLockActive,
+      shouldWarn = _ref.shouldWarn;
+
+  if (!isLockActive()) {
+    if (shouldWarn) {
+       false ? 0 : void 0;
+    }
+
+    return false;
+  }
+
+  if (expected !== phase) {
+    if (shouldWarn) {
+       false ? 0 : void 0;
+    }
+
+    return false;
+  }
+
+  return true;
+}
+
+function canStart(_ref2) {
+  var lockAPI = _ref2.lockAPI,
+      store = _ref2.store,
+      registry = _ref2.registry,
+      draggableId = _ref2.draggableId;
+
+  if (lockAPI.isClaimed()) {
+    return false;
+  }
+
+  var entry = registry.draggable.findById(draggableId);
+
+  if (!entry) {
+     false ? 0 : void 0;
+    return false;
+  }
+
+  if (!entry.options.isEnabled) {
+    return false;
+  }
+
+  if (!canStartDrag(store.getState(), draggableId)) {
+    return false;
+  }
+
+  return true;
+}
+
+function tryStart(_ref3) {
+  var lockAPI = _ref3.lockAPI,
+      contextId = _ref3.contextId,
+      store = _ref3.store,
+      registry = _ref3.registry,
+      draggableId = _ref3.draggableId,
+      forceSensorStop = _ref3.forceSensorStop,
+      sourceEvent = _ref3.sourceEvent;
+  var shouldStart = canStart({
+    lockAPI: lockAPI,
+    store: store,
+    registry: registry,
+    draggableId: draggableId
+  });
+
+  if (!shouldStart) {
+    return null;
+  }
+
+  var entry = registry.draggable.getById(draggableId);
+  var el = findDraggable(contextId, entry.descriptor.id);
+
+  if (!el) {
+     false ? 0 : void 0;
+    return null;
+  }
+
+  if (sourceEvent && !entry.options.canDragInteractiveElements && isEventInInteractiveElement(el, sourceEvent)) {
+    return null;
+  }
+
+  var lock = lockAPI.claim(forceSensorStop || noop);
+  var phase = 'PRE_DRAG';
+
+  function getShouldRespectForcePress() {
+    return entry.options.shouldRespectForcePress;
+  }
+
+  function isLockActive() {
+    return lockAPI.isActive(lock);
+  }
+
+  function tryDispatch(expected, getAction) {
+    if (_isActive({
+      expected: expected,
+      phase: phase,
+      isLockActive: isLockActive,
+      shouldWarn: true
+    })) {
+      store.dispatch(getAction());
+    }
+  }
+
+  var tryDispatchWhenDragging = tryDispatch.bind(null, 'DRAGGING');
+
+  function lift$1(args) {
+    function completed() {
+      lockAPI.release();
+      phase = 'COMPLETED';
+    }
+
+    if (phase !== 'PRE_DRAG') {
+      completed();
+      !(phase === 'PRE_DRAG') ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    }
+
+    store.dispatch(lift(args.liftActionArgs));
+    phase = 'DRAGGING';
+
+    function finish(reason, options) {
+      if (options === void 0) {
+        options = {
+          shouldBlockNextClick: false
+        };
+      }
+
+      args.cleanup();
+
+      if (options.shouldBlockNextClick) {
+        var unbind = bindEvents(window, [{
+          eventName: 'click',
+          fn: preventDefault,
+          options: {
+            once: true,
+            passive: false,
+            capture: true
+          }
+        }]);
+        setTimeout(unbind);
+      }
+
+      completed();
+      store.dispatch(drop({
+        reason: reason
+      }));
+    }
+
+    return extends_extends({
+      isActive: function isActive() {
+        return _isActive({
+          expected: 'DRAGGING',
+          phase: phase,
+          isLockActive: isLockActive,
+          shouldWarn: false
+        });
+      },
+      shouldRespectForcePress: getShouldRespectForcePress,
+      drop: function drop(options) {
+        return finish('DROP', options);
+      },
+      cancel: function cancel(options) {
+        return finish('CANCEL', options);
+      }
+    }, args.actions);
+  }
+
+  function fluidLift(clientSelection) {
+    var move$1 = raf_schd_esm(function (client) {
+      tryDispatchWhenDragging(function () {
+        return move({
+          client: client
+        });
+      });
+    });
+    var api = lift$1({
+      liftActionArgs: {
+        id: draggableId,
+        clientSelection: clientSelection,
+        movementMode: 'FLUID'
+      },
+      cleanup: function cleanup() {
+        return move$1.cancel();
+      },
+      actions: {
+        move: move$1
+      }
+    });
+    return extends_extends({}, api, {
+      move: move$1
+    });
+  }
+
+  function snapLift() {
+    var actions = {
+      moveUp: function moveUp$1() {
+        return tryDispatchWhenDragging(moveUp);
+      },
+      moveRight: function moveRight$1() {
+        return tryDispatchWhenDragging(moveRight);
+      },
+      moveDown: function moveDown$1() {
+        return tryDispatchWhenDragging(moveDown);
+      },
+      moveLeft: function moveLeft$1() {
+        return tryDispatchWhenDragging(moveLeft);
+      }
+    };
+    return lift$1({
+      liftActionArgs: {
+        id: draggableId,
+        clientSelection: getBorderBoxCenterPosition(el),
+        movementMode: 'SNAP'
+      },
+      cleanup: noop,
+      actions: actions
+    });
+  }
+
+  function abortPreDrag() {
+    var shouldRelease = _isActive({
+      expected: 'PRE_DRAG',
+      phase: phase,
+      isLockActive: isLockActive,
+      shouldWarn: true
+    });
+
+    if (shouldRelease) {
+      lockAPI.release();
+    }
+  }
+
+  var preDrag = {
+    isActive: function isActive() {
+      return _isActive({
+        expected: 'PRE_DRAG',
+        phase: phase,
+        isLockActive: isLockActive,
+        shouldWarn: false
+      });
+    },
+    shouldRespectForcePress: getShouldRespectForcePress,
+    fluidLift: fluidLift,
+    snapLift: snapLift,
+    abort: abortPreDrag
+  };
+  return preDrag;
+}
+
+var defaultSensors = [useMouseSensor, useKeyboardSensor, useTouchSensor];
+function useSensorMarshal(_ref4) {
+  var contextId = _ref4.contextId,
+      store = _ref4.store,
+      registry = _ref4.registry,
+      customSensors = _ref4.customSensors,
+      enableDefaultSensors = _ref4.enableDefaultSensors;
+  var useSensors = [].concat(enableDefaultSensors ? defaultSensors : [], customSensors || []);
+  var lockAPI = (0,react.useState)(function () {
+    return create();
+  })[0];
+  var tryAbandonLock = useCallback(function tryAbandonLock(previous, current) {
+    if (previous.isDragging && !current.isDragging) {
+      lockAPI.tryAbandon();
+    }
+  }, [lockAPI]);
+  react_beautiful_dnd_esm_useIsomorphicLayoutEffect(function listenToStore() {
+    var previous = store.getState();
+    var unsubscribe = store.subscribe(function () {
+      var current = store.getState();
+      tryAbandonLock(previous, current);
+      previous = current;
+    });
+    return unsubscribe;
+  }, [lockAPI, store, tryAbandonLock]);
+  react_beautiful_dnd_esm_useIsomorphicLayoutEffect(function () {
+    return lockAPI.tryAbandon;
+  }, [lockAPI.tryAbandon]);
+  var canGetLock = useCallback(function (draggableId) {
+    return canStart({
+      lockAPI: lockAPI,
+      registry: registry,
+      store: store,
+      draggableId: draggableId
+    });
+  }, [lockAPI, registry, store]);
+  var tryGetLock = useCallback(function (draggableId, forceStop, options) {
+    return tryStart({
+      lockAPI: lockAPI,
+      registry: registry,
+      contextId: contextId,
+      store: store,
+      draggableId: draggableId,
+      forceSensorStop: forceStop,
+      sourceEvent: options && options.sourceEvent ? options.sourceEvent : null
+    });
+  }, [contextId, lockAPI, registry, store]);
+  var findClosestDraggableId = useCallback(function (event) {
+    return tryGetClosestDraggableIdFromEvent(contextId, event);
+  }, [contextId]);
+  var findOptionsForDraggable = useCallback(function (id) {
+    var entry = registry.draggable.findById(id);
+    return entry ? entry.options : null;
+  }, [registry.draggable]);
+  var tryReleaseLock = useCallback(function tryReleaseLock() {
+    if (!lockAPI.isClaimed()) {
+      return;
+    }
+
+    lockAPI.tryAbandon();
+
+    if (store.getState().phase !== 'IDLE') {
+      store.dispatch(flush());
+    }
+  }, [lockAPI, store]);
+  var isLockClaimed = useCallback(lockAPI.isClaimed, [lockAPI]);
+  var api = use_memo_one_esm_useMemo(function () {
+    return {
+      canGetLock: canGetLock,
+      tryGetLock: tryGetLock,
+      findClosestDraggableId: findClosestDraggableId,
+      findOptionsForDraggable: findOptionsForDraggable,
+      tryReleaseLock: tryReleaseLock,
+      isLockClaimed: isLockClaimed
+    };
+  }, [canGetLock, tryGetLock, findClosestDraggableId, findOptionsForDraggable, tryReleaseLock, isLockClaimed]);
+  useValidateSensorHooks(useSensors);
+
+  for (var i = 0; i < useSensors.length; i++) {
+    useSensors[i](api);
   }
 }
 
-/* harmony default export */ const cancel_CancelToken = (CancelToken);
-
-;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/spread.js
-
-
-/**
- * Syntactic sugar for invoking a function and expanding an array for arguments.
- *
- * Common use case would be to use `Function.prototype.apply`.
- *
- *  ```js
- *  function f(x, y, z) {}
- *  var args = [1, 2, 3];
- *  f.apply(null, args);
- *  ```
- *
- * With `spread` this example can be re-written.
- *
- *  ```js
- *  spread(function(x, y, z) {})([1, 2, 3]);
- *  ```
- *
- * @param {Function} callback
- *
- * @returns {Function}
- */
-function spread(callback) {
-  return function wrap(arr) {
-    return callback.apply(null, arr);
+var createResponders = function createResponders(props) {
+  return {
+    onBeforeCapture: props.onBeforeCapture,
+    onBeforeDragStart: props.onBeforeDragStart,
+    onDragStart: props.onDragStart,
+    onDragEnd: props.onDragEnd,
+    onDragUpdate: props.onDragUpdate
   };
-}
-
-;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/isAxiosError.js
-
-
-
-
-/**
- * Determines whether the payload is an error thrown by Axios
- *
- * @param {*} payload The value to test
- *
- * @returns {boolean} True if the payload is an error thrown by Axios, otherwise false
- */
-function isAxiosError(payload) {
-  return utils.isObject(payload) && (payload.isAxiosError === true);
-}
-
-;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/HttpStatusCode.js
-const HttpStatusCode = {
-  Continue: 100,
-  SwitchingProtocols: 101,
-  Processing: 102,
-  EarlyHints: 103,
-  Ok: 200,
-  Created: 201,
-  Accepted: 202,
-  NonAuthoritativeInformation: 203,
-  NoContent: 204,
-  ResetContent: 205,
-  PartialContent: 206,
-  MultiStatus: 207,
-  AlreadyReported: 208,
-  ImUsed: 226,
-  MultipleChoices: 300,
-  MovedPermanently: 301,
-  Found: 302,
-  SeeOther: 303,
-  NotModified: 304,
-  UseProxy: 305,
-  Unused: 306,
-  TemporaryRedirect: 307,
-  PermanentRedirect: 308,
-  BadRequest: 400,
-  Unauthorized: 401,
-  PaymentRequired: 402,
-  Forbidden: 403,
-  NotFound: 404,
-  MethodNotAllowed: 405,
-  NotAcceptable: 406,
-  ProxyAuthenticationRequired: 407,
-  RequestTimeout: 408,
-  Conflict: 409,
-  Gone: 410,
-  LengthRequired: 411,
-  PreconditionFailed: 412,
-  PayloadTooLarge: 413,
-  UriTooLong: 414,
-  UnsupportedMediaType: 415,
-  RangeNotSatisfiable: 416,
-  ExpectationFailed: 417,
-  ImATeapot: 418,
-  MisdirectedRequest: 421,
-  UnprocessableEntity: 422,
-  Locked: 423,
-  FailedDependency: 424,
-  TooEarly: 425,
-  UpgradeRequired: 426,
-  PreconditionRequired: 428,
-  TooManyRequests: 429,
-  RequestHeaderFieldsTooLarge: 431,
-  UnavailableForLegalReasons: 451,
-  InternalServerError: 500,
-  NotImplemented: 501,
-  BadGateway: 502,
-  ServiceUnavailable: 503,
-  GatewayTimeout: 504,
-  HttpVersionNotSupported: 505,
-  VariantAlsoNegotiates: 506,
-  InsufficientStorage: 507,
-  LoopDetected: 508,
-  NotExtended: 510,
-  NetworkAuthenticationRequired: 511,
 };
 
-Object.entries(HttpStatusCode).forEach(([key, value]) => {
-  HttpStatusCode[value] = key;
+function getStore(lazyRef) {
+  !lazyRef.current ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+  return lazyRef.current;
+}
+
+function App(props) {
+  var contextId = props.contextId,
+      setCallbacks = props.setCallbacks,
+      sensors = props.sensors,
+      nonce = props.nonce,
+      dragHandleUsageInstructions = props.dragHandleUsageInstructions;
+  var lazyStoreRef = (0,react.useRef)(null);
+  useStartupValidation();
+  var lastPropsRef = usePrevious(props);
+  var getResponders = useCallback(function () {
+    return createResponders(lastPropsRef.current);
+  }, [lastPropsRef]);
+  var announce = useAnnouncer(contextId);
+  var dragHandleUsageInstructionsId = useHiddenTextElement({
+    contextId: contextId,
+    text: dragHandleUsageInstructions
+  });
+  var styleMarshal = useStyleMarshal(contextId, nonce);
+  var lazyDispatch = useCallback(function (action) {
+    getStore(lazyStoreRef).dispatch(action);
+  }, []);
+  var marshalCallbacks = use_memo_one_esm_useMemo(function () {
+    return bindActionCreators({
+      publishWhileDragging: publishWhileDragging,
+      updateDroppableScroll: updateDroppableScroll,
+      updateDroppableIsEnabled: updateDroppableIsEnabled,
+      updateDroppableIsCombineEnabled: updateDroppableIsCombineEnabled,
+      collectionStarting: collectionStarting
+    }, lazyDispatch);
+  }, [lazyDispatch]);
+  var registry = useRegistry();
+  var dimensionMarshal = use_memo_one_esm_useMemo(function () {
+    return createDimensionMarshal(registry, marshalCallbacks);
+  }, [registry, marshalCallbacks]);
+  var autoScroller = use_memo_one_esm_useMemo(function () {
+    return createAutoScroller(extends_extends({
+      scrollWindow: scrollWindow,
+      scrollDroppable: dimensionMarshal.scrollDroppable
+    }, bindActionCreators({
+      move: move
+    }, lazyDispatch)));
+  }, [dimensionMarshal.scrollDroppable, lazyDispatch]);
+  var focusMarshal = useFocusMarshal(contextId);
+  var store = use_memo_one_esm_useMemo(function () {
+    return react_beautiful_dnd_esm_createStore({
+      announce: announce,
+      autoScroller: autoScroller,
+      dimensionMarshal: dimensionMarshal,
+      focusMarshal: focusMarshal,
+      getResponders: getResponders,
+      styleMarshal: styleMarshal
+    });
+  }, [announce, autoScroller, dimensionMarshal, focusMarshal, getResponders, styleMarshal]);
+
+  if (false) {}
+
+  lazyStoreRef.current = store;
+  var tryResetStore = useCallback(function () {
+    var current = getStore(lazyStoreRef);
+    var state = current.getState();
+
+    if (state.phase !== 'IDLE') {
+      current.dispatch(flush());
+    }
+  }, []);
+  var isDragging = useCallback(function () {
+    var state = getStore(lazyStoreRef).getState();
+    return state.isDragging || state.phase === 'DROP_ANIMATING';
+  }, []);
+  var appCallbacks = use_memo_one_esm_useMemo(function () {
+    return {
+      isDragging: isDragging,
+      tryAbort: tryResetStore
+    };
+  }, [isDragging, tryResetStore]);
+  setCallbacks(appCallbacks);
+  var getCanLift = useCallback(function (id) {
+    return canStartDrag(getStore(lazyStoreRef).getState(), id);
+  }, []);
+  var getIsMovementAllowed = useCallback(function () {
+    return isMovementAllowed(getStore(lazyStoreRef).getState());
+  }, []);
+  var appContext = use_memo_one_esm_useMemo(function () {
+    return {
+      marshal: dimensionMarshal,
+      focus: focusMarshal,
+      contextId: contextId,
+      canLift: getCanLift,
+      isMovementAllowed: getIsMovementAllowed,
+      dragHandleUsageInstructionsId: dragHandleUsageInstructionsId,
+      registry: registry
+    };
+  }, [contextId, dimensionMarshal, dragHandleUsageInstructionsId, focusMarshal, getCanLift, getIsMovementAllowed, registry]);
+  useSensorMarshal({
+    contextId: contextId,
+    store: store,
+    registry: registry,
+    customSensors: sensors,
+    enableDefaultSensors: props.enableDefaultSensors !== false
+  });
+  (0,react.useEffect)(function () {
+    return tryResetStore;
+  }, [tryResetStore]);
+  return react.createElement(AppContext.Provider, {
+    value: appContext
+  }, react.createElement(es_components_Provider, {
+    context: StoreContext,
+    store: store
+  }, props.children));
+}
+
+var count$1 = 0;
+function reset$1() {
+  count$1 = 0;
+}
+function useInstanceCount() {
+  return use_memo_one_esm_useMemo(function () {
+    return "" + count$1++;
+  }, []);
+}
+
+function resetServerContext() {
+  reset$1();
+  react_beautiful_dnd_esm_reset();
+}
+function DragDropContext(props) {
+  var contextId = useInstanceCount();
+  var dragHandleUsageInstructions = props.dragHandleUsageInstructions || preset.dragHandleUsageInstructions;
+  return react.createElement(ErrorBoundary, null, function (setCallbacks) {
+    return react.createElement(App, {
+      nonce: props.nonce,
+      contextId: contextId,
+      setCallbacks: setCallbacks,
+      dragHandleUsageInstructions: dragHandleUsageInstructions,
+      enableDefaultSensors: props.enableDefaultSensors,
+      sensors: props.sensors,
+      onBeforeCapture: props.onBeforeCapture,
+      onBeforeDragStart: props.onBeforeDragStart,
+      onDragStart: props.onDragStart,
+      onDragUpdate: props.onDragUpdate,
+      onDragEnd: props.onDragEnd
+    }, props.children);
+  });
+}
+
+var isEqual$1 = function isEqual(base) {
+  return function (value) {
+    return base === value;
+  };
+};
+
+var isScroll = isEqual$1('scroll');
+var isAuto = isEqual$1('auto');
+var isVisible$1 = isEqual$1('visible');
+
+var isEither = function isEither(overflow, fn) {
+  return fn(overflow.overflowX) || fn(overflow.overflowY);
+};
+
+var isBoth = function isBoth(overflow, fn) {
+  return fn(overflow.overflowX) && fn(overflow.overflowY);
+};
+
+var isElementScrollable = function isElementScrollable(el) {
+  var style = window.getComputedStyle(el);
+  var overflow = {
+    overflowX: style.overflowX,
+    overflowY: style.overflowY
+  };
+  return isEither(overflow, isScroll) || isEither(overflow, isAuto);
+};
+
+var isBodyScrollable = function isBodyScrollable() {
+  if (true) {
+    return false;
+  }
+
+  var body = getBodyElement();
+  var html = document.documentElement;
+  !html ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+
+  if (!isElementScrollable(body)) {
+    return false;
+  }
+
+  var htmlStyle = window.getComputedStyle(html);
+  var htmlOverflow = {
+    overflowX: htmlStyle.overflowX,
+    overflowY: htmlStyle.overflowY
+  };
+
+  if (isBoth(htmlOverflow, isVisible$1)) {
+    return false;
+  }
+
+   false ? 0 : void 0;
+  return false;
+};
+
+var getClosestScrollable = function getClosestScrollable(el) {
+  if (el == null) {
+    return null;
+  }
+
+  if (el === document.body) {
+    return isBodyScrollable() ? el : null;
+  }
+
+  if (el === document.documentElement) {
+    return null;
+  }
+
+  if (!isElementScrollable(el)) {
+    return getClosestScrollable(el.parentElement);
+  }
+
+  return el;
+};
+
+var checkForNestedScrollContainers = (function (scrollable) {
+  if (!scrollable) {
+    return;
+  }
+
+  var anotherScrollParent = getClosestScrollable(scrollable.parentElement);
+
+  if (!anotherScrollParent) {
+    return;
+  }
+
+   false ? 0 : void 0;
 });
 
-/* harmony default export */ const helpers_HttpStatusCode = (HttpStatusCode);
-
-;// CONCATENATED MODULE: ./node_modules/axios/lib/axios.js
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**
- * Create an instance of Axios
- *
- * @param {Object} defaultConfig The default config for the instance
- *
- * @returns {Axios} A new instance of Axios
- */
-function createInstance(defaultConfig) {
-  const context = new core_Axios(defaultConfig);
-  const instance = bind(core_Axios.prototype.request, context);
-
-  // Copy axios.prototype to instance
-  utils.extend(instance, core_Axios.prototype, context, {allOwnKeys: true});
-
-  // Copy context to instance
-  utils.extend(instance, context, null, {allOwnKeys: true});
-
-  // Factory for creating new instances
-  instance.create = function create(instanceConfig) {
-    return createInstance(mergeConfig(defaultConfig, instanceConfig));
+var getScroll$1 = (function (el) {
+  return {
+    x: el.scrollLeft,
+    y: el.scrollTop
   };
+});
 
-  return instance;
-}
+var getIsFixed = function getIsFixed(el) {
+  if (!el) {
+    return false;
+  }
 
-// Create the default instance to be exported
-const axios = createInstance(lib_defaults);
+  var style = window.getComputedStyle(el);
 
-// Expose Axios class to allow class inheritance
-axios.Axios = core_Axios;
+  if (style.position === 'fixed') {
+    return true;
+  }
 
-// Expose Cancel & CancelToken
-axios.CanceledError = cancel_CanceledError;
-axios.CancelToken = cancel_CancelToken;
-axios.isCancel = isCancel;
-axios.VERSION = VERSION;
-axios.toFormData = helpers_toFormData;
-
-// Expose AxiosError class
-axios.AxiosError = core_AxiosError;
-
-// alias for CanceledError for backward compatibility
-axios.Cancel = axios.CanceledError;
-
-// Expose all/spread
-axios.all = function all(promises) {
-  return Promise.all(promises);
+  return getIsFixed(el.parentElement);
 };
 
-axios.spread = spread;
+var getEnv = (function (start) {
+  var closestScrollable = getClosestScrollable(start);
+  var isFixedOnPage = getIsFixed(start);
+  return {
+    closestScrollable: closestScrollable,
+    isFixedOnPage: isFixedOnPage
+  };
+});
 
-// Expose isAxiosError
-axios.isAxiosError = isAxiosError;
+var getDroppableDimension = (function (_ref) {
+  var descriptor = _ref.descriptor,
+      isEnabled = _ref.isEnabled,
+      isCombineEnabled = _ref.isCombineEnabled,
+      isFixedOnPage = _ref.isFixedOnPage,
+      direction = _ref.direction,
+      client = _ref.client,
+      page = _ref.page,
+      closest = _ref.closest;
 
-// Expose mergeConfig
-axios.mergeConfig = mergeConfig;
+  var frame = function () {
+    if (!closest) {
+      return null;
+    }
 
-axios.AxiosHeaders = core_AxiosHeaders;
-
-axios.formToJSON = thing => helpers_formDataToJSON(utils.isHTMLForm(thing) ? new FormData(thing) : thing);
-
-axios.getAdapter = adapters.getAdapter;
-
-axios.HttpStatusCode = helpers_HttpStatusCode;
-
-axios.default = axios;
-
-// this module should only have a default export
-/* harmony default export */ const lib_axios = (axios);
-
-;// CONCATENATED MODULE: ./components/hooks/useMessage.js
-
-var useMessage = function useMessage() {
-  var showMessage = function showMessage(type, message) {
-    Q(message, {
-      position: "bottom-right",
-      autoClose: 5000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: "light",
-      type: type
+    var scrollSize = closest.scrollSize,
+        frameClient = closest.client;
+    var maxScroll = getMaxScroll({
+      scrollHeight: scrollSize.scrollHeight,
+      scrollWidth: scrollSize.scrollWidth,
+      height: frameClient.paddingBox.height,
+      width: frameClient.paddingBox.width
     });
-  };
-  return showMessage;
-};
-/* harmony default export */ const hooks_useMessage = (useMessage);
-;// CONCATENATED MODULE: ./components/hooks/useSynchronise.js
-function useSynchronise_typeof(o) { "@babel/helpers - typeof"; return useSynchronise_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, useSynchronise_typeof(o); }
-function useSynchronise_regeneratorRuntime() { "use strict"; /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */ useSynchronise_regeneratorRuntime = function _regeneratorRuntime() { return e; }; var t, e = {}, r = Object.prototype, n = r.hasOwnProperty, o = Object.defineProperty || function (t, e, r) { t[e] = r.value; }, i = "function" == typeof Symbol ? Symbol : {}, a = i.iterator || "@@iterator", c = i.asyncIterator || "@@asyncIterator", u = i.toStringTag || "@@toStringTag"; function define(t, e, r) { return Object.defineProperty(t, e, { value: r, enumerable: !0, configurable: !0, writable: !0 }), t[e]; } try { define({}, ""); } catch (t) { define = function define(t, e, r) { return t[e] = r; }; } function wrap(t, e, r, n) { var i = e && e.prototype instanceof Generator ? e : Generator, a = Object.create(i.prototype), c = new Context(n || []); return o(a, "_invoke", { value: makeInvokeMethod(t, r, c) }), a; } function tryCatch(t, e, r) { try { return { type: "normal", arg: t.call(e, r) }; } catch (t) { return { type: "throw", arg: t }; } } e.wrap = wrap; var h = "suspendedStart", l = "suspendedYield", f = "executing", s = "completed", y = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} var p = {}; define(p, a, function () { return this; }); var d = Object.getPrototypeOf, v = d && d(d(values([]))); v && v !== r && n.call(v, a) && (p = v); var g = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(p); function defineIteratorMethods(t) { ["next", "throw", "return"].forEach(function (e) { define(t, e, function (t) { return this._invoke(e, t); }); }); } function AsyncIterator(t, e) { function invoke(r, o, i, a) { var c = tryCatch(t[r], t, o); if ("throw" !== c.type) { var u = c.arg, h = u.value; return h && "object" == useSynchronise_typeof(h) && n.call(h, "__await") ? e.resolve(h.__await).then(function (t) { invoke("next", t, i, a); }, function (t) { invoke("throw", t, i, a); }) : e.resolve(h).then(function (t) { u.value = t, i(u); }, function (t) { return invoke("throw", t, i, a); }); } a(c.arg); } var r; o(this, "_invoke", { value: function value(t, n) { function callInvokeWithMethodAndArg() { return new e(function (e, r) { invoke(t, n, e, r); }); } return r = r ? r.then(callInvokeWithMethodAndArg, callInvokeWithMethodAndArg) : callInvokeWithMethodAndArg(); } }); } function makeInvokeMethod(e, r, n) { var o = h; return function (i, a) { if (o === f) throw new Error("Generator is already running"); if (o === s) { if ("throw" === i) throw a; return { value: t, done: !0 }; } for (n.method = i, n.arg = a;;) { var c = n.delegate; if (c) { var u = maybeInvokeDelegate(c, n); if (u) { if (u === y) continue; return u; } } if ("next" === n.method) n.sent = n._sent = n.arg;else if ("throw" === n.method) { if (o === h) throw o = s, n.arg; n.dispatchException(n.arg); } else "return" === n.method && n.abrupt("return", n.arg); o = f; var p = tryCatch(e, r, n); if ("normal" === p.type) { if (o = n.done ? s : l, p.arg === y) continue; return { value: p.arg, done: n.done }; } "throw" === p.type && (o = s, n.method = "throw", n.arg = p.arg); } }; } function maybeInvokeDelegate(e, r) { var n = r.method, o = e.iterator[n]; if (o === t) return r.delegate = null, "throw" === n && e.iterator["return"] && (r.method = "return", r.arg = t, maybeInvokeDelegate(e, r), "throw" === r.method) || "return" !== n && (r.method = "throw", r.arg = new TypeError("The iterator does not provide a '" + n + "' method")), y; var i = tryCatch(o, e.iterator, r.arg); if ("throw" === i.type) return r.method = "throw", r.arg = i.arg, r.delegate = null, y; var a = i.arg; return a ? a.done ? (r[e.resultName] = a.value, r.next = e.nextLoc, "return" !== r.method && (r.method = "next", r.arg = t), r.delegate = null, y) : a : (r.method = "throw", r.arg = new TypeError("iterator result is not an object"), r.delegate = null, y); } function pushTryEntry(t) { var e = { tryLoc: t[0] }; 1 in t && (e.catchLoc = t[1]), 2 in t && (e.finallyLoc = t[2], e.afterLoc = t[3]), this.tryEntries.push(e); } function resetTryEntry(t) { var e = t.completion || {}; e.type = "normal", delete e.arg, t.completion = e; } function Context(t) { this.tryEntries = [{ tryLoc: "root" }], t.forEach(pushTryEntry, this), this.reset(!0); } function values(e) { if (e || "" === e) { var r = e[a]; if (r) return r.call(e); if ("function" == typeof e.next) return e; if (!isNaN(e.length)) { var o = -1, i = function next() { for (; ++o < e.length;) if (n.call(e, o)) return next.value = e[o], next.done = !1, next; return next.value = t, next.done = !0, next; }; return i.next = i; } } throw new TypeError(useSynchronise_typeof(e) + " is not iterable"); } return GeneratorFunction.prototype = GeneratorFunctionPrototype, o(g, "constructor", { value: GeneratorFunctionPrototype, configurable: !0 }), o(GeneratorFunctionPrototype, "constructor", { value: GeneratorFunction, configurable: !0 }), GeneratorFunction.displayName = define(GeneratorFunctionPrototype, u, "GeneratorFunction"), e.isGeneratorFunction = function (t) { var e = "function" == typeof t && t.constructor; return !!e && (e === GeneratorFunction || "GeneratorFunction" === (e.displayName || e.name)); }, e.mark = function (t) { return Object.setPrototypeOf ? Object.setPrototypeOf(t, GeneratorFunctionPrototype) : (t.__proto__ = GeneratorFunctionPrototype, define(t, u, "GeneratorFunction")), t.prototype = Object.create(g), t; }, e.awrap = function (t) { return { __await: t }; }, defineIteratorMethods(AsyncIterator.prototype), define(AsyncIterator.prototype, c, function () { return this; }), e.AsyncIterator = AsyncIterator, e.async = function (t, r, n, o, i) { void 0 === i && (i = Promise); var a = new AsyncIterator(wrap(t, r, n, o), i); return e.isGeneratorFunction(r) ? a : a.next().then(function (t) { return t.done ? t.value : a.next(); }); }, defineIteratorMethods(g), define(g, u, "Generator"), define(g, a, function () { return this; }), define(g, "toString", function () { return "[object Generator]"; }), e.keys = function (t) { var e = Object(t), r = []; for (var n in e) r.push(n); return r.reverse(), function next() { for (; r.length;) { var t = r.pop(); if (t in e) return next.value = t, next.done = !1, next; } return next.done = !0, next; }; }, e.values = values, Context.prototype = { constructor: Context, reset: function reset(e) { if (this.prev = 0, this.next = 0, this.sent = this._sent = t, this.done = !1, this.delegate = null, this.method = "next", this.arg = t, this.tryEntries.forEach(resetTryEntry), !e) for (var r in this) "t" === r.charAt(0) && n.call(this, r) && !isNaN(+r.slice(1)) && (this[r] = t); }, stop: function stop() { this.done = !0; var t = this.tryEntries[0].completion; if ("throw" === t.type) throw t.arg; return this.rval; }, dispatchException: function dispatchException(e) { if (this.done) throw e; var r = this; function handle(n, o) { return a.type = "throw", a.arg = e, r.next = n, o && (r.method = "next", r.arg = t), !!o; } for (var o = this.tryEntries.length - 1; o >= 0; --o) { var i = this.tryEntries[o], a = i.completion; if ("root" === i.tryLoc) return handle("end"); if (i.tryLoc <= this.prev) { var c = n.call(i, "catchLoc"), u = n.call(i, "finallyLoc"); if (c && u) { if (this.prev < i.catchLoc) return handle(i.catchLoc, !0); if (this.prev < i.finallyLoc) return handle(i.finallyLoc); } else if (c) { if (this.prev < i.catchLoc) return handle(i.catchLoc, !0); } else { if (!u) throw new Error("try statement without catch or finally"); if (this.prev < i.finallyLoc) return handle(i.finallyLoc); } } } }, abrupt: function abrupt(t, e) { for (var r = this.tryEntries.length - 1; r >= 0; --r) { var o = this.tryEntries[r]; if (o.tryLoc <= this.prev && n.call(o, "finallyLoc") && this.prev < o.finallyLoc) { var i = o; break; } } i && ("break" === t || "continue" === t) && i.tryLoc <= e && e <= i.finallyLoc && (i = null); var a = i ? i.completion : {}; return a.type = t, a.arg = e, i ? (this.method = "next", this.next = i.finallyLoc, y) : this.complete(a); }, complete: function complete(t, e) { if ("throw" === t.type) throw t.arg; return "break" === t.type || "continue" === t.type ? this.next = t.arg : "return" === t.type ? (this.rval = this.arg = t.arg, this.method = "return", this.next = "end") : "normal" === t.type && e && (this.next = e), y; }, finish: function finish(t) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var r = this.tryEntries[e]; if (r.finallyLoc === t) return this.complete(r.completion, r.afterLoc), resetTryEntry(r), y; } }, "catch": function _catch(t) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var r = this.tryEntries[e]; if (r.tryLoc === t) { var n = r.completion; if ("throw" === n.type) { var o = n.arg; resetTryEntry(r); } return o; } } throw new Error("illegal catch attempt"); }, delegateYield: function delegateYield(e, r, n) { return this.delegate = { iterator: values(e), resultName: r, nextLoc: n }, "next" === this.method && (this.arg = t), y; } }, e; }
-function useSynchronise_asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
-function useSynchronise_asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { useSynchronise_asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { useSynchronise_asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
-
-
-var useSynchronise = function useSynchronise() {
-  var synchronise = /*#__PURE__*/function () {
-    var _ref = useSynchronise_asyncToGenerator( /*#__PURE__*/useSynchronise_regeneratorRuntime().mark(function _callee(stateTasksList) {
-      var message, response, toDos, set1, set2, duplicates, deletedRecords, newRecords, _response, _response2;
-      return useSynchronise_regeneratorRuntime().wrap(function _callee$(_context) {
-        while (1) switch (_context.prev = _context.next) {
-          case 0:
-            message = hooks_useMessage();
-            message("synchronise", "Pending", "pending");
-            _context.prev = 2;
-            _context.next = 5;
-            return lib_axios.get("https://meuterertodoappserver-110f55b64ca3.herokuapp.com/");
-          case 5:
-            response = _context.sent;
-            console.log("useSynchronise response: ", response.data);
-            toDos = response.data;
-            set1 = new Set(toDos.map(function (item) {
-              return item._id;
-            }));
-            set2 = stateTasksList.toDo;
-            duplicates = set2.toDo.filter(function (item) {
-              return set1.has(item._id);
-            });
-            deletedRecords = toDos.filter(function (item) {
-              if (!set2.toDo.find(function (secondItem) {
-                return secondItem._id === item._id;
-              })) {
-                return item;
-              }
-            });
-            newRecords = set2.toDo.filter(function (item) {
-              if (!set1.has(item._id)) {
-                return item;
-              }
-            });
-            if (!(newRecords.length > 0)) {
-              _context.next = 24;
-              break;
-            }
-            _context.prev = 14;
-            _context.next = 17;
-            return lib_axios.post("https://meuterertodoappserver-110f55b64ca3.herokuapp.com/addtask", newRecords);
-          case 17:
-            message("success", "Tasks synchronised!");
-            _context.next = 24;
-            break;
-          case 20:
-            _context.prev = 20;
-            _context.t0 = _context["catch"](14);
-            console.error("Synch error: ", _context.t0);
-            message("error", "Synchronised failed!");
-          case 24:
-            _context.prev = 24;
-            _context.next = 27;
-            return lib_axios.post("https://meuterertodoappserver-110f55b64ca3.herokuapp.com/edit", duplicates);
-          case 27:
-            _response = _context.sent;
-            console.log("Odpowiedź od serwera: ", _response.data);
-            _context.next = 34;
-            break;
-          case 31:
-            _context.prev = 31;
-            _context.t1 = _context["catch"](24);
-            console.error("Błąd podczas synchronizacji: ", _context.t1);
-          case 34:
-            _context.prev = 34;
-            _context.next = 37;
-            return lib_axios.post("https://meuterertodoappserver-110f55b64ca3.herokuapp.com/delete", deletedRecords);
-          case 37:
-            _response2 = _context.sent;
-            console.log("Odpowiedź od serwera: ", _response2.data);
-            _context.next = 44;
-            break;
-          case 41:
-            _context.prev = 41;
-            _context.t2 = _context["catch"](34);
-            console.error("Błąd podczas synchronizacji: ", _context.t2);
-          case 44:
-            _context.next = 49;
-            break;
-          case 46:
-            _context.prev = 46;
-            _context.t3 = _context["catch"](2);
-            console.error(_context.t3);
-          case 49:
-          case "end":
-            return _context.stop();
+    return {
+      pageMarginBox: closest.page.marginBox,
+      frameClient: frameClient,
+      scrollSize: scrollSize,
+      shouldClipSubject: closest.shouldClipSubject,
+      scroll: {
+        initial: closest.scroll,
+        current: closest.scroll,
+        max: maxScroll,
+        diff: {
+          value: origin,
+          displacement: origin
         }
-      }, _callee, null, [[2, 46], [14, 20], [24, 31], [34, 41]]);
-    }));
-    return function synchronise(_x) {
-      return _ref.apply(this, arguments);
+      }
     };
   }();
-  return synchronise;
+
+  var axis = direction === 'vertical' ? vertical : horizontal;
+  var subject = getSubject({
+    page: page,
+    withPlaceholder: null,
+    axis: axis,
+    frame: frame
+  });
+  var dimension = {
+    descriptor: descriptor,
+    isCombineEnabled: isCombineEnabled,
+    isFixedOnPage: isFixedOnPage,
+    axis: axis,
+    isEnabled: isEnabled,
+    client: client,
+    page: page,
+    frame: frame,
+    subject: subject
+  };
+  return dimension;
+});
+
+var getClient = function getClient(targetRef, closestScrollable) {
+  var base = getBox(targetRef);
+
+  if (!closestScrollable) {
+    return base;
+  }
+
+  if (targetRef !== closestScrollable) {
+    return base;
+  }
+
+  var top = base.paddingBox.top - closestScrollable.scrollTop;
+  var left = base.paddingBox.left - closestScrollable.scrollLeft;
+  var bottom = top + closestScrollable.scrollHeight;
+  var right = left + closestScrollable.scrollWidth;
+  var paddingBox = {
+    top: top,
+    right: right,
+    bottom: bottom,
+    left: left
+  };
+  var borderBox = expand(paddingBox, base.border);
+  var client = createBox({
+    borderBox: borderBox,
+    margin: base.margin,
+    border: base.border,
+    padding: base.padding
+  });
+  return client;
 };
-/* harmony default export */ const hooks_useSynchronise = (useSynchronise);
+
+var getDimension = (function (_ref) {
+  var ref = _ref.ref,
+      descriptor = _ref.descriptor,
+      env = _ref.env,
+      windowScroll = _ref.windowScroll,
+      direction = _ref.direction,
+      isDropDisabled = _ref.isDropDisabled,
+      isCombineEnabled = _ref.isCombineEnabled,
+      shouldClipSubject = _ref.shouldClipSubject;
+  var closestScrollable = env.closestScrollable;
+  var client = getClient(ref, closestScrollable);
+  var page = withScroll(client, windowScroll);
+
+  var closest = function () {
+    if (!closestScrollable) {
+      return null;
+    }
+
+    var frameClient = getBox(closestScrollable);
+    var scrollSize = {
+      scrollHeight: closestScrollable.scrollHeight,
+      scrollWidth: closestScrollable.scrollWidth
+    };
+    return {
+      client: frameClient,
+      page: withScroll(frameClient, windowScroll),
+      scroll: getScroll$1(closestScrollable),
+      scrollSize: scrollSize,
+      shouldClipSubject: shouldClipSubject
+    };
+  }();
+
+  var dimension = getDroppableDimension({
+    descriptor: descriptor,
+    isEnabled: !isDropDisabled,
+    isCombineEnabled: isCombineEnabled,
+    isFixedOnPage: env.isFixedOnPage,
+    direction: direction,
+    client: client,
+    page: page,
+    closest: closest
+  });
+  return dimension;
+});
+
+var immediate = {
+  passive: false
+};
+var delayed = {
+  passive: true
+};
+var getListenerOptions = (function (options) {
+  return options.shouldPublishImmediately ? immediate : delayed;
+});
+
+function useRequiredContext(Context) {
+  var result = (0,react.useContext)(Context);
+  !result ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+  return result;
+}
+
+var getClosestScrollableFromDrag = function getClosestScrollableFromDrag(dragging) {
+  return dragging && dragging.env.closestScrollable || null;
+};
+
+function useDroppablePublisher(args) {
+  var whileDraggingRef = (0,react.useRef)(null);
+  var appContext = useRequiredContext(AppContext);
+  var uniqueId = useUniqueId('droppable');
+  var registry = appContext.registry,
+      marshal = appContext.marshal;
+  var previousRef = usePrevious(args);
+  var descriptor = use_memo_one_esm_useMemo(function () {
+    return {
+      id: args.droppableId,
+      type: args.type,
+      mode: args.mode
+    };
+  }, [args.droppableId, args.mode, args.type]);
+  var publishedDescriptorRef = (0,react.useRef)(descriptor);
+  var memoizedUpdateScroll = use_memo_one_esm_useMemo(function () {
+    return memoize_one_esm(function (x, y) {
+      !whileDraggingRef.current ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+      var scroll = {
+        x: x,
+        y: y
+      };
+      marshal.updateDroppableScroll(descriptor.id, scroll);
+    });
+  }, [descriptor.id, marshal]);
+  var getClosestScroll = useCallback(function () {
+    var dragging = whileDraggingRef.current;
+
+    if (!dragging || !dragging.env.closestScrollable) {
+      return origin;
+    }
+
+    return getScroll$1(dragging.env.closestScrollable);
+  }, []);
+  var updateScroll = useCallback(function () {
+    var scroll = getClosestScroll();
+    memoizedUpdateScroll(scroll.x, scroll.y);
+  }, [getClosestScroll, memoizedUpdateScroll]);
+  var scheduleScrollUpdate = use_memo_one_esm_useMemo(function () {
+    return raf_schd_esm(updateScroll);
+  }, [updateScroll]);
+  var onClosestScroll = useCallback(function () {
+    var dragging = whileDraggingRef.current;
+    var closest = getClosestScrollableFromDrag(dragging);
+    !(dragging && closest) ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    var options = dragging.scrollOptions;
+
+    if (options.shouldPublishImmediately) {
+      updateScroll();
+      return;
+    }
+
+    scheduleScrollUpdate();
+  }, [scheduleScrollUpdate, updateScroll]);
+  var getDimensionAndWatchScroll = useCallback(function (windowScroll, options) {
+    !!whileDraggingRef.current ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    var previous = previousRef.current;
+    var ref = previous.getDroppableRef();
+    !ref ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    var env = getEnv(ref);
+    var dragging = {
+      ref: ref,
+      descriptor: descriptor,
+      env: env,
+      scrollOptions: options
+    };
+    whileDraggingRef.current = dragging;
+    var dimension = getDimension({
+      ref: ref,
+      descriptor: descriptor,
+      env: env,
+      windowScroll: windowScroll,
+      direction: previous.direction,
+      isDropDisabled: previous.isDropDisabled,
+      isCombineEnabled: previous.isCombineEnabled,
+      shouldClipSubject: !previous.ignoreContainerClipping
+    });
+    var scrollable = env.closestScrollable;
+
+    if (scrollable) {
+      scrollable.setAttribute(scrollContainer.contextId, appContext.contextId);
+      scrollable.addEventListener('scroll', onClosestScroll, getListenerOptions(dragging.scrollOptions));
+
+      if (false) {}
+    }
+
+    return dimension;
+  }, [appContext.contextId, descriptor, onClosestScroll, previousRef]);
+  var getScrollWhileDragging = useCallback(function () {
+    var dragging = whileDraggingRef.current;
+    var closest = getClosestScrollableFromDrag(dragging);
+    !(dragging && closest) ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    return getScroll$1(closest);
+  }, []);
+  var dragStopped = useCallback(function () {
+    var dragging = whileDraggingRef.current;
+    !dragging ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    var closest = getClosestScrollableFromDrag(dragging);
+    whileDraggingRef.current = null;
+
+    if (!closest) {
+      return;
+    }
+
+    scheduleScrollUpdate.cancel();
+    closest.removeAttribute(scrollContainer.contextId);
+    closest.removeEventListener('scroll', onClosestScroll, getListenerOptions(dragging.scrollOptions));
+  }, [onClosestScroll, scheduleScrollUpdate]);
+  var scroll = useCallback(function (change) {
+    var dragging = whileDraggingRef.current;
+    !dragging ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    var closest = getClosestScrollableFromDrag(dragging);
+    !closest ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    closest.scrollTop += change.y;
+    closest.scrollLeft += change.x;
+  }, []);
+  var callbacks = use_memo_one_esm_useMemo(function () {
+    return {
+      getDimensionAndWatchScroll: getDimensionAndWatchScroll,
+      getScrollWhileDragging: getScrollWhileDragging,
+      dragStopped: dragStopped,
+      scroll: scroll
+    };
+  }, [dragStopped, getDimensionAndWatchScroll, getScrollWhileDragging, scroll]);
+  var entry = use_memo_one_esm_useMemo(function () {
+    return {
+      uniqueId: uniqueId,
+      descriptor: descriptor,
+      callbacks: callbacks
+    };
+  }, [callbacks, descriptor, uniqueId]);
+  react_beautiful_dnd_esm_useIsomorphicLayoutEffect(function () {
+    publishedDescriptorRef.current = entry.descriptor;
+    registry.droppable.register(entry);
+    return function () {
+      if (whileDraggingRef.current) {
+         false ? 0 : void 0;
+        dragStopped();
+      }
+
+      registry.droppable.unregister(entry);
+    };
+  }, [callbacks, descriptor, dragStopped, entry, marshal, registry.droppable]);
+  react_beautiful_dnd_esm_useIsomorphicLayoutEffect(function () {
+    if (!whileDraggingRef.current) {
+      return;
+    }
+
+    marshal.updateDroppableIsEnabled(publishedDescriptorRef.current.id, !args.isDropDisabled);
+  }, [args.isDropDisabled, marshal]);
+  react_beautiful_dnd_esm_useIsomorphicLayoutEffect(function () {
+    if (!whileDraggingRef.current) {
+      return;
+    }
+
+    marshal.updateDroppableIsCombineEnabled(publishedDescriptorRef.current.id, args.isCombineEnabled);
+  }, [args.isCombineEnabled, marshal]);
+}
+
+function noop$2() {}
+
+var empty = {
+  width: 0,
+  height: 0,
+  margin: react_beautiful_dnd_esm_noSpacing
+};
+
+var getSize = function getSize(_ref) {
+  var isAnimatingOpenOnMount = _ref.isAnimatingOpenOnMount,
+      placeholder = _ref.placeholder,
+      animate = _ref.animate;
+
+  if (isAnimatingOpenOnMount) {
+    return empty;
+  }
+
+  if (animate === 'close') {
+    return empty;
+  }
+
+  return {
+    height: placeholder.client.borderBox.height,
+    width: placeholder.client.borderBox.width,
+    margin: placeholder.client.margin
+  };
+};
+
+var getStyle = function getStyle(_ref2) {
+  var isAnimatingOpenOnMount = _ref2.isAnimatingOpenOnMount,
+      placeholder = _ref2.placeholder,
+      animate = _ref2.animate;
+  var size = getSize({
+    isAnimatingOpenOnMount: isAnimatingOpenOnMount,
+    placeholder: placeholder,
+    animate: animate
+  });
+  return {
+    display: placeholder.display,
+    boxSizing: 'border-box',
+    width: size.width,
+    height: size.height,
+    marginTop: size.margin.top,
+    marginRight: size.margin.right,
+    marginBottom: size.margin.bottom,
+    marginLeft: size.margin.left,
+    flexShrink: '0',
+    flexGrow: '0',
+    pointerEvents: 'none',
+    transition: animate !== 'none' ? transitions.placeholder : null
+  };
+};
+
+function Placeholder(props) {
+  var animateOpenTimerRef = (0,react.useRef)(null);
+  var tryClearAnimateOpenTimer = useCallback(function () {
+    if (!animateOpenTimerRef.current) {
+      return;
+    }
+
+    clearTimeout(animateOpenTimerRef.current);
+    animateOpenTimerRef.current = null;
+  }, []);
+  var animate = props.animate,
+      onTransitionEnd = props.onTransitionEnd,
+      onClose = props.onClose,
+      contextId = props.contextId;
+
+  var _useState = (0,react.useState)(props.animate === 'open'),
+      isAnimatingOpenOnMount = _useState[0],
+      setIsAnimatingOpenOnMount = _useState[1];
+
+  (0,react.useEffect)(function () {
+    if (!isAnimatingOpenOnMount) {
+      return noop$2;
+    }
+
+    if (animate !== 'open') {
+      tryClearAnimateOpenTimer();
+      setIsAnimatingOpenOnMount(false);
+      return noop$2;
+    }
+
+    if (animateOpenTimerRef.current) {
+      return noop$2;
+    }
+
+    animateOpenTimerRef.current = setTimeout(function () {
+      animateOpenTimerRef.current = null;
+      setIsAnimatingOpenOnMount(false);
+    });
+    return tryClearAnimateOpenTimer;
+  }, [animate, isAnimatingOpenOnMount, tryClearAnimateOpenTimer]);
+  var onSizeChangeEnd = useCallback(function (event) {
+    if (event.propertyName !== 'height') {
+      return;
+    }
+
+    onTransitionEnd();
+
+    if (animate === 'close') {
+      onClose();
+    }
+  }, [animate, onClose, onTransitionEnd]);
+  var style = getStyle({
+    isAnimatingOpenOnMount: isAnimatingOpenOnMount,
+    animate: props.animate,
+    placeholder: props.placeholder
+  });
+  return react.createElement(props.placeholder.tagName, {
+    style: style,
+    'data-rbd-placeholder-context-id': contextId,
+    onTransitionEnd: onSizeChangeEnd,
+    ref: props.innerRef
+  });
+}
+
+var Placeholder$1 = react.memo(Placeholder);
+
+var DroppableContext = react.createContext(null);
+
+function checkIsValidInnerRef(el) {
+  !(el && react_beautiful_dnd_esm_isHtmlElement(el)) ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+}
+
+function isBoolean(value) {
+  return typeof value === 'boolean';
+}
+
+function runChecks(args, checks) {
+  checks.forEach(function (check) {
+    return check(args);
+  });
+}
+
+var shared = [function required(_ref) {
+  var props = _ref.props;
+  !props.droppableId ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+  !(typeof props.droppableId === 'string') ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+}, function _boolean(_ref2) {
+  var props = _ref2.props;
+  !isBoolean(props.isDropDisabled) ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+  !isBoolean(props.isCombineEnabled) ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+  !isBoolean(props.ignoreContainerClipping) ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+}, function ref(_ref3) {
+  var getDroppableRef = _ref3.getDroppableRef;
+  checkIsValidInnerRef(getDroppableRef());
+}];
+var standard = [function placeholder(_ref4) {
+  var props = _ref4.props,
+      getPlaceholderRef = _ref4.getPlaceholderRef;
+
+  if (!props.placeholder) {
+    return;
+  }
+
+  var ref = getPlaceholderRef();
+
+  if (ref) {
+    return;
+  }
+
+   false ? 0 : void 0;
+}];
+var virtual = [function hasClone(_ref5) {
+  var props = _ref5.props;
+  !props.renderClone ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+}, function hasNoPlaceholder(_ref6) {
+  var getPlaceholderRef = _ref6.getPlaceholderRef;
+  !!getPlaceholderRef() ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+}];
+function useValidation(args) {
+  useDevSetupWarning(function () {
+    runChecks(args, shared);
+
+    if (args.props.mode === 'standard') {
+      runChecks(args, standard);
+    }
+
+    if (args.props.mode === 'virtual') {
+      runChecks(args, virtual);
+    }
+  });
+}
+
+var AnimateInOut = function (_React$PureComponent) {
+  _inheritsLoose(AnimateInOut, _React$PureComponent);
+
+  function AnimateInOut() {
+    var _this;
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _React$PureComponent.call.apply(_React$PureComponent, [this].concat(args)) || this;
+    _this.state = {
+      isVisible: Boolean(_this.props.on),
+      data: _this.props.on,
+      animate: _this.props.shouldAnimate && _this.props.on ? 'open' : 'none'
+    };
+
+    _this.onClose = function () {
+      if (_this.state.animate !== 'close') {
+        return;
+      }
+
+      _this.setState({
+        isVisible: false
+      });
+    };
+
+    return _this;
+  }
+
+  AnimateInOut.getDerivedStateFromProps = function getDerivedStateFromProps(props, state) {
+    if (!props.shouldAnimate) {
+      return {
+        isVisible: Boolean(props.on),
+        data: props.on,
+        animate: 'none'
+      };
+    }
+
+    if (props.on) {
+      return {
+        isVisible: true,
+        data: props.on,
+        animate: 'open'
+      };
+    }
+
+    if (state.isVisible) {
+      return {
+        isVisible: true,
+        data: state.data,
+        animate: 'close'
+      };
+    }
+
+    return {
+      isVisible: false,
+      animate: 'close',
+      data: null
+    };
+  };
+
+  var _proto = AnimateInOut.prototype;
+
+  _proto.render = function render() {
+    if (!this.state.isVisible) {
+      return null;
+    }
+
+    var provided = {
+      onClose: this.onClose,
+      data: this.state.data,
+      animate: this.state.animate
+    };
+    return this.props.children(provided);
+  };
+
+  return AnimateInOut;
+}(react.PureComponent);
+
+var zIndexOptions = {
+  dragging: 5000,
+  dropAnimating: 4500
+};
+
+var getDraggingTransition = function getDraggingTransition(shouldAnimateDragMovement, dropping) {
+  if (dropping) {
+    return transitions.drop(dropping.duration);
+  }
+
+  if (shouldAnimateDragMovement) {
+    return transitions.snap;
+  }
+
+  return transitions.fluid;
+};
+
+var getDraggingOpacity = function getDraggingOpacity(isCombining, isDropAnimating) {
+  if (!isCombining) {
+    return null;
+  }
+
+  return isDropAnimating ? combine.opacity.drop : combine.opacity.combining;
+};
+
+var getShouldDraggingAnimate = function getShouldDraggingAnimate(dragging) {
+  if (dragging.forceShouldAnimate != null) {
+    return dragging.forceShouldAnimate;
+  }
+
+  return dragging.mode === 'SNAP';
+};
+
+function getDraggingStyle(dragging) {
+  var dimension = dragging.dimension;
+  var box = dimension.client;
+  var offset = dragging.offset,
+      combineWith = dragging.combineWith,
+      dropping = dragging.dropping;
+  var isCombining = Boolean(combineWith);
+  var shouldAnimate = getShouldDraggingAnimate(dragging);
+  var isDropAnimating = Boolean(dropping);
+  var transform = isDropAnimating ? transforms.drop(offset, isCombining) : transforms.moveTo(offset);
+  var style = {
+    position: 'fixed',
+    top: box.marginBox.top,
+    left: box.marginBox.left,
+    boxSizing: 'border-box',
+    width: box.borderBox.width,
+    height: box.borderBox.height,
+    transition: getDraggingTransition(shouldAnimate, dropping),
+    transform: transform,
+    opacity: getDraggingOpacity(isCombining, isDropAnimating),
+    zIndex: isDropAnimating ? zIndexOptions.dropAnimating : zIndexOptions.dragging,
+    pointerEvents: 'none'
+  };
+  return style;
+}
+
+function getSecondaryStyle(secondary) {
+  return {
+    transform: transforms.moveTo(secondary.offset),
+    transition: secondary.shouldAnimateDisplacement ? null : 'none'
+  };
+}
+
+function getStyle$1(mapped) {
+  return mapped.type === 'DRAGGING' ? getDraggingStyle(mapped) : getSecondaryStyle(mapped);
+}
+
+function getDimension$1(descriptor, el, windowScroll) {
+  if (windowScroll === void 0) {
+    windowScroll = origin;
+  }
+
+  var computedStyles = window.getComputedStyle(el);
+  var borderBox = el.getBoundingClientRect();
+  var client = calculateBox(borderBox, computedStyles);
+  var page = withScroll(client, windowScroll);
+  var placeholder = {
+    client: client,
+    tagName: el.tagName.toLowerCase(),
+    display: computedStyles.display
+  };
+  var displaceBy = {
+    x: client.marginBox.width,
+    y: client.marginBox.height
+  };
+  var dimension = {
+    descriptor: descriptor,
+    placeholder: placeholder,
+    displaceBy: displaceBy,
+    client: client,
+    page: page
+  };
+  return dimension;
+}
+
+function useDraggablePublisher(args) {
+  var uniqueId = useUniqueId('draggable');
+  var descriptor = args.descriptor,
+      registry = args.registry,
+      getDraggableRef = args.getDraggableRef,
+      canDragInteractiveElements = args.canDragInteractiveElements,
+      shouldRespectForcePress = args.shouldRespectForcePress,
+      isEnabled = args.isEnabled;
+  var options = use_memo_one_esm_useMemo(function () {
+    return {
+      canDragInteractiveElements: canDragInteractiveElements,
+      shouldRespectForcePress: shouldRespectForcePress,
+      isEnabled: isEnabled
+    };
+  }, [canDragInteractiveElements, isEnabled, shouldRespectForcePress]);
+  var getDimension = useCallback(function (windowScroll) {
+    var el = getDraggableRef();
+    !el ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    return getDimension$1(descriptor, el, windowScroll);
+  }, [descriptor, getDraggableRef]);
+  var entry = use_memo_one_esm_useMemo(function () {
+    return {
+      uniqueId: uniqueId,
+      descriptor: descriptor,
+      options: options,
+      getDimension: getDimension
+    };
+  }, [descriptor, getDimension, options, uniqueId]);
+  var publishedRef = (0,react.useRef)(entry);
+  var isFirstPublishRef = (0,react.useRef)(true);
+  react_beautiful_dnd_esm_useIsomorphicLayoutEffect(function () {
+    registry.draggable.register(publishedRef.current);
+    return function () {
+      return registry.draggable.unregister(publishedRef.current);
+    };
+  }, [registry.draggable]);
+  react_beautiful_dnd_esm_useIsomorphicLayoutEffect(function () {
+    if (isFirstPublishRef.current) {
+      isFirstPublishRef.current = false;
+      return;
+    }
+
+    var last = publishedRef.current;
+    publishedRef.current = entry;
+    registry.draggable.update(entry, last);
+  }, [entry, registry.draggable]);
+}
+
+function useValidation$1(props, contextId, getRef) {
+  useDevSetupWarning(function () {
+    function prefix(id) {
+      return "Draggable[id: " + id + "]: ";
+    }
+
+    var id = props.draggableId;
+    !id ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    !(typeof id === 'string') ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    !isInteger(props.index) ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+
+    if (props.mapped.type === 'DRAGGING') {
+      return;
+    }
+
+    checkIsValidInnerRef(getRef());
+
+    if (props.isEnabled) {
+      !findDragHandle(contextId, id) ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    }
+  });
+}
+function useClonePropValidation(isClone) {
+  useDev(function () {
+    var initialRef = (0,react.useRef)(isClone);
+    useDevSetupWarning(function () {
+      !(isClone === initialRef.current) ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+    }, [isClone]);
+  });
+}
+
+function preventHtml5Dnd(event) {
+  event.preventDefault();
+}
+
+function Draggable(props) {
+  var ref = (0,react.useRef)(null);
+  var setRef = useCallback(function (el) {
+    ref.current = el;
+  }, []);
+  var getRef = useCallback(function () {
+    return ref.current;
+  }, []);
+
+  var _useRequiredContext = useRequiredContext(AppContext),
+      contextId = _useRequiredContext.contextId,
+      dragHandleUsageInstructionsId = _useRequiredContext.dragHandleUsageInstructionsId,
+      registry = _useRequiredContext.registry;
+
+  var _useRequiredContext2 = useRequiredContext(DroppableContext),
+      type = _useRequiredContext2.type,
+      droppableId = _useRequiredContext2.droppableId;
+
+  var descriptor = use_memo_one_esm_useMemo(function () {
+    return {
+      id: props.draggableId,
+      index: props.index,
+      type: type,
+      droppableId: droppableId
+    };
+  }, [props.draggableId, props.index, type, droppableId]);
+  var children = props.children,
+      draggableId = props.draggableId,
+      isEnabled = props.isEnabled,
+      shouldRespectForcePress = props.shouldRespectForcePress,
+      canDragInteractiveElements = props.canDragInteractiveElements,
+      isClone = props.isClone,
+      mapped = props.mapped,
+      dropAnimationFinishedAction = props.dropAnimationFinished;
+  useValidation$1(props, contextId, getRef);
+  useClonePropValidation(isClone);
+
+  if (!isClone) {
+    var forPublisher = use_memo_one_esm_useMemo(function () {
+      return {
+        descriptor: descriptor,
+        registry: registry,
+        getDraggableRef: getRef,
+        canDragInteractiveElements: canDragInteractiveElements,
+        shouldRespectForcePress: shouldRespectForcePress,
+        isEnabled: isEnabled
+      };
+    }, [descriptor, registry, getRef, canDragInteractiveElements, shouldRespectForcePress, isEnabled]);
+    useDraggablePublisher(forPublisher);
+  }
+
+  var dragHandleProps = use_memo_one_esm_useMemo(function () {
+    return isEnabled ? {
+      tabIndex: 0,
+      role: 'button',
+      'aria-describedby': dragHandleUsageInstructionsId,
+      'data-rbd-drag-handle-draggable-id': draggableId,
+      'data-rbd-drag-handle-context-id': contextId,
+      draggable: false,
+      onDragStart: preventHtml5Dnd
+    } : null;
+  }, [contextId, dragHandleUsageInstructionsId, draggableId, isEnabled]);
+  var onMoveEnd = useCallback(function (event) {
+    if (mapped.type !== 'DRAGGING') {
+      return;
+    }
+
+    if (!mapped.dropping) {
+      return;
+    }
+
+    if (event.propertyName !== 'transform') {
+      return;
+    }
+
+    dropAnimationFinishedAction();
+  }, [dropAnimationFinishedAction, mapped]);
+  var provided = use_memo_one_esm_useMemo(function () {
+    var style = getStyle$1(mapped);
+    var onTransitionEnd = mapped.type === 'DRAGGING' && mapped.dropping ? onMoveEnd : null;
+    var result = {
+      innerRef: setRef,
+      draggableProps: {
+        'data-rbd-draggable-context-id': contextId,
+        'data-rbd-draggable-id': draggableId,
+        style: style,
+        onTransitionEnd: onTransitionEnd
+      },
+      dragHandleProps: dragHandleProps
+    };
+    return result;
+  }, [contextId, dragHandleProps, draggableId, mapped, onMoveEnd, setRef]);
+  var rubric = use_memo_one_esm_useMemo(function () {
+    return {
+      draggableId: descriptor.id,
+      type: descriptor.type,
+      source: {
+        index: descriptor.index,
+        droppableId: descriptor.droppableId
+      }
+    };
+  }, [descriptor.droppableId, descriptor.id, descriptor.index, descriptor.type]);
+  return children(provided, mapped.snapshot, rubric);
+}
+
+var isStrictEqual = (function (a, b) {
+  return a === b;
+});
+
+var whatIsDraggedOverFromResult = (function (result) {
+  var combine = result.combine,
+      destination = result.destination;
+
+  if (destination) {
+    return destination.droppableId;
+  }
+
+  if (combine) {
+    return combine.droppableId;
+  }
+
+  return null;
+});
+
+var getCombineWithFromResult = function getCombineWithFromResult(result) {
+  return result.combine ? result.combine.draggableId : null;
+};
+
+var getCombineWithFromImpact = function getCombineWithFromImpact(impact) {
+  return impact.at && impact.at.type === 'COMBINE' ? impact.at.combine.draggableId : null;
+};
+
+function getDraggableSelector() {
+  var memoizedOffset = memoize_one_esm(function (x, y) {
+    return {
+      x: x,
+      y: y
+    };
+  });
+  var getMemoizedSnapshot = memoize_one_esm(function (mode, isClone, draggingOver, combineWith, dropping) {
+    return {
+      isDragging: true,
+      isClone: isClone,
+      isDropAnimating: Boolean(dropping),
+      dropAnimation: dropping,
+      mode: mode,
+      draggingOver: draggingOver,
+      combineWith: combineWith,
+      combineTargetFor: null
+    };
+  });
+  var getMemoizedProps = memoize_one_esm(function (offset, mode, dimension, isClone, draggingOver, combineWith, forceShouldAnimate) {
+    return {
+      mapped: {
+        type: 'DRAGGING',
+        dropping: null,
+        draggingOver: draggingOver,
+        combineWith: combineWith,
+        mode: mode,
+        offset: offset,
+        dimension: dimension,
+        forceShouldAnimate: forceShouldAnimate,
+        snapshot: getMemoizedSnapshot(mode, isClone, draggingOver, combineWith, null)
+      }
+    };
+  });
+
+  var selector = function selector(state, ownProps) {
+    if (state.isDragging) {
+      if (state.critical.draggable.id !== ownProps.draggableId) {
+        return null;
+      }
+
+      var offset = state.current.client.offset;
+      var dimension = state.dimensions.draggables[ownProps.draggableId];
+      var draggingOver = whatIsDraggedOver(state.impact);
+      var combineWith = getCombineWithFromImpact(state.impact);
+      var forceShouldAnimate = state.forceShouldAnimate;
+      return getMemoizedProps(memoizedOffset(offset.x, offset.y), state.movementMode, dimension, ownProps.isClone, draggingOver, combineWith, forceShouldAnimate);
+    }
+
+    if (state.phase === 'DROP_ANIMATING') {
+      var completed = state.completed;
+
+      if (completed.result.draggableId !== ownProps.draggableId) {
+        return null;
+      }
+
+      var isClone = ownProps.isClone;
+      var _dimension = state.dimensions.draggables[ownProps.draggableId];
+      var result = completed.result;
+      var mode = result.mode;
+
+      var _draggingOver = whatIsDraggedOverFromResult(result);
+
+      var _combineWith = getCombineWithFromResult(result);
+
+      var duration = state.dropDuration;
+      var dropping = {
+        duration: duration,
+        curve: curves.drop,
+        moveTo: state.newHomeClientOffset,
+        opacity: _combineWith ? combine.opacity.drop : null,
+        scale: _combineWith ? combine.scale.drop : null
+      };
+      return {
+        mapped: {
+          type: 'DRAGGING',
+          offset: state.newHomeClientOffset,
+          dimension: _dimension,
+          dropping: dropping,
+          draggingOver: _draggingOver,
+          combineWith: _combineWith,
+          mode: mode,
+          forceShouldAnimate: null,
+          snapshot: getMemoizedSnapshot(mode, isClone, _draggingOver, _combineWith, dropping)
+        }
+      };
+    }
+
+    return null;
+  };
+
+  return selector;
+}
+
+function getSecondarySnapshot(combineTargetFor) {
+  return {
+    isDragging: false,
+    isDropAnimating: false,
+    isClone: false,
+    dropAnimation: null,
+    mode: null,
+    draggingOver: null,
+    combineTargetFor: combineTargetFor,
+    combineWith: null
+  };
+}
+
+var atRest = {
+  mapped: {
+    type: 'SECONDARY',
+    offset: origin,
+    combineTargetFor: null,
+    shouldAnimateDisplacement: true,
+    snapshot: getSecondarySnapshot(null)
+  }
+};
+
+function getSecondarySelector() {
+  var memoizedOffset = memoize_one_esm(function (x, y) {
+    return {
+      x: x,
+      y: y
+    };
+  });
+  var getMemoizedSnapshot = memoize_one_esm(getSecondarySnapshot);
+  var getMemoizedProps = memoize_one_esm(function (offset, combineTargetFor, shouldAnimateDisplacement) {
+    if (combineTargetFor === void 0) {
+      combineTargetFor = null;
+    }
+
+    return {
+      mapped: {
+        type: 'SECONDARY',
+        offset: offset,
+        combineTargetFor: combineTargetFor,
+        shouldAnimateDisplacement: shouldAnimateDisplacement,
+        snapshot: getMemoizedSnapshot(combineTargetFor)
+      }
+    };
+  });
+
+  var getFallback = function getFallback(combineTargetFor) {
+    return combineTargetFor ? getMemoizedProps(origin, combineTargetFor, true) : null;
+  };
+
+  var getProps = function getProps(ownId, draggingId, impact, afterCritical) {
+    var visualDisplacement = impact.displaced.visible[ownId];
+    var isAfterCriticalInVirtualList = Boolean(afterCritical.inVirtualList && afterCritical.effected[ownId]);
+    var combine = tryGetCombine(impact);
+    var combineTargetFor = combine && combine.draggableId === ownId ? draggingId : null;
+
+    if (!visualDisplacement) {
+      if (!isAfterCriticalInVirtualList) {
+        return getFallback(combineTargetFor);
+      }
+
+      if (impact.displaced.invisible[ownId]) {
+        return null;
+      }
+
+      var change = negate(afterCritical.displacedBy.point);
+
+      var _offset = memoizedOffset(change.x, change.y);
+
+      return getMemoizedProps(_offset, combineTargetFor, true);
+    }
+
+    if (isAfterCriticalInVirtualList) {
+      return getFallback(combineTargetFor);
+    }
+
+    var displaceBy = impact.displacedBy.point;
+    var offset = memoizedOffset(displaceBy.x, displaceBy.y);
+    return getMemoizedProps(offset, combineTargetFor, visualDisplacement.shouldAnimate);
+  };
+
+  var selector = function selector(state, ownProps) {
+    if (state.isDragging) {
+      if (state.critical.draggable.id === ownProps.draggableId) {
+        return null;
+      }
+
+      return getProps(ownProps.draggableId, state.critical.draggable.id, state.impact, state.afterCritical);
+    }
+
+    if (state.phase === 'DROP_ANIMATING') {
+      var completed = state.completed;
+
+      if (completed.result.draggableId === ownProps.draggableId) {
+        return null;
+      }
+
+      return getProps(ownProps.draggableId, completed.result.draggableId, completed.impact, completed.afterCritical);
+    }
+
+    return null;
+  };
+
+  return selector;
+}
+
+var makeMapStateToProps = function makeMapStateToProps() {
+  var draggingSelector = getDraggableSelector();
+  var secondarySelector = getSecondarySelector();
+
+  var selector = function selector(state, ownProps) {
+    return draggingSelector(state, ownProps) || secondarySelector(state, ownProps) || atRest;
+  };
+
+  return selector;
+};
+var react_beautiful_dnd_esm_mapDispatchToProps = {
+  dropAnimationFinished: dropAnimationFinished
+};
+var ConnectedDraggable = connect_connect(makeMapStateToProps, react_beautiful_dnd_esm_mapDispatchToProps, null, {
+  context: StoreContext,
+  pure: true,
+  areStatePropsEqual: isStrictEqual
+})(Draggable);
+
+function PrivateDraggable(props) {
+  var droppableContext = useRequiredContext(DroppableContext);
+  var isUsingCloneFor = droppableContext.isUsingCloneFor;
+
+  if (isUsingCloneFor === props.draggableId && !props.isClone) {
+    return null;
+  }
+
+  return react.createElement(ConnectedDraggable, props);
+}
+function PublicDraggable(props) {
+  var isEnabled = typeof props.isDragDisabled === 'boolean' ? !props.isDragDisabled : true;
+  var canDragInteractiveElements = Boolean(props.disableInteractiveElementBlocking);
+  var shouldRespectForcePress = Boolean(props.shouldRespectForcePress);
+  return react.createElement(PrivateDraggable, extends_extends({}, props, {
+    isClone: false,
+    isEnabled: isEnabled,
+    canDragInteractiveElements: canDragInteractiveElements,
+    shouldRespectForcePress: shouldRespectForcePress
+  }));
+}
+
+function Droppable(props) {
+  var appContext = (0,react.useContext)(AppContext);
+  !appContext ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+  var contextId = appContext.contextId,
+      isMovementAllowed = appContext.isMovementAllowed;
+  var droppableRef = (0,react.useRef)(null);
+  var placeholderRef = (0,react.useRef)(null);
+  var children = props.children,
+      droppableId = props.droppableId,
+      type = props.type,
+      mode = props.mode,
+      direction = props.direction,
+      ignoreContainerClipping = props.ignoreContainerClipping,
+      isDropDisabled = props.isDropDisabled,
+      isCombineEnabled = props.isCombineEnabled,
+      snapshot = props.snapshot,
+      useClone = props.useClone,
+      updateViewportMaxScroll = props.updateViewportMaxScroll,
+      getContainerForClone = props.getContainerForClone;
+  var getDroppableRef = useCallback(function () {
+    return droppableRef.current;
+  }, []);
+  var setDroppableRef = useCallback(function (value) {
+    droppableRef.current = value;
+  }, []);
+  var getPlaceholderRef = useCallback(function () {
+    return placeholderRef.current;
+  }, []);
+  var setPlaceholderRef = useCallback(function (value) {
+    placeholderRef.current = value;
+  }, []);
+  useValidation({
+    props: props,
+    getDroppableRef: getDroppableRef,
+    getPlaceholderRef: getPlaceholderRef
+  });
+  var onPlaceholderTransitionEnd = useCallback(function () {
+    if (isMovementAllowed()) {
+      updateViewportMaxScroll({
+        maxScroll: getMaxWindowScroll()
+      });
+    }
+  }, [isMovementAllowed, updateViewportMaxScroll]);
+  useDroppablePublisher({
+    droppableId: droppableId,
+    type: type,
+    mode: mode,
+    direction: direction,
+    isDropDisabled: isDropDisabled,
+    isCombineEnabled: isCombineEnabled,
+    ignoreContainerClipping: ignoreContainerClipping,
+    getDroppableRef: getDroppableRef
+  });
+  var placeholder = react.createElement(AnimateInOut, {
+    on: props.placeholder,
+    shouldAnimate: props.shouldAnimatePlaceholder
+  }, function (_ref) {
+    var onClose = _ref.onClose,
+        data = _ref.data,
+        animate = _ref.animate;
+    return react.createElement(Placeholder$1, {
+      placeholder: data,
+      onClose: onClose,
+      innerRef: setPlaceholderRef,
+      animate: animate,
+      contextId: contextId,
+      onTransitionEnd: onPlaceholderTransitionEnd
+    });
+  });
+  var provided = use_memo_one_esm_useMemo(function () {
+    return {
+      innerRef: setDroppableRef,
+      placeholder: placeholder,
+      droppableProps: {
+        'data-rbd-droppable-id': droppableId,
+        'data-rbd-droppable-context-id': contextId
+      }
+    };
+  }, [contextId, droppableId, placeholder, setDroppableRef]);
+  var isUsingCloneFor = useClone ? useClone.dragging.draggableId : null;
+  var droppableContext = use_memo_one_esm_useMemo(function () {
+    return {
+      droppableId: droppableId,
+      type: type,
+      isUsingCloneFor: isUsingCloneFor
+    };
+  }, [droppableId, isUsingCloneFor, type]);
+
+  function getClone() {
+    if (!useClone) {
+      return null;
+    }
+
+    var dragging = useClone.dragging,
+        render = useClone.render;
+    var node = react.createElement(PrivateDraggable, {
+      draggableId: dragging.draggableId,
+      index: dragging.source.index,
+      isClone: true,
+      isEnabled: true,
+      shouldRespectForcePress: false,
+      canDragInteractiveElements: true
+    }, function (draggableProvided, draggableSnapshot) {
+      return render(draggableProvided, draggableSnapshot, dragging);
+    });
+    return react_dom.createPortal(node, getContainerForClone());
+  }
+
+  return react.createElement(DroppableContext.Provider, {
+    value: droppableContext
+  }, children(provided, snapshot), getClone());
+}
+
+var isMatchingType = function isMatchingType(type, critical) {
+  return type === critical.droppable.type;
+};
+
+var getDraggable = function getDraggable(critical, dimensions) {
+  return dimensions.draggables[critical.draggable.id];
+};
+
+var makeMapStateToProps$1 = function makeMapStateToProps() {
+  var idleWithAnimation = {
+    placeholder: null,
+    shouldAnimatePlaceholder: true,
+    snapshot: {
+      isDraggingOver: false,
+      draggingOverWith: null,
+      draggingFromThisWith: null,
+      isUsingPlaceholder: false
+    },
+    useClone: null
+  };
+
+  var idleWithoutAnimation = extends_extends({}, idleWithAnimation, {
+    shouldAnimatePlaceholder: false
+  });
+
+  var getDraggableRubric = memoize_one_esm(function (descriptor) {
+    return {
+      draggableId: descriptor.id,
+      type: descriptor.type,
+      source: {
+        index: descriptor.index,
+        droppableId: descriptor.droppableId
+      }
+    };
+  });
+  var getMapProps = memoize_one_esm(function (id, isEnabled, isDraggingOverForConsumer, isDraggingOverForImpact, dragging, renderClone) {
+    var draggableId = dragging.descriptor.id;
+    var isHome = dragging.descriptor.droppableId === id;
+
+    if (isHome) {
+      var useClone = renderClone ? {
+        render: renderClone,
+        dragging: getDraggableRubric(dragging.descriptor)
+      } : null;
+      var _snapshot = {
+        isDraggingOver: isDraggingOverForConsumer,
+        draggingOverWith: isDraggingOverForConsumer ? draggableId : null,
+        draggingFromThisWith: draggableId,
+        isUsingPlaceholder: true
+      };
+      return {
+        placeholder: dragging.placeholder,
+        shouldAnimatePlaceholder: false,
+        snapshot: _snapshot,
+        useClone: useClone
+      };
+    }
+
+    if (!isEnabled) {
+      return idleWithoutAnimation;
+    }
+
+    if (!isDraggingOverForImpact) {
+      return idleWithAnimation;
+    }
+
+    var snapshot = {
+      isDraggingOver: isDraggingOverForConsumer,
+      draggingOverWith: draggableId,
+      draggingFromThisWith: null,
+      isUsingPlaceholder: true
+    };
+    return {
+      placeholder: dragging.placeholder,
+      shouldAnimatePlaceholder: true,
+      snapshot: snapshot,
+      useClone: null
+    };
+  });
+
+  var selector = function selector(state, ownProps) {
+    var id = ownProps.droppableId;
+    var type = ownProps.type;
+    var isEnabled = !ownProps.isDropDisabled;
+    var renderClone = ownProps.renderClone;
+
+    if (state.isDragging) {
+      var critical = state.critical;
+
+      if (!isMatchingType(type, critical)) {
+        return idleWithoutAnimation;
+      }
+
+      var dragging = getDraggable(critical, state.dimensions);
+      var isDraggingOver = whatIsDraggedOver(state.impact) === id;
+      return getMapProps(id, isEnabled, isDraggingOver, isDraggingOver, dragging, renderClone);
+    }
+
+    if (state.phase === 'DROP_ANIMATING') {
+      var completed = state.completed;
+
+      if (!isMatchingType(type, completed.critical)) {
+        return idleWithoutAnimation;
+      }
+
+      var _dragging = getDraggable(completed.critical, state.dimensions);
+
+      return getMapProps(id, isEnabled, whatIsDraggedOverFromResult(completed.result) === id, whatIsDraggedOver(completed.impact) === id, _dragging, renderClone);
+    }
+
+    if (state.phase === 'IDLE' && state.completed && !state.shouldFlush) {
+      var _completed = state.completed;
+
+      if (!isMatchingType(type, _completed.critical)) {
+        return idleWithoutAnimation;
+      }
+
+      var wasOver = whatIsDraggedOver(_completed.impact) === id;
+      var wasCombining = Boolean(_completed.impact.at && _completed.impact.at.type === 'COMBINE');
+      var isHome = _completed.critical.droppable.id === id;
+
+      if (wasOver) {
+        return wasCombining ? idleWithAnimation : idleWithoutAnimation;
+      }
+
+      if (isHome) {
+        return idleWithAnimation;
+      }
+
+      return idleWithoutAnimation;
+    }
+
+    return idleWithoutAnimation;
+  };
+
+  return selector;
+};
+var mapDispatchToProps$1 = {
+  updateViewportMaxScroll: updateViewportMaxScroll
+};
+
+function getBody() {
+  !document.body ?  false ? 0 : react_beautiful_dnd_esm_invariant(false) : void 0;
+  return document.body;
+}
+
+var defaultProps = {
+  mode: 'standard',
+  type: 'DEFAULT',
+  direction: 'vertical',
+  isDropDisabled: false,
+  isCombineEnabled: false,
+  ignoreContainerClipping: false,
+  renderClone: null,
+  getContainerForClone: getBody
+};
+var ConnectedDroppable = connect_connect(makeMapStateToProps$1, mapDispatchToProps$1, null, {
+  context: StoreContext,
+  pure: true,
+  areStatePropsEqual: isStrictEqual
+})(Droppable);
+ConnectedDroppable.defaultProps = defaultProps;
+
+
+
 ;// CONCATENATED MODULE: ./node_modules/@floating-ui/utils/dist/floating-ui.utils.mjs
 const floating_ui_utils_sides = (/* unused pure expression or super */ null && (['top', 'right', 'bottom', 'left']));
 const alignments = (/* unused pure expression or super */ null && (['start', 'end']));
@@ -30743,7 +37627,7 @@ async function convertValueToCoords(state, options) {
  * object may be passed.
  * @see https://floating-ui.com/docs/offset
  */
-const offset = function (options) {
+const floating_ui_core_offset = function (options) {
   if (options === void 0) {
     options = 0;
   }
@@ -30770,7 +37654,7 @@ const offset = function (options) {
  * keep it in view when it will overflow the clipping boundary.
  * @see https://floating-ui.com/docs/shift
  */
-const shift = function (options) {
+const floating_ui_core_shift = function (options) {
   if (options === void 0) {
     options = {};
   }
@@ -31005,14 +37889,14 @@ function getWindow(node) {
   var _node$ownerDocument;
   return (node == null ? void 0 : (_node$ownerDocument = node.ownerDocument) == null ? void 0 : _node$ownerDocument.defaultView) || window;
 }
-function getDocumentElement(node) {
+function floating_ui_utils_dom_getDocumentElement(node) {
   var _ref;
   return (_ref = (isNode(node) ? node.ownerDocument : node.document) || window.document) == null ? void 0 : _ref.documentElement;
 }
 function isNode(value) {
   return value instanceof Node || value instanceof getWindow(value).Node;
 }
-function isElement(value) {
+function floating_ui_utils_dom_isElement(value) {
   return value instanceof Element || value instanceof getWindow(value).Element;
 }
 function isHTMLElement(value) {
@@ -31066,7 +37950,7 @@ function floating_ui_utils_dom_getComputedStyle(element) {
   return getWindow(element).getComputedStyle(element);
 }
 function getNodeScroll(element) {
-  if (isElement(element)) {
+  if (floating_ui_utils_dom_isElement(element)) {
     return {
       scrollLeft: element.scrollLeft,
       scrollTop: element.scrollTop
@@ -31089,7 +37973,7 @@ function getParentNode(node) {
   // ShadowRoot detected.
   isShadowRoot(node) && node.host ||
   // Fallback.
-  getDocumentElement(node);
+  floating_ui_utils_dom_getDocumentElement(node);
   return isShadowRoot(result) ? result.host : result;
 }
 function getNearestOverflowAncestor(node) {
@@ -31150,7 +38034,7 @@ function getCssDimensions(element) {
 }
 
 function unwrapElement(element) {
-  return !isElement(element) ? element.contextElement : element;
+  return !floating_ui_utils_dom_isElement(element) ? element.contextElement : element;
 }
 
 function getScale(element) {
@@ -31214,7 +38098,7 @@ function getBoundingClientRect(element, includeScale, isFixedStrategy, offsetPar
   let scale = createCoords(1);
   if (includeScale) {
     if (offsetParent) {
-      if (isElement(offsetParent)) {
+      if (floating_ui_utils_dom_isElement(offsetParent)) {
         scale = getScale(offsetParent);
       }
     } else {
@@ -31228,7 +38112,7 @@ function getBoundingClientRect(element, includeScale, isFixedStrategy, offsetPar
   let height = clientRect.height / scale.y;
   if (domElement) {
     const win = getWindow(domElement);
-    const offsetWin = offsetParent && isElement(offsetParent) ? getWindow(offsetParent) : offsetParent;
+    const offsetWin = offsetParent && floating_ui_utils_dom_isElement(offsetParent) ? getWindow(offsetParent) : offsetParent;
     let currentIFrame = win.frameElement;
     while (currentIFrame && offsetParent && offsetWin !== win) {
       const iframeScale = getScale(currentIFrame);
@@ -31260,7 +38144,7 @@ function convertOffsetParentRelativeRectToViewportRelativeRect(_ref) {
     strategy
   } = _ref;
   const isOffsetParentAnElement = isHTMLElement(offsetParent);
-  const documentElement = getDocumentElement(offsetParent);
+  const documentElement = floating_ui_utils_dom_getDocumentElement(offsetParent);
   if (offsetParent === documentElement) {
     return rect;
   }
@@ -31296,13 +38180,13 @@ function getClientRects(element) {
 function getWindowScrollBarX(element) {
   // If <html> has a CSS width greater than the viewport, then this will be
   // incorrect for RTL.
-  return getBoundingClientRect(getDocumentElement(element)).left + getNodeScroll(element).scrollLeft;
+  return getBoundingClientRect(floating_ui_utils_dom_getDocumentElement(element)).left + getNodeScroll(element).scrollLeft;
 }
 
 // Gets the entire size of the scrollable document area, even extending outside
 // of the `<html>` and `<body>` rect bounds if horizontally scrollable.
 function getDocumentRect(element) {
-  const html = getDocumentElement(element);
+  const html = floating_ui_utils_dom_getDocumentElement(element);
   const scroll = getNodeScroll(element);
   const body = element.ownerDocument.body;
   const width = floating_ui_utils_max(html.scrollWidth, html.clientWidth, body.scrollWidth, body.clientWidth);
@@ -31322,7 +38206,7 @@ function getDocumentRect(element) {
 
 function getViewportRect(element, strategy) {
   const win = getWindow(element);
-  const html = getDocumentElement(element);
+  const html = floating_ui_utils_dom_getDocumentElement(element);
   const visualViewport = win.visualViewport;
   let width = html.clientWidth;
   let height = html.clientHeight;
@@ -31367,8 +38251,8 @@ function getClientRectFromClippingAncestor(element, clippingAncestor, strategy) 
   if (clippingAncestor === 'viewport') {
     rect = getViewportRect(element, strategy);
   } else if (clippingAncestor === 'document') {
-    rect = getDocumentRect(getDocumentElement(element));
-  } else if (isElement(clippingAncestor)) {
+    rect = getDocumentRect(floating_ui_utils_dom_getDocumentElement(element));
+  } else if (floating_ui_utils_dom_isElement(clippingAncestor)) {
     rect = getInnerBoundingClientRect(clippingAncestor, strategy);
   } else {
     const visualOffsets = getVisualOffsets(element);
@@ -31382,7 +38266,7 @@ function getClientRectFromClippingAncestor(element, clippingAncestor, strategy) 
 }
 function hasFixedPositionAncestor(element, stopNode) {
   const parentNode = getParentNode(element);
-  if (parentNode === stopNode || !isElement(parentNode) || isLastTraversableNode(parentNode)) {
+  if (parentNode === stopNode || !floating_ui_utils_dom_isElement(parentNode) || isLastTraversableNode(parentNode)) {
     return false;
   }
   return floating_ui_utils_dom_getComputedStyle(parentNode).position === 'fixed' || hasFixedPositionAncestor(parentNode, stopNode);
@@ -31396,13 +38280,13 @@ function getClippingElementAncestors(element, cache) {
   if (cachedResult) {
     return cachedResult;
   }
-  let result = getOverflowAncestors(element, [], false).filter(el => isElement(el) && getNodeName(el) !== 'body');
+  let result = getOverflowAncestors(element, [], false).filter(el => floating_ui_utils_dom_isElement(el) && getNodeName(el) !== 'body');
   let currentContainingBlockComputedStyle = null;
   const elementIsFixed = floating_ui_utils_dom_getComputedStyle(element).position === 'fixed';
   let currentNode = elementIsFixed ? getParentNode(element) : element;
 
   // https://developer.mozilla.org/en-US/docs/Web/CSS/Containing_block#identifying_the_containing_block
-  while (isElement(currentNode) && !isLastTraversableNode(currentNode)) {
+  while (floating_ui_utils_dom_isElement(currentNode) && !isLastTraversableNode(currentNode)) {
     const computedStyle = floating_ui_utils_dom_getComputedStyle(currentNode);
     const currentNodeIsContaining = isContainingBlock(currentNode);
     if (!currentNodeIsContaining && computedStyle.position === 'fixed') {
@@ -31456,7 +38340,7 @@ function getDimensions(element) {
 
 function getRectRelativeToOffsetParent(element, offsetParent, strategy) {
   const isOffsetParentAnElement = isHTMLElement(offsetParent);
-  const documentElement = getDocumentElement(offsetParent);
+  const documentElement = floating_ui_utils_dom_getDocumentElement(offsetParent);
   const isFixed = strategy === 'fixed';
   const rect = getBoundingClientRect(element, true, isFixed, offsetParent);
   let scroll = {
@@ -31535,14 +38419,14 @@ function isRTL(element) {
 
 const platform = {
   convertOffsetParentRelativeRectToViewportRelativeRect,
-  getDocumentElement: getDocumentElement,
+  getDocumentElement: floating_ui_utils_dom_getDocumentElement,
   getClippingRect,
   getOffsetParent,
   getElementRects,
   getClientRects,
   getDimensions,
   getScale,
-  isElement: isElement,
+  isElement: floating_ui_utils_dom_isElement,
   isRTL
 };
 
@@ -31550,7 +38434,7 @@ const platform = {
 function observeMove(element, onMove) {
   let io = null;
   let timeoutId;
-  const root = getDocumentElement(element);
+  const root = floating_ui_utils_dom_getDocumentElement(element);
   function cleanup() {
     clearTimeout(timeoutId);
     io && io.disconnect();
@@ -31732,7 +38616,7 @@ var classnames = __webpack_require__(4184);
 * @copyright ReactTooltip Team
 * @license MIT
 */
-const react_tooltip_min_y="react-tooltip-core-styles",react_tooltip_min_h="react-tooltip-base-styles",react_tooltip_min_w={core:!1,base:!1};function react_tooltip_min_b({css:e,id:t=react_tooltip_min_h,type:o="base",ref:r}){var l,n;if(!e||"undefined"==typeof document||react_tooltip_min_w[o])return;if("core"===o&&"undefined"!=typeof process&&(null===(l=null===process||void 0===process?void 0:process.env)||void 0===l?void 0:l.REACT_TOOLTIP_DISABLE_CORE_STYLES))return;if("base"!==o&&"undefined"!=typeof process&&(null===(n=null===process||void 0===process?void 0:process.env)||void 0===n?void 0:n.REACT_TOOLTIP_DISABLE_BASE_STYLES))return;"core"===o&&(t=react_tooltip_min_y),r||(r={});const{insertAt:c}=r;if(document.getElementById(t))return void console.warn(`[react-tooltip] Element with id '${t}' already exists. Call \`removeStyle()\` first`);const i=document.head||document.getElementsByTagName("head")[0],s=document.createElement("style");s.id=t,s.type="text/css","top"===c&&i.firstChild?i.insertBefore(s,i.firstChild):i.appendChild(s),s.styleSheet?s.styleSheet.cssText=e:s.appendChild(document.createTextNode(e)),react_tooltip_min_w[o]=!0}function react_tooltip_min_E({type:e="base",id:t=react_tooltip_min_h}={}){if(!react_tooltip_min_w[e])return;"core"===e&&(t=react_tooltip_min_y);const o=document.getElementById(t);"style"===(null==o?void 0:o.tagName)?null==o||o.remove():console.warn(`[react-tooltip] Failed to remove 'style' element with id '${t}'. Call \`injectStyle()\` first`),react_tooltip_min_w[e]=!1}const react_tooltip_min_S=(e,t,o)=>{let r=null;return function(...l){const n=()=>{r=null,o||e.apply(this,l)};o&&!r&&(e.apply(this,l),r=setTimeout(n,t)),o||(r&&clearTimeout(r),r=setTimeout(n,t))}},react_tooltip_min_g="DEFAULT_TOOLTIP_ID",react_tooltip_min_={anchorRefs:new Set,activeAnchor:{current:null},attach:()=>{},detach:()=>{},setActiveAnchor:()=>{}},react_tooltip_min_A=(0,react.createContext)({getTooltipData:()=>react_tooltip_min_}),react_tooltip_min_T=({children:t})=>{const[n,c]=o({[react_tooltip_min_g]:new Set}),[i,s]=o({[react_tooltip_min_g]:{current:null}}),a=(e,...t)=>{c((o=>{var r;const l=null!==(r=o[e])&&void 0!==r?r:new Set;return t.forEach((e=>l.add(e))),{...o,[e]:new Set(l)}}))},u=(e,...t)=>{c((o=>{const r=o[e];return r?(t.forEach((e=>r.delete(e))),{...o}):o}))},d=r(((e=react_tooltip_min_g)=>{var t,o;return{anchorRefs:null!==(t=n[e])&&void 0!==t?t:new Set,activeAnchor:null!==(o=i[e])&&void 0!==o?o:{current:null},attach:(...t)=>a(e,...t),detach:(...t)=>u(e,...t),setActiveAnchor:t=>((e,t)=>{s((o=>{var r;return(null===(r=o[e])||void 0===r?void 0:r.current)===t.current?o:{...o,[e]:t}}))})(e,t)}}),[n,i,a,u]),p=l((()=>({getTooltipData:d})),[d]);return e.createElement(react_tooltip_min_A.Provider,{value:p},t)};function react_tooltip_min_O(e=react_tooltip_min_g){return (0,react.useContext)(react_tooltip_min_A).getTooltipData(e)}const react_tooltip_min_k=({tooltipId:t,children:o,className:r,place:l,content:n,html:s,variant:a,offset:u,wrapper:d,events:p,positionStrategy:v,delayShow:m,delayHide:y})=>{const{attach:h,detach:w}=react_tooltip_min_O(t),b=c(null);return i((()=>(h(b),()=>{w(b)})),[]),e.createElement("span",{ref:b,className:f("react-tooltip-wrapper",r),"data-tooltip-place":l,"data-tooltip-content":n,"data-tooltip-html":s,"data-tooltip-variant":a,"data-tooltip-offset":u,"data-tooltip-wrapper":d,"data-tooltip-events":p,"data-tooltip-position-strategy":v,"data-tooltip-delay-show":m,"data-tooltip-delay-hide":y},o)},react_tooltip_min_L="undefined"!=typeof window?react.useLayoutEffect:react.useEffect,react_tooltip_min_C=e=>{if(!(e instanceof HTMLElement||e instanceof SVGElement))return!1;const t=getComputedStyle(e);return["overflow","overflow-x","overflow-y"].some((e=>{const o=t.getPropertyValue(e);return"auto"===o||"scroll"===o}))},react_tooltip_min_x=e=>{if(!e)return null;let t=e.parentElement;for(;t;){if(react_tooltip_min_C(t))return t;t=t.parentElement}return document.scrollingElement||document.documentElement},react_tooltip_min_R=async({elementReference:e=null,tooltipReference:t=null,tooltipArrowReference:o=null,place:r="top",offset:l=10,strategy:n="absolute",middlewares:c=[offset(Number(l)),flip(),shift({padding:5})],border:i})=>{if(!e)return{tooltipStyles:{},tooltipArrowStyles:{},place:r};if(null===t)return{tooltipStyles:{},tooltipArrowStyles:{},place:r};const s=c;return o?(s.push(arrow({element:o,padding:5})),floating_ui_dom_computePosition(e,t,{placement:r,strategy:n,middleware:s}).then((({x:e,y:t,placement:o,middlewareData:r})=>{var l,n;const c={left:`${e}px`,top:`${t}px`,border:i},{x:s,y:a}=null!==(l=r.arrow)&&void 0!==l?l:{x:0,y:0},u=null!==(n={top:"bottom",right:"left",bottom:"top",left:"right"}[o.split("-")[0]])&&void 0!==n?n:"bottom",d=i&&{borderBottom:i,borderRight:i};let p=0;if(i){const e=`${i}`.match(/(\d+)px/);p=(null==e?void 0:e[1])?Number(e[1]):1}return{tooltipStyles:c,tooltipArrowStyles:{left:null!=s?`${s}px`:"",top:null!=a?`${a}px`:"",right:"",bottom:"",...d,[u]:`-${4+p}px`},place:o}}))):floating_ui_dom_computePosition(e,t,{placement:"bottom",strategy:n,middleware:s}).then((({x:e,y:t,placement:o})=>({tooltipStyles:{left:`${e}px`,top:`${t}px`},tooltipArrowStyles:{},place:o})))};var react_tooltip_min_N={tooltip:"core-styles-module_tooltip__3vRRp",fixed:"core-styles-module_fixed__pcSol",arrow:"core-styles-module_arrow__cvMwQ",noArrow:"core-styles-module_noArrow__xock6",clickable:"core-styles-module_clickable__ZuTTB",show:"core-styles-module_show__Nt9eE",closing:"core-styles-module_closing__sGnxF"},react_tooltip_min_$={tooltip:"styles-module_tooltip__mnnfp",arrow:"styles-module_arrow__K0L3T",dark:"styles-module_dark__xNqje",light:"styles-module_light__Z6W-X",success:"styles-module_success__A2AKt",warning:"styles-module_warning__SCK0X",error:"styles-module_error__JvumD",info:"styles-module_info__BWdHW"};const react_tooltip_min_I=({id:t,className:l,classNameArrow:n,variant:s="dark",anchorId:a,anchorSelect:u,place:d="top",offset:p=10,events:v=["hover"],openOnClick:y=!1,positionStrategy:h="absolute",middlewares:w,wrapper:b,delayShow:E=0,delayHide:g=0,float:_=!1,hidden:A=!1,noArrow:T=!1,clickable:k=!1,closeOnEsc:C=!1,closeOnScroll:I=!1,closeOnResize:j=!1,openEvents:B,closeEvents:z,globalCloseEvents:D,style:H,position:q,afterShow:M,afterHide:W,content:P,contentWrapperRef:F,isOpen:K,setIsOpen:U,activeAnchor:X,setActiveAnchor:Y,border:G,opacity:V,arrowColor:Z})=>{const J=(0,react.useRef)(null),Q=(0,react.useRef)(null),ee=(0,react.useRef)(null),te=(0,react.useRef)(null),[oe,re]=(0,react.useState)(d),[le,ne]=(0,react.useState)({}),[ce,ie]=(0,react.useState)({}),[se,ae]=(0,react.useState)(!1),[ue,de]=(0,react.useState)(!1),pe=(0,react.useRef)(!1),ve=(0,react.useRef)(null),{anchorRefs:me,setActiveAnchor:fe}=react_tooltip_min_O(t),ye=(0,react.useRef)(!1),[he,we]=(0,react.useState)([]),be=(0,react.useRef)(!1),Ee=y||v.includes("click"),Se=Ee||(null==B?void 0:B.click)||(null==B?void 0:B.dblclick)||(null==B?void 0:B.mousedown),ge=B?{...B}:{mouseenter:!0,focus:!0,click:!1,dblclick:!1,mousedown:!1};!B&&Ee&&Object.assign(ge,{mouseenter:!1,focus:!1,click:!0});const _e=z?{...z}:{mouseleave:!0,blur:!0,click:!1};!z&&Ee&&Object.assign(_e,{mouseleave:!1,blur:!1});const Ae=D?{...D}:{escape:C||!1,scroll:I||!1,resize:j||!1,clickOutsideAnchor:Se||!1};react_tooltip_min_L((()=>(be.current=!0,()=>{be.current=!1})),[]);const Te=e=>{be.current&&(e&&de(!0),setTimeout((()=>{be.current&&(null==U||U(e),void 0===K&&ae(e))}),10))};(0,react.useEffect)((()=>{if(void 0===K)return()=>null;K&&de(!0);const e=setTimeout((()=>{ae(K)}),10);return()=>{clearTimeout(e)}}),[K]),(0,react.useEffect)((()=>{se!==pe.current&&(pe.current=se,se?null==M||M():null==W||W())}),[se]);const Oe=(e=g)=>{te.current&&clearTimeout(te.current),te.current=setTimeout((()=>{ye.current||Te(!1)}),e)},ke=e=>{var t;if(!e)return;const o=null!==(t=e.currentTarget)&&void 0!==t?t:e.target;if(!(null==o?void 0:o.isConnected))return Y(null),void fe({current:null});E?(ee.current&&clearTimeout(ee.current),ee.current=setTimeout((()=>{Te(!0)}),E)):Te(!0),Y(o),fe({current:o}),te.current&&clearTimeout(te.current)},Le=()=>{k?Oe(g||100):g?Oe():Te(!1),ee.current&&clearTimeout(ee.current)},Ce=({x:e,y:t})=>{react_tooltip_min_R({place:d,offset:p,elementReference:{getBoundingClientRect:()=>({x:e,y:t,width:0,height:0,top:t,left:e,right:e,bottom:t})},tooltipReference:J.current,tooltipArrowReference:Q.current,strategy:h,middlewares:w,border:G}).then((e=>{Object.keys(e.tooltipStyles).length&&ne(e.tooltipStyles),Object.keys(e.tooltipArrowStyles).length&&ie(e.tooltipArrowStyles),re(e.place)}))},xe=e=>{if(!e)return;const t=e,o={x:t.clientX,y:t.clientY};Ce(o),ve.current=o},Re=e=>{var t;[document.querySelector(`[id='${a}']`),...he].some((t=>null==t?void 0:t.contains(e.target)))||(null===(t=J.current)||void 0===t?void 0:t.contains(e.target))||(Te(!1),ee.current&&clearTimeout(ee.current))},Ne=react_tooltip_min_S(ke,50,!0),$e=react_tooltip_min_S(Le,50,!0),Ie=(0,react.useCallback)((()=>{q?Ce(q):_?ve.current&&Ce(ve.current):(null==X?void 0:X.isConnected)&&react_tooltip_min_R({place:d,offset:p,elementReference:X,tooltipReference:J.current,tooltipArrowReference:Q.current,strategy:h,middlewares:w,border:G}).then((e=>{be.current&&(Object.keys(e.tooltipStyles).length&&ne(e.tooltipStyles),Object.keys(e.tooltipArrowStyles).length&&ie(e.tooltipArrowStyles),re(e.place))}))}),[se,X,P,H,d,p,h,q,_]);(0,react.useEffect)((()=>{var e,t;const o=new Set(me);he.forEach((e=>{o.add({current:e})}));const r=document.querySelector(`[id='${a}']`);r&&o.add({current:r});const l=()=>{Te(!1)},n=react_tooltip_min_x(X),c=react_tooltip_min_x(J.current);Ae.scroll&&(window.addEventListener("scroll",l),null==n||n.addEventListener("scroll",l),null==c||c.addEventListener("scroll",l));let i=null;Ae.resize?window.addEventListener("resize",l):X&&J.current&&(i=autoUpdate(X,J.current,Ie,{ancestorResize:!0,elementResize:!0,layoutShift:!0}));const s=e=>{"Escape"===e.key&&Te(!1)};Ae.escape&&window.addEventListener("keydown",s),Ae.clickOutsideAnchor&&window.addEventListener("click",Re);const u=[],d=e=>{se||ke(e)},p=()=>{se&&Le()},v=["mouseenter","mouseleave","focus","blur"],f=["click","dblclick","mousedown","mouseup"];Object.entries(ge).forEach((([e,t])=>{t&&(v.includes(e)?u.push({event:e,listener:Ne}):f.includes(e)&&u.push({event:e,listener:d}))})),Object.entries(_e).forEach((([e,t])=>{t&&(v.includes(e)?u.push({event:e,listener:$e}):f.includes(e)&&u.push({event:e,listener:p}))})),_&&u.push({event:"mousemove",listener:xe});const y=()=>{ye.current=!0},h=()=>{ye.current=!1,Le()};return k&&!Se&&(null===(e=J.current)||void 0===e||e.addEventListener("mouseenter",y),null===(t=J.current)||void 0===t||t.addEventListener("mouseleave",h)),u.forEach((({event:e,listener:t})=>{o.forEach((o=>{var r;null===(r=o.current)||void 0===r||r.addEventListener(e,t)}))})),()=>{var e,t;Ae.scroll&&(window.removeEventListener("scroll",l),null==n||n.removeEventListener("scroll",l),null==c||c.removeEventListener("scroll",l)),Ae.resize?window.removeEventListener("resize",l):null==i||i(),Ae.clickOutsideAnchor&&window.removeEventListener("click",Re),Ae.escape&&window.removeEventListener("keydown",s),k&&!Se&&(null===(e=J.current)||void 0===e||e.removeEventListener("mouseenter",y),null===(t=J.current)||void 0===t||t.removeEventListener("mouseleave",h)),u.forEach((({event:e,listener:t})=>{o.forEach((o=>{var r;null===(r=o.current)||void 0===r||r.removeEventListener(e,t)}))}))}}),[X,Ie,ue,me,he,B,z,D,Ee]),(0,react.useEffect)((()=>{let e=null!=u?u:"";!e&&t&&(e=`[data-tooltip-id='${t}']`);const o=new MutationObserver((o=>{const r=[],l=[];o.forEach((o=>{if("attributes"===o.type&&"data-tooltip-id"===o.attributeName){o.target.getAttribute("data-tooltip-id")===t&&r.push(o.target)}if("childList"===o.type){if(X){const t=[...o.removedNodes].filter((e=>1===e.nodeType));if(e)try{l.push(...t.filter((t=>t.matches(e)))),l.push(...t.flatMap((t=>[...t.querySelectorAll(e)])))}catch(e){}t.some((e=>{var t;return!!(null===(t=null==e?void 0:e.contains)||void 0===t?void 0:t.call(e,X))&&(de(!1),Te(!1),Y(null),ee.current&&clearTimeout(ee.current),te.current&&clearTimeout(te.current),!0)}))}if(e)try{const t=[...o.addedNodes].filter((e=>1===e.nodeType));r.push(...t.filter((t=>t.matches(e)))),r.push(...t.flatMap((t=>[...t.querySelectorAll(e)])))}catch(e){}}})),(r.length||l.length)&&we((e=>[...e.filter((e=>!l.includes(e))),...r]))}));return o.observe(document.body,{childList:!0,subtree:!0,attributes:!0,attributeFilter:["data-tooltip-id"]}),()=>{o.disconnect()}}),[t,u,X]),(0,react.useEffect)((()=>{Ie()}),[Ie]),(0,react.useEffect)((()=>{if(!(null==F?void 0:F.current))return()=>null;const e=new ResizeObserver((()=>{Ie()}));return e.observe(F.current),()=>{e.disconnect()}}),[P,null==F?void 0:F.current]),(0,react.useEffect)((()=>{var e;const t=document.querySelector(`[id='${a}']`),o=[...he,t];X&&o.includes(X)||Y(null!==(e=he[0])&&void 0!==e?e:t)}),[a,he,X]),(0,react.useEffect)((()=>()=>{ee.current&&clearTimeout(ee.current),te.current&&clearTimeout(te.current)}),[]),(0,react.useEffect)((()=>{let e=u;if(!e&&t&&(e=`[data-tooltip-id='${t}']`),e)try{const t=Array.from(document.querySelectorAll(e));we(t)}catch(e){we([])}}),[t,u]);const je=!A&&P&&se&&Object.keys(le).length>0;return ue?react.createElement(b,{id:t,role:"tooltip",className:classnames("react-tooltip",react_tooltip_min_N.tooltip,react_tooltip_min_$.tooltip,react_tooltip_min_$[s],l,`react-tooltip__place-${oe}`,react_tooltip_min_N[je?"show":"closing"],je?"react-tooltip__show":"react-tooltip__closing","fixed"===h&&react_tooltip_min_N.fixed,k&&react_tooltip_min_N.clickable),onTransitionEnd:e=>{se||"opacity"!==e.propertyName||de(!1)},style:{...H,...le,opacity:void 0!==V&&je?V:void 0},ref:J},P,react.createElement(b,{className:classnames("react-tooltip-arrow",react_tooltip_min_N.arrow,react_tooltip_min_$.arrow,n,T&&react_tooltip_min_N.noArrow),style:{...ce,background:Z?`linear-gradient(to right bottom, transparent 50%, ${Z} 50%)`:void 0},ref:Q})):null},j=({content:t})=>react.createElement("span",{dangerouslySetInnerHTML:{__html:t}}),react_tooltip_min_B=({id:t,anchorId:r,anchorSelect:l,content:n,html:s,render:a,className:u,classNameArrow:d,variant:p="dark",place:v="top",offset:m=10,wrapper:f="div",children:y=null,events:h=["hover"],openOnClick:w=!1,positionStrategy:b="absolute",middlewares:E,delayShow:S=0,delayHide:g=0,float:_=!1,hidden:A=!1,noArrow:T=!1,clickable:k=!1,closeOnEsc:L=!1,closeOnScroll:C=!1,closeOnResize:x=!1,openEvents:R,closeEvents:N,globalCloseEvents:$,style:B,position:z,isOpen:D,disableStyleInjection:H=!1,border:q,opacity:M,arrowColor:W,setIsOpen:P,afterShow:F,afterHide:K})=>{const[U,X]=(0,react.useState)(n),[Y,G]=(0,react.useState)(s),[V,Z]=(0,react.useState)(v),[J,Q]=(0,react.useState)(p),[ee,te]=(0,react.useState)(m),[oe,re]=(0,react.useState)(S),[le,ne]=(0,react.useState)(g),[ce,ie]=(0,react.useState)(_),[se,ae]=(0,react.useState)(A),[ue,de]=(0,react.useState)(f),[pe,ve]=(0,react.useState)(h),[me,fe]=(0,react.useState)(b),[ye,he]=(0,react.useState)(null),we=(0,react.useRef)(H),{anchorRefs:be,activeAnchor:Ee}=react_tooltip_min_O(t),Se=e=>null==e?void 0:e.getAttributeNames().reduce(((t,o)=>{var r;if(o.startsWith("data-tooltip-")){t[o.replace(/^data-tooltip-/,"")]=null!==(r=null==e?void 0:e.getAttribute(o))&&void 0!==r?r:null}return t}),{}),ge=e=>{const t={place:e=>{var t;Z(null!==(t=e)&&void 0!==t?t:v)},content:e=>{X(null!=e?e:n)},html:e=>{G(null!=e?e:s)},variant:e=>{var t;Q(null!==(t=e)&&void 0!==t?t:p)},offset:e=>{te(null===e?m:Number(e))},wrapper:e=>{var t;de(null!==(t=e)&&void 0!==t?t:f)},events:e=>{const t=null==e?void 0:e.split(" ");ve(null!=t?t:h)},"position-strategy":e=>{var t;fe(null!==(t=e)&&void 0!==t?t:b)},"delay-show":e=>{re(null===e?S:Number(e))},"delay-hide":e=>{ne(null===e?g:Number(e))},float:e=>{ie(null===e?_:"true"===e)},hidden:e=>{ae(null===e?A:"true"===e)}};Object.values(t).forEach((e=>e(null))),Object.entries(e).forEach((([e,o])=>{var r;null===(r=t[e])||void 0===r||r.call(t,o)}))};(0,react.useEffect)((()=>{X(n)}),[n]),(0,react.useEffect)((()=>{G(s)}),[s]),(0,react.useEffect)((()=>{Z(v)}),[v]),(0,react.useEffect)((()=>{Q(p)}),[p]),(0,react.useEffect)((()=>{te(m)}),[m]),(0,react.useEffect)((()=>{re(S)}),[S]),(0,react.useEffect)((()=>{ne(g)}),[g]),(0,react.useEffect)((()=>{ie(_)}),[_]),(0,react.useEffect)((()=>{ae(A)}),[A]),(0,react.useEffect)((()=>{fe(b)}),[b]),(0,react.useEffect)((()=>{we.current!==H&&console.warn("[react-tooltip] Do not change `disableStyleInjection` dynamically.")}),[H]),(0,react.useEffect)((()=>{"undefined"!=typeof window&&window.dispatchEvent(new CustomEvent("react-tooltip-inject-styles",{detail:{disableCore:"core"===H,disableBase:H}}))}),[]),(0,react.useEffect)((()=>{var e;const o=new Set(be);let n=l;if(!n&&t&&(n=`[data-tooltip-id='${t}']`),n)try{document.querySelectorAll(n).forEach((e=>{o.add({current:e})}))}catch(e){console.warn(`[react-tooltip] "${n}" is not a valid CSS selector`)}const c=document.querySelector(`[id='${r}']`);if(c&&o.add({current:c}),!o.size)return()=>null;const i=null!==(e=null!=ye?ye:c)&&void 0!==e?e:Ee.current,s=new MutationObserver((e=>{e.forEach((e=>{var t;if(!i||"attributes"!==e.type||!(null===(t=e.attributeName)||void 0===t?void 0:t.startsWith("data-tooltip-")))return;const o=Se(i);ge(o)}))})),a={attributes:!0,childList:!1,subtree:!1};if(i){const e=Se(i);ge(e),s.observe(i,a)}return()=>{s.disconnect()}}),[be,Ee,ye,r,l]),(0,react.useEffect)((()=>{(null==B?void 0:B.border)&&console.warn("[react-tooltip] Do not set `style.border`. Use `border` prop instead."),q&&!CSS.supports("border",`${q}`)&&console.warn(`[react-tooltip] "${q}" is not a valid \`border\`.`),(null==B?void 0:B.opacity)&&console.warn("[react-tooltip] Do not set `style.opacity`. Use `opacity` prop instead."),M&&!CSS.supports("opacity",`${M}`)&&console.warn(`[react-tooltip] "${M}" is not a valid \`opacity\`.`)}),[]);let _e=y;const Ae=(0,react.useRef)(null);if(a){const t=a({content:null!=U?U:null,activeAnchor:ye});_e=t?react.createElement("div",{ref:Ae,className:"react-tooltip-content-wrapper"},t):null}else U&&(_e=U);Y&&(_e=react.createElement(j,{content:Y}));const Te={id:t,anchorId:r,anchorSelect:l,className:u,classNameArrow:d,content:_e,contentWrapperRef:Ae,place:V,variant:J,offset:ee,wrapper:ue,events:pe,openOnClick:w,positionStrategy:me,middlewares:E,delayShow:oe,delayHide:le,float:ce,hidden:se,noArrow:T,clickable:k,closeOnEsc:L,closeOnScroll:C,closeOnResize:x,openEvents:R,closeEvents:N,globalCloseEvents:$,style:B,position:z,isOpen:D,border:q,opacity:M,arrowColor:W,setIsOpen:P,afterShow:F,afterHide:K,activeAnchor:ye,setActiveAnchor:e=>he(e)};return react.createElement(react_tooltip_min_I,{...Te})};"undefined"!=typeof window&&window.addEventListener("react-tooltip-inject-styles",(e=>{e.detail.disableCore||react_tooltip_min_b({css:`:root{--rt-color-white:#fff;--rt-color-dark:#222;--rt-color-success:#8dc572;--rt-color-error:#be6464;--rt-color-warning:#f0ad4e;--rt-color-info:#337ab7;--rt-opacity:0.9;--rt-transition-show-delay:0.15s;--rt-transition-closing-delay:0.15s}.core-styles-module_tooltip__3vRRp{position:absolute;top:0;left:0;pointer-events:none;opacity:0;will-change:opacity}.core-styles-module_fixed__pcSol{position:fixed}.core-styles-module_arrow__cvMwQ{position:absolute;background:inherit}.core-styles-module_noArrow__xock6{display:none}.core-styles-module_clickable__ZuTTB{pointer-events:auto}.core-styles-module_show__Nt9eE{opacity:var(--rt-opacity);transition:opacity var(--rt-transition-show-delay)ease-out}.core-styles-module_closing__sGnxF{opacity:0;transition:opacity var(--rt-transition-closing-delay)ease-in}`,type:"core"}),e.detail.disableBase||react_tooltip_min_b({css:`
+const react_tooltip_min_h="react-tooltip-core-styles",react_tooltip_min_w="react-tooltip-base-styles",react_tooltip_min_b={core:!1,base:!1};function react_tooltip_min_S({css:e,id:t=react_tooltip_min_w,type:o="base",ref:l}){var r,n;if(!e||"undefined"==typeof document||react_tooltip_min_b[o])return;if("core"===o&&"undefined"!=typeof process&&(null===(r=null===process||void 0===process?void 0:process.env)||void 0===r?void 0:r.REACT_TOOLTIP_DISABLE_CORE_STYLES))return;if("base"!==o&&"undefined"!=typeof process&&(null===(n=null===process||void 0===process?void 0:process.env)||void 0===n?void 0:n.REACT_TOOLTIP_DISABLE_BASE_STYLES))return;"core"===o&&(t=react_tooltip_min_h),l||(l={});const{insertAt:c}=l;if(document.getElementById(t))return void console.warn(`[react-tooltip] Element with id '${t}' already exists. Call \`removeStyle()\` first`);const i=document.head||document.getElementsByTagName("head")[0],s=document.createElement("style");s.id=t,s.type="text/css","top"===c&&i.firstChild?i.insertBefore(s,i.firstChild):i.appendChild(s),s.styleSheet?s.styleSheet.cssText=e:s.appendChild(document.createTextNode(e)),react_tooltip_min_b[o]=!0}function react_tooltip_min_E({type:e="base",id:t=react_tooltip_min_w}={}){if(!react_tooltip_min_b[e])return;"core"===e&&(t=react_tooltip_min_h);const o=document.getElementById(t);"style"===(null==o?void 0:o.tagName)?null==o||o.remove():console.warn(`[react-tooltip] Failed to remove 'style' element with id '${t}'. Call \`injectStyle()\` first`),react_tooltip_min_b[e]=!1}const react_tooltip_min_g=(e,t,o)=>{let l=null;return function(...r){const n=()=>{l=null,o||e.apply(this,r)};o&&!l&&(e.apply(this,r),l=setTimeout(n,t)),o||(l&&clearTimeout(l),l=setTimeout(n,t))}},react_tooltip_min_="DEFAULT_TOOLTIP_ID",react_tooltip_min_A={anchorRefs:new Set,activeAnchor:{current:null},attach:()=>{},detach:()=>{},setActiveAnchor:()=>{}},react_tooltip_min_O=(0,react.createContext)({getTooltipData:()=>react_tooltip_min_A}),react_tooltip_min_T=({children:t})=>{const[n,c]=o({[react_tooltip_min_]:new Set}),[i,s]=o({[react_tooltip_min_]:{current:null}}),a=(e,...t)=>{c((o=>{var l;const r=null!==(l=o[e])&&void 0!==l?l:new Set;return t.forEach((e=>r.add(e))),{...o,[e]:new Set(r)}}))},u=(e,...t)=>{c((o=>{const l=o[e];return l?(t.forEach((e=>l.delete(e))),{...o}):o}))},d=l(((e=react_tooltip_min_)=>{var t,o;return{anchorRefs:null!==(t=n[e])&&void 0!==t?t:new Set,activeAnchor:null!==(o=i[e])&&void 0!==o?o:{current:null},attach:(...t)=>a(e,...t),detach:(...t)=>u(e,...t),setActiveAnchor:t=>((e,t)=>{s((o=>{var l;return(null===(l=o[e])||void 0===l?void 0:l.current)===t.current?o:{...o,[e]:t}}))})(e,t)}}),[n,i,a,u]),p=r((()=>({getTooltipData:d})),[d]);return e.createElement(react_tooltip_min_O.Provider,{value:p},t)};function react_tooltip_min_k(e=react_tooltip_min_){return (0,react.useContext)(react_tooltip_min_O).getTooltipData(e)}const react_tooltip_min_L=({tooltipId:t,children:o,className:l,place:r,content:n,html:s,variant:a,offset:u,wrapper:d,events:p,positionStrategy:v,delayShow:m,delayHide:f})=>{const{attach:h,detach:w}=react_tooltip_min_k(t),b=c(null);return i((()=>(h(b),()=>{w(b)})),[]),e.createElement("span",{ref:b,className:y("react-tooltip-wrapper",l),"data-tooltip-place":r,"data-tooltip-content":n,"data-tooltip-html":s,"data-tooltip-variant":a,"data-tooltip-offset":u,"data-tooltip-wrapper":d,"data-tooltip-events":p,"data-tooltip-position-strategy":v,"data-tooltip-delay-show":m,"data-tooltip-delay-hide":f},o)},react_tooltip_min_C="undefined"!=typeof window?react.useLayoutEffect:react.useEffect,react_tooltip_min_R=e=>{if(!(e instanceof HTMLElement||e instanceof SVGElement))return!1;const t=getComputedStyle(e);return["overflow","overflow-x","overflow-y"].some((e=>{const o=t.getPropertyValue(e);return"auto"===o||"scroll"===o}))},react_tooltip_min_x=e=>{if(!e)return null;let t=e.parentElement;for(;t;){if(react_tooltip_min_R(t))return t;t=t.parentElement}return document.scrollingElement||document.documentElement},react_tooltip_min_N=async({elementReference:e=null,tooltipReference:t=null,tooltipArrowReference:o=null,place:l="top",offset:r=10,strategy:n="absolute",middlewares:c=[floating_ui_core_offset(Number(r)),flip(),floating_ui_core_shift({padding:5})],border:i})=>{if(!e)return{tooltipStyles:{},tooltipArrowStyles:{},place:l};if(null===t)return{tooltipStyles:{},tooltipArrowStyles:{},place:l};const s=c;return o?(s.push(arrow({element:o,padding:5})),floating_ui_dom_computePosition(e,t,{placement:l,strategy:n,middleware:s}).then((({x:e,y:t,placement:o,middlewareData:l})=>{var r,n;const c={left:`${e}px`,top:`${t}px`,border:i},{x:s,y:a}=null!==(r=l.arrow)&&void 0!==r?r:{x:0,y:0},u=null!==(n={top:"bottom",right:"left",bottom:"top",left:"right"}[o.split("-")[0]])&&void 0!==n?n:"bottom",d=i&&{borderBottom:i,borderRight:i};let p=0;if(i){const e=`${i}`.match(/(\d+)px/);p=(null==e?void 0:e[1])?Number(e[1]):1}return{tooltipStyles:c,tooltipArrowStyles:{left:null!=s?`${s}px`:"",top:null!=a?`${a}px`:"",right:"",bottom:"",...d,[u]:`-${4+p}px`},place:o}}))):floating_ui_dom_computePosition(e,t,{placement:"bottom",strategy:n,middleware:s}).then((({x:e,y:t,placement:o})=>({tooltipStyles:{left:`${e}px`,top:`${t}px`},tooltipArrowStyles:{},place:o})))};var react_tooltip_min_$={tooltip:"core-styles-module_tooltip__3vRRp",fixed:"core-styles-module_fixed__pcSol",arrow:"core-styles-module_arrow__cvMwQ",noArrow:"core-styles-module_noArrow__xock6",clickable:"core-styles-module_clickable__ZuTTB",show:"core-styles-module_show__Nt9eE",closing:"core-styles-module_closing__sGnxF"},j={tooltip:"styles-module_tooltip__mnnfp",arrow:"styles-module_arrow__K0L3T",dark:"styles-module_dark__xNqje",light:"styles-module_light__Z6W-X",success:"styles-module_success__A2AKt",warning:"styles-module_warning__SCK0X",error:"styles-module_error__JvumD",info:"styles-module_info__BWdHW"};const react_tooltip_min_I=({forwardRef:t,id:r,className:n,classNameArrow:s,variant:u="dark",anchorId:d,anchorSelect:p,place:v="top",offset:m=10,events:h=["hover"],openOnClick:w=!1,positionStrategy:b="absolute",middlewares:S,wrapper:E,delayShow:_=0,delayHide:A=0,float:O=!1,hidden:T=!1,noArrow:L=!1,clickable:R=!1,closeOnEsc:I=!1,closeOnScroll:B=!1,closeOnResize:z=!1,openEvents:D,closeEvents:q,globalCloseEvents:H,imperativeModeOnly:M,style:W,position:P,afterShow:F,afterHide:K,content:U,contentWrapperRef:X,isOpen:Y,setIsOpen:G,activeAnchor:V,setActiveAnchor:Z,border:J,opacity:Q,arrowColor:ee,role:te="tooltip"})=>{var oe;const le=(0,react.useRef)(null),re=(0,react.useRef)(null),ne=(0,react.useRef)(null),ce=(0,react.useRef)(null),[ie,se]=(0,react.useState)(v),[ae,ue]=(0,react.useState)({}),[de,pe]=(0,react.useState)({}),[ve,me]=(0,react.useState)(!1),[fe,ye]=(0,react.useState)(!1),[he,we]=(0,react.useState)(null),be=(0,react.useRef)(!1),Se=(0,react.useRef)(null),{anchorRefs:Ee,setActiveAnchor:ge}=react_tooltip_min_k(r),_e=(0,react.useRef)(!1),[Ae,Oe]=(0,react.useState)([]),Te=(0,react.useRef)(!1),ke=w||h.includes("click"),Le=ke||(null==D?void 0:D.click)||(null==D?void 0:D.dblclick)||(null==D?void 0:D.mousedown),Ce=D?{...D}:{mouseenter:!0,focus:!0,click:!1,dblclick:!1,mousedown:!1};!D&&ke&&Object.assign(Ce,{mouseenter:!1,focus:!1,click:!0});const Re=q?{...q}:{mouseleave:!0,blur:!0,click:!1,dblclick:!1,mouseup:!1};!q&&ke&&Object.assign(Re,{mouseleave:!1,blur:!1});const xe=H?{...H}:{escape:I||!1,scroll:B||!1,resize:z||!1,clickOutsideAnchor:Le||!1};M&&(Object.assign(Ce,{mouseenter:!1,focus:!1,click:!1,dblclick:!1,mousedown:!1}),Object.assign(Re,{mouseleave:!1,blur:!1,click:!1,dblclick:!1,mouseup:!1}),Object.assign(xe,{escape:!1,scroll:!1,resize:!1,clickOutsideAnchor:!1})),react_tooltip_min_C((()=>(Te.current=!0,()=>{Te.current=!1})),[]);const Ne=e=>{Te.current&&(e&&ye(!0),setTimeout((()=>{Te.current&&(null==G||G(e),void 0===Y&&me(e))}),10))};(0,react.useEffect)((()=>{if(void 0===Y)return()=>null;Y&&ye(!0);const e=setTimeout((()=>{me(Y)}),10);return()=>{clearTimeout(e)}}),[Y]),(0,react.useEffect)((()=>{ve!==be.current&&(be.current=ve,ve&&(null==F||F()))}),[ve]);const $e=(e=_)=>{ne.current&&clearTimeout(ne.current),ne.current=setTimeout((()=>{Ne(!0)}),e)},je=(e=A)=>{ce.current&&clearTimeout(ce.current),ce.current=setTimeout((()=>{_e.current||Ne(!1)}),e)},Ie=e=>{var t;if(!e)return;const o=null!==(t=e.currentTarget)&&void 0!==t?t:e.target;if(!(null==o?void 0:o.isConnected))return Z(null),void ge({current:null});_?$e():Ne(!0),Z(o),ge({current:o}),ce.current&&clearTimeout(ce.current)},Be=()=>{R?je(A||100):A?je():Ne(!1),ne.current&&clearTimeout(ne.current)},ze=({x:e,y:t})=>{var o;const l={getBoundingClientRect:()=>({x:e,y:t,width:0,height:0,top:t,left:e,right:e,bottom:t})};react_tooltip_min_N({place:null!==(o=null==he?void 0:he.place)&&void 0!==o?o:v,offset:m,elementReference:l,tooltipReference:le.current,tooltipArrowReference:re.current,strategy:b,middlewares:S,border:J}).then((e=>{Object.keys(e.tooltipStyles).length&&ue(e.tooltipStyles),Object.keys(e.tooltipArrowStyles).length&&pe(e.tooltipArrowStyles),se(e.place)}))},De=e=>{if(!e)return;const t=e,o={x:t.clientX,y:t.clientY};ze(o),Se.current=o},qe=e=>{var t;if(!ve)return;const o=e.target;if(null===(t=le.current)||void 0===t?void 0:t.contains(o))return;[document.querySelector(`[id='${d}']`),...Ae].some((e=>null==e?void 0:e.contains(o)))||(Ne(!1),ne.current&&clearTimeout(ne.current))},He=react_tooltip_min_g(Ie,50,!0),Me=react_tooltip_min_g(Be,50,!0),We=(0,react.useCallback)((()=>{var e,t;const o=null!==(e=null==he?void 0:he.position)&&void 0!==e?e:P;o?ze(o):O?Se.current&&ze(Se.current):(null==V?void 0:V.isConnected)&&react_tooltip_min_N({place:null!==(t=null==he?void 0:he.place)&&void 0!==t?t:v,offset:m,elementReference:V,tooltipReference:le.current,tooltipArrowReference:re.current,strategy:b,middlewares:S,border:J}).then((e=>{Te.current&&(Object.keys(e.tooltipStyles).length&&ue(e.tooltipStyles),Object.keys(e.tooltipArrowStyles).length&&pe(e.tooltipArrowStyles),se(e.place))}))}),[ve,V,U,W,v,null==he?void 0:he.place,m,b,P,null==he?void 0:he.position,O]);(0,react.useEffect)((()=>{var e,t;const o=new Set(Ee);Ae.forEach((e=>{o.add({current:e})}));const l=document.querySelector(`[id='${d}']`);l&&o.add({current:l});const r=()=>{Ne(!1)},n=react_tooltip_min_x(V),c=react_tooltip_min_x(le.current);xe.scroll&&(window.addEventListener("scroll",r),null==n||n.addEventListener("scroll",r),null==c||c.addEventListener("scroll",r));let i=null;xe.resize?window.addEventListener("resize",r):V&&le.current&&(i=autoUpdate(V,le.current,We,{ancestorResize:!0,elementResize:!0,layoutShift:!0}));const s=e=>{"Escape"===e.key&&Ne(!1)};xe.escape&&window.addEventListener("keydown",s),xe.clickOutsideAnchor&&window.addEventListener("click",qe);const a=[],u=e=>{ve||Ie(e)},p=()=>{ve&&Be()},v=["mouseenter","mouseleave","focus","blur"],m=["click","dblclick","mousedown","mouseup"];Object.entries(Ce).forEach((([e,t])=>{t&&(v.includes(e)?a.push({event:e,listener:He}):m.includes(e)&&a.push({event:e,listener:u}))})),Object.entries(Re).forEach((([e,t])=>{t&&(v.includes(e)?a.push({event:e,listener:Me}):m.includes(e)&&a.push({event:e,listener:p}))})),O&&a.push({event:"mousemove",listener:De});const y=()=>{_e.current=!0},h=()=>{_e.current=!1,Be()};return R&&!Le&&(null===(e=le.current)||void 0===e||e.addEventListener("mouseenter",y),null===(t=le.current)||void 0===t||t.addEventListener("mouseleave",h)),a.forEach((({event:e,listener:t})=>{o.forEach((o=>{var l;null===(l=o.current)||void 0===l||l.addEventListener(e,t)}))})),()=>{var e,t;xe.scroll&&(window.removeEventListener("scroll",r),null==n||n.removeEventListener("scroll",r),null==c||c.removeEventListener("scroll",r)),xe.resize?window.removeEventListener("resize",r):null==i||i(),xe.clickOutsideAnchor&&window.removeEventListener("click",qe),xe.escape&&window.removeEventListener("keydown",s),R&&!Le&&(null===(e=le.current)||void 0===e||e.removeEventListener("mouseenter",y),null===(t=le.current)||void 0===t||t.removeEventListener("mouseleave",h)),a.forEach((({event:e,listener:t})=>{o.forEach((o=>{var l;null===(l=o.current)||void 0===l||l.removeEventListener(e,t)}))}))}}),[V,We,fe,Ee,Ae,D,q,H,ke]),(0,react.useEffect)((()=>{var e,t;let o=null!==(t=null!==(e=null==he?void 0:he.anchorSelect)&&void 0!==e?e:p)&&void 0!==t?t:"";!o&&r&&(o=`[data-tooltip-id='${r}']`);const l=new MutationObserver((e=>{const t=[],l=[];e.forEach((e=>{if("attributes"===e.type&&"data-tooltip-id"===e.attributeName){e.target.getAttribute("data-tooltip-id")===r&&t.push(e.target)}if("childList"===e.type){if(V){const t=[...e.removedNodes].filter((e=>1===e.nodeType));if(o)try{l.push(...t.filter((e=>e.matches(o)))),l.push(...t.flatMap((e=>[...e.querySelectorAll(o)])))}catch(e){}t.some((e=>{var t;return!!(null===(t=null==e?void 0:e.contains)||void 0===t?void 0:t.call(e,V))&&(ye(!1),Ne(!1),Z(null),ne.current&&clearTimeout(ne.current),ce.current&&clearTimeout(ce.current),!0)}))}if(o)try{const l=[...e.addedNodes].filter((e=>1===e.nodeType));t.push(...l.filter((e=>e.matches(o)))),t.push(...l.flatMap((e=>[...e.querySelectorAll(o)])))}catch(e){}}})),(t.length||l.length)&&Oe((e=>[...e.filter((e=>!l.includes(e))),...t]))}));return l.observe(document.body,{childList:!0,subtree:!0,attributes:!0,attributeFilter:["data-tooltip-id"]}),()=>{l.disconnect()}}),[r,p,null==he?void 0:he.anchorSelect,V]),(0,react.useEffect)((()=>{We()}),[We]),(0,react.useEffect)((()=>{if(!(null==X?void 0:X.current))return()=>null;const e=new ResizeObserver((()=>{We()}));return e.observe(X.current),()=>{e.disconnect()}}),[U,null==X?void 0:X.current]),(0,react.useEffect)((()=>{var e;const t=document.querySelector(`[id='${d}']`),o=[...Ae,t];V&&o.includes(V)||Z(null!==(e=Ae[0])&&void 0!==e?e:t)}),[d,Ae,V]),(0,react.useEffect)((()=>()=>{ne.current&&clearTimeout(ne.current),ce.current&&clearTimeout(ce.current)}),[]),(0,react.useEffect)((()=>{var e;let t=null!==(e=null==he?void 0:he.anchorSelect)&&void 0!==e?e:p;if(!t&&r&&(t=`[data-tooltip-id='${r}']`),t)try{const e=Array.from(document.querySelectorAll(t));Oe(e)}catch(e){Oe([])}}),[r,p,null==he?void 0:he.anchorSelect]);const Pe=null!==(oe=null==he?void 0:he.content)&&void 0!==oe?oe:U,Fe=ve&&Object.keys(ae).length>0;return (0,react.useImperativeHandle)(t,(()=>({open:e=>{if(null==e?void 0:e.anchorSelect)try{document.querySelector(e.anchorSelect)}catch(t){return void console.warn(`[react-tooltip] "${e.anchorSelect}" is not a valid CSS selector`)}we(null!=e?e:null),(null==e?void 0:e.delay)?$e(e.delay):Ne(!0)},close:e=>{(null==e?void 0:e.delay)?je(e.delay):Ne(!1)},activeAnchor:V,place:ie,isOpen:Boolean(fe&&!T&&Pe&&Fe)}))),fe&&!T&&Pe?react.createElement(E,{id:r,role:te,className:classnames("react-tooltip",react_tooltip_min_$.tooltip,j.tooltip,j[u],n,`react-tooltip__place-${ie}`,react_tooltip_min_$[Fe?"show":"closing"],Fe?"react-tooltip__show":"react-tooltip__closing","fixed"===b&&react_tooltip_min_$.fixed,R&&react_tooltip_min_$.clickable),onTransitionEnd:e=>{ve||"opacity"!==e.propertyName||(ye(!1),we(null),null==K||K())},style:{...W,...ae,opacity:void 0!==Q&&Fe?Q:void 0},ref:le},Pe,react.createElement(E,{className:classnames("react-tooltip-arrow",react_tooltip_min_$.arrow,j.arrow,s,L&&react_tooltip_min_$.noArrow),style:{...de,background:ee?`linear-gradient(to right bottom, transparent 50%, ${ee} 50%)`:void 0},ref:re})):null},react_tooltip_min_B=({content:t})=>react.createElement("span",{dangerouslySetInnerHTML:{__html:t}}),react_tooltip_min_z=(e,t)=>!("CSS"in window&&"supports"in window.CSS)||window.CSS.supports(e,t),react_tooltip_min_D=react.forwardRef((({id:t,anchorId:l,anchorSelect:r,content:n,html:s,render:a,className:u,classNameArrow:d,variant:p="dark",place:v="top",offset:m=10,wrapper:f="div",children:h=null,events:w=["hover"],openOnClick:b=!1,positionStrategy:S="absolute",middlewares:E,delayShow:g=0,delayHide:_=0,float:A=!1,hidden:O=!1,noArrow:T=!1,clickable:L=!1,closeOnEsc:C=!1,closeOnScroll:R=!1,closeOnResize:x=!1,openEvents:N,closeEvents:$,globalCloseEvents:j,imperativeModeOnly:D=!1,style:q,position:H,isOpen:M,disableStyleInjection:W=!1,border:P,opacity:F,arrowColor:K,setIsOpen:U,afterShow:X,afterHide:Y,role:G="tooltip"},V)=>{const[Z,J]=(0,react.useState)(n),[Q,ee]=(0,react.useState)(s),[te,oe]=(0,react.useState)(v),[le,re]=(0,react.useState)(p),[ne,ce]=(0,react.useState)(m),[ie,se]=(0,react.useState)(g),[ae,ue]=(0,react.useState)(_),[de,pe]=(0,react.useState)(A),[ve,me]=(0,react.useState)(O),[fe,ye]=(0,react.useState)(f),[he,we]=(0,react.useState)(w),[be,Se]=(0,react.useState)(S),[Ee,ge]=(0,react.useState)(null),[_e,Ae]=(0,react.useState)(null),Oe=(0,react.useRef)(W),{anchorRefs:Te,activeAnchor:ke}=react_tooltip_min_k(t),Le=e=>null==e?void 0:e.getAttributeNames().reduce(((t,o)=>{var l;if(o.startsWith("data-tooltip-")){t[o.replace(/^data-tooltip-/,"")]=null!==(l=null==e?void 0:e.getAttribute(o))&&void 0!==l?l:null}return t}),{}),Ce=e=>{const t={place:e=>{var t;oe(null!==(t=e)&&void 0!==t?t:v)},content:e=>{J(null!=e?e:n)},html:e=>{ee(null!=e?e:s)},variant:e=>{var t;re(null!==(t=e)&&void 0!==t?t:p)},offset:e=>{ce(null===e?m:Number(e))},wrapper:e=>{var t;ye(null!==(t=e)&&void 0!==t?t:f)},events:e=>{const t=null==e?void 0:e.split(" ");we(null!=t?t:w)},"position-strategy":e=>{var t;Se(null!==(t=e)&&void 0!==t?t:S)},"delay-show":e=>{se(null===e?g:Number(e))},"delay-hide":e=>{ue(null===e?_:Number(e))},float:e=>{pe(null===e?A:"true"===e)},hidden:e=>{me(null===e?O:"true"===e)},"class-name":e=>{ge(e)}};Object.values(t).forEach((e=>e(null))),Object.entries(e).forEach((([e,o])=>{var l;null===(l=t[e])||void 0===l||l.call(t,o)}))};(0,react.useEffect)((()=>{J(n)}),[n]),(0,react.useEffect)((()=>{ee(s)}),[s]),(0,react.useEffect)((()=>{oe(v)}),[v]),(0,react.useEffect)((()=>{re(p)}),[p]),(0,react.useEffect)((()=>{ce(m)}),[m]),(0,react.useEffect)((()=>{se(g)}),[g]),(0,react.useEffect)((()=>{ue(_)}),[_]),(0,react.useEffect)((()=>{pe(A)}),[A]),(0,react.useEffect)((()=>{me(O)}),[O]),(0,react.useEffect)((()=>{Se(S)}),[S]),(0,react.useEffect)((()=>{Oe.current!==W&&console.warn("[react-tooltip] Do not change `disableStyleInjection` dynamically.")}),[W]),(0,react.useEffect)((()=>{"undefined"!=typeof window&&window.dispatchEvent(new CustomEvent("react-tooltip-inject-styles",{detail:{disableCore:"core"===W,disableBase:W}}))}),[]),(0,react.useEffect)((()=>{var e;const o=new Set(Te);let n=r;if(!n&&t&&(n=`[data-tooltip-id='${t}']`),n)try{document.querySelectorAll(n).forEach((e=>{o.add({current:e})}))}catch(e){console.warn(`[react-tooltip] "${n}" is not a valid CSS selector`)}const c=document.querySelector(`[id='${l}']`);if(c&&o.add({current:c}),!o.size)return()=>null;const i=null!==(e=null!=_e?_e:c)&&void 0!==e?e:ke.current,s=new MutationObserver((e=>{e.forEach((e=>{var t;if(!i||"attributes"!==e.type||!(null===(t=e.attributeName)||void 0===t?void 0:t.startsWith("data-tooltip-")))return;const o=Le(i);Ce(o)}))})),a={attributes:!0,childList:!1,subtree:!1};if(i){const e=Le(i);Ce(e),s.observe(i,a)}return()=>{s.disconnect()}}),[Te,ke,_e,l,r]),(0,react.useEffect)((()=>{(null==q?void 0:q.border)&&console.warn("[react-tooltip] Do not set `style.border`. Use `border` prop instead."),P&&!react_tooltip_min_z("border",`${P}`)&&console.warn(`[react-tooltip] "${P}" is not a valid \`border\`.`),(null==q?void 0:q.opacity)&&console.warn("[react-tooltip] Do not set `style.opacity`. Use `opacity` prop instead."),F&&!react_tooltip_min_z("opacity",`${F}`)&&console.warn(`[react-tooltip] "${F}" is not a valid \`opacity\`.`)}),[]);let Re=h;const xe=(0,react.useRef)(null);if(a){const t=a({content:null!=Z?Z:null,activeAnchor:_e});Re=t?react.createElement("div",{ref:xe,className:"react-tooltip-content-wrapper"},t):null}else Z&&(Re=Z);Q&&(Re=react.createElement(react_tooltip_min_B,{content:Q}));const Ne={forwardRef:V,id:t,anchorId:l,anchorSelect:r,className:classnames(u,Ee),classNameArrow:d,content:Re,contentWrapperRef:xe,place:te,variant:le,offset:ne,wrapper:fe,events:he,openOnClick:b,positionStrategy:be,middlewares:E,delayShow:ie,delayHide:ae,float:de,hidden:ve,noArrow:T,clickable:L,closeOnEsc:C,closeOnScroll:R,closeOnResize:x,openEvents:N,closeEvents:$,globalCloseEvents:j,imperativeModeOnly:D,style:q,position:H,isOpen:M,border:P,opacity:F,arrowColor:K,setIsOpen:U,afterShow:X,afterHide:Y,activeAnchor:_e,setActiveAnchor:e=>Ae(e),role:G};return react.createElement(react_tooltip_min_I,{...Ne})}));"undefined"!=typeof window&&window.addEventListener("react-tooltip-inject-styles",(e=>{e.detail.disableCore||react_tooltip_min_S({css:`:root{--rt-color-white:#fff;--rt-color-dark:#222;--rt-color-success:#8dc572;--rt-color-error:#be6464;--rt-color-warning:#f0ad4e;--rt-color-info:#337ab7;--rt-opacity:0.9;--rt-transition-show-delay:0.15s;--rt-transition-closing-delay:0.15s}.core-styles-module_tooltip__3vRRp{position:absolute;top:0;left:0;pointer-events:none;opacity:0;will-change:opacity}.core-styles-module_fixed__pcSol{position:fixed}.core-styles-module_arrow__cvMwQ{position:absolute;background:inherit}.core-styles-module_noArrow__xock6{display:none}.core-styles-module_clickable__ZuTTB{pointer-events:auto}.core-styles-module_show__Nt9eE{opacity:var(--rt-opacity);transition:opacity var(--rt-transition-show-delay)ease-out}.core-styles-module_closing__sGnxF{opacity:0;transition:opacity var(--rt-transition-closing-delay)ease-in}`,type:"core"}),e.detail.disableBase||react_tooltip_min_S({css:`
 .styles-module_tooltip__mnnfp{padding:8px 16px;border-radius:3px;font-size:90%;width:max-content}.styles-module_arrow__K0L3T{width:8px;height:8px}[class*='react-tooltip__place-top']>.styles-module_arrow__K0L3T{transform:rotate(45deg)}[class*='react-tooltip__place-right']>.styles-module_arrow__K0L3T{transform:rotate(135deg)}[class*='react-tooltip__place-bottom']>.styles-module_arrow__K0L3T{transform:rotate(225deg)}[class*='react-tooltip__place-left']>.styles-module_arrow__K0L3T{transform:rotate(315deg)}.styles-module_dark__xNqje{background:var(--rt-color-dark);color:var(--rt-color-white)}.styles-module_light__Z6W-X{background-color:var(--rt-color-white);color:var(--rt-color-dark)}.styles-module_success__A2AKt{background-color:var(--rt-color-success);color:var(--rt-color-white)}.styles-module_warning__SCK0X{background-color:var(--rt-color-warning);color:var(--rt-color-white)}.styles-module_error__JvumD{background-color:var(--rt-color-error);color:var(--rt-color-white)}.styles-module_info__BWdHW{background-color:var(--rt-color-info);color:var(--rt-color-white)}`,type:"base"})}));
 
 // EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./node_modules/@fortawesome/fontawesome-free/css/all.css
@@ -31766,6 +38650,25 @@ var all_update = injectStylesIntoStyleTag_default()(css_all/* default */.Z, all_
 
        /* harmony default export */ const fontawesome_free_css_all = (css_all/* default */.Z && css_all/* default */.Z.locals ? css_all/* default */.Z.locals : undefined);
 
+;// CONCATENATED MODULE: ./components/hooks/useMessage.js
+
+var useMessage = function useMessage() {
+  var showMessage = function showMessage(type, message) {
+    Q(message, {
+      position: "bottom-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      type: type
+    });
+  };
+  return showMessage;
+};
+/* harmony default export */ const hooks_useMessage = (useMessage);
 // EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./components/styles/Task.scss
 var Task = __webpack_require__(2038);
 ;// CONCATENATED MODULE: ./components/styles/Task.scss
@@ -31945,7 +38848,7 @@ var Task_Task = function Task(_ref) {
     onClick: handleDeleteOnClick,
     "data-toggle": "tooltip",
     title: "delete",
-    overlay: /*#__PURE__*/react.createElement(react_tooltip_min_B, {
+    overlay: /*#__PURE__*/react.createElement(react_tooltip_min_D, {
       id: "tooltip-disabled"
     }, "Tooltip!")
   }, /*#__PURE__*/react.createElement("i", {
@@ -31956,18 +38859,3598 @@ var Task_Task = function Task(_ref) {
     className: "small mb-0"
   }, /*#__PURE__*/react.createElement("i", {
     className: "fas fa-info-circle me-2"
-  }), "28th Jun 2023")))), /*#__PURE__*/react.createElement(react_tooltip_min_B, {
+  }), "28th Jun 2023")))), /*#__PURE__*/react.createElement(react_tooltip_min_D, {
     className: "tooltipClass",
     anchorSelect: ".editTooltip",
     place: "top",
     disableStyleInjection: "core"
-  }, "Edit"), /*#__PURE__*/react.createElement(react_tooltip_min_B, {
+  }, "Edit"), /*#__PURE__*/react.createElement(react_tooltip_min_D, {
     className: "tooltipClass",
     anchorSelect: ".deleteTooltip",
     place: "top"
   }, "Delete"));
 };
 /* harmony default export */ const components_Task = (Task_Task);
+;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/bind.js
+
+
+function bind(fn, thisArg) {
+  return function wrap() {
+    return fn.apply(thisArg, arguments);
+  };
+}
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/utils.js
+
+
+
+
+// utils is a library of generic helper functions non-specific to axios
+
+const {toString: utils_toString} = Object.prototype;
+const {getPrototypeOf} = Object;
+
+const utils_kindOf = (cache => thing => {
+    const str = utils_toString.call(thing);
+    return cache[str] || (cache[str] = str.slice(8, -1).toLowerCase());
+})(Object.create(null));
+
+const kindOfTest = (type) => {
+  type = type.toLowerCase();
+  return (thing) => utils_kindOf(thing) === type
+}
+
+const typeOfTest = type => thing => typeof thing === type;
+
+/**
+ * Determine if a value is an Array
+ *
+ * @param {Object} val The value to test
+ *
+ * @returns {boolean} True if value is an Array, otherwise false
+ */
+const {isArray} = Array;
+
+/**
+ * Determine if a value is undefined
+ *
+ * @param {*} val The value to test
+ *
+ * @returns {boolean} True if the value is undefined, otherwise false
+ */
+const isUndefined = typeOfTest('undefined');
+
+/**
+ * Determine if a value is a Buffer
+ *
+ * @param {*} val The value to test
+ *
+ * @returns {boolean} True if value is a Buffer, otherwise false
+ */
+function isBuffer(val) {
+  return val !== null && !isUndefined(val) && val.constructor !== null && !isUndefined(val.constructor)
+    && isFunction(val.constructor.isBuffer) && val.constructor.isBuffer(val);
+}
+
+/**
+ * Determine if a value is an ArrayBuffer
+ *
+ * @param {*} val The value to test
+ *
+ * @returns {boolean} True if value is an ArrayBuffer, otherwise false
+ */
+const isArrayBuffer = kindOfTest('ArrayBuffer');
+
+
+/**
+ * Determine if a value is a view on an ArrayBuffer
+ *
+ * @param {*} val The value to test
+ *
+ * @returns {boolean} True if value is a view on an ArrayBuffer, otherwise false
+ */
+function isArrayBufferView(val) {
+  let result;
+  if ((typeof ArrayBuffer !== 'undefined') && (ArrayBuffer.isView)) {
+    result = ArrayBuffer.isView(val);
+  } else {
+    result = (val) && (val.buffer) && (isArrayBuffer(val.buffer));
+  }
+  return result;
+}
+
+/**
+ * Determine if a value is a String
+ *
+ * @param {*} val The value to test
+ *
+ * @returns {boolean} True if value is a String, otherwise false
+ */
+const isString = typeOfTest('string');
+
+/**
+ * Determine if a value is a Function
+ *
+ * @param {*} val The value to test
+ * @returns {boolean} True if value is a Function, otherwise false
+ */
+const isFunction = typeOfTest('function');
+
+/**
+ * Determine if a value is a Number
+ *
+ * @param {*} val The value to test
+ *
+ * @returns {boolean} True if value is a Number, otherwise false
+ */
+const isNumber = typeOfTest('number');
+
+/**
+ * Determine if a value is an Object
+ *
+ * @param {*} thing The value to test
+ *
+ * @returns {boolean} True if value is an Object, otherwise false
+ */
+const isObject = (thing) => thing !== null && typeof thing === 'object';
+
+/**
+ * Determine if a value is a Boolean
+ *
+ * @param {*} thing The value to test
+ * @returns {boolean} True if value is a Boolean, otherwise false
+ */
+const utils_isBoolean = thing => thing === true || thing === false;
+
+/**
+ * Determine if a value is a plain Object
+ *
+ * @param {*} val The value to test
+ *
+ * @returns {boolean} True if value is a plain Object, otherwise false
+ */
+const utils_isPlainObject = (val) => {
+  if (utils_kindOf(val) !== 'object') {
+    return false;
+  }
+
+  const prototype = getPrototypeOf(val);
+  return (prototype === null || prototype === Object.prototype || Object.getPrototypeOf(prototype) === null) && !(Symbol.toStringTag in val) && !(Symbol.iterator in val);
+}
+
+/**
+ * Determine if a value is a Date
+ *
+ * @param {*} val The value to test
+ *
+ * @returns {boolean} True if value is a Date, otherwise false
+ */
+const utils_isDate = kindOfTest('Date');
+
+/**
+ * Determine if a value is a File
+ *
+ * @param {*} val The value to test
+ *
+ * @returns {boolean} True if value is a File, otherwise false
+ */
+const isFile = kindOfTest('File');
+
+/**
+ * Determine if a value is a Blob
+ *
+ * @param {*} val The value to test
+ *
+ * @returns {boolean} True if value is a Blob, otherwise false
+ */
+const isBlob = kindOfTest('Blob');
+
+/**
+ * Determine if a value is a FileList
+ *
+ * @param {*} val The value to test
+ *
+ * @returns {boolean} True if value is a File, otherwise false
+ */
+const isFileList = kindOfTest('FileList');
+
+/**
+ * Determine if a value is a Stream
+ *
+ * @param {*} val The value to test
+ *
+ * @returns {boolean} True if value is a Stream, otherwise false
+ */
+const isStream = (val) => isObject(val) && isFunction(val.pipe);
+
+/**
+ * Determine if a value is a FormData
+ *
+ * @param {*} thing The value to test
+ *
+ * @returns {boolean} True if value is an FormData, otherwise false
+ */
+const isFormData = (thing) => {
+  let kind;
+  return thing && (
+    (typeof FormData === 'function' && thing instanceof FormData) || (
+      isFunction(thing.append) && (
+        (kind = utils_kindOf(thing)) === 'formdata' ||
+        // detect form-data instance
+        (kind === 'object' && isFunction(thing.toString) && thing.toString() === '[object FormData]')
+      )
+    )
+  )
+}
+
+/**
+ * Determine if a value is a URLSearchParams object
+ *
+ * @param {*} val The value to test
+ *
+ * @returns {boolean} True if value is a URLSearchParams object, otherwise false
+ */
+const isURLSearchParams = kindOfTest('URLSearchParams');
+
+/**
+ * Trim excess whitespace off the beginning and end of a string
+ *
+ * @param {String} str The String to trim
+ *
+ * @returns {String} The String freed of excess whitespace
+ */
+const trim = (str) => str.trim ?
+  str.trim() : str.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g, '');
+
+/**
+ * Iterate over an Array or an Object invoking a function for each item.
+ *
+ * If `obj` is an Array callback will be called passing
+ * the value, index, and complete array for each item.
+ *
+ * If 'obj' is an Object callback will be called passing
+ * the value, key, and complete object for each property.
+ *
+ * @param {Object|Array} obj The object to iterate
+ * @param {Function} fn The callback to invoke for each item
+ *
+ * @param {Boolean} [allOwnKeys = false]
+ * @returns {any}
+ */
+function forEach(obj, fn, {allOwnKeys = false} = {}) {
+  // Don't bother if no value provided
+  if (obj === null || typeof obj === 'undefined') {
+    return;
+  }
+
+  let i;
+  let l;
+
+  // Force an array if not already something iterable
+  if (typeof obj !== 'object') {
+    /*eslint no-param-reassign:0*/
+    obj = [obj];
+  }
+
+  if (isArray(obj)) {
+    // Iterate over array values
+    for (i = 0, l = obj.length; i < l; i++) {
+      fn.call(null, obj[i], i, obj);
+    }
+  } else {
+    // Iterate over object keys
+    const keys = allOwnKeys ? Object.getOwnPropertyNames(obj) : Object.keys(obj);
+    const len = keys.length;
+    let key;
+
+    for (i = 0; i < len; i++) {
+      key = keys[i];
+      fn.call(null, obj[key], key, obj);
+    }
+  }
+}
+
+function findKey(obj, key) {
+  key = key.toLowerCase();
+  const keys = Object.keys(obj);
+  let i = keys.length;
+  let _key;
+  while (i-- > 0) {
+    _key = keys[i];
+    if (key === _key.toLowerCase()) {
+      return _key;
+    }
+  }
+  return null;
+}
+
+const _global = (() => {
+  /*eslint no-undef:0*/
+  if (typeof globalThis !== "undefined") return globalThis;
+  return typeof self !== "undefined" ? self : (typeof window !== 'undefined' ? window : global)
+})();
+
+const isContextDefined = (context) => !isUndefined(context) && context !== _global;
+
+/**
+ * Accepts varargs expecting each argument to be an object, then
+ * immutably merges the properties of each object and returns result.
+ *
+ * When multiple objects contain the same key the later object in
+ * the arguments list will take precedence.
+ *
+ * Example:
+ *
+ * ```js
+ * var result = merge({foo: 123}, {foo: 456});
+ * console.log(result.foo); // outputs 456
+ * ```
+ *
+ * @param {Object} obj1 Object to merge
+ *
+ * @returns {Object} Result of all merge properties
+ */
+function merge(/* obj1, obj2, obj3, ... */) {
+  const {caseless} = isContextDefined(this) && this || {};
+  const result = {};
+  const assignValue = (val, key) => {
+    const targetKey = caseless && findKey(result, key) || key;
+    if (utils_isPlainObject(result[targetKey]) && utils_isPlainObject(val)) {
+      result[targetKey] = merge(result[targetKey], val);
+    } else if (utils_isPlainObject(val)) {
+      result[targetKey] = merge({}, val);
+    } else if (isArray(val)) {
+      result[targetKey] = val.slice();
+    } else {
+      result[targetKey] = val;
+    }
+  }
+
+  for (let i = 0, l = arguments.length; i < l; i++) {
+    arguments[i] && forEach(arguments[i], assignValue);
+  }
+  return result;
+}
+
+/**
+ * Extends object a by mutably adding to it the properties of object b.
+ *
+ * @param {Object} a The object to be extended
+ * @param {Object} b The object to copy properties from
+ * @param {Object} thisArg The object to bind function to
+ *
+ * @param {Boolean} [allOwnKeys]
+ * @returns {Object} The resulting value of object a
+ */
+const extend = (a, b, thisArg, {allOwnKeys}= {}) => {
+  forEach(b, (val, key) => {
+    if (thisArg && isFunction(val)) {
+      a[key] = bind(val, thisArg);
+    } else {
+      a[key] = val;
+    }
+  }, {allOwnKeys});
+  return a;
+}
+
+/**
+ * Remove byte order marker. This catches EF BB BF (the UTF-8 BOM)
+ *
+ * @param {string} content with BOM
+ *
+ * @returns {string} content value without BOM
+ */
+const stripBOM = (content) => {
+  if (content.charCodeAt(0) === 0xFEFF) {
+    content = content.slice(1);
+  }
+  return content;
+}
+
+/**
+ * Inherit the prototype methods from one constructor into another
+ * @param {function} constructor
+ * @param {function} superConstructor
+ * @param {object} [props]
+ * @param {object} [descriptors]
+ *
+ * @returns {void}
+ */
+const inherits = (constructor, superConstructor, props, descriptors) => {
+  constructor.prototype = Object.create(superConstructor.prototype, descriptors);
+  constructor.prototype.constructor = constructor;
+  Object.defineProperty(constructor, 'super', {
+    value: superConstructor.prototype
+  });
+  props && Object.assign(constructor.prototype, props);
+}
+
+/**
+ * Resolve object with deep prototype chain to a flat object
+ * @param {Object} sourceObj source object
+ * @param {Object} [destObj]
+ * @param {Function|Boolean} [filter]
+ * @param {Function} [propFilter]
+ *
+ * @returns {Object}
+ */
+const toFlatObject = (sourceObj, destObj, filter, propFilter) => {
+  let props;
+  let i;
+  let prop;
+  const merged = {};
+
+  destObj = destObj || {};
+  // eslint-disable-next-line no-eq-null,eqeqeq
+  if (sourceObj == null) return destObj;
+
+  do {
+    props = Object.getOwnPropertyNames(sourceObj);
+    i = props.length;
+    while (i-- > 0) {
+      prop = props[i];
+      if ((!propFilter || propFilter(prop, sourceObj, destObj)) && !merged[prop]) {
+        destObj[prop] = sourceObj[prop];
+        merged[prop] = true;
+      }
+    }
+    sourceObj = filter !== false && getPrototypeOf(sourceObj);
+  } while (sourceObj && (!filter || filter(sourceObj, destObj)) && sourceObj !== Object.prototype);
+
+  return destObj;
+}
+
+/**
+ * Determines whether a string ends with the characters of a specified string
+ *
+ * @param {String} str
+ * @param {String} searchString
+ * @param {Number} [position= 0]
+ *
+ * @returns {boolean}
+ */
+const endsWith = (str, searchString, position) => {
+  str = String(str);
+  if (position === undefined || position > str.length) {
+    position = str.length;
+  }
+  position -= searchString.length;
+  const lastIndex = str.indexOf(searchString, position);
+  return lastIndex !== -1 && lastIndex === position;
+}
+
+
+/**
+ * Returns new array from array like object or null if failed
+ *
+ * @param {*} [thing]
+ *
+ * @returns {?Array}
+ */
+const utils_toArray = (thing) => {
+  if (!thing) return null;
+  if (isArray(thing)) return thing;
+  let i = thing.length;
+  if (!isNumber(i)) return null;
+  const arr = new Array(i);
+  while (i-- > 0) {
+    arr[i] = thing[i];
+  }
+  return arr;
+}
+
+/**
+ * Checking if the Uint8Array exists and if it does, it returns a function that checks if the
+ * thing passed in is an instance of Uint8Array
+ *
+ * @param {TypedArray}
+ *
+ * @returns {Array}
+ */
+// eslint-disable-next-line func-names
+const isTypedArray = (TypedArray => {
+  // eslint-disable-next-line func-names
+  return thing => {
+    return TypedArray && thing instanceof TypedArray;
+  };
+})(typeof Uint8Array !== 'undefined' && getPrototypeOf(Uint8Array));
+
+/**
+ * For each entry in the object, call the function with the key and value.
+ *
+ * @param {Object<any, any>} obj - The object to iterate over.
+ * @param {Function} fn - The function to call for each entry.
+ *
+ * @returns {void}
+ */
+const forEachEntry = (obj, fn) => {
+  const generator = obj && obj[Symbol.iterator];
+
+  const iterator = generator.call(obj);
+
+  let result;
+
+  while ((result = iterator.next()) && !result.done) {
+    const pair = result.value;
+    fn.call(obj, pair[0], pair[1]);
+  }
+}
+
+/**
+ * It takes a regular expression and a string, and returns an array of all the matches
+ *
+ * @param {string} regExp - The regular expression to match against.
+ * @param {string} str - The string to search.
+ *
+ * @returns {Array<boolean>}
+ */
+const matchAll = (regExp, str) => {
+  let matches;
+  const arr = [];
+
+  while ((matches = regExp.exec(str)) !== null) {
+    arr.push(matches);
+  }
+
+  return arr;
+}
+
+/* Checking if the kindOfTest function returns true when passed an HTMLFormElement. */
+const isHTMLForm = kindOfTest('HTMLFormElement');
+
+const toCamelCase = str => {
+  return str.toLowerCase().replace(/[-_\s]([a-z\d])(\w*)/g,
+    function replacer(m, p1, p2) {
+      return p1.toUpperCase() + p2;
+    }
+  );
+};
+
+/* Creating a function that will check if an object has a property. */
+const utils_hasOwnProperty = (({hasOwnProperty}) => (obj, prop) => hasOwnProperty.call(obj, prop))(Object.prototype);
+
+/**
+ * Determine if a value is a RegExp object
+ *
+ * @param {*} val The value to test
+ *
+ * @returns {boolean} True if value is a RegExp object, otherwise false
+ */
+const isRegExp = kindOfTest('RegExp');
+
+const reduceDescriptors = (obj, reducer) => {
+  const descriptors = Object.getOwnPropertyDescriptors(obj);
+  const reducedDescriptors = {};
+
+  forEach(descriptors, (descriptor, name) => {
+    let ret;
+    if ((ret = reducer(descriptor, name, obj)) !== false) {
+      reducedDescriptors[name] = ret || descriptor;
+    }
+  });
+
+  Object.defineProperties(obj, reducedDescriptors);
+}
+
+/**
+ * Makes all methods read-only
+ * @param {Object} obj
+ */
+
+const freezeMethods = (obj) => {
+  reduceDescriptors(obj, (descriptor, name) => {
+    // skip restricted props in strict mode
+    if (isFunction(obj) && ['arguments', 'caller', 'callee'].indexOf(name) !== -1) {
+      return false;
+    }
+
+    const value = obj[name];
+
+    if (!isFunction(value)) return;
+
+    descriptor.enumerable = false;
+
+    if ('writable' in descriptor) {
+      descriptor.writable = false;
+      return;
+    }
+
+    if (!descriptor.set) {
+      descriptor.set = () => {
+        throw Error('Can not rewrite read-only method \'' + name + '\'');
+      };
+    }
+  });
+}
+
+const toObjectSet = (arrayOrString, delimiter) => {
+  const obj = {};
+
+  const define = (arr) => {
+    arr.forEach(value => {
+      obj[value] = true;
+    });
+  }
+
+  isArray(arrayOrString) ? define(arrayOrString) : define(String(arrayOrString).split(delimiter));
+
+  return obj;
+}
+
+const utils_noop = () => {}
+
+const toFiniteNumber = (value, defaultValue) => {
+  value = +value;
+  return Number.isFinite(value) ? value : defaultValue;
+}
+
+const ALPHA = 'abcdefghijklmnopqrstuvwxyz'
+
+const DIGIT = '0123456789';
+
+const ALPHABET = {
+  DIGIT,
+  ALPHA,
+  ALPHA_DIGIT: ALPHA + ALPHA.toUpperCase() + DIGIT
+}
+
+const generateString = (size = 16, alphabet = ALPHABET.ALPHA_DIGIT) => {
+  let str = '';
+  const {length} = alphabet;
+  while (size--) {
+    str += alphabet[Math.random() * length|0]
+  }
+
+  return str;
+}
+
+/**
+ * If the thing is a FormData object, return true, otherwise return false.
+ *
+ * @param {unknown} thing - The thing to check.
+ *
+ * @returns {boolean}
+ */
+function isSpecCompliantForm(thing) {
+  return !!(thing && isFunction(thing.append) && thing[Symbol.toStringTag] === 'FormData' && thing[Symbol.iterator]);
+}
+
+const toJSONObject = (obj) => {
+  const stack = new Array(10);
+
+  const visit = (source, i) => {
+
+    if (isObject(source)) {
+      if (stack.indexOf(source) >= 0) {
+        return;
+      }
+
+      if(!('toJSON' in source)) {
+        stack[i] = source;
+        const target = isArray(source) ? [] : {};
+
+        forEach(source, (value, key) => {
+          const reducedValue = visit(value, i + 1);
+          !isUndefined(reducedValue) && (target[key] = reducedValue);
+        });
+
+        stack[i] = undefined;
+
+        return target;
+      }
+    }
+
+    return source;
+  }
+
+  return visit(obj, 0);
+}
+
+const isAsyncFn = kindOfTest('AsyncFunction');
+
+const isThenable = (thing) =>
+  thing && (isObject(thing) || isFunction(thing)) && isFunction(thing.then) && isFunction(thing.catch);
+
+/* harmony default export */ const utils = ({
+  isArray,
+  isArrayBuffer,
+  isBuffer,
+  isFormData,
+  isArrayBufferView,
+  isString,
+  isNumber,
+  isBoolean: utils_isBoolean,
+  isObject,
+  isPlainObject: utils_isPlainObject,
+  isUndefined,
+  isDate: utils_isDate,
+  isFile,
+  isBlob,
+  isRegExp,
+  isFunction,
+  isStream,
+  isURLSearchParams,
+  isTypedArray,
+  isFileList,
+  forEach,
+  merge,
+  extend,
+  trim,
+  stripBOM,
+  inherits,
+  toFlatObject,
+  kindOf: utils_kindOf,
+  kindOfTest,
+  endsWith,
+  toArray: utils_toArray,
+  forEachEntry,
+  matchAll,
+  isHTMLForm,
+  hasOwnProperty: utils_hasOwnProperty,
+  hasOwnProp: utils_hasOwnProperty, // an alias to avoid ESLint no-prototype-builtins detection
+  reduceDescriptors,
+  freezeMethods,
+  toObjectSet,
+  toCamelCase,
+  noop: utils_noop,
+  toFiniteNumber,
+  findKey,
+  global: _global,
+  isContextDefined,
+  ALPHABET,
+  generateString,
+  isSpecCompliantForm,
+  toJSONObject,
+  isAsyncFn,
+  isThenable
+});
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/core/AxiosError.js
+
+
+
+
+/**
+ * Create an Error with the specified message, config, error code, request and response.
+ *
+ * @param {string} message The error message.
+ * @param {string} [code] The error code (for example, 'ECONNABORTED').
+ * @param {Object} [config] The config.
+ * @param {Object} [request] The request.
+ * @param {Object} [response] The response.
+ *
+ * @returns {Error} The created error.
+ */
+function AxiosError(message, code, config, request, response) {
+  Error.call(this);
+
+  if (Error.captureStackTrace) {
+    Error.captureStackTrace(this, this.constructor);
+  } else {
+    this.stack = (new Error()).stack;
+  }
+
+  this.message = message;
+  this.name = 'AxiosError';
+  code && (this.code = code);
+  config && (this.config = config);
+  request && (this.request = request);
+  response && (this.response = response);
+}
+
+utils.inherits(AxiosError, Error, {
+  toJSON: function toJSON() {
+    return {
+      // Standard
+      message: this.message,
+      name: this.name,
+      // Microsoft
+      description: this.description,
+      number: this.number,
+      // Mozilla
+      fileName: this.fileName,
+      lineNumber: this.lineNumber,
+      columnNumber: this.columnNumber,
+      stack: this.stack,
+      // Axios
+      config: utils.toJSONObject(this.config),
+      code: this.code,
+      status: this.response && this.response.status ? this.response.status : null
+    };
+  }
+});
+
+const AxiosError_prototype = AxiosError.prototype;
+const descriptors = {};
+
+[
+  'ERR_BAD_OPTION_VALUE',
+  'ERR_BAD_OPTION',
+  'ECONNABORTED',
+  'ETIMEDOUT',
+  'ERR_NETWORK',
+  'ERR_FR_TOO_MANY_REDIRECTS',
+  'ERR_DEPRECATED',
+  'ERR_BAD_RESPONSE',
+  'ERR_BAD_REQUEST',
+  'ERR_CANCELED',
+  'ERR_NOT_SUPPORT',
+  'ERR_INVALID_URL'
+// eslint-disable-next-line func-names
+].forEach(code => {
+  descriptors[code] = {value: code};
+});
+
+Object.defineProperties(AxiosError, descriptors);
+Object.defineProperty(AxiosError_prototype, 'isAxiosError', {value: true});
+
+// eslint-disable-next-line func-names
+AxiosError.from = (error, code, config, request, response, customProps) => {
+  const axiosError = Object.create(AxiosError_prototype);
+
+  utils.toFlatObject(error, axiosError, function filter(obj) {
+    return obj !== Error.prototype;
+  }, prop => {
+    return prop !== 'isAxiosError';
+  });
+
+  AxiosError.call(axiosError, error.message, code, config, request, response);
+
+  axiosError.cause = error;
+
+  axiosError.name = error.name;
+
+  customProps && Object.assign(axiosError, customProps);
+
+  return axiosError;
+};
+
+/* harmony default export */ const core_AxiosError = (AxiosError);
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/null.js
+// eslint-disable-next-line strict
+/* harmony default export */ const helpers_null = (null);
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/toFormData.js
+
+
+
+
+// temporary hotfix to avoid circular references until AxiosURLSearchParams is refactored
+
+
+/**
+ * Determines if the given thing is a array or js object.
+ *
+ * @param {string} thing - The object or array to be visited.
+ *
+ * @returns {boolean}
+ */
+function isVisitable(thing) {
+  return utils.isPlainObject(thing) || utils.isArray(thing);
+}
+
+/**
+ * It removes the brackets from the end of a string
+ *
+ * @param {string} key - The key of the parameter.
+ *
+ * @returns {string} the key without the brackets.
+ */
+function removeBrackets(key) {
+  return utils.endsWith(key, '[]') ? key.slice(0, -2) : key;
+}
+
+/**
+ * It takes a path, a key, and a boolean, and returns a string
+ *
+ * @param {string} path - The path to the current key.
+ * @param {string} key - The key of the current object being iterated over.
+ * @param {string} dots - If true, the key will be rendered with dots instead of brackets.
+ *
+ * @returns {string} The path to the current key.
+ */
+function renderKey(path, key, dots) {
+  if (!path) return key;
+  return path.concat(key).map(function each(token, i) {
+    // eslint-disable-next-line no-param-reassign
+    token = removeBrackets(token);
+    return !dots && i ? '[' + token + ']' : token;
+  }).join(dots ? '.' : '');
+}
+
+/**
+ * If the array is an array and none of its elements are visitable, then it's a flat array.
+ *
+ * @param {Array<any>} arr - The array to check
+ *
+ * @returns {boolean}
+ */
+function isFlatArray(arr) {
+  return utils.isArray(arr) && !arr.some(isVisitable);
+}
+
+const predicates = utils.toFlatObject(utils, {}, null, function filter(prop) {
+  return /^is[A-Z]/.test(prop);
+});
+
+/**
+ * Convert a data object to FormData
+ *
+ * @param {Object} obj
+ * @param {?Object} [formData]
+ * @param {?Object} [options]
+ * @param {Function} [options.visitor]
+ * @param {Boolean} [options.metaTokens = true]
+ * @param {Boolean} [options.dots = false]
+ * @param {?Boolean} [options.indexes = false]
+ *
+ * @returns {Object}
+ **/
+
+/**
+ * It converts an object into a FormData object
+ *
+ * @param {Object<any, any>} obj - The object to convert to form data.
+ * @param {string} formData - The FormData object to append to.
+ * @param {Object<string, any>} options
+ *
+ * @returns
+ */
+function toFormData(obj, formData, options) {
+  if (!utils.isObject(obj)) {
+    throw new TypeError('target must be an object');
+  }
+
+  // eslint-disable-next-line no-param-reassign
+  formData = formData || new (helpers_null || FormData)();
+
+  // eslint-disable-next-line no-param-reassign
+  options = utils.toFlatObject(options, {
+    metaTokens: true,
+    dots: false,
+    indexes: false
+  }, false, function defined(option, source) {
+    // eslint-disable-next-line no-eq-null,eqeqeq
+    return !utils.isUndefined(source[option]);
+  });
+
+  const metaTokens = options.metaTokens;
+  // eslint-disable-next-line no-use-before-define
+  const visitor = options.visitor || defaultVisitor;
+  const dots = options.dots;
+  const indexes = options.indexes;
+  const _Blob = options.Blob || typeof Blob !== 'undefined' && Blob;
+  const useBlob = _Blob && utils.isSpecCompliantForm(formData);
+
+  if (!utils.isFunction(visitor)) {
+    throw new TypeError('visitor must be a function');
+  }
+
+  function convertValue(value) {
+    if (value === null) return '';
+
+    if (utils.isDate(value)) {
+      return value.toISOString();
+    }
+
+    if (!useBlob && utils.isBlob(value)) {
+      throw new core_AxiosError('Blob is not supported. Use a Buffer instead.');
+    }
+
+    if (utils.isArrayBuffer(value) || utils.isTypedArray(value)) {
+      return useBlob && typeof Blob === 'function' ? new Blob([value]) : Buffer.from(value);
+    }
+
+    return value;
+  }
+
+  /**
+   * Default visitor.
+   *
+   * @param {*} value
+   * @param {String|Number} key
+   * @param {Array<String|Number>} path
+   * @this {FormData}
+   *
+   * @returns {boolean} return true to visit the each prop of the value recursively
+   */
+  function defaultVisitor(value, key, path) {
+    let arr = value;
+
+    if (value && !path && typeof value === 'object') {
+      if (utils.endsWith(key, '{}')) {
+        // eslint-disable-next-line no-param-reassign
+        key = metaTokens ? key : key.slice(0, -2);
+        // eslint-disable-next-line no-param-reassign
+        value = JSON.stringify(value);
+      } else if (
+        (utils.isArray(value) && isFlatArray(value)) ||
+        ((utils.isFileList(value) || utils.endsWith(key, '[]')) && (arr = utils.toArray(value))
+        )) {
+        // eslint-disable-next-line no-param-reassign
+        key = removeBrackets(key);
+
+        arr.forEach(function each(el, index) {
+          !(utils.isUndefined(el) || el === null) && formData.append(
+            // eslint-disable-next-line no-nested-ternary
+            indexes === true ? renderKey([key], index, dots) : (indexes === null ? key : key + '[]'),
+            convertValue(el)
+          );
+        });
+        return false;
+      }
+    }
+
+    if (isVisitable(value)) {
+      return true;
+    }
+
+    formData.append(renderKey(path, key, dots), convertValue(value));
+
+    return false;
+  }
+
+  const stack = [];
+
+  const exposedHelpers = Object.assign(predicates, {
+    defaultVisitor,
+    convertValue,
+    isVisitable
+  });
+
+  function build(value, path) {
+    if (utils.isUndefined(value)) return;
+
+    if (stack.indexOf(value) !== -1) {
+      throw Error('Circular reference detected in ' + path.join('.'));
+    }
+
+    stack.push(value);
+
+    utils.forEach(value, function each(el, key) {
+      const result = !(utils.isUndefined(el) || el === null) && visitor.call(
+        formData, el, utils.isString(key) ? key.trim() : key, path, exposedHelpers
+      );
+
+      if (result === true) {
+        build(el, path ? path.concat(key) : [key]);
+      }
+    });
+
+    stack.pop();
+  }
+
+  if (!utils.isObject(obj)) {
+    throw new TypeError('data must be an object');
+  }
+
+  build(obj);
+
+  return formData;
+}
+
+/* harmony default export */ const helpers_toFormData = (toFormData);
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/AxiosURLSearchParams.js
+
+
+
+
+/**
+ * It encodes a string by replacing all characters that are not in the unreserved set with
+ * their percent-encoded equivalents
+ *
+ * @param {string} str - The string to encode.
+ *
+ * @returns {string} The encoded string.
+ */
+function encode(str) {
+  const charMap = {
+    '!': '%21',
+    "'": '%27',
+    '(': '%28',
+    ')': '%29',
+    '~': '%7E',
+    '%20': '+',
+    '%00': '\x00'
+  };
+  return encodeURIComponent(str).replace(/[!'()~]|%20|%00/g, function replacer(match) {
+    return charMap[match];
+  });
+}
+
+/**
+ * It takes a params object and converts it to a FormData object
+ *
+ * @param {Object<string, any>} params - The parameters to be converted to a FormData object.
+ * @param {Object<string, any>} options - The options object passed to the Axios constructor.
+ *
+ * @returns {void}
+ */
+function AxiosURLSearchParams(params, options) {
+  this._pairs = [];
+
+  params && helpers_toFormData(params, this, options);
+}
+
+const AxiosURLSearchParams_prototype = AxiosURLSearchParams.prototype;
+
+AxiosURLSearchParams_prototype.append = function append(name, value) {
+  this._pairs.push([name, value]);
+};
+
+AxiosURLSearchParams_prototype.toString = function toString(encoder) {
+  const _encode = encoder ? function(value) {
+    return encoder.call(this, value, encode);
+  } : encode;
+
+  return this._pairs.map(function each(pair) {
+    return _encode(pair[0]) + '=' + _encode(pair[1]);
+  }, '').join('&');
+};
+
+/* harmony default export */ const helpers_AxiosURLSearchParams = (AxiosURLSearchParams);
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/buildURL.js
+
+
+
+
+
+/**
+ * It replaces all instances of the characters `:`, `$`, `,`, `+`, `[`, and `]` with their
+ * URI encoded counterparts
+ *
+ * @param {string} val The value to be encoded.
+ *
+ * @returns {string} The encoded value.
+ */
+function buildURL_encode(val) {
+  return encodeURIComponent(val).
+    replace(/%3A/gi, ':').
+    replace(/%24/g, '$').
+    replace(/%2C/gi, ',').
+    replace(/%20/g, '+').
+    replace(/%5B/gi, '[').
+    replace(/%5D/gi, ']');
+}
+
+/**
+ * Build a URL by appending params to the end
+ *
+ * @param {string} url The base of the url (e.g., http://www.google.com)
+ * @param {object} [params] The params to be appended
+ * @param {?object} options
+ *
+ * @returns {string} The formatted url
+ */
+function buildURL(url, params, options) {
+  /*eslint no-param-reassign:0*/
+  if (!params) {
+    return url;
+  }
+  
+  const _encode = options && options.encode || buildURL_encode;
+
+  const serializeFn = options && options.serialize;
+
+  let serializedParams;
+
+  if (serializeFn) {
+    serializedParams = serializeFn(params, options);
+  } else {
+    serializedParams = utils.isURLSearchParams(params) ?
+      params.toString() :
+      new helpers_AxiosURLSearchParams(params, options).toString(_encode);
+  }
+
+  if (serializedParams) {
+    const hashmarkIndex = url.indexOf("#");
+
+    if (hashmarkIndex !== -1) {
+      url = url.slice(0, hashmarkIndex);
+    }
+    url += (url.indexOf('?') === -1 ? '?' : '&') + serializedParams;
+  }
+
+  return url;
+}
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/core/InterceptorManager.js
+
+
+
+
+class InterceptorManager {
+  constructor() {
+    this.handlers = [];
+  }
+
+  /**
+   * Add a new interceptor to the stack
+   *
+   * @param {Function} fulfilled The function to handle `then` for a `Promise`
+   * @param {Function} rejected The function to handle `reject` for a `Promise`
+   *
+   * @return {Number} An ID used to remove interceptor later
+   */
+  use(fulfilled, rejected, options) {
+    this.handlers.push({
+      fulfilled,
+      rejected,
+      synchronous: options ? options.synchronous : false,
+      runWhen: options ? options.runWhen : null
+    });
+    return this.handlers.length - 1;
+  }
+
+  /**
+   * Remove an interceptor from the stack
+   *
+   * @param {Number} id The ID that was returned by `use`
+   *
+   * @returns {Boolean} `true` if the interceptor was removed, `false` otherwise
+   */
+  eject(id) {
+    if (this.handlers[id]) {
+      this.handlers[id] = null;
+    }
+  }
+
+  /**
+   * Clear all interceptors from the stack
+   *
+   * @returns {void}
+   */
+  clear() {
+    if (this.handlers) {
+      this.handlers = [];
+    }
+  }
+
+  /**
+   * Iterate over all the registered interceptors
+   *
+   * This method is particularly useful for skipping over any
+   * interceptors that may have become `null` calling `eject`.
+   *
+   * @param {Function} fn The function to call for each interceptor
+   *
+   * @returns {void}
+   */
+  forEach(fn) {
+    utils.forEach(this.handlers, function forEachHandler(h) {
+      if (h !== null) {
+        fn(h);
+      }
+    });
+  }
+}
+
+/* harmony default export */ const core_InterceptorManager = (InterceptorManager);
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/defaults/transitional.js
+
+
+/* harmony default export */ const defaults_transitional = ({
+  silentJSONParsing: true,
+  forcedJSONParsing: true,
+  clarifyTimeoutError: false
+});
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/platform/browser/classes/URLSearchParams.js
+
+
+
+/* harmony default export */ const classes_URLSearchParams = (typeof URLSearchParams !== 'undefined' ? URLSearchParams : helpers_AxiosURLSearchParams);
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/platform/browser/classes/FormData.js
+
+
+/* harmony default export */ const classes_FormData = (typeof FormData !== 'undefined' ? FormData : null);
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/platform/browser/classes/Blob.js
+
+
+/* harmony default export */ const classes_Blob = (typeof Blob !== 'undefined' ? Blob : null);
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/platform/browser/index.js
+
+
+
+
+/* harmony default export */ const browser = ({
+  isBrowser: true,
+  classes: {
+    URLSearchParams: classes_URLSearchParams,
+    FormData: classes_FormData,
+    Blob: classes_Blob
+  },
+  protocols: ['http', 'https', 'file', 'blob', 'url', 'data']
+});
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/platform/common/utils.js
+const hasBrowserEnv = typeof window !== 'undefined' && typeof document !== 'undefined';
+
+/**
+ * Determine if we're running in a standard browser environment
+ *
+ * This allows axios to run in a web worker, and react-native.
+ * Both environments support XMLHttpRequest, but not fully standard globals.
+ *
+ * web workers:
+ *  typeof window -> undefined
+ *  typeof document -> undefined
+ *
+ * react-native:
+ *  navigator.product -> 'ReactNative'
+ * nativescript
+ *  navigator.product -> 'NativeScript' or 'NS'
+ *
+ * @returns {boolean}
+ */
+const hasStandardBrowserEnv = (
+  (product) => {
+    return hasBrowserEnv && ['ReactNative', 'NativeScript', 'NS'].indexOf(product) < 0
+  })(typeof navigator !== 'undefined' && navigator.product);
+
+/**
+ * Determine if we're running in a standard browser webWorker environment
+ *
+ * Although the `isStandardBrowserEnv` method indicates that
+ * `allows axios to run in a web worker`, the WebWorker will still be
+ * filtered out due to its judgment standard
+ * `typeof window !== 'undefined' && typeof document !== 'undefined'`.
+ * This leads to a problem when axios post `FormData` in webWorker
+ */
+const hasStandardBrowserWebWorkerEnv = (() => {
+  return (
+    typeof WorkerGlobalScope !== 'undefined' &&
+    // eslint-disable-next-line no-undef
+    self instanceof WorkerGlobalScope &&
+    typeof self.importScripts === 'function'
+  );
+})();
+
+
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/platform/index.js
+
+
+
+/* harmony default export */ const lib_platform = ({
+  ...common_utils_namespaceObject,
+  ...browser
+});
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/toURLEncodedForm.js
+
+
+
+
+
+
+function toURLEncodedForm(data, options) {
+  return helpers_toFormData(data, new lib_platform.classes.URLSearchParams(), Object.assign({
+    visitor: function(value, key, path, helpers) {
+      if (lib_platform.isNode && utils.isBuffer(value)) {
+        this.append(key, value.toString('base64'));
+        return false;
+      }
+
+      return helpers.defaultVisitor.apply(this, arguments);
+    }
+  }, options));
+}
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/formDataToJSON.js
+
+
+
+
+/**
+ * It takes a string like `foo[x][y][z]` and returns an array like `['foo', 'x', 'y', 'z']
+ *
+ * @param {string} name - The name of the property to get.
+ *
+ * @returns An array of strings.
+ */
+function parsePropPath(name) {
+  // foo[x][y][z]
+  // foo.x.y.z
+  // foo-x-y-z
+  // foo x y z
+  return utils.matchAll(/\w+|\[(\w*)]/g, name).map(match => {
+    return match[0] === '[]' ? '' : match[1] || match[0];
+  });
+}
+
+/**
+ * Convert an array to an object.
+ *
+ * @param {Array<any>} arr - The array to convert to an object.
+ *
+ * @returns An object with the same keys and values as the array.
+ */
+function arrayToObject(arr) {
+  const obj = {};
+  const keys = Object.keys(arr);
+  let i;
+  const len = keys.length;
+  let key;
+  for (i = 0; i < len; i++) {
+    key = keys[i];
+    obj[key] = arr[key];
+  }
+  return obj;
+}
+
+/**
+ * It takes a FormData object and returns a JavaScript object
+ *
+ * @param {string} formData The FormData object to convert to JSON.
+ *
+ * @returns {Object<string, any> | null} The converted object.
+ */
+function formDataToJSON(formData) {
+  function buildPath(path, value, target, index) {
+    let name = path[index++];
+    const isNumericKey = Number.isFinite(+name);
+    const isLast = index >= path.length;
+    name = !name && utils.isArray(target) ? target.length : name;
+
+    if (isLast) {
+      if (utils.hasOwnProp(target, name)) {
+        target[name] = [target[name], value];
+      } else {
+        target[name] = value;
+      }
+
+      return !isNumericKey;
+    }
+
+    if (!target[name] || !utils.isObject(target[name])) {
+      target[name] = [];
+    }
+
+    const result = buildPath(path, value, target[name], index);
+
+    if (result && utils.isArray(target[name])) {
+      target[name] = arrayToObject(target[name]);
+    }
+
+    return !isNumericKey;
+  }
+
+  if (utils.isFormData(formData) && utils.isFunction(formData.entries)) {
+    const obj = {};
+
+    utils.forEachEntry(formData, (name, value) => {
+      buildPath(parsePropPath(name), value, obj, 0);
+    });
+
+    return obj;
+  }
+
+  return null;
+}
+
+/* harmony default export */ const helpers_formDataToJSON = (formDataToJSON);
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/defaults/index.js
+
+
+
+
+
+
+
+
+
+
+/**
+ * It takes a string, tries to parse it, and if it fails, it returns the stringified version
+ * of the input
+ *
+ * @param {any} rawValue - The value to be stringified.
+ * @param {Function} parser - A function that parses a string into a JavaScript object.
+ * @param {Function} encoder - A function that takes a value and returns a string.
+ *
+ * @returns {string} A stringified version of the rawValue.
+ */
+function stringifySafely(rawValue, parser, encoder) {
+  if (utils.isString(rawValue)) {
+    try {
+      (parser || JSON.parse)(rawValue);
+      return utils.trim(rawValue);
+    } catch (e) {
+      if (e.name !== 'SyntaxError') {
+        throw e;
+      }
+    }
+  }
+
+  return (encoder || JSON.stringify)(rawValue);
+}
+
+const defaults_defaults = {
+
+  transitional: defaults_transitional,
+
+  adapter: ['xhr', 'http'],
+
+  transformRequest: [function transformRequest(data, headers) {
+    const contentType = headers.getContentType() || '';
+    const hasJSONContentType = contentType.indexOf('application/json') > -1;
+    const isObjectPayload = utils.isObject(data);
+
+    if (isObjectPayload && utils.isHTMLForm(data)) {
+      data = new FormData(data);
+    }
+
+    const isFormData = utils.isFormData(data);
+
+    if (isFormData) {
+      if (!hasJSONContentType) {
+        return data;
+      }
+      return hasJSONContentType ? JSON.stringify(helpers_formDataToJSON(data)) : data;
+    }
+
+    if (utils.isArrayBuffer(data) ||
+      utils.isBuffer(data) ||
+      utils.isStream(data) ||
+      utils.isFile(data) ||
+      utils.isBlob(data)
+    ) {
+      return data;
+    }
+    if (utils.isArrayBufferView(data)) {
+      return data.buffer;
+    }
+    if (utils.isURLSearchParams(data)) {
+      headers.setContentType('application/x-www-form-urlencoded;charset=utf-8', false);
+      return data.toString();
+    }
+
+    let isFileList;
+
+    if (isObjectPayload) {
+      if (contentType.indexOf('application/x-www-form-urlencoded') > -1) {
+        return toURLEncodedForm(data, this.formSerializer).toString();
+      }
+
+      if ((isFileList = utils.isFileList(data)) || contentType.indexOf('multipart/form-data') > -1) {
+        const _FormData = this.env && this.env.FormData;
+
+        return helpers_toFormData(
+          isFileList ? {'files[]': data} : data,
+          _FormData && new _FormData(),
+          this.formSerializer
+        );
+      }
+    }
+
+    if (isObjectPayload || hasJSONContentType ) {
+      headers.setContentType('application/json', false);
+      return stringifySafely(data);
+    }
+
+    return data;
+  }],
+
+  transformResponse: [function transformResponse(data) {
+    const transitional = this.transitional || defaults_defaults.transitional;
+    const forcedJSONParsing = transitional && transitional.forcedJSONParsing;
+    const JSONRequested = this.responseType === 'json';
+
+    if (data && utils.isString(data) && ((forcedJSONParsing && !this.responseType) || JSONRequested)) {
+      const silentJSONParsing = transitional && transitional.silentJSONParsing;
+      const strictJSONParsing = !silentJSONParsing && JSONRequested;
+
+      try {
+        return JSON.parse(data);
+      } catch (e) {
+        if (strictJSONParsing) {
+          if (e.name === 'SyntaxError') {
+            throw core_AxiosError.from(e, core_AxiosError.ERR_BAD_RESPONSE, this, null, this.response);
+          }
+          throw e;
+        }
+      }
+    }
+
+    return data;
+  }],
+
+  /**
+   * A timeout in milliseconds to abort a request. If set to 0 (default) a
+   * timeout is not created.
+   */
+  timeout: 0,
+
+  xsrfCookieName: 'XSRF-TOKEN',
+  xsrfHeaderName: 'X-XSRF-TOKEN',
+
+  maxContentLength: -1,
+  maxBodyLength: -1,
+
+  env: {
+    FormData: lib_platform.classes.FormData,
+    Blob: lib_platform.classes.Blob
+  },
+
+  validateStatus: function validateStatus(status) {
+    return status >= 200 && status < 300;
+  },
+
+  headers: {
+    common: {
+      'Accept': 'application/json, text/plain, */*',
+      'Content-Type': undefined
+    }
+  }
+};
+
+utils.forEach(['delete', 'get', 'head', 'post', 'put', 'patch'], (method) => {
+  defaults_defaults.headers[method] = {};
+});
+
+/* harmony default export */ const lib_defaults = (defaults_defaults);
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/parseHeaders.js
+
+
+
+
+// RawAxiosHeaders whose duplicates are ignored by node
+// c.f. https://nodejs.org/api/http.html#http_message_headers
+const ignoreDuplicateOf = utils.toObjectSet([
+  'age', 'authorization', 'content-length', 'content-type', 'etag',
+  'expires', 'from', 'host', 'if-modified-since', 'if-unmodified-since',
+  'last-modified', 'location', 'max-forwards', 'proxy-authorization',
+  'referer', 'retry-after', 'user-agent'
+]);
+
+/**
+ * Parse headers into an object
+ *
+ * ```
+ * Date: Wed, 27 Aug 2014 08:58:49 GMT
+ * Content-Type: application/json
+ * Connection: keep-alive
+ * Transfer-Encoding: chunked
+ * ```
+ *
+ * @param {String} rawHeaders Headers needing to be parsed
+ *
+ * @returns {Object} Headers parsed into an object
+ */
+/* harmony default export */ const parseHeaders = (rawHeaders => {
+  const parsed = {};
+  let key;
+  let val;
+  let i;
+
+  rawHeaders && rawHeaders.split('\n').forEach(function parser(line) {
+    i = line.indexOf(':');
+    key = line.substring(0, i).trim().toLowerCase();
+    val = line.substring(i + 1).trim();
+
+    if (!key || (parsed[key] && ignoreDuplicateOf[key])) {
+      return;
+    }
+
+    if (key === 'set-cookie') {
+      if (parsed[key]) {
+        parsed[key].push(val);
+      } else {
+        parsed[key] = [val];
+      }
+    } else {
+      parsed[key] = parsed[key] ? parsed[key] + ', ' + val : val;
+    }
+  });
+
+  return parsed;
+});
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/core/AxiosHeaders.js
+
+
+
+
+
+const $internals = Symbol('internals');
+
+function normalizeHeader(header) {
+  return header && String(header).trim().toLowerCase();
+}
+
+function normalizeValue(value) {
+  if (value === false || value == null) {
+    return value;
+  }
+
+  return utils.isArray(value) ? value.map(normalizeValue) : String(value);
+}
+
+function parseTokens(str) {
+  const tokens = Object.create(null);
+  const tokensRE = /([^\s,;=]+)\s*(?:=\s*([^,;]+))?/g;
+  let match;
+
+  while ((match = tokensRE.exec(str))) {
+    tokens[match[1]] = match[2];
+  }
+
+  return tokens;
+}
+
+const isValidHeaderName = (str) => /^[-_a-zA-Z0-9^`|~,!#$%&'*+.]+$/.test(str.trim());
+
+function matchHeaderValue(context, value, header, filter, isHeaderNameFilter) {
+  if (utils.isFunction(filter)) {
+    return filter.call(this, value, header);
+  }
+
+  if (isHeaderNameFilter) {
+    value = header;
+  }
+
+  if (!utils.isString(value)) return;
+
+  if (utils.isString(filter)) {
+    return value.indexOf(filter) !== -1;
+  }
+
+  if (utils.isRegExp(filter)) {
+    return filter.test(value);
+  }
+}
+
+function formatHeader(header) {
+  return header.trim()
+    .toLowerCase().replace(/([a-z\d])(\w*)/g, (w, char, str) => {
+      return char.toUpperCase() + str;
+    });
+}
+
+function buildAccessors(obj, header) {
+  const accessorName = utils.toCamelCase(' ' + header);
+
+  ['get', 'set', 'has'].forEach(methodName => {
+    Object.defineProperty(obj, methodName + accessorName, {
+      value: function(arg1, arg2, arg3) {
+        return this[methodName].call(this, header, arg1, arg2, arg3);
+      },
+      configurable: true
+    });
+  });
+}
+
+class AxiosHeaders {
+  constructor(headers) {
+    headers && this.set(headers);
+  }
+
+  set(header, valueOrRewrite, rewrite) {
+    const self = this;
+
+    function setHeader(_value, _header, _rewrite) {
+      const lHeader = normalizeHeader(_header);
+
+      if (!lHeader) {
+        throw new Error('header name must be a non-empty string');
+      }
+
+      const key = utils.findKey(self, lHeader);
+
+      if(!key || self[key] === undefined || _rewrite === true || (_rewrite === undefined && self[key] !== false)) {
+        self[key || _header] = normalizeValue(_value);
+      }
+    }
+
+    const setHeaders = (headers, _rewrite) =>
+      utils.forEach(headers, (_value, _header) => setHeader(_value, _header, _rewrite));
+
+    if (utils.isPlainObject(header) || header instanceof this.constructor) {
+      setHeaders(header, valueOrRewrite)
+    } else if(utils.isString(header) && (header = header.trim()) && !isValidHeaderName(header)) {
+      setHeaders(parseHeaders(header), valueOrRewrite);
+    } else {
+      header != null && setHeader(valueOrRewrite, header, rewrite);
+    }
+
+    return this;
+  }
+
+  get(header, parser) {
+    header = normalizeHeader(header);
+
+    if (header) {
+      const key = utils.findKey(this, header);
+
+      if (key) {
+        const value = this[key];
+
+        if (!parser) {
+          return value;
+        }
+
+        if (parser === true) {
+          return parseTokens(value);
+        }
+
+        if (utils.isFunction(parser)) {
+          return parser.call(this, value, key);
+        }
+
+        if (utils.isRegExp(parser)) {
+          return parser.exec(value);
+        }
+
+        throw new TypeError('parser must be boolean|regexp|function');
+      }
+    }
+  }
+
+  has(header, matcher) {
+    header = normalizeHeader(header);
+
+    if (header) {
+      const key = utils.findKey(this, header);
+
+      return !!(key && this[key] !== undefined && (!matcher || matchHeaderValue(this, this[key], key, matcher)));
+    }
+
+    return false;
+  }
+
+  delete(header, matcher) {
+    const self = this;
+    let deleted = false;
+
+    function deleteHeader(_header) {
+      _header = normalizeHeader(_header);
+
+      if (_header) {
+        const key = utils.findKey(self, _header);
+
+        if (key && (!matcher || matchHeaderValue(self, self[key], key, matcher))) {
+          delete self[key];
+
+          deleted = true;
+        }
+      }
+    }
+
+    if (utils.isArray(header)) {
+      header.forEach(deleteHeader);
+    } else {
+      deleteHeader(header);
+    }
+
+    return deleted;
+  }
+
+  clear(matcher) {
+    const keys = Object.keys(this);
+    let i = keys.length;
+    let deleted = false;
+
+    while (i--) {
+      const key = keys[i];
+      if(!matcher || matchHeaderValue(this, this[key], key, matcher, true)) {
+        delete this[key];
+        deleted = true;
+      }
+    }
+
+    return deleted;
+  }
+
+  normalize(format) {
+    const self = this;
+    const headers = {};
+
+    utils.forEach(this, (value, header) => {
+      const key = utils.findKey(headers, header);
+
+      if (key) {
+        self[key] = normalizeValue(value);
+        delete self[header];
+        return;
+      }
+
+      const normalized = format ? formatHeader(header) : String(header).trim();
+
+      if (normalized !== header) {
+        delete self[header];
+      }
+
+      self[normalized] = normalizeValue(value);
+
+      headers[normalized] = true;
+    });
+
+    return this;
+  }
+
+  concat(...targets) {
+    return this.constructor.concat(this, ...targets);
+  }
+
+  toJSON(asStrings) {
+    const obj = Object.create(null);
+
+    utils.forEach(this, (value, header) => {
+      value != null && value !== false && (obj[header] = asStrings && utils.isArray(value) ? value.join(', ') : value);
+    });
+
+    return obj;
+  }
+
+  [Symbol.iterator]() {
+    return Object.entries(this.toJSON())[Symbol.iterator]();
+  }
+
+  toString() {
+    return Object.entries(this.toJSON()).map(([header, value]) => header + ': ' + value).join('\n');
+  }
+
+  get [Symbol.toStringTag]() {
+    return 'AxiosHeaders';
+  }
+
+  static from(thing) {
+    return thing instanceof this ? thing : new this(thing);
+  }
+
+  static concat(first, ...targets) {
+    const computed = new this(first);
+
+    targets.forEach((target) => computed.set(target));
+
+    return computed;
+  }
+
+  static accessor(header) {
+    const internals = this[$internals] = (this[$internals] = {
+      accessors: {}
+    });
+
+    const accessors = internals.accessors;
+    const prototype = this.prototype;
+
+    function defineAccessor(_header) {
+      const lHeader = normalizeHeader(_header);
+
+      if (!accessors[lHeader]) {
+        buildAccessors(prototype, _header);
+        accessors[lHeader] = true;
+      }
+    }
+
+    utils.isArray(header) ? header.forEach(defineAccessor) : defineAccessor(header);
+
+    return this;
+  }
+}
+
+AxiosHeaders.accessor(['Content-Type', 'Content-Length', 'Accept', 'Accept-Encoding', 'User-Agent', 'Authorization']);
+
+// reserved names hotfix
+utils.reduceDescriptors(AxiosHeaders.prototype, ({value}, key) => {
+  let mapped = key[0].toUpperCase() + key.slice(1); // map `set` => `Set`
+  return {
+    get: () => value,
+    set(headerValue) {
+      this[mapped] = headerValue;
+    }
+  }
+});
+
+utils.freezeMethods(AxiosHeaders);
+
+/* harmony default export */ const core_AxiosHeaders = (AxiosHeaders);
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/core/transformData.js
+
+
+
+
+
+
+/**
+ * Transform the data for a request or a response
+ *
+ * @param {Array|Function} fns A single function or Array of functions
+ * @param {?Object} response The response object
+ *
+ * @returns {*} The resulting transformed data
+ */
+function transformData(fns, response) {
+  const config = this || lib_defaults;
+  const context = response || config;
+  const headers = core_AxiosHeaders.from(context.headers);
+  let data = context.data;
+
+  utils.forEach(fns, function transform(fn) {
+    data = fn.call(config, data, headers.normalize(), response ? response.status : undefined);
+  });
+
+  headers.normalize();
+
+  return data;
+}
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/cancel/isCancel.js
+
+
+function isCancel(value) {
+  return !!(value && value.__CANCEL__);
+}
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/cancel/CanceledError.js
+
+
+
+
+
+/**
+ * A `CanceledError` is an object that is thrown when an operation is canceled.
+ *
+ * @param {string=} message The message.
+ * @param {Object=} config The config.
+ * @param {Object=} request The request.
+ *
+ * @returns {CanceledError} The created error.
+ */
+function CanceledError(message, config, request) {
+  // eslint-disable-next-line no-eq-null,eqeqeq
+  core_AxiosError.call(this, message == null ? 'canceled' : message, core_AxiosError.ERR_CANCELED, config, request);
+  this.name = 'CanceledError';
+}
+
+utils.inherits(CanceledError, core_AxiosError, {
+  __CANCEL__: true
+});
+
+/* harmony default export */ const cancel_CanceledError = (CanceledError);
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/core/settle.js
+
+
+
+
+/**
+ * Resolve or reject a Promise based on response status.
+ *
+ * @param {Function} resolve A function that resolves the promise.
+ * @param {Function} reject A function that rejects the promise.
+ * @param {object} response The response.
+ *
+ * @returns {object} The response.
+ */
+function settle(resolve, reject, response) {
+  const validateStatus = response.config.validateStatus;
+  if (!response.status || !validateStatus || validateStatus(response.status)) {
+    resolve(response);
+  } else {
+    reject(new core_AxiosError(
+      'Request failed with status code ' + response.status,
+      [core_AxiosError.ERR_BAD_REQUEST, core_AxiosError.ERR_BAD_RESPONSE][Math.floor(response.status / 100) - 4],
+      response.config,
+      response.request,
+      response
+    ));
+  }
+}
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/cookies.js
+
+
+
+/* harmony default export */ const cookies = (lib_platform.hasStandardBrowserEnv ?
+
+  // Standard browser envs support document.cookie
+  {
+    write(name, value, expires, path, domain, secure) {
+      const cookie = [name + '=' + encodeURIComponent(value)];
+
+      utils.isNumber(expires) && cookie.push('expires=' + new Date(expires).toGMTString());
+
+      utils.isString(path) && cookie.push('path=' + path);
+
+      utils.isString(domain) && cookie.push('domain=' + domain);
+
+      secure === true && cookie.push('secure');
+
+      document.cookie = cookie.join('; ');
+    },
+
+    read(name) {
+      const match = document.cookie.match(new RegExp('(^|;\\s*)(' + name + ')=([^;]*)'));
+      return (match ? decodeURIComponent(match[3]) : null);
+    },
+
+    remove(name) {
+      this.write(name, '', Date.now() - 86400000);
+    }
+  }
+
+  :
+
+  // Non-standard browser env (web workers, react-native) lack needed support.
+  {
+    write() {},
+    read() {
+      return null;
+    },
+    remove() {}
+  });
+
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/isAbsoluteURL.js
+
+
+/**
+ * Determines whether the specified URL is absolute
+ *
+ * @param {string} url The URL to test
+ *
+ * @returns {boolean} True if the specified URL is absolute, otherwise false
+ */
+function isAbsoluteURL(url) {
+  // A URL is considered absolute if it begins with "<scheme>://" or "//" (protocol-relative URL).
+  // RFC 3986 defines scheme name as a sequence of characters beginning with a letter and followed
+  // by any combination of letters, digits, plus, period, or hyphen.
+  return /^([a-z][a-z\d+\-.]*:)?\/\//i.test(url);
+}
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/combineURLs.js
+
+
+/**
+ * Creates a new URL by combining the specified URLs
+ *
+ * @param {string} baseURL The base URL
+ * @param {string} relativeURL The relative URL
+ *
+ * @returns {string} The combined URL
+ */
+function combineURLs(baseURL, relativeURL) {
+  return relativeURL
+    ? baseURL.replace(/\/+$/, '') + '/' + relativeURL.replace(/^\/+/, '')
+    : baseURL;
+}
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/core/buildFullPath.js
+
+
+
+
+
+/**
+ * Creates a new URL by combining the baseURL with the requestedURL,
+ * only when the requestedURL is not already an absolute URL.
+ * If the requestURL is absolute, this function returns the requestedURL untouched.
+ *
+ * @param {string} baseURL The base URL
+ * @param {string} requestedURL Absolute or relative URL to combine
+ *
+ * @returns {string} The combined full path
+ */
+function buildFullPath(baseURL, requestedURL) {
+  if (baseURL && !isAbsoluteURL(requestedURL)) {
+    return combineURLs(baseURL, requestedURL);
+  }
+  return requestedURL;
+}
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/isURLSameOrigin.js
+
+
+
+
+
+/* harmony default export */ const isURLSameOrigin = (lib_platform.hasStandardBrowserEnv ?
+
+// Standard browser envs have full support of the APIs needed to test
+// whether the request URL is of the same origin as current location.
+  (function standardBrowserEnv() {
+    const msie = /(msie|trident)/i.test(navigator.userAgent);
+    const urlParsingNode = document.createElement('a');
+    let originURL;
+
+    /**
+    * Parse a URL to discover its components
+    *
+    * @param {String} url The URL to be parsed
+    * @returns {Object}
+    */
+    function resolveURL(url) {
+      let href = url;
+
+      if (msie) {
+        // IE needs attribute set twice to normalize properties
+        urlParsingNode.setAttribute('href', href);
+        href = urlParsingNode.href;
+      }
+
+      urlParsingNode.setAttribute('href', href);
+
+      // urlParsingNode provides the UrlUtils interface - http://url.spec.whatwg.org/#urlutils
+      return {
+        href: urlParsingNode.href,
+        protocol: urlParsingNode.protocol ? urlParsingNode.protocol.replace(/:$/, '') : '',
+        host: urlParsingNode.host,
+        search: urlParsingNode.search ? urlParsingNode.search.replace(/^\?/, '') : '',
+        hash: urlParsingNode.hash ? urlParsingNode.hash.replace(/^#/, '') : '',
+        hostname: urlParsingNode.hostname,
+        port: urlParsingNode.port,
+        pathname: (urlParsingNode.pathname.charAt(0) === '/') ?
+          urlParsingNode.pathname :
+          '/' + urlParsingNode.pathname
+      };
+    }
+
+    originURL = resolveURL(window.location.href);
+
+    /**
+    * Determine if a URL shares the same origin as the current location
+    *
+    * @param {String} requestURL The URL to test
+    * @returns {boolean} True if URL shares the same origin, otherwise false
+    */
+    return function isURLSameOrigin(requestURL) {
+      const parsed = (utils.isString(requestURL)) ? resolveURL(requestURL) : requestURL;
+      return (parsed.protocol === originURL.protocol &&
+          parsed.host === originURL.host);
+    };
+  })() :
+
+  // Non standard browser envs (web workers, react-native) lack needed support.
+  (function nonStandardBrowserEnv() {
+    return function isURLSameOrigin() {
+      return true;
+    };
+  })());
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/parseProtocol.js
+
+
+function parseProtocol(url) {
+  const match = /^([-+\w]{1,25})(:?\/\/|:)/.exec(url);
+  return match && match[1] || '';
+}
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/speedometer.js
+
+
+/**
+ * Calculate data maxRate
+ * @param {Number} [samplesCount= 10]
+ * @param {Number} [min= 1000]
+ * @returns {Function}
+ */
+function speedometer(samplesCount, min) {
+  samplesCount = samplesCount || 10;
+  const bytes = new Array(samplesCount);
+  const timestamps = new Array(samplesCount);
+  let head = 0;
+  let tail = 0;
+  let firstSampleTS;
+
+  min = min !== undefined ? min : 1000;
+
+  return function push(chunkLength) {
+    const now = Date.now();
+
+    const startedAt = timestamps[tail];
+
+    if (!firstSampleTS) {
+      firstSampleTS = now;
+    }
+
+    bytes[head] = chunkLength;
+    timestamps[head] = now;
+
+    let i = tail;
+    let bytesCount = 0;
+
+    while (i !== head) {
+      bytesCount += bytes[i++];
+      i = i % samplesCount;
+    }
+
+    head = (head + 1) % samplesCount;
+
+    if (head === tail) {
+      tail = (tail + 1) % samplesCount;
+    }
+
+    if (now - firstSampleTS < min) {
+      return;
+    }
+
+    const passed = startedAt && now - startedAt;
+
+    return passed ? Math.round(bytesCount * 1000 / passed) : undefined;
+  };
+}
+
+/* harmony default export */ const helpers_speedometer = (speedometer);
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/adapters/xhr.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function progressEventReducer(listener, isDownloadStream) {
+  let bytesNotified = 0;
+  const _speedometer = helpers_speedometer(50, 250);
+
+  return e => {
+    const loaded = e.loaded;
+    const total = e.lengthComputable ? e.total : undefined;
+    const progressBytes = loaded - bytesNotified;
+    const rate = _speedometer(progressBytes);
+    const inRange = loaded <= total;
+
+    bytesNotified = loaded;
+
+    const data = {
+      loaded,
+      total,
+      progress: total ? (loaded / total) : undefined,
+      bytes: progressBytes,
+      rate: rate ? rate : undefined,
+      estimated: rate && total && inRange ? (total - loaded) / rate : undefined,
+      event: e
+    };
+
+    data[isDownloadStream ? 'download' : 'upload'] = true;
+
+    listener(data);
+  };
+}
+
+const isXHRAdapterSupported = typeof XMLHttpRequest !== 'undefined';
+
+/* harmony default export */ const xhr = (isXHRAdapterSupported && function (config) {
+  return new Promise(function dispatchXhrRequest(resolve, reject) {
+    let requestData = config.data;
+    const requestHeaders = core_AxiosHeaders.from(config.headers).normalize();
+    let {responseType, withXSRFToken} = config;
+    let onCanceled;
+    function done() {
+      if (config.cancelToken) {
+        config.cancelToken.unsubscribe(onCanceled);
+      }
+
+      if (config.signal) {
+        config.signal.removeEventListener('abort', onCanceled);
+      }
+    }
+
+    let contentType;
+
+    if (utils.isFormData(requestData)) {
+      if (lib_platform.hasStandardBrowserEnv || lib_platform.hasStandardBrowserWebWorkerEnv) {
+        requestHeaders.setContentType(false); // Let the browser set it
+      } else if ((contentType = requestHeaders.getContentType()) !== false) {
+        // fix semicolon duplication issue for ReactNative FormData implementation
+        const [type, ...tokens] = contentType ? contentType.split(';').map(token => token.trim()).filter(Boolean) : [];
+        requestHeaders.setContentType([type || 'multipart/form-data', ...tokens].join('; '));
+      }
+    }
+
+    let request = new XMLHttpRequest();
+
+    // HTTP basic authentication
+    if (config.auth) {
+      const username = config.auth.username || '';
+      const password = config.auth.password ? unescape(encodeURIComponent(config.auth.password)) : '';
+      requestHeaders.set('Authorization', 'Basic ' + btoa(username + ':' + password));
+    }
+
+    const fullPath = buildFullPath(config.baseURL, config.url);
+
+    request.open(config.method.toUpperCase(), buildURL(fullPath, config.params, config.paramsSerializer), true);
+
+    // Set the request timeout in MS
+    request.timeout = config.timeout;
+
+    function onloadend() {
+      if (!request) {
+        return;
+      }
+      // Prepare the response
+      const responseHeaders = core_AxiosHeaders.from(
+        'getAllResponseHeaders' in request && request.getAllResponseHeaders()
+      );
+      const responseData = !responseType || responseType === 'text' || responseType === 'json' ?
+        request.responseText : request.response;
+      const response = {
+        data: responseData,
+        status: request.status,
+        statusText: request.statusText,
+        headers: responseHeaders,
+        config,
+        request
+      };
+
+      settle(function _resolve(value) {
+        resolve(value);
+        done();
+      }, function _reject(err) {
+        reject(err);
+        done();
+      }, response);
+
+      // Clean up request
+      request = null;
+    }
+
+    if ('onloadend' in request) {
+      // Use onloadend if available
+      request.onloadend = onloadend;
+    } else {
+      // Listen for ready state to emulate onloadend
+      request.onreadystatechange = function handleLoad() {
+        if (!request || request.readyState !== 4) {
+          return;
+        }
+
+        // The request errored out and we didn't get a response, this will be
+        // handled by onerror instead
+        // With one exception: request that using file: protocol, most browsers
+        // will return status as 0 even though it's a successful request
+        if (request.status === 0 && !(request.responseURL && request.responseURL.indexOf('file:') === 0)) {
+          return;
+        }
+        // readystate handler is calling before onerror or ontimeout handlers,
+        // so we should call onloadend on the next 'tick'
+        setTimeout(onloadend);
+      };
+    }
+
+    // Handle browser request cancellation (as opposed to a manual cancellation)
+    request.onabort = function handleAbort() {
+      if (!request) {
+        return;
+      }
+
+      reject(new core_AxiosError('Request aborted', core_AxiosError.ECONNABORTED, config, request));
+
+      // Clean up request
+      request = null;
+    };
+
+    // Handle low level network errors
+    request.onerror = function handleError() {
+      // Real errors are hidden from us by the browser
+      // onerror should only fire if it's a network error
+      reject(new core_AxiosError('Network Error', core_AxiosError.ERR_NETWORK, config, request));
+
+      // Clean up request
+      request = null;
+    };
+
+    // Handle timeout
+    request.ontimeout = function handleTimeout() {
+      let timeoutErrorMessage = config.timeout ? 'timeout of ' + config.timeout + 'ms exceeded' : 'timeout exceeded';
+      const transitional = config.transitional || defaults_transitional;
+      if (config.timeoutErrorMessage) {
+        timeoutErrorMessage = config.timeoutErrorMessage;
+      }
+      reject(new core_AxiosError(
+        timeoutErrorMessage,
+        transitional.clarifyTimeoutError ? core_AxiosError.ETIMEDOUT : core_AxiosError.ECONNABORTED,
+        config,
+        request));
+
+      // Clean up request
+      request = null;
+    };
+
+    // Add xsrf header
+    // This is only done if running in a standard browser environment.
+    // Specifically not if we're in a web worker, or react-native.
+    if(lib_platform.hasStandardBrowserEnv) {
+      withXSRFToken && utils.isFunction(withXSRFToken) && (withXSRFToken = withXSRFToken(config));
+
+      if (withXSRFToken || (withXSRFToken !== false && isURLSameOrigin(fullPath))) {
+        // Add xsrf header
+        const xsrfValue = config.xsrfHeaderName && config.xsrfCookieName && cookies.read(config.xsrfCookieName);
+
+        if (xsrfValue) {
+          requestHeaders.set(config.xsrfHeaderName, xsrfValue);
+        }
+      }
+    }
+
+    // Remove Content-Type if data is undefined
+    requestData === undefined && requestHeaders.setContentType(null);
+
+    // Add headers to the request
+    if ('setRequestHeader' in request) {
+      utils.forEach(requestHeaders.toJSON(), function setRequestHeader(val, key) {
+        request.setRequestHeader(key, val);
+      });
+    }
+
+    // Add withCredentials to request if needed
+    if (!utils.isUndefined(config.withCredentials)) {
+      request.withCredentials = !!config.withCredentials;
+    }
+
+    // Add responseType to request if needed
+    if (responseType && responseType !== 'json') {
+      request.responseType = config.responseType;
+    }
+
+    // Handle progress if needed
+    if (typeof config.onDownloadProgress === 'function') {
+      request.addEventListener('progress', progressEventReducer(config.onDownloadProgress, true));
+    }
+
+    // Not all browsers support upload events
+    if (typeof config.onUploadProgress === 'function' && request.upload) {
+      request.upload.addEventListener('progress', progressEventReducer(config.onUploadProgress));
+    }
+
+    if (config.cancelToken || config.signal) {
+      // Handle cancellation
+      // eslint-disable-next-line func-names
+      onCanceled = cancel => {
+        if (!request) {
+          return;
+        }
+        reject(!cancel || cancel.type ? new cancel_CanceledError(null, config, request) : cancel);
+        request.abort();
+        request = null;
+      };
+
+      config.cancelToken && config.cancelToken.subscribe(onCanceled);
+      if (config.signal) {
+        config.signal.aborted ? onCanceled() : config.signal.addEventListener('abort', onCanceled);
+      }
+    }
+
+    const protocol = parseProtocol(fullPath);
+
+    if (protocol && lib_platform.protocols.indexOf(protocol) === -1) {
+      reject(new core_AxiosError('Unsupported protocol ' + protocol + ':', core_AxiosError.ERR_BAD_REQUEST, config));
+      return;
+    }
+
+
+    // Send the request
+    request.send(requestData || null);
+  });
+});
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/adapters/adapters.js
+
+
+
+
+
+const knownAdapters = {
+  http: helpers_null,
+  xhr: xhr
+}
+
+utils.forEach(knownAdapters, (fn, value) => {
+  if (fn) {
+    try {
+      Object.defineProperty(fn, 'name', {value});
+    } catch (e) {
+      // eslint-disable-next-line no-empty
+    }
+    Object.defineProperty(fn, 'adapterName', {value});
+  }
+});
+
+const renderReason = (reason) => `- ${reason}`;
+
+const isResolvedHandle = (adapter) => utils.isFunction(adapter) || adapter === null || adapter === false;
+
+/* harmony default export */ const adapters = ({
+  getAdapter: (adapters) => {
+    adapters = utils.isArray(adapters) ? adapters : [adapters];
+
+    const {length} = adapters;
+    let nameOrAdapter;
+    let adapter;
+
+    const rejectedReasons = {};
+
+    for (let i = 0; i < length; i++) {
+      nameOrAdapter = adapters[i];
+      let id;
+
+      adapter = nameOrAdapter;
+
+      if (!isResolvedHandle(nameOrAdapter)) {
+        adapter = knownAdapters[(id = String(nameOrAdapter)).toLowerCase()];
+
+        if (adapter === undefined) {
+          throw new core_AxiosError(`Unknown adapter '${id}'`);
+        }
+      }
+
+      if (adapter) {
+        break;
+      }
+
+      rejectedReasons[id || '#' + i] = adapter;
+    }
+
+    if (!adapter) {
+
+      const reasons = Object.entries(rejectedReasons)
+        .map(([id, state]) => `adapter ${id} ` +
+          (state === false ? 'is not supported by the environment' : 'is not available in the build')
+        );
+
+      let s = length ?
+        (reasons.length > 1 ? 'since :\n' + reasons.map(renderReason).join('\n') : ' ' + renderReason(reasons[0])) :
+        'as no adapter specified';
+
+      throw new core_AxiosError(
+        `There is no suitable adapter to dispatch the request ` + s,
+        'ERR_NOT_SUPPORT'
+      );
+    }
+
+    return adapter;
+  },
+  adapters: knownAdapters
+});
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/core/dispatchRequest.js
+
+
+
+
+
+
+
+
+
+/**
+ * Throws a `CanceledError` if cancellation has been requested.
+ *
+ * @param {Object} config The config that is to be used for the request
+ *
+ * @returns {void}
+ */
+function throwIfCancellationRequested(config) {
+  if (config.cancelToken) {
+    config.cancelToken.throwIfRequested();
+  }
+
+  if (config.signal && config.signal.aborted) {
+    throw new cancel_CanceledError(null, config);
+  }
+}
+
+/**
+ * Dispatch a request to the server using the configured adapter.
+ *
+ * @param {object} config The config that is to be used for the request
+ *
+ * @returns {Promise} The Promise to be fulfilled
+ */
+function dispatchRequest(config) {
+  throwIfCancellationRequested(config);
+
+  config.headers = core_AxiosHeaders.from(config.headers);
+
+  // Transform request data
+  config.data = transformData.call(
+    config,
+    config.transformRequest
+  );
+
+  if (['post', 'put', 'patch'].indexOf(config.method) !== -1) {
+    config.headers.setContentType('application/x-www-form-urlencoded', false);
+  }
+
+  const adapter = adapters.getAdapter(config.adapter || lib_defaults.adapter);
+
+  return adapter(config).then(function onAdapterResolution(response) {
+    throwIfCancellationRequested(config);
+
+    // Transform response data
+    response.data = transformData.call(
+      config,
+      config.transformResponse,
+      response
+    );
+
+    response.headers = core_AxiosHeaders.from(response.headers);
+
+    return response;
+  }, function onAdapterRejection(reason) {
+    if (!isCancel(reason)) {
+      throwIfCancellationRequested(config);
+
+      // Transform response data
+      if (reason && reason.response) {
+        reason.response.data = transformData.call(
+          config,
+          config.transformResponse,
+          reason.response
+        );
+        reason.response.headers = core_AxiosHeaders.from(reason.response.headers);
+      }
+    }
+
+    return Promise.reject(reason);
+  });
+}
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/core/mergeConfig.js
+
+
+
+
+
+const headersToObject = (thing) => thing instanceof core_AxiosHeaders ? thing.toJSON() : thing;
+
+/**
+ * Config-specific merge-function which creates a new config-object
+ * by merging two configuration objects together.
+ *
+ * @param {Object} config1
+ * @param {Object} config2
+ *
+ * @returns {Object} New object resulting from merging config2 to config1
+ */
+function mergeConfig(config1, config2) {
+  // eslint-disable-next-line no-param-reassign
+  config2 = config2 || {};
+  const config = {};
+
+  function getMergedValue(target, source, caseless) {
+    if (utils.isPlainObject(target) && utils.isPlainObject(source)) {
+      return utils.merge.call({caseless}, target, source);
+    } else if (utils.isPlainObject(source)) {
+      return utils.merge({}, source);
+    } else if (utils.isArray(source)) {
+      return source.slice();
+    }
+    return source;
+  }
+
+  // eslint-disable-next-line consistent-return
+  function mergeDeepProperties(a, b, caseless) {
+    if (!utils.isUndefined(b)) {
+      return getMergedValue(a, b, caseless);
+    } else if (!utils.isUndefined(a)) {
+      return getMergedValue(undefined, a, caseless);
+    }
+  }
+
+  // eslint-disable-next-line consistent-return
+  function valueFromConfig2(a, b) {
+    if (!utils.isUndefined(b)) {
+      return getMergedValue(undefined, b);
+    }
+  }
+
+  // eslint-disable-next-line consistent-return
+  function defaultToConfig2(a, b) {
+    if (!utils.isUndefined(b)) {
+      return getMergedValue(undefined, b);
+    } else if (!utils.isUndefined(a)) {
+      return getMergedValue(undefined, a);
+    }
+  }
+
+  // eslint-disable-next-line consistent-return
+  function mergeDirectKeys(a, b, prop) {
+    if (prop in config2) {
+      return getMergedValue(a, b);
+    } else if (prop in config1) {
+      return getMergedValue(undefined, a);
+    }
+  }
+
+  const mergeMap = {
+    url: valueFromConfig2,
+    method: valueFromConfig2,
+    data: valueFromConfig2,
+    baseURL: defaultToConfig2,
+    transformRequest: defaultToConfig2,
+    transformResponse: defaultToConfig2,
+    paramsSerializer: defaultToConfig2,
+    timeout: defaultToConfig2,
+    timeoutMessage: defaultToConfig2,
+    withCredentials: defaultToConfig2,
+    withXSRFToken: defaultToConfig2,
+    adapter: defaultToConfig2,
+    responseType: defaultToConfig2,
+    xsrfCookieName: defaultToConfig2,
+    xsrfHeaderName: defaultToConfig2,
+    onUploadProgress: defaultToConfig2,
+    onDownloadProgress: defaultToConfig2,
+    decompress: defaultToConfig2,
+    maxContentLength: defaultToConfig2,
+    maxBodyLength: defaultToConfig2,
+    beforeRedirect: defaultToConfig2,
+    transport: defaultToConfig2,
+    httpAgent: defaultToConfig2,
+    httpsAgent: defaultToConfig2,
+    cancelToken: defaultToConfig2,
+    socketPath: defaultToConfig2,
+    responseEncoding: defaultToConfig2,
+    validateStatus: mergeDirectKeys,
+    headers: (a, b) => mergeDeepProperties(headersToObject(a), headersToObject(b), true)
+  };
+
+  utils.forEach(Object.keys(Object.assign({}, config1, config2)), function computeConfigValue(prop) {
+    const merge = mergeMap[prop] || mergeDeepProperties;
+    const configValue = merge(config1[prop], config2[prop], prop);
+    (utils.isUndefined(configValue) && merge !== mergeDirectKeys) || (config[prop] = configValue);
+  });
+
+  return config;
+}
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/env/data.js
+const VERSION = "1.6.2";
+;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/validator.js
+
+
+
+
+
+const validators = {};
+
+// eslint-disable-next-line func-names
+['object', 'boolean', 'number', 'function', 'string', 'symbol'].forEach((type, i) => {
+  validators[type] = function validator(thing) {
+    return typeof thing === type || 'a' + (i < 1 ? 'n ' : ' ') + type;
+  };
+});
+
+const deprecatedWarnings = {};
+
+/**
+ * Transitional option validator
+ *
+ * @param {function|boolean?} validator - set to false if the transitional option has been removed
+ * @param {string?} version - deprecated version / removed since version
+ * @param {string?} message - some message with additional info
+ *
+ * @returns {function}
+ */
+validators.transitional = function transitional(validator, version, message) {
+  function formatMessage(opt, desc) {
+    return '[Axios v' + VERSION + '] Transitional option \'' + opt + '\'' + desc + (message ? '. ' + message : '');
+  }
+
+  // eslint-disable-next-line func-names
+  return (value, opt, opts) => {
+    if (validator === false) {
+      throw new core_AxiosError(
+        formatMessage(opt, ' has been removed' + (version ? ' in ' + version : '')),
+        core_AxiosError.ERR_DEPRECATED
+      );
+    }
+
+    if (version && !deprecatedWarnings[opt]) {
+      deprecatedWarnings[opt] = true;
+      // eslint-disable-next-line no-console
+      console.warn(
+        formatMessage(
+          opt,
+          ' has been deprecated since v' + version + ' and will be removed in the near future'
+        )
+      );
+    }
+
+    return validator ? validator(value, opt, opts) : true;
+  };
+};
+
+/**
+ * Assert object's properties type
+ *
+ * @param {object} options
+ * @param {object} schema
+ * @param {boolean?} allowUnknown
+ *
+ * @returns {object}
+ */
+
+function assertOptions(options, schema, allowUnknown) {
+  if (typeof options !== 'object') {
+    throw new core_AxiosError('options must be an object', core_AxiosError.ERR_BAD_OPTION_VALUE);
+  }
+  const keys = Object.keys(options);
+  let i = keys.length;
+  while (i-- > 0) {
+    const opt = keys[i];
+    const validator = schema[opt];
+    if (validator) {
+      const value = options[opt];
+      const result = value === undefined || validator(value, opt, options);
+      if (result !== true) {
+        throw new core_AxiosError('option ' + opt + ' must be ' + result, core_AxiosError.ERR_BAD_OPTION_VALUE);
+      }
+      continue;
+    }
+    if (allowUnknown !== true) {
+      throw new core_AxiosError('Unknown option ' + opt, core_AxiosError.ERR_BAD_OPTION);
+    }
+  }
+}
+
+/* harmony default export */ const validator = ({
+  assertOptions,
+  validators
+});
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/core/Axios.js
+
+
+
+
+
+
+
+
+
+
+
+const Axios_validators = validator.validators;
+
+/**
+ * Create a new instance of Axios
+ *
+ * @param {Object} instanceConfig The default config for the instance
+ *
+ * @return {Axios} A new instance of Axios
+ */
+class Axios {
+  constructor(instanceConfig) {
+    this.defaults = instanceConfig;
+    this.interceptors = {
+      request: new core_InterceptorManager(),
+      response: new core_InterceptorManager()
+    };
+  }
+
+  /**
+   * Dispatch a request
+   *
+   * @param {String|Object} configOrUrl The config specific for this request (merged with this.defaults)
+   * @param {?Object} config
+   *
+   * @returns {Promise} The Promise to be fulfilled
+   */
+  request(configOrUrl, config) {
+    /*eslint no-param-reassign:0*/
+    // Allow for axios('example/url'[, config]) a la fetch API
+    if (typeof configOrUrl === 'string') {
+      config = config || {};
+      config.url = configOrUrl;
+    } else {
+      config = configOrUrl || {};
+    }
+
+    config = mergeConfig(this.defaults, config);
+
+    const {transitional, paramsSerializer, headers} = config;
+
+    if (transitional !== undefined) {
+      validator.assertOptions(transitional, {
+        silentJSONParsing: Axios_validators.transitional(Axios_validators.boolean),
+        forcedJSONParsing: Axios_validators.transitional(Axios_validators.boolean),
+        clarifyTimeoutError: Axios_validators.transitional(Axios_validators.boolean)
+      }, false);
+    }
+
+    if (paramsSerializer != null) {
+      if (utils.isFunction(paramsSerializer)) {
+        config.paramsSerializer = {
+          serialize: paramsSerializer
+        }
+      } else {
+        validator.assertOptions(paramsSerializer, {
+          encode: Axios_validators.function,
+          serialize: Axios_validators.function
+        }, true);
+      }
+    }
+
+    // Set config.method
+    config.method = (config.method || this.defaults.method || 'get').toLowerCase();
+
+    // Flatten headers
+    let contextHeaders = headers && utils.merge(
+      headers.common,
+      headers[config.method]
+    );
+
+    headers && utils.forEach(
+      ['delete', 'get', 'head', 'post', 'put', 'patch', 'common'],
+      (method) => {
+        delete headers[method];
+      }
+    );
+
+    config.headers = core_AxiosHeaders.concat(contextHeaders, headers);
+
+    // filter out skipped interceptors
+    const requestInterceptorChain = [];
+    let synchronousRequestInterceptors = true;
+    this.interceptors.request.forEach(function unshiftRequestInterceptors(interceptor) {
+      if (typeof interceptor.runWhen === 'function' && interceptor.runWhen(config) === false) {
+        return;
+      }
+
+      synchronousRequestInterceptors = synchronousRequestInterceptors && interceptor.synchronous;
+
+      requestInterceptorChain.unshift(interceptor.fulfilled, interceptor.rejected);
+    });
+
+    const responseInterceptorChain = [];
+    this.interceptors.response.forEach(function pushResponseInterceptors(interceptor) {
+      responseInterceptorChain.push(interceptor.fulfilled, interceptor.rejected);
+    });
+
+    let promise;
+    let i = 0;
+    let len;
+
+    if (!synchronousRequestInterceptors) {
+      const chain = [dispatchRequest.bind(this), undefined];
+      chain.unshift.apply(chain, requestInterceptorChain);
+      chain.push.apply(chain, responseInterceptorChain);
+      len = chain.length;
+
+      promise = Promise.resolve(config);
+
+      while (i < len) {
+        promise = promise.then(chain[i++], chain[i++]);
+      }
+
+      return promise;
+    }
+
+    len = requestInterceptorChain.length;
+
+    let newConfig = config;
+
+    i = 0;
+
+    while (i < len) {
+      const onFulfilled = requestInterceptorChain[i++];
+      const onRejected = requestInterceptorChain[i++];
+      try {
+        newConfig = onFulfilled(newConfig);
+      } catch (error) {
+        onRejected.call(this, error);
+        break;
+      }
+    }
+
+    try {
+      promise = dispatchRequest.call(this, newConfig);
+    } catch (error) {
+      return Promise.reject(error);
+    }
+
+    i = 0;
+    len = responseInterceptorChain.length;
+
+    while (i < len) {
+      promise = promise.then(responseInterceptorChain[i++], responseInterceptorChain[i++]);
+    }
+
+    return promise;
+  }
+
+  getUri(config) {
+    config = mergeConfig(this.defaults, config);
+    const fullPath = buildFullPath(config.baseURL, config.url);
+    return buildURL(fullPath, config.params, config.paramsSerializer);
+  }
+}
+
+// Provide aliases for supported request methods
+utils.forEach(['delete', 'get', 'head', 'options'], function forEachMethodNoData(method) {
+  /*eslint func-names:0*/
+  Axios.prototype[method] = function(url, config) {
+    return this.request(mergeConfig(config || {}, {
+      method,
+      url,
+      data: (config || {}).data
+    }));
+  };
+});
+
+utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
+  /*eslint func-names:0*/
+
+  function generateHTTPMethod(isForm) {
+    return function httpMethod(url, data, config) {
+      return this.request(mergeConfig(config || {}, {
+        method,
+        headers: isForm ? {
+          'Content-Type': 'multipart/form-data'
+        } : {},
+        url,
+        data
+      }));
+    };
+  }
+
+  Axios.prototype[method] = generateHTTPMethod();
+
+  Axios.prototype[method + 'Form'] = generateHTTPMethod(true);
+});
+
+/* harmony default export */ const core_Axios = (Axios);
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/cancel/CancelToken.js
+
+
+
+
+/**
+ * A `CancelToken` is an object that can be used to request cancellation of an operation.
+ *
+ * @param {Function} executor The executor function.
+ *
+ * @returns {CancelToken}
+ */
+class CancelToken {
+  constructor(executor) {
+    if (typeof executor !== 'function') {
+      throw new TypeError('executor must be a function.');
+    }
+
+    let resolvePromise;
+
+    this.promise = new Promise(function promiseExecutor(resolve) {
+      resolvePromise = resolve;
+    });
+
+    const token = this;
+
+    // eslint-disable-next-line func-names
+    this.promise.then(cancel => {
+      if (!token._listeners) return;
+
+      let i = token._listeners.length;
+
+      while (i-- > 0) {
+        token._listeners[i](cancel);
+      }
+      token._listeners = null;
+    });
+
+    // eslint-disable-next-line func-names
+    this.promise.then = onfulfilled => {
+      let _resolve;
+      // eslint-disable-next-line func-names
+      const promise = new Promise(resolve => {
+        token.subscribe(resolve);
+        _resolve = resolve;
+      }).then(onfulfilled);
+
+      promise.cancel = function reject() {
+        token.unsubscribe(_resolve);
+      };
+
+      return promise;
+    };
+
+    executor(function cancel(message, config, request) {
+      if (token.reason) {
+        // Cancellation has already been requested
+        return;
+      }
+
+      token.reason = new cancel_CanceledError(message, config, request);
+      resolvePromise(token.reason);
+    });
+  }
+
+  /**
+   * Throws a `CanceledError` if cancellation has been requested.
+   */
+  throwIfRequested() {
+    if (this.reason) {
+      throw this.reason;
+    }
+  }
+
+  /**
+   * Subscribe to the cancel signal
+   */
+
+  subscribe(listener) {
+    if (this.reason) {
+      listener(this.reason);
+      return;
+    }
+
+    if (this._listeners) {
+      this._listeners.push(listener);
+    } else {
+      this._listeners = [listener];
+    }
+  }
+
+  /**
+   * Unsubscribe from the cancel signal
+   */
+
+  unsubscribe(listener) {
+    if (!this._listeners) {
+      return;
+    }
+    const index = this._listeners.indexOf(listener);
+    if (index !== -1) {
+      this._listeners.splice(index, 1);
+    }
+  }
+
+  /**
+   * Returns an object that contains a new `CancelToken` and a function that, when called,
+   * cancels the `CancelToken`.
+   */
+  static source() {
+    let cancel;
+    const token = new CancelToken(function executor(c) {
+      cancel = c;
+    });
+    return {
+      token,
+      cancel
+    };
+  }
+}
+
+/* harmony default export */ const cancel_CancelToken = (CancelToken);
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/spread.js
+
+
+/**
+ * Syntactic sugar for invoking a function and expanding an array for arguments.
+ *
+ * Common use case would be to use `Function.prototype.apply`.
+ *
+ *  ```js
+ *  function f(x, y, z) {}
+ *  var args = [1, 2, 3];
+ *  f.apply(null, args);
+ *  ```
+ *
+ * With `spread` this example can be re-written.
+ *
+ *  ```js
+ *  spread(function(x, y, z) {})([1, 2, 3]);
+ *  ```
+ *
+ * @param {Function} callback
+ *
+ * @returns {Function}
+ */
+function spread(callback) {
+  return function wrap(arr) {
+    return callback.apply(null, arr);
+  };
+}
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/isAxiosError.js
+
+
+
+
+/**
+ * Determines whether the payload is an error thrown by Axios
+ *
+ * @param {*} payload The value to test
+ *
+ * @returns {boolean} True if the payload is an error thrown by Axios, otherwise false
+ */
+function isAxiosError(payload) {
+  return utils.isObject(payload) && (payload.isAxiosError === true);
+}
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/HttpStatusCode.js
+const HttpStatusCode = {
+  Continue: 100,
+  SwitchingProtocols: 101,
+  Processing: 102,
+  EarlyHints: 103,
+  Ok: 200,
+  Created: 201,
+  Accepted: 202,
+  NonAuthoritativeInformation: 203,
+  NoContent: 204,
+  ResetContent: 205,
+  PartialContent: 206,
+  MultiStatus: 207,
+  AlreadyReported: 208,
+  ImUsed: 226,
+  MultipleChoices: 300,
+  MovedPermanently: 301,
+  Found: 302,
+  SeeOther: 303,
+  NotModified: 304,
+  UseProxy: 305,
+  Unused: 306,
+  TemporaryRedirect: 307,
+  PermanentRedirect: 308,
+  BadRequest: 400,
+  Unauthorized: 401,
+  PaymentRequired: 402,
+  Forbidden: 403,
+  NotFound: 404,
+  MethodNotAllowed: 405,
+  NotAcceptable: 406,
+  ProxyAuthenticationRequired: 407,
+  RequestTimeout: 408,
+  Conflict: 409,
+  Gone: 410,
+  LengthRequired: 411,
+  PreconditionFailed: 412,
+  PayloadTooLarge: 413,
+  UriTooLong: 414,
+  UnsupportedMediaType: 415,
+  RangeNotSatisfiable: 416,
+  ExpectationFailed: 417,
+  ImATeapot: 418,
+  MisdirectedRequest: 421,
+  UnprocessableEntity: 422,
+  Locked: 423,
+  FailedDependency: 424,
+  TooEarly: 425,
+  UpgradeRequired: 426,
+  PreconditionRequired: 428,
+  TooManyRequests: 429,
+  RequestHeaderFieldsTooLarge: 431,
+  UnavailableForLegalReasons: 451,
+  InternalServerError: 500,
+  NotImplemented: 501,
+  BadGateway: 502,
+  ServiceUnavailable: 503,
+  GatewayTimeout: 504,
+  HttpVersionNotSupported: 505,
+  VariantAlsoNegotiates: 506,
+  InsufficientStorage: 507,
+  LoopDetected: 508,
+  NotExtended: 510,
+  NetworkAuthenticationRequired: 511,
+};
+
+Object.entries(HttpStatusCode).forEach(([key, value]) => {
+  HttpStatusCode[value] = key;
+});
+
+/* harmony default export */ const helpers_HttpStatusCode = (HttpStatusCode);
+
+;// CONCATENATED MODULE: ./node_modules/axios/lib/axios.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Create an instance of Axios
+ *
+ * @param {Object} defaultConfig The default config for the instance
+ *
+ * @returns {Axios} A new instance of Axios
+ */
+function createInstance(defaultConfig) {
+  const context = new core_Axios(defaultConfig);
+  const instance = bind(core_Axios.prototype.request, context);
+
+  // Copy axios.prototype to instance
+  utils.extend(instance, core_Axios.prototype, context, {allOwnKeys: true});
+
+  // Copy context to instance
+  utils.extend(instance, context, null, {allOwnKeys: true});
+
+  // Factory for creating new instances
+  instance.create = function create(instanceConfig) {
+    return createInstance(mergeConfig(defaultConfig, instanceConfig));
+  };
+
+  return instance;
+}
+
+// Create the default instance to be exported
+const axios = createInstance(lib_defaults);
+
+// Expose Axios class to allow class inheritance
+axios.Axios = core_Axios;
+
+// Expose Cancel & CancelToken
+axios.CanceledError = cancel_CanceledError;
+axios.CancelToken = cancel_CancelToken;
+axios.isCancel = isCancel;
+axios.VERSION = VERSION;
+axios.toFormData = helpers_toFormData;
+
+// Expose AxiosError class
+axios.AxiosError = core_AxiosError;
+
+// alias for CanceledError for backward compatibility
+axios.Cancel = axios.CanceledError;
+
+// Expose all/spread
+axios.all = function all(promises) {
+  return Promise.all(promises);
+};
+
+axios.spread = spread;
+
+// Expose isAxiosError
+axios.isAxiosError = isAxiosError;
+
+// Expose mergeConfig
+axios.mergeConfig = mergeConfig;
+
+axios.AxiosHeaders = core_AxiosHeaders;
+
+axios.formToJSON = thing => helpers_formDataToJSON(utils.isHTMLForm(thing) ? new FormData(thing) : thing);
+
+axios.getAdapter = adapters.getAdapter;
+
+axios.HttpStatusCode = helpers_HttpStatusCode;
+
+axios.default = axios;
+
+// this module should only have a default export
+/* harmony default export */ const lib_axios = (axios);
+
+;// CONCATENATED MODULE: ./components/hooks/useSynchronise.js
+function useSynchronise_typeof(o) { "@babel/helpers - typeof"; return useSynchronise_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, useSynchronise_typeof(o); }
+function useSynchronise_regeneratorRuntime() { "use strict"; /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */ useSynchronise_regeneratorRuntime = function _regeneratorRuntime() { return e; }; var t, e = {}, r = Object.prototype, n = r.hasOwnProperty, o = Object.defineProperty || function (t, e, r) { t[e] = r.value; }, i = "function" == typeof Symbol ? Symbol : {}, a = i.iterator || "@@iterator", c = i.asyncIterator || "@@asyncIterator", u = i.toStringTag || "@@toStringTag"; function define(t, e, r) { return Object.defineProperty(t, e, { value: r, enumerable: !0, configurable: !0, writable: !0 }), t[e]; } try { define({}, ""); } catch (t) { define = function define(t, e, r) { return t[e] = r; }; } function wrap(t, e, r, n) { var i = e && e.prototype instanceof Generator ? e : Generator, a = Object.create(i.prototype), c = new Context(n || []); return o(a, "_invoke", { value: makeInvokeMethod(t, r, c) }), a; } function tryCatch(t, e, r) { try { return { type: "normal", arg: t.call(e, r) }; } catch (t) { return { type: "throw", arg: t }; } } e.wrap = wrap; var h = "suspendedStart", l = "suspendedYield", f = "executing", s = "completed", y = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} var p = {}; define(p, a, function () { return this; }); var d = Object.getPrototypeOf, v = d && d(d(values([]))); v && v !== r && n.call(v, a) && (p = v); var g = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(p); function defineIteratorMethods(t) { ["next", "throw", "return"].forEach(function (e) { define(t, e, function (t) { return this._invoke(e, t); }); }); } function AsyncIterator(t, e) { function invoke(r, o, i, a) { var c = tryCatch(t[r], t, o); if ("throw" !== c.type) { var u = c.arg, h = u.value; return h && "object" == useSynchronise_typeof(h) && n.call(h, "__await") ? e.resolve(h.__await).then(function (t) { invoke("next", t, i, a); }, function (t) { invoke("throw", t, i, a); }) : e.resolve(h).then(function (t) { u.value = t, i(u); }, function (t) { return invoke("throw", t, i, a); }); } a(c.arg); } var r; o(this, "_invoke", { value: function value(t, n) { function callInvokeWithMethodAndArg() { return new e(function (e, r) { invoke(t, n, e, r); }); } return r = r ? r.then(callInvokeWithMethodAndArg, callInvokeWithMethodAndArg) : callInvokeWithMethodAndArg(); } }); } function makeInvokeMethod(e, r, n) { var o = h; return function (i, a) { if (o === f) throw new Error("Generator is already running"); if (o === s) { if ("throw" === i) throw a; return { value: t, done: !0 }; } for (n.method = i, n.arg = a;;) { var c = n.delegate; if (c) { var u = maybeInvokeDelegate(c, n); if (u) { if (u === y) continue; return u; } } if ("next" === n.method) n.sent = n._sent = n.arg;else if ("throw" === n.method) { if (o === h) throw o = s, n.arg; n.dispatchException(n.arg); } else "return" === n.method && n.abrupt("return", n.arg); o = f; var p = tryCatch(e, r, n); if ("normal" === p.type) { if (o = n.done ? s : l, p.arg === y) continue; return { value: p.arg, done: n.done }; } "throw" === p.type && (o = s, n.method = "throw", n.arg = p.arg); } }; } function maybeInvokeDelegate(e, r) { var n = r.method, o = e.iterator[n]; if (o === t) return r.delegate = null, "throw" === n && e.iterator["return"] && (r.method = "return", r.arg = t, maybeInvokeDelegate(e, r), "throw" === r.method) || "return" !== n && (r.method = "throw", r.arg = new TypeError("The iterator does not provide a '" + n + "' method")), y; var i = tryCatch(o, e.iterator, r.arg); if ("throw" === i.type) return r.method = "throw", r.arg = i.arg, r.delegate = null, y; var a = i.arg; return a ? a.done ? (r[e.resultName] = a.value, r.next = e.nextLoc, "return" !== r.method && (r.method = "next", r.arg = t), r.delegate = null, y) : a : (r.method = "throw", r.arg = new TypeError("iterator result is not an object"), r.delegate = null, y); } function pushTryEntry(t) { var e = { tryLoc: t[0] }; 1 in t && (e.catchLoc = t[1]), 2 in t && (e.finallyLoc = t[2], e.afterLoc = t[3]), this.tryEntries.push(e); } function resetTryEntry(t) { var e = t.completion || {}; e.type = "normal", delete e.arg, t.completion = e; } function Context(t) { this.tryEntries = [{ tryLoc: "root" }], t.forEach(pushTryEntry, this), this.reset(!0); } function values(e) { if (e || "" === e) { var r = e[a]; if (r) return r.call(e); if ("function" == typeof e.next) return e; if (!isNaN(e.length)) { var o = -1, i = function next() { for (; ++o < e.length;) if (n.call(e, o)) return next.value = e[o], next.done = !1, next; return next.value = t, next.done = !0, next; }; return i.next = i; } } throw new TypeError(useSynchronise_typeof(e) + " is not iterable"); } return GeneratorFunction.prototype = GeneratorFunctionPrototype, o(g, "constructor", { value: GeneratorFunctionPrototype, configurable: !0 }), o(GeneratorFunctionPrototype, "constructor", { value: GeneratorFunction, configurable: !0 }), GeneratorFunction.displayName = define(GeneratorFunctionPrototype, u, "GeneratorFunction"), e.isGeneratorFunction = function (t) { var e = "function" == typeof t && t.constructor; return !!e && (e === GeneratorFunction || "GeneratorFunction" === (e.displayName || e.name)); }, e.mark = function (t) { return Object.setPrototypeOf ? Object.setPrototypeOf(t, GeneratorFunctionPrototype) : (t.__proto__ = GeneratorFunctionPrototype, define(t, u, "GeneratorFunction")), t.prototype = Object.create(g), t; }, e.awrap = function (t) { return { __await: t }; }, defineIteratorMethods(AsyncIterator.prototype), define(AsyncIterator.prototype, c, function () { return this; }), e.AsyncIterator = AsyncIterator, e.async = function (t, r, n, o, i) { void 0 === i && (i = Promise); var a = new AsyncIterator(wrap(t, r, n, o), i); return e.isGeneratorFunction(r) ? a : a.next().then(function (t) { return t.done ? t.value : a.next(); }); }, defineIteratorMethods(g), define(g, u, "Generator"), define(g, a, function () { return this; }), define(g, "toString", function () { return "[object Generator]"; }), e.keys = function (t) { var e = Object(t), r = []; for (var n in e) r.push(n); return r.reverse(), function next() { for (; r.length;) { var t = r.pop(); if (t in e) return next.value = t, next.done = !1, next; } return next.done = !0, next; }; }, e.values = values, Context.prototype = { constructor: Context, reset: function reset(e) { if (this.prev = 0, this.next = 0, this.sent = this._sent = t, this.done = !1, this.delegate = null, this.method = "next", this.arg = t, this.tryEntries.forEach(resetTryEntry), !e) for (var r in this) "t" === r.charAt(0) && n.call(this, r) && !isNaN(+r.slice(1)) && (this[r] = t); }, stop: function stop() { this.done = !0; var t = this.tryEntries[0].completion; if ("throw" === t.type) throw t.arg; return this.rval; }, dispatchException: function dispatchException(e) { if (this.done) throw e; var r = this; function handle(n, o) { return a.type = "throw", a.arg = e, r.next = n, o && (r.method = "next", r.arg = t), !!o; } for (var o = this.tryEntries.length - 1; o >= 0; --o) { var i = this.tryEntries[o], a = i.completion; if ("root" === i.tryLoc) return handle("end"); if (i.tryLoc <= this.prev) { var c = n.call(i, "catchLoc"), u = n.call(i, "finallyLoc"); if (c && u) { if (this.prev < i.catchLoc) return handle(i.catchLoc, !0); if (this.prev < i.finallyLoc) return handle(i.finallyLoc); } else if (c) { if (this.prev < i.catchLoc) return handle(i.catchLoc, !0); } else { if (!u) throw new Error("try statement without catch or finally"); if (this.prev < i.finallyLoc) return handle(i.finallyLoc); } } } }, abrupt: function abrupt(t, e) { for (var r = this.tryEntries.length - 1; r >= 0; --r) { var o = this.tryEntries[r]; if (o.tryLoc <= this.prev && n.call(o, "finallyLoc") && this.prev < o.finallyLoc) { var i = o; break; } } i && ("break" === t || "continue" === t) && i.tryLoc <= e && e <= i.finallyLoc && (i = null); var a = i ? i.completion : {}; return a.type = t, a.arg = e, i ? (this.method = "next", this.next = i.finallyLoc, y) : this.complete(a); }, complete: function complete(t, e) { if ("throw" === t.type) throw t.arg; return "break" === t.type || "continue" === t.type ? this.next = t.arg : "return" === t.type ? (this.rval = this.arg = t.arg, this.method = "return", this.next = "end") : "normal" === t.type && e && (this.next = e), y; }, finish: function finish(t) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var r = this.tryEntries[e]; if (r.finallyLoc === t) return this.complete(r.completion, r.afterLoc), resetTryEntry(r), y; } }, "catch": function _catch(t) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var r = this.tryEntries[e]; if (r.tryLoc === t) { var n = r.completion; if ("throw" === n.type) { var o = n.arg; resetTryEntry(r); } return o; } } throw new Error("illegal catch attempt"); }, delegateYield: function delegateYield(e, r, n) { return this.delegate = { iterator: values(e), resultName: r, nextLoc: n }, "next" === this.method && (this.arg = t), y; } }, e; }
+function useSynchronise_asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+function useSynchronise_asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { useSynchronise_asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { useSynchronise_asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+
+var useSynchronise = function useSynchronise() {
+  var synchronise = /*#__PURE__*/function () {
+    var _ref = useSynchronise_asyncToGenerator( /*#__PURE__*/useSynchronise_regeneratorRuntime().mark(function _callee(stateTasksList) {
+      var message, response, toDos, set1, set2, duplicates, deletedRecords, newRecords, _response, _response2;
+      return useSynchronise_regeneratorRuntime().wrap(function _callee$(_context) {
+        while (1) switch (_context.prev = _context.next) {
+          case 0:
+            message = hooks_useMessage();
+            message("synchronise", "Pending", "pending");
+            _context.prev = 2;
+            _context.next = 5;
+            return lib_axios.get("https://meuterertodoappserver-110f55b64ca3.herokuapp.com/");
+          case 5:
+            response = _context.sent;
+            console.log("useSynchronise response: ", response.data);
+            toDos = response.data;
+            set1 = new Set(toDos.map(function (item) {
+              return item._id;
+            }));
+            set2 = stateTasksList.toDo;
+            duplicates = set2.toDo.filter(function (item) {
+              return set1.has(item._id);
+            });
+            deletedRecords = toDos.filter(function (item) {
+              if (!set2.toDo.find(function (secondItem) {
+                return secondItem._id === item._id;
+              })) {
+                return item;
+              }
+            });
+            newRecords = set2.toDo.filter(function (item) {
+              if (!set1.has(item._id)) {
+                return item;
+              }
+            });
+            if (!(newRecords.length > 0)) {
+              _context.next = 24;
+              break;
+            }
+            _context.prev = 14;
+            _context.next = 17;
+            return lib_axios.post("https://meuterertodoappserver-110f55b64ca3.herokuapp.com/addtask", newRecords);
+          case 17:
+            message("success", "Tasks synchronised!");
+            _context.next = 24;
+            break;
+          case 20:
+            _context.prev = 20;
+            _context.t0 = _context["catch"](14);
+            console.error("Synch error: ", _context.t0);
+            message("error", "Synchronised failed!");
+          case 24:
+            _context.prev = 24;
+            _context.next = 27;
+            return lib_axios.post("https://meuterertodoappserver-110f55b64ca3.herokuapp.com/edit", duplicates);
+          case 27:
+            _response = _context.sent;
+            console.log("Odpowiedź od serwera: ", _response.data);
+            _context.next = 34;
+            break;
+          case 31:
+            _context.prev = 31;
+            _context.t1 = _context["catch"](24);
+            console.error("Błąd podczas synchronizacji: ", _context.t1);
+          case 34:
+            _context.prev = 34;
+            _context.next = 37;
+            return lib_axios.post("https://meuterertodoappserver-110f55b64ca3.herokuapp.com/delete", deletedRecords);
+          case 37:
+            _response2 = _context.sent;
+            console.log("Odpowiedź od serwera: ", _response2.data);
+            _context.next = 44;
+            break;
+          case 41:
+            _context.prev = 41;
+            _context.t2 = _context["catch"](34);
+            console.error("Błąd podczas synchronizacji: ", _context.t2);
+          case 44:
+            _context.next = 49;
+            break;
+          case 46:
+            _context.prev = 46;
+            _context.t3 = _context["catch"](2);
+            console.error(_context.t3);
+          case 49:
+          case "end":
+            return _context.stop();
+        }
+      }, _callee, null, [[2, 46], [14, 20], [24, 31], [34, 41]]);
+    }));
+    return function synchronise(_x) {
+      return _ref.apply(this, arguments);
+    };
+  }();
+  return synchronise;
+};
+/* harmony default export */ const hooks_useSynchronise = (useSynchronise);
 ;// CONCATENATED MODULE: ./components/hooks/useFilter.js
 function useFilter_slicedToArray(arr, i) { return useFilter_arrayWithHoles(arr) || useFilter_iterableToArrayLimit(arr, i) || useFilter_unsupportedIterableToArray(arr, i) || useFilter_nonIterableRest(); }
 function useFilter_nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -32006,17 +42489,20 @@ var useFilter = function useFilter() {
 /* harmony default export */ const hooks_useFilter = (useFilter);
 ;// CONCATENATED MODULE: ./components/TaskList.jsx
 function TaskList_typeof(o) { "@babel/helpers - typeof"; return TaskList_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, TaskList_typeof(o); }
+function TaskList_extends() { TaskList_extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return TaskList_extends.apply(this, arguments); }
 function TaskList_ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
 function TaskList_objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? TaskList_ownKeys(Object(t), !0).forEach(function (r) { TaskList_defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : TaskList_ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
 function TaskList_defineProperty(obj, key, value) { key = TaskList_toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-function TaskList_toPropertyKey(arg) { var key = TaskList_toPrimitive(arg, "string"); return TaskList_typeof(key) === "symbol" ? key : String(key); }
-function TaskList_toPrimitive(input, hint) { if (TaskList_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (TaskList_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
+function TaskList_toPropertyKey(t) { var i = TaskList_toPrimitive(t, "string"); return "symbol" == TaskList_typeof(i) ? i : String(i); }
+function TaskList_toPrimitive(t, r) { if ("object" != TaskList_typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != TaskList_typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
 function TaskList_slicedToArray(arr, i) { return TaskList_arrayWithHoles(arr) || TaskList_iterableToArrayLimit(arr, i) || TaskList_unsupportedIterableToArray(arr, i) || TaskList_nonIterableRest(); }
 function TaskList_nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function TaskList_unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return TaskList_arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return TaskList_arrayLikeToArray(o, minLen); }
 function TaskList_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
 function TaskList_iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function TaskList_arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
 
 
 
@@ -32030,6 +42516,7 @@ var TaskList = function TaskList(_ref) {
   });
   var allTasks = appTasks.toDo;
   var filteredTasks;
+  var dispatch = useDispatch();
   var _useState = (0,react.useState)({
       priority: "all",
       place: "all",
@@ -32098,6 +42585,14 @@ var TaskList = function TaskList(_ref) {
       return true;
     }));
   }
+  var handleOnDragEnd = function handleOnDragEnd(result) {
+    var items = Array.from(filteredTasks);
+    var _items$splice = items.splice(result.source.index, 1),
+      _items$splice2 = TaskList_slicedToArray(_items$splice, 1),
+      reorderedItem = _items$splice2[0];
+    items.splice(result.destination.index, 0, reorderedItem);
+    dispatch(UpdateDroppedTasks(items));
+  };
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("div", {
     className: "d-flex w-100 justify-content-end pe-3 pe-xl-5 pb-3"
   }, /*#__PURE__*/react.createElement(Link, {
@@ -32247,18 +42742,34 @@ var TaskList = function TaskList(_ref) {
   }, /*#__PURE__*/react.createElement("button", {
     className: "btn btn-dark align-self-start my-5",
     onClick: handleResetButtonClick
-  }, "Reset fiters"))), /*#__PURE__*/react.createElement("div", {
-    className: "container-fluid w-sm-100 mb-5"
-  }, filteredTasks ? filteredTasks.map(function (task) {
-    return /*#__PURE__*/react.createElement(components_Task, {
-      singleTask: task,
-      key: task._id
-    });
-  }) : appTasks.toDo.map(function (item) {
-    return /*#__PURE__*/react.createElement(components_Task, {
-      singleTask: item,
-      key: item._id
-    });
+  }, "Reset fiters"))), /*#__PURE__*/react.createElement(DragDropContext, {
+    onDragEnd: handleOnDragEnd
+  }, /*#__PURE__*/react.createElement(ConnectedDroppable, {
+    droppableId: "tasks"
+  }, function (provided) {
+    return /*#__PURE__*/react.createElement("div", TaskList_extends({
+      className: "tasks"
+    }, provided.droppableProps, {
+      ref: provided.innerRef
+    }), filteredTasks ? filteredTasks.map(function (task, index) {
+      return /*#__PURE__*/react.createElement(PublicDraggable, {
+        key: task._id,
+        draggableId: task._id,
+        index: index
+      }, function (provided) {
+        return /*#__PURE__*/react.createElement("div", TaskList_extends({}, provided.draggableProps, provided.dragHandleProps, {
+          ref: provided.innerRef
+        }), /*#__PURE__*/react.createElement(components_Task, {
+          singleTask: task,
+          key: index
+        }));
+      });
+    }) : appTasks.toDo.map(function (item, index) {
+      return /*#__PURE__*/react.createElement(components_Task, {
+        singleTask: item,
+        key: item._id
+      });
+    }), provided.placeholder);
   })));
 };
 /* harmony default export */ const components_TaskList = (TaskList);
@@ -32270,8 +42781,8 @@ function AddTask_asyncToGenerator(fn) { return function () { var self = this, ar
 function AddTask_ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
 function AddTask_objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? AddTask_ownKeys(Object(t), !0).forEach(function (r) { AddTask_defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : AddTask_ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
 function AddTask_defineProperty(obj, key, value) { key = AddTask_toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-function AddTask_toPropertyKey(arg) { var key = AddTask_toPrimitive(arg, "string"); return AddTask_typeof(key) === "symbol" ? key : String(key); }
-function AddTask_toPrimitive(input, hint) { if (AddTask_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (AddTask_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
+function AddTask_toPropertyKey(t) { var i = AddTask_toPrimitive(t, "string"); return "symbol" == AddTask_typeof(i) ? i : String(i); }
+function AddTask_toPrimitive(t, r) { if ("object" != AddTask_typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != AddTask_typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
 function AddTask_slicedToArray(arr, i) { return AddTask_arrayWithHoles(arr) || AddTask_iterableToArrayLimit(arr, i) || AddTask_unsupportedIterableToArray(arr, i) || AddTask_nonIterableRest(); }
 function AddTask_nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function AddTask_unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return AddTask_arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return AddTask_arrayLikeToArray(o, minLen); }
@@ -32633,7 +43144,7 @@ var TaskPanel = function TaskPanel() {
 
 
 window.bootstrap = __webpack_require__(5577);
-var App = function App() {
+var app_App = function App() {
   (0,react.useEffect)(function () {
     document.addEventListener("DOMContentLoaded", function () {
       var elements = document.querySelectorAll('[data-toggle="tooltip"]');
@@ -32672,8 +43183,8 @@ var App = function App() {
     element: /*#__PURE__*/react.createElement(components_TaskPanel, null)
   })))));
 };
-react_dom.render( /*#__PURE__*/react.createElement(App, null), document.getElementById("root"));
-/* harmony default export */ const app = (App);
+react_dom.render( /*#__PURE__*/react.createElement(app_App, null), document.getElementById("root"));
+/* harmony default export */ const app = (app_App);
 ;// CONCATENATED MODULE: ./src/index.jsx
 
 

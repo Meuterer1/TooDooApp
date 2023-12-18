@@ -1,15 +1,19 @@
 import React, { useState } from "react";
-import { useSelector } from "react-redux";
+import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
+import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import { UpdateDroppedTasks } from "../actions/updateDroppedTasks";
+import Task from "./Task";
 import useSynchronise from "./hooks/useSynchronise";
 
-import Task from "./Task";
 import useFilter from "./hooks/useFilter";
 
 const TaskList = ({ filterBy }) => {
   let appTasks = useSelector((state) => state.toDo);
   let allTasks = appTasks.toDo;
   let filteredTasks;
+
+  const dispatch = useDispatch();
 
   const [filterTasks, setFilterTasks] = useState({
     priority: "all",
@@ -73,6 +77,13 @@ const TaskList = ({ filterBy }) => {
         return true;
       }));
   }
+
+  const handleOnDragEnd = (result) => {
+    const items = Array.from(filteredTasks);
+    const [reorderedItem] = items.splice(result.source.index, 1);
+    items.splice(result.destination.index, 0, reorderedItem);
+    dispatch(UpdateDroppedTasks(items));
+  };
 
   return (
     <>
@@ -284,15 +295,37 @@ const TaskList = ({ filterBy }) => {
           </div>
         </div>
       )}
-      <div className="container-fluid w-sm-100 mb-5">
-        {filteredTasks
-          ? filteredTasks.map((task) => (
-              <Task singleTask={task} key={task._id} />
-            ))
-          : appTasks.toDo.map((item) => (
-              <Task singleTask={item} key={item._id} />
-            ))}
-      </div>
+      <DragDropContext onDragEnd={handleOnDragEnd}>
+        <Droppable droppableId="tasks">
+          {(provided) => (
+            <div
+              className="tasks"
+              {...provided.droppableProps}
+              ref={provided.innerRef}>
+              {filteredTasks
+                ? filteredTasks.map((task, index) => (
+                    <Draggable
+                      key={task._id}
+                      draggableId={task._id}
+                      index={index}>
+                      {(provided) => (
+                        <div
+                          {...provided.draggableProps}
+                          {...provided.dragHandleProps}
+                          ref={provided.innerRef}>
+                          <Task singleTask={task} key={index} />
+                        </div>
+                      )}
+                    </Draggable>
+                  ))
+                : appTasks.toDo.map((item, index) => (
+                    <Task singleTask={item} key={item._id} />
+                  ))}
+              {provided.placeholder}
+            </div>
+          )}
+        </Droppable>
+      </DragDropContext>
     </>
   );
 };

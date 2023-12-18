@@ -2,6 +2,7 @@ import { ADD_TASK } from "../actions/addTask";
 import { DELETE_TASK } from "../actions/deleteTask";
 import { GET_TASKS_FROM_DATABASE } from "../actions/getAllTasks";
 import { GET_TASK_DONE } from "../actions/getTaskDone";
+import { UPDATE_DROPPED_TASKS } from "../actions/updateDroppedTasks";
 import { UPDATE_TASK } from "../actions/updateTasks";
 
 const initialState = {
@@ -62,6 +63,10 @@ function taskReducer(state = initialState, action) {
       return {
         ...state,
         toDo: currentState,
+      };
+    case UPDATE_DROPPED_TASKS:
+      return {
+        toDo: action.payload,
       };
     default:
       return state;
