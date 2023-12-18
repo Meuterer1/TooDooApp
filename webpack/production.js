@@ -12,6 +12,7 @@ module.exports = {
     port: process.env.PORT || 3000,
     open: true,
     allowedHosts: "all",
+    historyApiFallback: true,
   },
   optimization: {
     minimizer: [new CssMinimizerPlugin()],
