@@ -3,6 +3,14 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
 module.exports = {
+  devServer: {
+    static: {
+      directory: "./client/build",
+      contentBase: __dirname + "/client/build/",
+      watch: true,
+    },
+    port: 3000,
+  },
   optimization: {
     minimizer: [new CssMinimizerPlugin()],
   },
