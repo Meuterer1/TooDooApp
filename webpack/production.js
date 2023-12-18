@@ -6,14 +6,11 @@ const path = require("path");
 module.exports = {
   devServer: {
     static: {
-      directory: path.join(__dirname, "public"),
+      directory: "./public",
     },
     compress: true,
     port: process.env.PORT || 3000,
     open: true,
-    allowedHosts: "all",
-    historyApiFallback: true,
-    index: "index.html",
   },
   optimization: {
     minimizer: [new CssMinimizerPlugin()],

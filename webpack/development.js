@@ -1,7 +1,7 @@
 module.exports = {
   devServer: {
     static: {
-      directory: "./build",
+      directory: "./public",
     },
     compress: true,
     port: process.env.PORT || 3000,
