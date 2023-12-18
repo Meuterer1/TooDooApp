@@ -4,7 +4,7 @@
   "main": "index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --mode production --open",
+    "start": "webpack-dev-server --mode --omit=dev --open",
     "build": "webpack --mode production",
     "heroku-prebuild": "npm install --dev"
   },
