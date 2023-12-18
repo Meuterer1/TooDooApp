@@ -1,2 +1,1 @@
-web:npm install -D webpack-cli
-npm start
+web: npm start -- --timeout 1800000
