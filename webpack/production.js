@@ -13,6 +13,7 @@ module.exports = {
     open: true,
     allowedHosts: "all",
     historyApiFallback: true,
+    index: "index.html",
   },
   optimization: {
     minimizer: [new CssMinimizerPlugin()],
