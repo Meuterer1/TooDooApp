@@ -1,8 +1,8 @@
 module.exports = {
   devServer: {
     static: {
-      directory: "./client/build",
-      contentBase: __dirname + "/client/build/",
+      directory: "./build",
+      contentBase: __dirname + "/build/",
       watch: true,
     },
     port: 3000,
