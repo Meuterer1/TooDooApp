@@ -18,7 +18,6 @@ function taskReducer(state = initialState, action) {
       };
     case UPDATE_TASK:
       const allTasks = state.toDo;
-      console.log("przekazany do reducera payload: ", action.payload);
       let updatedTask = allTasks.toDo.map((item) => {
         if (item._id === action.payload.id) {
           const { task, energy, place, priority, time, type } = action.payload;

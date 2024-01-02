@@ -6,6 +6,7 @@ import React, { useState } from "react";
 import { Button, Modal } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { updateTask } from "../actions/updateTasks";
+import useMessage from "./hooks/useMessage";
 import EnergyOptions from "./options/EnergyOptions";
 import PlaceOptions from "./options/PlaceOptions";
 import PriorityOptions from "./options/PriorityOptions";
@@ -23,9 +24,8 @@ const CalendarPage = () => {
   });
   const eventsArray = [];
   const dispatch = useDispatch();
+  const message = useMessage();
 
-  console.log("tasks: ", tasks);
-  console.log("clicked event: ", clickedEvent);
   {
     tasks &&
       (eventsArray.events = tasks.toDo.filter((task) => {
@@ -74,7 +74,6 @@ const CalendarPage = () => {
   };
 
   const handleSelectOptionChange = (e) => {
-    console.log("e: ", e);
     setClickedEvent({
       ...clickedEvent,
       extendedProps: {
@@ -86,6 +85,8 @@ const CalendarPage = () => {
 
   const handleSaveButton = () => {
     dispatch(updateTask(clickedEvent._id, clickedEvent));
+    message("success", "Task edited!");
+    setShowModal(false);
   };
 
   return (

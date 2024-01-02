@@ -42399,7 +42399,6 @@ Button_Button.displayName = 'Button';
 ;// CONCATENATED MODULE: ./actions/updateTasks.js
 var UPDATE_TASK = "UPDATE_TASK";
 var updateTask = function updateTask(_id, objectToUpdate) {
-  console.log("updateTask: ", objectToUpdate);
   if (objectToUpdate.extendedProps) {
     var _objectToUpdate$exten = objectToUpdate.extendedProps,
       _id2 = _objectToUpdate$exten._id,
@@ -42429,6 +42428,25 @@ var updateTask = function updateTask(_id, objectToUpdate) {
     }
   };
 };
+;// CONCATENATED MODULE: ./components/hooks/useMessage.js
+
+var useMessage = function useMessage() {
+  var showMessage = function showMessage(type, message) {
+    Q(message, {
+      position: "bottom-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      type: type
+    });
+  };
+  return showMessage;
+};
+/* harmony default export */ const hooks_useMessage = (useMessage);
 ;// CONCATENATED MODULE: ./components/options/EnergyOptions.jsx
 
 var EnergyOptions = function EnergyOptions(_ref) {
@@ -42594,6 +42612,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
+
 var CalendarPage = function CalendarPage() {
   var tasks = useSelector(function (state) {
     return state.toDo.toDo;
@@ -42613,8 +42632,7 @@ var CalendarPage = function CalendarPage() {
     setClickedEvent = _useState4[1];
   var eventsArray = [];
   var dispatch = useDispatch();
-  console.log("tasks: ", tasks);
-  console.log("clicked event: ", clickedEvent);
+  var message = hooks_useMessage();
   {
     tasks && (eventsArray.events = tasks.toDo.filter(function (task) {
       if (task.dueDate) return {
@@ -42658,13 +42676,14 @@ var CalendarPage = function CalendarPage() {
     event.el.classList.remove("cursor-pointer");
   };
   var handleSelectOptionChange = function handleSelectOptionChange(e) {
-    console.log("e: ", e);
     setClickedEvent(_objectSpread(_objectSpread({}, clickedEvent), {}, {
       extendedProps: _objectSpread(_objectSpread({}, clickedEvent.extendedProps), {}, _defineProperty({}, e.target.name, e.target.value))
     }));
   };
   var handleSaveButton = function handleSaveButton() {
     dispatch(updateTask(clickedEvent._id, clickedEvent));
+    message("success", "Task edited!");
+    setShowModal(false);
   };
   return /*#__PURE__*/react.createElement("div", {
     className: "m-5"
@@ -46763,7 +46782,6 @@ function taskReducer() {
       });
     case UPDATE_TASK:
       var allTasks = state.toDo;
-      console.log("przekazany do reducera payload: ", action.payload);
       var updatedTask = allTasks.toDo.map(function (item) {
         if (item._id === action.payload.id) {
           var _action$payload = action.payload,
@@ -59589,25 +59607,6 @@ var all_update = injectStylesIntoStyleTag_default()(css_all/* default */.Z, all_
 
        /* harmony default export */ const fontawesome_free_css_all = (css_all/* default */.Z && css_all/* default */.Z.locals ? css_all/* default */.Z.locals : undefined);
 
-;// CONCATENATED MODULE: ./components/hooks/useMessage.js
-
-var useMessage = function useMessage() {
-  var showMessage = function showMessage(type, message) {
-    Q(message, {
-      position: "bottom-right",
-      autoClose: 5000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: "light",
-      type: type
-    });
-  };
-  return showMessage;
-};
-/* harmony default export */ const hooks_useMessage = (useMessage);
 // EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./components/styles/Task.scss
 var Task = __webpack_require__(2038);
 ;// CONCATENATED MODULE: ./components/styles/Task.scss

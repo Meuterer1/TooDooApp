@@ -1,7 +1,6 @@
 export const UPDATE_TASK = "UPDATE_TASK";
 
 export const updateTask = (_id, objectToUpdate) => {
-  console.log("updateTask: ", objectToUpdate);
   if (objectToUpdate.extendedProps) {
     const { _id, energy, place, priority, time, type } =
       objectToUpdate.extendedProps;
