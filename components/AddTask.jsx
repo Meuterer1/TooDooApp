@@ -3,6 +3,13 @@ import { useDispatch } from "react-redux";
 import { addTask } from "../actions/addTask";
 import useMessage from "./hooks/useMessage";
 
+import { addMinutes, format } from "date-fns";
+import EnergyOptions from "./options/EnergyOptions";
+import PlaceOptions from "./options/PlaceOptions";
+import TimeOptions from "./options/TimeOptions";
+import TypeOptions from "./options/TypeOptions";
+import PriorityOptions from "./options/priorityOptions";
+
 const AddTask = () => {
   const [inputValue, setInputValue] = useState("");
   const [showOptions, setShowOptions] = useState(false);
@@ -12,6 +19,7 @@ const AddTask = () => {
     place: "",
     type: "",
     energy: "",
+    time: "",
   });
 
   const message = useMessage();
@@ -22,6 +30,13 @@ const AddTask = () => {
     const { v4: uuidv4 } = require("uuid");
     const uniqueId = uuidv4();
     const uniqueIdString = uniqueId.replace(/-/g, "").slice(0, 24);
+    let end;
+
+    if (taskOptions.time) {
+      const newTime = addMinutes(taskOptions.dueDate, taskOptions.time);
+      const time = format(newTime, "yyyy-MM-dd'T'HH:mm");
+      end = time;
+    }
 
     const object = {
       _id: uniqueIdString,
@@ -32,6 +47,8 @@ const AddTask = () => {
       place: taskOptions.place,
       type: taskOptions.type,
       energy: taskOptions.energy,
+      time: taskOptions.time,
+      endDate: end,
       finished: false,
     };
 
@@ -44,6 +61,7 @@ const AddTask = () => {
       place: "",
       type: "",
       energy: "",
+      time: 0,
     });
   };
 
@@ -106,72 +124,50 @@ const AddTask = () => {
             <ul className="list-group list-group-horizontal d-flex align-items-center justify-content-between flex-wrap ">
               <li className="list-group-item d-flex px-3 rouned-0 border-0 bg-transparent">
                 <select
-                  class="form-select my-1"
+                  className="form-select my-1"
                   onChange={handleSelectOptionChange}
                   name="priority">
-                  <option disabled selected value>
-                    {" "}
-                    -- Set Priority --{" "}
-                  </option>
-                  <option value={"high"}>High</option>
-                  <option value={"medium"}>Medium</option>
-                  <option value={"low"}>Low</option>
+                  <PriorityOptions selected="" />
                 </select>
               </li>
               <li className="list-group-item d-flex px-3 rouned-0 border-0 bg-transparent">
                 <select
-                  class="form-select my-1"
+                  className="form-select my-1"
                   onChange={handleSelectOptionChange}
                   name="place">
-                  <option disabled selected value>
-                    {" "}
-                    -- Choose a place --{" "}
-                  </option>
-                  <option value={"work"}>Work</option>
-                  <option value={"home"}>Home</option>
-                  <option value={"meantime"}>Meantime</option>
-                  <option value={"road"}>Road</option>
+                  <PlaceOptions />
                 </select>
               </li>
               <li className="list-group-item d-flex px-3 rouned-0 border-0 bg-transparent">
                 <select
-                  class="form-select my-1"
+                  className="form-select my-1"
                   onChange={handleSelectOptionChange}
                   name="type">
-                  <option disabled selected value>
-                    {" "}
-                    -- Select a type --{" "}
-                  </option>
-                  <option value={"strategy"}>Strategy</option>
-                  <option value={"research"}>Research</option>
-                  <option value={"hobby"}>Hobby</option>
-                  <option value={"comunication"}>Comunication</option>
-                  <option value={"production"}>Production</option>
+                  <TypeOptions />
                 </select>
               </li>
               <li className="list-group-item d-flex px-3 rouned-0 border-0 bg-transparent">
                 <select
-                  class="form-select my-1"
+                  className="form-select my-1"
                   onChange={handleSelectOptionChange}
                   name="energy">
-                  <option disabled selected value>
-                    {" "}
-                    -- Select the energy level --{" "}
-                  </option>
-                  <option value={"full"}>Full</option>
-                  <option value={"medium"}>Medium</option>
-                  <option value={"tired"}>Tired</option>
+                  <EnergyOptions />
                 </select>
               </li>
               <li className="list-group-item px-3 d-flex rouned-0 border-0 bg-transparent">
-                {/* <label htmlFor="dateInput" className="pe-3 mt-2">
-                Due date{" "}
-              </label> */}
                 <input
                   name="dueDate"
-                  type="date"
+                  type="datetime-local"
                   className="form-control"
                   onChange={handleSelectOptionChange}></input>
+              </li>
+              <li className="list-group-item px-3 d-flex rouned-0 border-0 bg-transparent">
+                <select
+                  className="form-select my-1"
+                  onChange={handleSelectOptionChange}
+                  name="time">
+                  <TimeOptions />
+                </select>
               </li>
             </ul>
           </div>

@@ -12,6 +12,13 @@ const Aside = () => {
               Task List
             </Link>
           </li>
+          <li>
+            <Link
+              to={"/calendar"}
+              className="text-decoration-none link-secondary">
+              Calendar
+            </Link>
+          </li>
         </ul>
       </nav>
     </aside>
