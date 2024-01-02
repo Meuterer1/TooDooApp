@@ -6,9 +6,9 @@ import useMessage from "./hooks/useMessage";
 import { addMinutes, format } from "date-fns";
 import EnergyOptions from "./options/EnergyOptions";
 import PlaceOptions from "./options/PlaceOptions";
+import PriorityOptions from "./options/PriorityOptions";
 import TimeOptions from "./options/TimeOptions";
 import TypeOptions from "./options/TypeOptions";
-import PriorityOptions from "./options/priorityOptions";
 
 const AddTask = () => {
   const [inputValue, setInputValue] = useState("");

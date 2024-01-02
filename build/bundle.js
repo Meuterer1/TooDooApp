@@ -42472,6 +42472,26 @@ var PlaceOptions = function PlaceOptions(_ref) {
   }, "Road"));
 };
 /* harmony default export */ const options_PlaceOptions = (PlaceOptions);
+;// CONCATENATED MODULE: ./components/options/PriorityOptions.jsx
+
+var PriorityOptions = function PriorityOptions(_ref) {
+  var selected = _ref.selected;
+  return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("option", {
+    disabled: true,
+    value: true,
+    selected: !selected
+  }, " ", "-- Set Priority --", " "), /*#__PURE__*/react.createElement("option", {
+    value: "high",
+    selected: selected === "high"
+  }, "High"), /*#__PURE__*/react.createElement("option", {
+    value: "medium",
+    selected: selected === "medium"
+  }, "Medium"), /*#__PURE__*/react.createElement("option", {
+    value: "low",
+    selected: selected === "low"
+  }, "Low"));
+};
+/* harmony default export */ const options_PriorityOptions = (PriorityOptions);
 ;// CONCATENATED MODULE: ./components/options/TimeOptions.jsx
 
 var TimeOptions = function TimeOptions(_ref) {
@@ -42548,26 +42568,6 @@ var TypeOptions = function TypeOptions(_ref) {
   }, "Production"));
 };
 /* harmony default export */ const options_TypeOptions = (TypeOptions);
-;// CONCATENATED MODULE: ./components/options/priorityOptions.jsx
-
-var PriorityOptions = function PriorityOptions(_ref) {
-  var selected = _ref.selected;
-  return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("option", {
-    disabled: true,
-    value: true,
-    selected: !selected
-  }, " ", "-- Set Priority --", " "), /*#__PURE__*/react.createElement("option", {
-    value: "high",
-    selected: selected === "high"
-  }, "High"), /*#__PURE__*/react.createElement("option", {
-    value: "medium",
-    selected: selected === "medium"
-  }, "Medium"), /*#__PURE__*/react.createElement("option", {
-    value: "low",
-    selected: selected === "low"
-  }, "Low"));
-};
-/* harmony default export */ const priorityOptions = (PriorityOptions);
 ;// CONCATENATED MODULE: ./components/Calendar.jsx
 function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
 function ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
@@ -42702,7 +42702,7 @@ var CalendarPage = function CalendarPage() {
     className: "form-select my-1 custom-select-width",
     onChange: handleSelectOptionChange,
     name: "priority"
-  }, /*#__PURE__*/react.createElement(priorityOptions, {
+  }, /*#__PURE__*/react.createElement(options_PriorityOptions, {
     selected: clickedEvent.extendedProps.priority
   }))), /*#__PURE__*/react.createElement("li", {
     className: "list-group-item d-flex px-3 rouned-0 border-0 bg-transparent align-items-center justify-content-between"
@@ -63551,7 +63551,7 @@ var AddTask = function AddTask() {
     className: "form-select my-1",
     onChange: handleSelectOptionChange,
     name: "priority"
-  }, /*#__PURE__*/react.createElement(priorityOptions, {
+  }, /*#__PURE__*/react.createElement(options_PriorityOptions, {
     selected: ""
   }))), /*#__PURE__*/react.createElement("li", {
     className: "list-group-item d-flex px-3 rouned-0 border-0 bg-transparent"

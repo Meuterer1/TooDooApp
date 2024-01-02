@@ -8,9 +8,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { updateTask } from "../actions/updateTasks";
 import EnergyOptions from "./options/EnergyOptions";
 import PlaceOptions from "./options/PlaceOptions";
+import PriorityOptions from "./options/PriorityOptions";
 import TimeOptions from "./options/TimeOptions";
 import TypeOptions from "./options/TypeOptions";
-import PriorityOptions from "./options/priorityOptions";
 
 const CalendarPage = () => {
   const tasks = useSelector((state) => state.toDo.toDo);
