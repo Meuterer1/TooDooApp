@@ -14,9 +14,14 @@ import TaskPanel from "../components/TaskPanel";
 window.bootstrap = require("bootstrap/dist/js/bootstrap.bundle.js");
 
 const App = () => {
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const [showMenu, setShowMenu] = useState(false);
 
   useEffect(() => {
+    if (window.innerWidth > 767) {
+      setShowMenu(true);
+    } else {
+      setShowMenu(false);
+    }
     document.addEventListener("DOMContentLoaded", function () {
       var elements = document.querySelectorAll('[data-toggle="tooltip"]');
       elements.forEach(function (element) {
@@ -25,7 +30,11 @@ const App = () => {
     });
 
     const handleResize = () => {
-      setScreenWidth(window.innerWidth);
+      if (window.innerWidth > 767) {
+        setShowMenu(true);
+      } else {
+        setShowMenu(false);
+      }
     };
 
     window.addEventListener("resize", handleResize);
@@ -39,9 +48,9 @@ const App = () => {
     <Provider store={store}>
       <Router>
         <section className="container-fluid d-flex m-0 p-0">
-          {screenWidth > 767 && <Aside></Aside>}
-          <main className="col-md-10 d-flex flex-column light-background">
-            <Header />
+          {showMenu && <Aside></Aside>}
+          <main className="col-lg-10 col-md-9 col-12 d-flex flex-column light-background">
+            <Header showMenu={showMenu} />
             <section className="col-md-12 col-sm-12 light-background">
               <Routes>
                 <Route path="/" element={<TaskPanel />}>

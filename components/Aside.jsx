@@ -9,15 +9,17 @@ const Aside = () => {
   };
 
   return (
-    <aside className="card col-md-2 d-flex flex-column min-vh-100 border-top-0 border-bottom-0 rounded-0 aside-background">
-      <nav className="card-body flex-grow-1">
+    <aside className="card col-md-3 col-lg-2 d-flex flex-column min-vh-100 border-top-0 border-bottom-0 rounded-0 aside-background">
+      <nav className="card-body flex-grow-1 p-1">
         <h3 className="headline-cat py-3 ps-md-3">Menu</h3>
         <ul className="list-unstyled ps-md-3">
-          <li className="list-item d-flex align-items-center">
-            <img src="./assets/grid.png" className="h-75 ps-0" />
-            <p className="headline-cat mb-0 px-2">Task Panel</p>
+          <li className="list-item d-flex align-items-center justify-content-between">
+            <section className="d-flex align-items-center">
+              <img src="./assets/grid.png" className="h-75 ps-0" />
+              <p className="headline-cat mb-0 ps-2">Task Panel</p>
+            </section>
             <a
-              className="d-flex align-items-center ps-5 cursor-pointer"
+              className="d-flex align-items-center cursor-pointer pe-2"
               onClick={handleArrowOnClick}>
               {isPanelOpen ? (
                 <img src="assets/arrow_up.png" className="h-50" />
