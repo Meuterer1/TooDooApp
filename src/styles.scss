@@ -1,5 +1,5 @@
-@import "../node_modules/bootstrap/scss/functions"; // Odpowiednią ścieżkę do pliku _variables.scss dostosuj do swojego projektu
-@import "../node_modules/bootstrap/scss/variables"; // Odpowiednią ścieżkę do pliku _variables.scss dostosuj do swojego projektu
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
 
 $nav-tabs-border-color: transparent;
 $nav-tabs-link-active-color: $black;
@@ -36,8 +36,12 @@ $btn-active-bg-shade-amount: 100%;
   font-size: 80px;
 }
 
-.background {
-  background-color: $indigo-600;
+.aside-background {
+  background-color: #1c2434;
+}
+
+.light-background {
+  background: #f1f5f9;
 }
 
 .header-text {
@@ -46,4 +50,12 @@ $btn-active-bg-shade-amount: 100%;
 
 .custom-select-width {
   width: 60%;
+}
+
+.headline {
+  max-height: 65px;
+}
+
+.headline-cat {
+  color: #dee4ee;
 }

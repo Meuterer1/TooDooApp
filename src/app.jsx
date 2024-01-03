@@ -38,11 +38,11 @@ const App = () => {
   return (
     <Provider store={store}>
       <Router>
-        <section className="container-fluid m-0 p-0">
-          <Header />
-          <main className="col-md-12 d-flex">
-            {screenWidth > 767 && <Aside></Aside>}
-            <section className="col-md-9 col-sm-12 bg-light">
+        <section className="container-fluid d-flex m-0 p-0">
+          {screenWidth > 767 && <Aside></Aside>}
+          <main className="col-md-10 d-flex flex-column light-background">
+            <Header />
+            <section className="col-md-12 col-sm-12 light-background">
               <Routes>
                 <Route path="/" element={<TaskPanel />}>
                   <Route path="/" element={<TaskList filterBy={"active"} />} />

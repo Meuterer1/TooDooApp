@@ -300,7 +300,7 @@ const TaskList = ({ filterBy }) => {
         <Droppable droppableId="tasks">
           {(provided) => (
             <div
-              className="tasks"
+              className="tasks px-5 mb-5"
               {...provided.droppableProps}
               ref={provided.innerRef}>
               {filteredTasks

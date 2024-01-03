@@ -98,7 +98,7 @@ const Task = ({ singleTask }) => {
   }, [editing]);
 
   return (
-    <ul className="task-item list-group list-group-horizontal rouned-0 p-1 mb-1">
+    <ul className="task-item list-group list-group-horizontal rounded-0 shadow-sm p-1 mb-2 bg-white">
       <li className="list-group-item d-flex align-items-center ps-0 pe-3 py-1 rouned-0 border-0 bg-transparent">
         <div className="form-check">
           <input
@@ -117,7 +117,7 @@ const Task = ({ singleTask }) => {
           ref={inputRef}
           disabled={true}
           value={editInput}
-          className="lead fw-normal mb-0 w-100 border-0"
+          className="lead fw-normal mb-0 w-100 border-0 bg-transparent"
           onChange={handleEditInputOnChange}
           id={_id}></input>
       </li>

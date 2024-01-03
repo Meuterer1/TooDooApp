@@ -6,7 +6,7 @@ const TaskNav = () => {
       <ul className="nav nav-tabs mb-4 pb-2 ms-5 mb-0 mt-5" role="tablist">
         <li className="nav-item" role="presentation">
           <NavLink
-            className="nav-link bg-light"
+            className="nav-link bg-transparent"
             to="/"
             activeClassName="active"
             exact>
@@ -15,7 +15,7 @@ const TaskNav = () => {
         </li>
         <li className="nav-item" role="presentation">
           <NavLink
-            className="nav-link bg-light"
+            className="nav-link bg-transparent"
             to="/completed"
             activeClassName="active"
             exact>
@@ -24,7 +24,7 @@ const TaskNav = () => {
         </li>
         <li className="nav-item" role="presentation">
           <NavLink
-            className="nav-link bg-light"
+            className="nav-link bg-transparent"
             to="/all"
             activeClassName="active"
             exact>
