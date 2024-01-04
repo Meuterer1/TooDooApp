@@ -13,7 +13,7 @@ import PriorityOptions from "./options/PriorityOptions";
 import TimeOptions from "./options/TimeOptions";
 import TypeOptions from "./options/TypeOptions";
 
-const CalendarPage = () => {
+const CalendarPage = ({ showMenu }) => {
   const tasks = useSelector((state) => state.toDo.toDo);
   const [showModal, setShowModal] = useState(false);
   const [clickedEvent, setClickedEvent] = useState({
@@ -25,6 +25,15 @@ const CalendarPage = () => {
   const eventsArray = [];
   const dispatch = useDispatch();
   const message = useMessage();
+  const smallScreenToolbar = {
+    start: "dayGridMonth,timeGridWeek,timeGridDay",
+    end: "today,prev,next",
+  };
+  const bigScreenToolbar = {
+    start: "dayGridMonth,timeGridWeek,timeGridDay",
+    center: "title",
+    end: "today,prev,next",
+  };
 
   {
     tasks &&
@@ -90,15 +99,11 @@ const CalendarPage = () => {
   };
 
   return (
-    <div className="m-5">
+    <div className="m-sm-5 mx-1 my-5">
       <Fullcalendar
         plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]}
         initialView={"dayGridMonth"}
-        headerToolbar={{
-          start: "dayGridMonth,timeGridWeek,timeGridDay",
-          center: "title",
-          end: "today prev,next",
-        }}
+        headerToolbar={showMenu ? bigScreenToolbar : smallScreenToolbar}
         height={"80vh"}
         events={AllEvents}
         eventColor="black"

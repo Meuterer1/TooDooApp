@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from "react";
-import ReactDOM from "react-dom";
-import { Provider } from "react-redux";
+import { useSelector } from "react-redux";
 import Aside from "../components/Aside";
 import CalendarPage from "../components/Calendar";
 import Header from "../components/Header";
-import store from "../store/store";
 
 import { Route, HashRouter as Router, Routes } from "react-router-dom";
 import "react-toastify/dist/ReactToastify.css";
@@ -15,6 +13,7 @@ window.bootstrap = require("bootstrap/dist/js/bootstrap.bundle.js");
 
 const App = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const showAside = useSelector((state) => state.options.showAside);
 
   useEffect(() => {
     if (window.innerWidth > 767) {
@@ -45,13 +44,16 @@ const App = () => {
   }, []);
 
   return (
-    <Provider store={store}>
-      <Router>
-        <section className="container-fluid d-flex m-0 p-0">
-          {showMenu && <Aside></Aside>}
-          <main className="col-lg-10 col-md-9 col-12 d-flex flex-column light-background">
-            <Header showMenu={showMenu} />
-            <section className="col-md-12 col-sm-12 light-background">
+    <Router>
+      <section className="container-fluid d-flex m-0 p-0">
+        {showMenu && <Aside isAsideOpen={showAside} />}
+        <main
+          className={`col-lg-10 col-md-9 col-12 d-flex flex-column light-background `}>
+          <Header showMenu={showMenu} />
+          {showAside ? (
+            <Aside isAsideOpen={showAside} />
+          ) : (
+            <section className={`col-md-12 col-sm-12 light-background`}>
               <Routes>
                 <Route path="/" element={<TaskPanel />}>
                   <Route path="/" element={<TaskList filterBy={"active"} />} />
@@ -63,16 +65,17 @@ const App = () => {
                 </Route>
                 <Route path="/addtask/:task" element={<TaskPanel />} />
                 <Route path="/delete/:id" element={<TaskPanel />} />
-                <Route path="/calendar" element={<CalendarPage />} />
+                <Route
+                  path="/calendar"
+                  element={<CalendarPage showMenu={showMenu} />}
+                />
               </Routes>
             </section>
-          </main>
-        </section>
-      </Router>
-    </Provider>
+          )}
+        </main>
+      </section>
+    </Router>
   );
 };
-
-ReactDOM.render(<App />, document.getElementById("root"));
 
 export default App;

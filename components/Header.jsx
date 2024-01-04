@@ -3,15 +3,19 @@ import React, { useState } from "react";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect } from "react";
+import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
+import { showAside } from "../actions/options/showAside";
 import useGetDataFromDatabase from "./hooks/useGetDataFromDatabase";
 
 const Header = ({ showMenu }) => {
-  const [showAside, setShowAside] = useState(false);
+  const [isAside, setIsAside] = useState(false);
   const getData = useGetDataFromDatabase();
+  const dispatch = useDispatch();
 
   const handleMenuOnClick = () => {
-    setShowAside(!showAside);
+    setIsAside(!isAside);
+    dispatch(showAside(!isAside));
   };
 
   useEffect(() => {

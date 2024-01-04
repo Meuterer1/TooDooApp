@@ -108,15 +108,15 @@ const TaskList = ({ filterBy }) => {
         </button>
       </div>
       {showFilterOptions && (
-        <div className="mx-5 mb-3 d-flex justify-content-end">
-          <ul className="nav nav-items d-flex justify-content-between col-10 p-3 rounded">
-            <li className="nav-item d-flex flex-column me-3 text-center">
-              <h4>Priority</h4>
-              <div className="btn-group">
+        <div className="mx-sm-5 mx-3 mb-3 d-flex justify-content-end">
+          <ul className="nav nav-items d-flex justify-content-start col-10 p-3 rounded">
+            <li className="nav-item d-flex flex-column me-3">
+              <h4 className="px-2">Priority</h4>
+              <div className="d-flex flex-column flex-md-row">
                 <button
                   value={"high"}
                   name="priority"
-                  className={`btn btn-danger mb-2 ${
+                  className={`btn btn-danger m-2 ${
                     priorityFilter === "high" ? "active" : ""
                   }`}
                   onClick={(e) =>
@@ -127,7 +127,7 @@ const TaskList = ({ filterBy }) => {
                 <button
                   value={"medium"}
                   name="priority"
-                  className={`btn btn-primary mb-2 ${
+                  className={`btn btn-primary m-2 ${
                     priorityFilter === "medium" ? "active" : ""
                   }`}
                   onClick={(e) =>
@@ -138,7 +138,7 @@ const TaskList = ({ filterBy }) => {
                 <button
                   value={"low"}
                   name="priority"
-                  className={`btn btn-success mb-2 ${
+                  className={`btn btn-success m-2 ${
                     priorityFilter === "low" ? "active" : ""
                   }`}
                   onClick={(e) =>
@@ -148,13 +148,13 @@ const TaskList = ({ filterBy }) => {
                 </button>
               </div>
             </li>
-            <li className="nav-item d-flex flex-column text-center me-3 text-center">
-              <h4>Place</h4>
-              <div className="btn-group">
+            <li className="nav-item d-flex flex-column me-3">
+              <h4 className="px-2">Place</h4>
+              <div className="d-flex flex-column flex-md-row">
                 <button
                   value={"work"}
                   name="place"
-                  className={`btn btn-outline-dark mb-2 ${
+                  className={`btn btn-outline-dark m-2 ${
                     placeFilter === "work" ? "active" : ""
                   }`}
                   onClick={(e) =>
@@ -165,7 +165,7 @@ const TaskList = ({ filterBy }) => {
                 <button
                   value={"home"}
                   name="place"
-                  className={`btn btn-outline-dark mb-2 ${
+                  className={`btn btn-outline-dark m-2 ${
                     placeFilter === "home" ? "active" : ""
                   }`}
                   onClick={(e) =>
@@ -176,7 +176,7 @@ const TaskList = ({ filterBy }) => {
                 <button
                   value={"meantime"}
                   name="place"
-                  className={`btn btn-outline-dark mb-2 ${
+                  className={`btn btn-outline-dark m-2 ${
                     placeFilter === "meantime" ? "active" : ""
                   }`}
                   onClick={(e) =>
@@ -187,7 +187,7 @@ const TaskList = ({ filterBy }) => {
                 <button
                   value={"road"}
                   name="place"
-                  className={`btn btn-outline-dark mb-2 ${
+                  className={`btn btn-outline-dark m-2 ${
                     placeFilter === "road" ? "active" : ""
                   }`}
                   onClick={(e) =>
@@ -197,13 +197,13 @@ const TaskList = ({ filterBy }) => {
                 </button>
               </div>
             </li>
-            <li className="nav-item d-flex flex-column text-center me-3 text-center">
-              <h4>Energy</h4>
-              <div className="btn-group">
+            <li className="nav-item d-flex flex-column me-3">
+              <h4 className="px-2">Energy</h4>
+              <div className="d-flex flex-column flex-md-row">
                 <button
                   value={"full"}
                   name="energy"
-                  className={`btn btn-outline-dark mb-2 ${
+                  className={`btn btn-outline-dark m-2 ${
                     energyFilter === "full" ? "active" : ""
                   }`}
                   onClick={(e) =>
@@ -214,7 +214,7 @@ const TaskList = ({ filterBy }) => {
                 <button
                   value={"medium"}
                   name="energy"
-                  className={`btn btn-outline-dark mb-2 ${
+                  className={`btn btn-outline-dark m-2 ${
                     energyFilter === "medium" ? "active" : ""
                   }`}
                   onClick={(e) =>
@@ -225,7 +225,7 @@ const TaskList = ({ filterBy }) => {
                 <button
                   value={"tired"}
                   name="energy"
-                  className={`btn btn-outline-dark mb-2 ${
+                  className={`btn btn-outline-dark m-2 ${
                     energyFilter === "tired" ? "active" : ""
                   }`}
                   onClick={(e) =>
@@ -235,13 +235,13 @@ const TaskList = ({ filterBy }) => {
                 </button>
               </div>
             </li>
-            <li className="nav-item d-flex flex-column text-center me-3 text-center">
-              <h4>Type</h4>
-              <div className="btn-group">
+            <li className="nav-item d-flex flex-column me-3">
+              <h4 className="px-2">Type</h4>
+              <div className="d-flex flex-column flex-md-row">
                 <button
                   value={"strategy"}
                   name="type"
-                  className={`btn btn-outline-dark mb-2 ${
+                  className={`btn btn-outline-dark m-2 ${
                     typeFilter === "strategy" ? "active" : ""
                   }`}
                   onClick={(e) => handleFilterOptionsOnClick(e, setTypeFilter)}>
@@ -250,7 +250,7 @@ const TaskList = ({ filterBy }) => {
                 <button
                   value={"research"}
                   name="type"
-                  className={`btn btn-outline-dark mb-2 ${
+                  className={`btn btn-outline-dark m-2 ${
                     typeFilter === "research" ? "active" : ""
                   }`}
                   aria-pressed="true"
@@ -260,7 +260,7 @@ const TaskList = ({ filterBy }) => {
                 <button
                   value={"hobby"}
                   name="type"
-                  className={`btn btn-outline-dark mb-2 ${
+                  className={`btn btn-outline-dark m-2 ${
                     typeFilter === "hobby" ? "active" : ""
                   }`}
                   onClick={(e) => handleFilterOptionsOnClick(e, setTypeFilter)}>
@@ -269,7 +269,7 @@ const TaskList = ({ filterBy }) => {
                 <button
                   value={"comunication"}
                   name="type"
-                  className={`btn btn-outline-dark mb-2 ${
+                  className={`btn btn-outline-dark m-2 ${
                     typeFilter === "comunication" ? "active" : ""
                   }`}
                   onClick={(e) => handleFilterOptionsOnClick(e, setTypeFilter)}>
@@ -278,7 +278,7 @@ const TaskList = ({ filterBy }) => {
                 <button
                   value={"production"}
                   name="type"
-                  className={`btn btn-outline-dark mb-2 ${
+                  className={`btn btn-outline-dark m-2 ${
                     typeFilter === "production" ? "active" : ""
                   }`}
                   onClick={(e) => handleFilterOptionsOnClick(e, setTypeFilter)}>
@@ -300,7 +300,7 @@ const TaskList = ({ filterBy }) => {
         <Droppable droppableId="tasks">
           {(provided) => (
             <div
-              className="tasks px-5 mb-5"
+              className="tasks px-sm-5 px-3 mb-5"
               {...provided.droppableProps}
               ref={provided.innerRef}>
               {filteredTasks

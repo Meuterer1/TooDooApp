@@ -97,11 +97,11 @@ const AddTask = () => {
 
   return (
     <section className="d-flex justify-content-end pt-3 mt-5 w-100">
-      <div className="card d-flex align-items-center border-0 rounded-0 shadow light-background container-fluid mx-5 px-5 pb-5 bg-white">
-        <div className="card-body w-100 d-flex m-5">
-          <div className="d-flex flex-row align-items-center w-100">
+      <div className="card d-flex align-items-center border-0 rounded-0 shadow light-background container-fluid mx-sm-5 mx-3 px-sm-5 px-1 pb-5 bg-white">
+        <div className="card-body w-100 d-flex m-sm-5 my-3">
+          <div className="d-flex flex-row align-items-center w-100 ">
             <input
-              className="form-control form-control-lg "
+              className="form-control form-control-sm @media (min-width: 576px) form-control-lg "
               type="text"
               placeholder="Add new task.."
               onChange={handleInputOnChange}

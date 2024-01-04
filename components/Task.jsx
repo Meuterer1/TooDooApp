@@ -98,11 +98,11 @@ const Task = ({ singleTask }) => {
   }, [editing]);
 
   return (
-    <ul className="task-item list-group list-group-horizontal rounded-0 shadow-sm p-1 mb-2 bg-white">
+    <ul className="task-item list-group list-group-horizontal flex-wrap justify-content-end rounded-0 shadow-sm p-1 mb-2 bg-white">
       <li className="list-group-item d-flex align-items-center ps-0 pe-3 py-1 rouned-0 border-0 bg-transparent">
-        <div className="form-check">
+        <div className="form-check ps-1 ps-sm-2">
           <input
-            className="form-check-input me-0 ms-1"
+            className="form-check-input me-0 ms-sm-1 ms-0"
             type="checkbox"
             value={finishTask}
             id="taskItemChecked"
@@ -112,7 +112,7 @@ const Task = ({ singleTask }) => {
           />
         </div>
       </li>
-      <li className="list-group-item px-3 py-1 d-flex align-items-center flex-grow-1 border-0 bg-transparent">
+      <li className="list-group-item px-sm-3 px-1 py-1 d-flex flex-wrap align-items-center flex-grow-1 border-0 bg-transparent">
         <input
           ref={inputRef}
           disabled={true}
